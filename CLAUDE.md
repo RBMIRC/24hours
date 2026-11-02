@@ -26,3 +26,8 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
   déduite) ; `scripts/plans_nature.py` les place (coupes, respirations, ponts de lumière ; 10 emplois au plus par motif)
   → `11_plans_nature.md`, `plans_nature_montage.csv/json` ; ils prennent quelques secondes à la séquence en cours sans
   décaler l'horloge. Ordre de régénération : journee.py, sequencier.py, plans_nature.py, page_24h.py.
+- Heures découpées plan par plan, à la main : `journees/1944-12-04/<nom>_plan_par_plan.json` (vocabulaire des échelles,
+  angles, mouvements, optiques, mises au point, raccords ; mouvements de l'heure ; plans avec timecode, durée, codes,
+  texte fr/en, son, source, part déduite) ; `scripts/heure_plan_par_plan.py` contrôle (pas de chevauchement, codes connus)
+  et écrit `12_<nom>_plan_par_plan.md` ; sur la page, ces plans remplacent les plans automatiques de leur fenêtre.
+  Fait : l'aube, 07:20-08:20 (80 plans).

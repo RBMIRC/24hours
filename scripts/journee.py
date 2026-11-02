@@ -378,6 +378,7 @@ def main(jour, week, chrono):
          "| Progression des cours | [09_progression_des_cours.md](09_progression_des_cours.md) | place réservée | à faire |",
          "| Séquencier | [10_sequencier.md](10_sequencier.md) | les scènes de 00:00 à 23:59 en temps réel (1 440 pages), avec lieu, lumière, personnages, action, source et part déduite ; `sequencier.csv`, `sequencier.json` (scripts/sequencier.py, à partir de `scenes_cles.json`) | liste faite |",
          "| Plans de nature | [11_plans_nature.md](11_plans_nature.md) | plans de coupe qui rythment le montage (montagnes, ciel, astres, lumière, eau, givre, arbres et vent, oiseaux, bêtes, insectes, fumées, sons), placés minute par minute ; catalogue `plans_nature.json`, `plans_nature_montage.csv/json` (scripts/plans_nature.py) | premier découpage |",
+         "| L'heure de l'aube, plan par plan | [12_aube_plan_par_plan.md](12_aube_plan_par_plan.md) | 07:20-08:20, 80 plans de nature écrits à la main en quatre mouvements : échelle, angle, mouvement, optique, mise au point, raccord, son, source et part déduite (`aube_plan_par_plan.json`, scripts/heure_plan_par_plan.py) | fait |",
          "| Scènes écrites | — | dialogues et didascalies, scène par scène | à faire |", "",
          "## Règles", "",
          "- Chaque fait porte sa source et sa part déduite (0 % = écrit tel quel dans un document daté qui couvre ce jour).",

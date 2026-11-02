@@ -41,10 +41,16 @@ LIEUX = [  # (id, libellé, couleur, motif sur le lieu en anglais) — le premie
 ]
 
 
+def K_mn(h):
+    a, b = h.split(":"); return int(a) * 60 + int(b)
+
+
 def src_en(s):
     """libellés français courants des références (le reste, titres et pages, est laissé tel quel)."""
     for a, b in (("connaissance générale du milieu", "general knowledge of the environment"), ("connaissance générale", "general knowledge"),
-                 ("calcul ephem", "ephem calculation"), ("usage supposé", "assumed custom"), ("plan de liaison", "interlude"), ("ch. ", "ch. ")):
+                 ("calcul ephem", "ephem calculation"), ("usage supposé", "assumed custom"), ("plan de liaison", "interlude"), ("calcul ephem", "ephem calculation"),
+                 ("formation des aiguilles de glace", "formation of needle ice"), ("phénomène connu", "known phenomenon"), ("géométrie", "geometry"),
+                 ("éclairage des cirrus", "lighting of the cirrus"), ("id.", "same sources")):
         s = s.replace(a, b)
     return re.sub(r"\s*\([^)]*[àâçéèêëîïôûùüœ][^)]*\)", "", s)
 
@@ -76,6 +82,24 @@ def main(jour, copie=None):
     PN = json.load(open(pn, encoding="utf-8")) if os.path.exists(pn) else []
     nature = [{"s": p["sequence"], "h": p["heure"], "pg": p["page"], "d": p["duree_s"], "c": p["cat"], "sc": p["echelle_en"], "x": p["en"],
                "snd": p["son"].split(" / ")[-1] if p["son"] else "", "pct": p["pct"], "src": src_en(p["src"]), "why": p["raison"]} for p in PN]
+    # heures découpées plan par plan à la main : elles remplacent les plans automatiques de leur fenêtre
+    for fn in sorted(f for f in os.listdir(dos) if f.endswith("_plan_par_plan.json")):
+        H = json.load(open(os.path.join(dos, fn), encoding="utf-8")); V = H["vocabulaire"]
+        sec = lambda tc: sum(int(v) * k for v, k in zip(tc.split(":"), (3600, 60, 1)))
+        a0, a1 = sec(H["mouvements"][0]["de"]), sec(H["mouvements"][-1]["a"])
+        nature = [n for n in nature if not (a0 <= sec(n["h"]) < a1)]
+        def porteuse(t):
+            m = t // 60
+            return next(o["n"] for o in S if K_mn(o["debut"]) <= m < (K_mn(o["fin"]) if o["fin"] != "24:00" else 1440))
+        deja = set()
+        for x in H["plans"]:
+            t = sec(x["tc"]); mv = next(m for m in H["mouvements"] if sec(m["de"]) <= t < sec(m["a"]))
+            item = {"s": porteuse(t), "h": x["tc"], "pg": t // 60 + 1, "d": x["d"], "c": x["cat"], "sc": V["echelle"][x["e"]][1], "x": x["en"],
+                    "snd": x.get("son_en", ""), "pct": x["pct"], "src": src_en(x["src"]), "why": "",
+                    "tech": [V["angle"][x["a"]][1], V["mouvement"][x["mv"]][1], V["optique"][x["o"]][1], V["point"][x["p"]][1]], "rc": V["raccord"][x["r"]][1]}
+            if mv["de"] not in deja: item["mvt"] = mv["en"]; deja.add(mv["de"])
+            nature.append(item)
+        nature.sort(key=lambda n: n["h"])
     LU = J["lumiere"]
     noaa = J["meteo"]["noaa"]; mt = noaa.get("Montreat", {}).get(jour) or {}
     data = {"seq": seq, "nature": nature, "ncats": [{"id": k, "label": v, "color": NCOUL[k]} for k, v in NCATS.items()], "hours": heures, "types": [{"id": t, "label": l, "color": c} for t, l, c, _ in TYPES],
@@ -152,6 +176,11 @@ summary{cursor:pointer}
 .nat .nk{display:inline-block;font:700 10px/1 Inter,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:#fff;background:var(--nc);border-radius:4px;padding:3px 6px;margin-right:6px}
 .nat .ns{color:var(--soft);font-size:11px}
 .nat.hid{display:none}
+.nat .tech{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.nat .tech span{font:600 10px/1.2 Inter,sans-serif;border:1px solid color-mix(in srgb,var(--nc) 60%,transparent);border-radius:4px;padding:2px 5px;color:var(--ink);background:var(--paper)}
+.nat .tech span.rc{border-style:dashed;color:var(--soft)}
+.mvt{margin:14px 0 6px 18px;padding:10px 14px;border-radius:8px;background:var(--ink);color:var(--bg);font:500 13px/1.45 Inter,system-ui,sans-serif}
+.mvt b{font:700 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:2px;opacity:.7}
 .chip.nat-c{background:var(--paper);border-style:dashed}
 @media (max-width:600px){.nat{grid-template-columns:64px 1fr;margin-left:8px}}
 footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 Inter,system-ui,sans-serif;color:var(--soft)}
@@ -195,7 +224,7 @@ const skyEn = {"ciel clair":"clear","plutôt clair":"mainly clear","partiellemen
 const f = document.getElementById("facts");
 [["Dawn", D.sun.aube_civile], ["Sunrise", D.sun.lever_soleil], ["Sunset", D.sun.coucher_soleil], ["Dark", D.sun.crepuscule_civil], ["Moonrise", D.sun.lever_lune]]
   .forEach(([k, v]) => v && f.insertAdjacentHTML("beforeend", `<span>${k} ${fmt(v)}</span>`));
-f.insertAdjacentHTML("beforeend", `<span>${D.seq.length} sequences · ${D.nature.length} nature shots</span><span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
+f.insertAdjacentHTML("beforeend", `<span>${D.seq.length} sequences · ${D.nature.length} nature shots</span>${D.nature.some(n => n.mvt) ? `<span><a href="#h07" onclick="jump('07');return false">The dawn hour, shot by shot (7:20–8:20)</a></span>` : ""}<span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
 // rail
 const rail = document.getElementById("rail");
 D.hours.forEach(h => { const b = document.createElement("button"); b.textContent = h.h.slice(0,2); b.style.background = sky(h); b.title = `${h.h} · ${lightEn[h.light]||h.light}`;
@@ -227,9 +256,11 @@ function refresh() {
   document.getElementById("nonat").textContent = showN ? "hide nature shots" : "show nature shots";
   document.querySelectorAll(".nat").forEach(e => e.classList.toggle("hid", !showN || !onN.has(e.dataset.c))); }
 function natCard(n) { const c = NC[n.c];
-  return `<div class="nat" data-c="${n.c}" style="--nc:${c.color}"><div class="nt">${n.h}<br><span class="ns">${n.d} s · p. ${n.pg}</span></div>
+  const head = n.mvt ? `<div class="mvt nat-m"><b>The dawn hour, shot by shot</b>${esc(n.mvt)}</div>` : "";
+  const tech = n.tech ? `<div class="tech">${n.tech.map(t => `<span>${esc(t)}</span>`).join("")}<span class="rc">→ ${esc(n.rc)}</span></div>` : "";
+  return head + `<div class="nat" data-c="${n.c}" style="--nc:${c.color}"><div class="nt">${n.h}<br><span class="ns">${n.d} s · p. ${n.pg}</span></div>
     <div><span class="nk">${esc(c.label)}</span><b>${esc(n.sc)}</b> — ${esc(n.x)}${n.snd ? ` <span class="ns">♪ ${esc(n.snd)}</span>` : ""}
-    <span class="ns"> · ${n.pct}% deduced · ${esc(n.src)}</span></div></div>`; }
+    <span class="ns"> · ${n.pct}% deduced · ${esc(n.src)}</span>${tech}</div></div>`; }
 // infinite list
 const list = document.getElementById("list"); let i = 0, lastHour = null; const BATCH = 25;
 function card(s) {
