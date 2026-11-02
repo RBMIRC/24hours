@@ -1,5 +1,7 @@
 # 24 heures au Black Mountain College
 
+Page en ligne (anglais) : https://rbmirc.github.io/24hours/ (copie : https://rbmirc.github.io/week/24h/) — `index.html`, produite par `scripts/page_24h.py`.
+
 Matériaux pour écrire **une journée type** du Black Mountain College (1933-1957) en **scénario de film, 1 minute = 1 page**
 (une journée entière = 1 440 pages : 00:00 = page 1, 07:30 = page 451, 12:00 = page 721, 23:59 = page 1440).
 
@@ -45,6 +47,7 @@ python3 scripts/mentions_meteo.py <bmc-chronology>/bmc-programmes-aam
 python3 scripts/construire.py <clone de RBMIRC/week>
 python3 scripts/journee.py 1944-12-04 <clone de RBMIRC/week> <clone de RBMIRC/bmc-chronology>
 python3 scripts/sequencier.py 1944-12-04 <clone de RBMIRC/week>
+python3 scripts/page_24h.py 1944-12-04 <clone de RBMIRC/week>/24h
 ```
 
 `journee.py` lit `journees/AAAA-MM-JJ/donnees_sources.json` (faits relevés à la main, avec source et part déduite) et

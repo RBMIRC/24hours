@@ -18,3 +18,6 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
 - Décision du 2/11/2026 : 1 page = 1 minute, 1 440 pages ; chaque cours ne garde à l'écran que 25 % de sa propre durée
   (`QUOTA_COURS` dans `scripts/sequencier.py`), pour montrer plusieurs cours ou activités dans le même temps réel (montage
   alterné) ; quand les cours simultanés ne remplissent pas le temps, le reste va aux autres activités.
+- Page en ligne, en anglais : `index.html` (GitHub Pages, https://rbmirc.github.io/24hours/, copie dans RBMIRC/week/24h/),
+  produite par `scripts/page_24h.py` à partir de `sequencier.json` ; les textes anglais des scènes clés sont dans
+  `scenes_cles.json` (`t_en`, `lieu_en`, `m_en`) ; types de séquence et lieux : tables TYPES et LIEUX du script.

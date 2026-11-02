@@ -20,6 +20,7 @@ import construire as K
 
 ROOT = K.ROOT
 POIDS = {"cle": 3.0, "aam": 2.0, "cours": 1.5, "spc": 0.6}
+MOMENT_EN = {"NUIT": "NIGHT", "AUBE": "DAWN", "JOUR": "DAY", "CRÉPUSCULE": "DUSK"}
 QUOTA_COURS = 0.25        # part du temps de cours gardée à l'écran (décision du 2/11/2026)
 COURS_FILS = {"theatre", "hansgirg", "danse"}      # scènes clés qui sont des cours
 
@@ -37,11 +38,14 @@ def main(jour, week):
     met = {x["heure"][:2]: x for x in JJ["meteo"]["era5_par_heure"]}
     inscrits = {(c["heure"], c["titre"]): c["inscrits_bmc_yearbook"] for c in JJ["cours"]}
     salles = SC["salles_hiver_1945"]
+    EN = K.ld(os.path.join(week, "data_en.js")).get("revu", {}) if os.path.exists(os.path.join(week, "data_en.js")) else {}
+    SALLES_EN = dict(SC.get("salles_hiver_1945_en", {}), **{"Studies Building (salle non donnée)": "Studies Building (room not given)"})
 
     acts = []
     for k, s in enumerate(SC["scenes"]):
         acts.append({"id": f"K{k + 1}", "a": mn(s["h"]), "b": mn(s["f"]) + (1 if s["f"] == "23:59" else 0), "titre": s["t"], "lieu": s["lieu"], "ie": s["ie"],
-                     "qui": s["qui"], "src": s["src"], "pct": s["pct"], "m": s.get("m", ""), "fil": s["fil"], "poids": POIDS["cle"], "type": "scène clé"})
+                     "qui": s["qui"], "src": s["src"], "pct": s["pct"], "m": s.get("m", ""), "fil": s["fil"], "poids": POIDS["cle"], "type": "scène clé",
+                     "titre_en": s.get("t_en", s["t"]), "lieu_en": s.get("lieu_en", s["lieu"]), "m_en": s.get("m_en", "")})
     cles = [(a, s) for a, s in zip(acts, SC["scenes"]) if s.get("remplace")]
     for e in E:
         if not e["h"] or e.get("semaine") or e["couche"] not in ("aam", "spc") or e["hors"]: continue
@@ -56,10 +60,13 @@ def main(jour, week):
                     lieu, pct, note = salle, min(90, pct + 10), "salle du même cours à l'hiver 1945 (+10)"; break
         cours = e["type"] in ("cours", "atelier")
         qui = [q.strip() for q in re.split(r";", e["qui"]) if q.strip()]
+        lieu_f = lieu or ("Studies Building (salle non donnée)" if cours else "")
+        en_extra = {"titre_en": EN.get(e["titre"], e["titre"]), "lieu_en": SALLES_EN.get(lieu_f, EN.get(lieu_f, lieu_f)),
+                    "m_en": "room of the same class in winter 1945 (+10)" if note else ""}
         ins = inscrits.get((e["h"], e["titre"]), [])
         acts.append({"id": f"P{len(acts)}", "a": a, "b": min(b, 1440), "titre": e["titre"], "lieu": lieu or ("Studies Building (salle non donnée)" if cours else ""),
                      "ie": "EXT" if re.search(r"porch|véranda|ferme|lac", lieu or "", re.I) else "INT", "qui": qui, "inscrits": ins, "src": e["src"], "pct": pct, "m": note,
-                     "fil": "cours" if cours else "repas" if e["type"] == "social" else "vie", "poids": POIDS["cours"] if cours else POIDS["aam"] if e["couche"] == "aam" else POIDS["spc"],
+                     "fil": "cours" if cours else "repas" if e["type"] == "social" else "vie", "poids": POIDS["cours"] if cours else POIDS["aam"] if e["couche"] == "aam" else POIDS["spc"], **en_extra,
                      "type": ("cours" if cours else "activité") + (" (reconstitution)" if e["couche"] == "spc" else " (document du collège)")})
 
     # tranches ; chaque cours ne garde à l'écran que QUOTA_COURS de sa durée : plusieurs cours ou activités tiennent dans le même temps
@@ -128,17 +135,23 @@ def main(jour, week):
             per = "nuit" if s["a"] < 420 or s["a"] >= 1260 else "matin" if s["a"] < 540 else "jour" if s["a"] < 1020 else "soir"
             txt = pool[per][k_l[per] % len(pool[per])]; k_l[per] += 1
             rec = {"lieu": "Le campus", "ie": "EXT", "qui": [], "action": txt + f" ({meteo} ; lumière : {etat})", "src": "plan de liaison (02_lumiere.md, 01_meteo.md, 03_lieux.md)",
-                   "pct": 55, "m": "aucune activité attestée à cette minute", "fil": "liaison", "type": "liaison"}
+                   "pct": 55, "m": "aucune activité attestée à cette minute", "fil": "liaison", "type": "liaison",
+                   "lieu_en": "The campus", "action_en": f"Interlude on the campus ({meteo}; light: {etat})", "m_en": "no attested activity at this minute"}
         else:
             vus[x["id"]] += 1
             qui = list(x["qui"]) + [n + " (inscrit)" for n in x.get("inscrits", [])[:6]]
             ici = f" — {hm(s['a'])} : {w.get('temp_c', '')} °C, {w.get('temps', '')}, lune à {l.get('lune_hauteur', '')}°" if x["fil"] in ("nuit", "ferme", "chaudieres", "aube", "wunsch", "lodges") and w else ""
             rec = {"lieu": x["lieu"] or "lieu non donné", "ie": x["ie"], "qui": qui, "action": ("(suite) " if vus[x["id"]] > 1 else "") + x["titre"] + ici,
-                   "src": x["src"], "pct": x["pct"], "m": x["m"], "fil": x["fil"], "type": x["type"]}
+                   "src": x["src"], "pct": x["pct"], "m": x["m"], "fil": x["fil"], "type": x["type"],
+                   "lieu_en": x.get("lieu_en") or x["lieu"] or "place not given", "m_en": x.get("m_en", ""),
+                   "action_en": ("(cont.) " if vus[x["id"]] > 1 else "") + x.get("titre_en", x["titre"]), "qui_en": [q.replace(" (inscrit)", " (enrolled)") for q in qui]}
         rec["cours"] = bool(x and cours_(x))
         statut = "attesté" if rec["pct"] <= 10 else "usage attesté, transposé" if rec["pct"] <= 40 else "supposé"
         out.append({"n": i, "debut": hm(s["a"]), "fin": hm(s["b"]), "pages": f"{s['a'] + 1}–{s['b']}", "duree_min": s["b"] - s["a"],
-                    "entete": f"{rec['ie']}. {rec['lieu'].upper()} — {moment}", "lumiere": etat, "meteo": meteo, "statut": statut, **rec})
+                    "entete": f"{rec['ie']}. {rec['lieu'].upper()} — {moment}", "lumiere": etat, "meteo": meteo, "statut": statut, **rec,
+                    "entete_en": f"{rec['ie']}. {rec['lieu_en'].upper()} — {MOMENT_EN[moment]}", "moment": moment,
+                    "statut_en": {"attesté": "attested", "usage attesté, transposé": "attested custom, transposed", "supposé": "assumed"}[statut],
+                    "temp_c": w.get("temp_c"), "temps_en": w.get("temps", ""), "lune_hauteur": l.get("lune_hauteur"), "soleil_hauteur": l.get("soleil_hauteur")})
     assert sum(o["duree_min"] for o in out) == 1440, sum(o["duree_min"] for o in out)
 
     # sorties

@@ -24,7 +24,10 @@
    "src": "02_lumiere.md ; 01_meteo.md (NOAA, ERA5)",
    "pct": 20,
    "remplace": "",
-   "m": "lumière calculée, températures relevées ; l'absence de lumières est supposée"
+   "m": "lumière calculée, températures relevées ; l'absence de lumières est supposée",
+   "lieu_en": "Lake Eden, the sleeping campus",
+   "t_en": "A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
+   "m_en": "light calculated, temperatures recorded; the dark windows are assumed"
   },
   {
    "h": "00:00",
@@ -46,7 +49,10 @@
    "src": "2017.40.172a-g (chambres) ; 2017.40.177a-g (équipe des chaudières) ; 2017.40.182.01a-c (froid du 2 décembre)",
    "pct": 30,
    "m": "occupantes attestées à la rentrée ; la scène de sommeil est supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "North Lodge, the attic dormitory (North Attic)",
+   "t_en": "The attic dormitory of North Lodge: eight women students asleep under the roof. Two days after “the coldest December morning” in many years, it is still freezing hard; the furnaces are kept going by the firing crew.",
+   "m_en": "occupants attested at the start of the quarter; the sleeping scene is assumed"
   },
   {
    "h": "00:00",
@@ -71,7 +77,10 @@
    "src": "2017.40.172a-g",
    "pct": 30,
    "m": "sommeil supposé",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "South Lodge, the men's attics",
+   "t_en": "The eleven men students of the north and south attics of South Lodge. Under the porch, the laundry room and the washing machine; in the dark lobby, the chairs of the Reading Hour.",
+   "m_en": "sleep assumed"
   },
   {
    "h": "00:00",
@@ -84,7 +93,10 @@
    "src": "Lane 1990, p. 132, 136-137 ; 02_lumiere.md",
    "pct": 40,
    "m": "glace : souvenir des matins de gel des années 1940",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The Studies Building by the lake",
+   "t_en": "The white building on its piles at the edge of the lake, under the moon; the thin ice of frosty mornings along the shore.",
+   "m_en": "ice: memory of frosty mornings in the 1940s"
   },
   {
    "h": "00:00",
@@ -97,7 +109,10 @@
    "src": "Silver 2024, ch. 6, p. 91-96",
    "pct": 40,
    "m": "effectifs de 1943 ; nuit supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The farm: the barn, the pens",
+   "t_en": "The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
+   "m_en": "herd figures of 1943; the night is assumed"
   },
   {
    "h": "03:30",
@@ -112,7 +127,10 @@
    "src": "2017.40.177a-g ; 2017.40.178a-d ; 2017.40.179a-d",
    "pct": 60,
    "m": "les heures de chargement des chaudières ne sont pas connues",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "A furnace room (lodges, Studies Building)",
+   "t_en": "The furnaces of the student-fired buildings: Chuck Forberg's crew stokes them with coal (the winter's first carload was unloaded at the end of October).",
+   "m_en": "the hours when furnaces were stoked are not known"
   },
   {
    "h": "04:45",
@@ -127,7 +145,10 @@
    "src": "Silver 2024, ch. 6, p. 93-94 ; 02_lumiere.md",
    "pct": 30,
    "m": "usage de 1944 ; ce jour-là supposé",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "North Lodge, then the path to the farm",
+   "t_en": "Jagna Braunthal, 17, head of the milking, gets up before five and walks ten minutes to the farm, under the moon, in the frost.",
+   "m_en": "custom of 1944; this particular day assumed"
   },
   {
    "h": "05:00",
@@ -142,7 +163,10 @@
    "src": "Silver 2024, ch. 6, p. 93-96",
    "pct": 20,
    "m": "usage ; seule ou avec d'autres, inconnu",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The milking house",
+   "t_en": "Morning milking by lamplight: five-gallon pails.",
+   "m_en": "custom; alone or with others, unknown"
   },
   {
    "h": "06:00",
@@ -157,7 +181,10 @@
    "src": "2017.40.177a-g ; 2017.40.174a-e ; 2017.40.180a-d",
    "pct": 50,
    "m": "heure et composition de l'équipe du matin supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall kitchen",
+   "t_en": "The kitchen starts up before breakfast: the students of the kitchen crew (coordinator Jane Stone); no professional cooks since the Lipsey brothers left.",
+   "m_en": "time and makeup of the morning crew assumed"
   },
   {
    "h": "06:50",
@@ -170,7 +197,10 @@
    "src": "02_lumiere.md ; Lane 1990, p. 132",
    "pct": 30,
    "m": "la brume n'est pas attestée ce jour-là",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The campus at dawn",
+   "t_en": "Astronomical dawn at 6:52, nautical dawn at 7:23: the sky pales behind the ridges, the moon still high in the west; perhaps mist over the lake.",
+   "m_en": "mist not attested that day"
   },
   {
    "h": "07:30",
@@ -185,7 +215,10 @@
    "src": "Silver 2024, ch. 6, p. 95-97",
    "pct": 20,
    "m": "usage",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall pantry",
+   "t_en": "Ati Gropius, 18, collects the cans of fresh milk and pours them into smaller cans: the pantry for breakfast, the kitchen, the refrigerator for the families.",
+   "m_en": "custom"
   },
   {
    "h": "07:40",
@@ -198,7 +231,10 @@
    "src": "2017.40.172a-g ; Lane 1990, p. 130-132 ; 2017.40.182.01a-c",
    "pct": 30,
    "m": "règle des annonces attestée ; leur contenu ce matin-là est supposé",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall, breakfast",
+   "t_en": "Ten minutes into the meal: spoken announcements (only what concerns the whole community); water pitchers are rattled for silence. That day: Cole's talks (tonight “Money”), tomorrow's Board, Saturday's play, the vacation starting on the 14th.",
+   "m_en": "the rule for announcements is attested; that morning's content is assumed"
   },
   {
    "h": "08:00",
@@ -215,7 +251,10 @@
    "src": "reconstitution (ménage des chambres) ; 2017.40.172a-g",
    "pct": 50,
    "m": "heure ramenée en période de cours",
-   "remplace": "Ménage des chambres"
+   "remplace": "Ménage des chambres",
+   "lieu_en": "North Lodge, the bedrooms",
+   "t_en": "Beds made before the 8:30 classes; radiators; everyone hurries to the Studies Building.",
+   "m_en": "time moved earlier because of classes"
   },
   {
    "h": "09:00",
@@ -230,7 +269,10 @@
    "src": "2017.40.182.01a-c",
    "pct": 20,
    "m": "retour attesté « this morning » ; heure du train et transport supposés",
-   "remplace": "Ted Dreier rentre"
+   "remplace": "Ted Dreier rentre",
+   "lieu_en": "Black Mountain station, then the road to Lake Eden",
+   "t_en": "Ted Dreier, the treasurer, returns by the morning train after two weeks of fund-raising in New York and New England (Thanksgiving at the Putney School with Ted Jr.). Someone fetches him by car or with the truck.",
+   "m_en": "return attested (“this morning”); train time and transport assumed"
   },
   {
    "h": "09:30",
@@ -245,7 +287,10 @@
    "src": "2017.40.181.01a-c ; 2017.40.182.01a-c ; 2017.40.177a-g (Betty Osbourne, équipe du bureau)",
    "pct": 40,
    "m": "tirage attesté ; heure et personnes du jour supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The college office",
+   "t_en": "Community Bulletin No. 11, dated this Monday: 200 mimeographed copies, 30 for the teachers and student officers, the rest put into envelopes for the friends of the college before the 10:30 mail pickup.",
+   "m_en": "print run attested; time and people that day assumed"
   },
   {
    "h": "10:30",
@@ -258,7 +303,10 @@
    "src": "2017.40.172a-g",
    "pct": 10,
    "m": "",
-   "remplace": "mail"
+   "remplace": "mail",
+   "lieu_en": "The dining hall porch",
+   "t_en": "Outgoing mail collected: the box on the porch (and the one in the Studies Building front hall).",
+   "m_en": ""
   },
   {
    "h": "11:00",
@@ -271,7 +319,10 @@
    "src": "2017.40.172a-g ; 2017.40.182.01a-c",
    "pct": 30,
    "m": "lettres du bulletin reçues la semaine précédente ; celles du jour inconnues",
-   "remplace": "mail"
+   "remplace": "mail",
+   "lieu_en": "The dining hall porch, the mail boxes",
+   "t_en": "The mail arrives and is sorted into the boxes; letters from former students in the services (today's bulletin quotes Duncan Dwight and his son born on November 25, Bela Martin in Florida, Bernard Malek in Alaska); the porch telephone rings.",
+   "m_en": "letters in the bulletin were received the week before; that day's mail is unknown"
   },
   {
    "h": "10:30",
@@ -286,7 +337,10 @@
    "src": "2017.40.176a-h ; 2017.40.182.01a-c ; 2017.40.172a-g (cours de six heures)",
    "pct": 25,
    "m": "lien entre le cours et la pièce déduit ; salle d'après l'hiver 1945",
-   "remplace": "Roman Drama"
+   "remplace": "Roman Drama",
+   "lieu_en": "Bob Wunsch's study",
+   "t_en": "Roman Drama and Production: the class preparing Plautus' The Braggart Warrior, to be played on Saturday, December 9, on the dining hall stage.",
+   "m_en": "link between the class and the play deduced; room taken from winter 1945"
   },
   {
    "h": "12:40",
@@ -301,7 +355,10 @@
    "src": "2017.40.182.01a-c ; 2017.40.181.01a-c",
    "pct": 50,
    "m": "scène supposée à partir de son retour du matin",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall, lunch",
+   "t_en": "Dreier back at the table; news of the fund-raising, of Putney; the Christmas vacation campaign.",
+   "m_en": "scene assumed from his morning return"
   },
   {
    "h": "13:15",
@@ -314,7 +371,10 @@
    "src": "2017.40.172a-g ; 2017.40.178a-d",
    "pct": 25,
    "m": "heure supposée",
-   "remplace": "Store"
+   "remplace": "Store",
+   "lieu_en": "The cooperative store",
+   "t_en": "The store opens for twenty minutes after lunch; tobacco is rationed (one pack per person per week): people roll their own, with house blends like “Rhododendron Leaf-Virginia”.",
+   "m_en": "time assumed"
   },
   {
    "h": "13:30",
@@ -327,7 +387,10 @@
    "src": "2017.40.172a-g",
    "pct": 10,
    "m": "",
-   "remplace": "Office hours"
+   "remplace": "Office hours",
+   "lieu_en": "The college office",
+   "t_en": "Office hours: paying bills, ration books, telephone slips.",
+   "m_en": ""
   },
   {
    "h": "13:45",
@@ -345,7 +408,10 @@
    "src": "Silver 2024, ch. 6, p. 95-96, 101-102 ; 01_meteo.md",
    "pct": 40,
    "m": "équipe du tableau de 1944 ; tâches du jour supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The farm",
+   "t_en": "Monday's farm crew, Betty Schmitt and Eddy Woldin, with Molly Gregory and the farmer Ross Penley: feed and silage for the animals, manure, firewood; a veiled sun, frozen ground barely thawing.",
+   "m_en": "crew from the 1944 schedule; the day's tasks assumed"
   },
   {
    "h": "13:45",
@@ -361,7 +427,10 @@
    "src": "2017.40.177a-g ; 2017.40.179a-d",
    "pct": 40,
    "m": "jour et tâches supposés",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The coal pile, the furnaces",
+   "t_en": "The hauling crew (Egbert Swackhamer) carts coal and wood to the buildings; Chuck Forberg and his firers adjust the furnaces after the cold wave.",
+   "m_en": "day and tasks assumed"
   },
   {
    "h": "14:00",
@@ -376,7 +445,10 @@
    "src": "Silver 2024, ch. 6 ; 2017.40.182.01a-c",
    "pct": 60,
    "m": "lien avec la pièce supposé",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The woodshop",
+   "t_en": "Molly Gregory's woodshop: tables, shelves, scenery; perhaps props for the Plautus play.",
+   "m_en": "link with the play assumed"
   },
   {
    "h": "16:00",
@@ -391,7 +463,10 @@
    "src": "2017.40.176a-h ; 2017.40.185.01a-g (salle) ; 2017.40.178a-d",
    "pct": 35,
    "m": "salle d'après l'hiver 1945",
-   "remplace": "Matter and Energy laboratory"
+   "remplace": "Matter and Energy laboratory",
+   "lieu_en": "Physics Lab",
+   "t_en": "Matter and Energy laboratory with Fritz Hansgirg, an Austrian chemist, 53, also “Chief Technician” of the college fire department.",
+   "m_en": "room taken from winter 1945"
   },
   {
    "h": "17:00",
@@ -406,7 +481,10 @@
    "src": "2017.40.182.01a-c ; 02_lumiere.md",
    "pct": 40,
    "m": "heure du départ et moyen de transport supposés",
-   "remplace": "Brevard"
+   "remplace": "Brevard",
+   "lieu_en": "The road to Brevard",
+   "t_en": "Bob Wunsch leaves for Brevard College (some 40 miles away), for its faculty's monthly dinner; he will speak about Black Mountain's educational ideals. Daylight is fading.",
+   "m_en": "departure time and transport assumed"
   },
   {
    "h": "17:00",
@@ -421,7 +499,10 @@
    "src": "Silver 2024, ch. 6, p. 93-94",
    "pct": 20,
    "m": "usage",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The milking house",
+   "t_en": "Evening milking.",
+   "m_en": "custom"
   },
   {
    "h": "18:15",
@@ -436,7 +517,10 @@
    "src": "Silver 2024, ch. 6, p. 95-97",
    "pct": 25,
    "m": "usage",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall pantry",
+   "t_en": "Ati Gropius handles the milk again and skims it for cream and butter.",
+   "m_en": "custom"
   },
   {
    "h": "18:20",
@@ -449,7 +533,10 @@
    "src": "02_lumiere.md ; 01_meteo.md",
    "pct": 30,
    "m": "ciel d'après la réanalyse (40 %)",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The lake at sunset",
+   "t_en": "Sunset at 6:20 p.m. (war time), end of civil twilight at 6:47; the overcast afternoon sky; the dining hall windows light up over the lake.",
+   "m_en": "sky from the reanalysis (40%)"
   },
   {
    "h": "18:25",
@@ -464,7 +551,10 @@
    "src": "2017.40.182.01a-c ; 2017.40.172a-g",
    "pct": 40,
    "m": "annonce au dîner supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall, dinner",
+   "t_en": "Announcement at dinner: at 7:15, in the Faculty Room, Professor William Morse Cole begins his three talks on economics.",
+   "m_en": "announcement at dinner assumed"
   },
   {
    "h": "19:00",
@@ -481,7 +571,10 @@
    "src": "2017.40.176a-h",
    "pct": 30,
    "m": "rendez-vous régulier annoncé en octobre ; tenu ce soir-là supposé",
-   "remplace": "Record playing"
+   "remplace": "Record playing",
+   "lieu_en": "South Lodge lobby",
+   "t_en": "Record playing, supervised by Alfred Kazin, Sue Burton, and Joan Keiser.",
+   "m_en": "regular event announced in October; held that evening assumed"
   },
   {
    "h": "19:15",
@@ -496,7 +589,10 @@
    "src": "2017.40.182.01a-c",
    "pct": 0,
    "m": "",
-   "remplace": "Money"
+   "remplace": "Money",
+   "lieu_en": "Faculty Room (Studies Building)",
+   "t_en": "William Morse Cole's talk: “Money” (first of three: tomorrow “Wages”, Wednesday “Corporations”).",
+   "m_en": ""
   },
   {
    "h": "19:30",
@@ -511,7 +607,10 @@
    "src": "2017.40.182.01a-c ; 2017.40.174a-e (discours de Miller sur le travail manuel)",
    "pct": 30,
    "m": "contenu du discours supposé",
-   "remplace": "Brevard"
+   "remplace": "Brevard",
+   "lieu_en": "Brevard College, the faculty dining room",
+   "t_en": "At the Brevard faculty's monthly dinner, Wunsch speaks about Black Mountain: community life, manual work, teachers and students at the same table.",
+   "m_en": "content of the talk assumed"
   },
   {
    "h": "20:00",
@@ -526,7 +625,10 @@
    "src": "2017.40.176a-h ; 2017.40.181.01a-c ; 2017.40.184a-d",
    "pct": 30,
    "m": "lecture régulière ; tenue ce soir-là supposée",
-   "remplace": "Reading Hour"
+   "remplace": "Reading Hour",
+   "lieu_en": "South Lodge lobby",
+   "t_en": "Alfred Kazin's Weekly Reading Hour. Kazin, back from Washington, leaves for England in January (a study of the education of soldiers for the Office of War Information).",
+   "m_en": "regular reading; held that evening assumed"
   },
   {
    "h": "21:30",
@@ -541,7 +643,10 @@
    "src": "2017.40.179a-d",
    "pct": 35,
    "m": "fin au trimestre supposée ; lieu supposé (elle y faisait répéter les danseurs)",
-   "remplace": "ukin"
+   "remplace": "ukin",
+   "lieu_en": "The dining hall, tables pushed back",
+   "t_en": "Betty Kelley's eukinetics class (Monday and Thursday evenings).",
+   "m_en": "end at the close of the quarter assumed; place assumed (she rehearsed dancers there)"
   },
   {
    "h": "21:30",
@@ -556,7 +661,10 @@
    "src": "02_lumiere.md",
    "pct": 60,
    "m": "retour le soir même supposé",
-   "remplace": "Brevard"
+   "remplace": "Brevard",
+   "lieu_en": "The road from Brevard to Lake Eden",
+   "t_en": "Wunsch drives back through the cold night; the moon has not yet risen.",
+   "m_en": "return the same evening assumed"
   },
   {
    "h": "22:52",
@@ -569,7 +677,10 @@
    "src": "02_lumiere.md",
    "pct": 30,
    "m": "lumières supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "Lake Eden, moonrise",
+   "t_en": "The moon rises at 10:52 p.m. over the eastern ridges (77% lit); the frost returns; the last lights in the studies.",
+   "m_en": "lights assumed"
   },
   {
    "h": "22:30",
@@ -582,7 +693,10 @@
    "src": "2017.40.172a-g ; 2017.40.184a-d",
    "pct": 60,
    "m": "scène supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "Studies Building, a lighted study",
+   "t_en": "A student works late in a study (each has one, with a chair and a writing surface): the quarter ends in ten days, winter registration is next Wednesday.",
+   "m_en": "scene assumed"
   },
   {
    "h": "22:30",
@@ -595,7 +709,10 @@
    "src": "2017.40.172a-g ; 2017.40.178a-d ; 2017.40.182.01a-c",
    "pct": 55,
    "m": "scène supposée à partir des usages des lodges",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "North Lodge and South Lodge, evening",
+   "t_en": "Back in the lodges: the North Lodge lobby (the women's sitting room), the attics; letters written, cigarettes rolled, talk of Saturday's play and of the vacation on the 14th; lights going out.",
+   "m_en": "scene assumed from the uses of the lodges"
   },
   {
    "h": "14:00",
@@ -610,7 +727,10 @@
    "src": "2017.40.176a-h ; 2017.40.181.01a-c ; 2017.40.172a-g",
    "pct": 60,
    "m": "absence de cours le lundi déduite de la grille ; activité supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "Josef Albers's studio",
+   "t_en": "Josef Albers, 56, has no class this Monday according to the schedule (drawing and painting on other days); he paints or prepares his classes; he directed the Thanksgiving decorations (whitened winter trees, leaf studies) and approves any changes to the studies.",
+   "m_en": "no Monday class deduced from the schedule; activity assumed"
   },
   {
    "h": "09:30",
@@ -625,7 +745,10 @@
    "src": "2017.40.177a-g ; 2017.40.180a-d ; Silver 2024, ch. 6, p. 89-97",
    "pct": 50,
    "m": "menu et horaires de l'équipe inconnus",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall kitchen",
+   "t_en": "The student kitchen crew (coordinator Jane Stone) prepares lunch: vegetables from the farm and last summer's canned goods, milk and butter from the dairy, dishwashing.",
+   "m_en": "menu and crew hours unknown"
   },
   {
    "h": "16:00",
@@ -640,7 +763,10 @@
    "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
    "pct": 50,
    "m": "heures supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The dining hall kitchen",
+   "t_en": "Preparing the 6:15 dinner; the professional kitchen staff is gone (the Lipsey brothers): everything rests on the students.",
+   "m_en": "hours assumed"
   },
   {
    "h": "09:00",
@@ -655,7 +781,10 @@
    "src": "2017.40.172a-g ; 2017.40.184a-d",
    "pct": 40,
    "m": "présence de Mrs Rice ce matin-là supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The library",
+   "t_en": "The college library, open at all times, run by Mrs. Nell Rice; books are to be returned before the vacation on the 14th (notice in the bulletin of the 11th).",
+   "m_en": "Mrs. Rice's presence that morning assumed"
   },
   {
    "h": "16:00",
@@ -670,7 +799,10 @@
    "src": "2017.40.172a-g ; 05_cours.md (cours suivis)",
    "pct": 55,
    "m": "scène supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The library",
+   "t_en": "Late afternoon in the library: private work, readings for Kazin (Blake, Melville) and Zabriskie.",
+   "m_en": "scene assumed"
   },
   {
    "h": "09:00",
@@ -686,7 +818,10 @@
    "src": "Duberman 1972, ch. 8, p. 514 (note 5 : lettre datée du 4 décembre 1944) ; 2017.40.176a-h",
    "pct": 30,
    "m": "date de la lettre attestée ; heure, lieu et contenu supposés",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The Lowinskys' cottage",
+   "t_en": "Edward Lowinsky, 36, a refugee musicologist, writes to George N. Redd of Fisk University in Nashville (Redd will answer on December 15); he teaches only at 5 p.m. this Monday.",
+   "m_en": "date of the letter attested; time, place, and content assumed"
   },
   {
    "h": "08:30",
@@ -701,7 +836,10 @@
    "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
    "pct": 50,
    "m": "tâches du jour supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The farm",
+   "t_en": "The farmer Ross Penley and the morning chores: hay and silage, manure, water troughs to thaw after a night at −8 °C.",
+   "m_en": "the day's tasks assumed"
   },
   {
    "h": "16:00",
@@ -717,7 +855,10 @@
    "src": "Silver 2024, ch. 6 ; 02_lumiere.md",
    "pct": 50,
    "m": "scène supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The farm",
+   "t_en": "Before the evening milking: the animals are brought in and fed; the light is going (sunset at 6:20).",
+   "m_en": "scene assumed"
   },
   {
    "h": "09:00",
@@ -732,7 +873,10 @@
    "src": "2017.40.179a-d ; 2017.40.172a-g",
    "pct": 55,
    "m": "tâches du jour supposées",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The buildings: furnaces, electricity",
+   "t_en": "Bas Allen, the maintenance man: broken furnaces, fuses, repairs after the cold wave (he is the one called when a furnace is out of order).",
+   "m_en": "the day's tasks assumed"
   },
   {
    "h": "09:00",
@@ -747,7 +891,10 @@
    "src": "2017.40.172a-g",
    "pct": 50,
    "m": "jour du linge non donné",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "South Lodge: the linen room, the laundry",
+   "t_en": "Mrs. Annette Stone, in charge of linen and guest rooms, in her South Lodge apartment; sheets and towels to the laundry room under the porch.",
+   "m_en": "laundry day not given"
   },
   {
    "h": "10:30",
@@ -763,7 +910,10 @@
    "src": "2017.40.181.01a-c ; 2017.40.184a-d",
    "pct": 50,
    "m": "scène supposée à partir du retour du matin",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The college office",
+   "t_en": "Dreier back in the office with Mac Wood: two weeks of mail, the fund-raising, the vacation campaign, the candidates for the vacant posts (English, history, business manager) expected the following week.",
+   "m_en": "scene assumed from his morning return"
   },
   {
    "h": "09:30",
@@ -778,7 +928,10 @@
    "src": "2017.40.172a-g ; 2017.40.181.01a-c ; entretien de Harris avec Kazin",
    "pct": 60,
    "m": "scène supposée ; présence ce jour-là probable",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "Mountain Stream, Alfred Kazin's room",
+   "t_en": "Alfred Kazin, 29, the New York critic, at his table: preparing his January trip to England (a study of the education of soldiers for the Office of War Information) and his classes on Blake and Melville.",
+   "m_en": "scene assumed; his presence that day probable"
   },
   {
    "h": "09:30",
@@ -793,7 +946,10 @@
    "src": "2017.40.172a-g ; 2017.40.176a-h",
    "pct": 60,
    "m": "scène supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The Studies Building, the studies",
+   "t_en": "Josef Albers goes through the studies: every student must consult him before repainting or rearranging a study; he has no class this Monday.",
+   "m_en": "scene assumed"
   },
   {
    "h": "16:00",
@@ -806,7 +962,10 @@
    "src": "2017.40.172a-g ; 2017.40.182.01a-c",
    "pct": 55,
    "m": "scène supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "The studies and lodges, late afternoon",
+   "t_en": "Those without a class: work in the studies, letters, costumes and props for Saturday's play.",
+   "m_en": "scene assumed"
   },
   {
    "h": "16:00",
@@ -821,7 +980,10 @@
    "src": "2017.40.182.01a-c",
    "pct": 60,
    "m": "scène supposée",
-   "remplace": ""
+   "remplace": "",
+   "lieu_en": "Bob Wunsch's study",
+   "t_en": "Wunsch prepares what he will say tonight at Brevard about the college's ideals.",
+   "m_en": "scene assumed"
   }
  ],
  "liaison": {
@@ -845,5 +1007,8 @@
    "Les lodges éclairés ; on traverse le campus dans le noir avec une lampe.",
    "Le lobby du North Lodge, salon des étudiantes."
   ]
+ },
+ "salles_hiver_1945_en": {
+  "study de Bob Wunsch (Studies Building)": "Bob Wunsch's study (Studies Building)"
  }
 }
