@@ -219,7 +219,7 @@
   },
   {
    "h": "09:00",
-   "f": "11:00",
+   "f": "10:30",
    "lieu": "Gare de Black Mountain, puis la route de Lake Eden",
    "ie": "EXT",
    "qui": [
@@ -365,7 +365,7 @@
   },
   {
    "h": "14:00",
-   "f": "16:00",
+   "f": "17:30",
    "lieu": "L'atelier de bois (woodshop)",
    "ie": "INT",
    "qui": [
@@ -610,6 +610,217 @@
    "src": "2017.40.176a-h ; 2017.40.181.01a-c ; 2017.40.172a-g",
    "pct": 60,
    "m": "absence de cours le lundi déduite de la grille ; activité supposée",
+   "remplace": ""
+  },
+  {
+   "h": "09:30",
+   "f": "12:30",
+   "lieu": "La cuisine de la salle à manger",
+   "ie": "INT",
+   "qui": [
+    "Jane Stone"
+   ],
+   "fil": "cuisine",
+   "t": "Préparation du déjeuner par l'équipe de cuisine des étudiants (coordinatrice Jane Stone) : légumes de la ferme et conserves de l'été, lait et beurre de la laiterie, plonge.",
+   "src": "2017.40.177a-g ; 2017.40.180a-d ; Silver 2024, ch. 6, p. 89-97",
+   "pct": 50,
+   "m": "menu et horaires de l'équipe inconnus",
+   "remplace": ""
+  },
+  {
+   "h": "16:00",
+   "f": "18:15",
+   "lieu": "La cuisine de la salle à manger",
+   "ie": "INT",
+   "qui": [
+    "Jane Stone"
+   ],
+   "fil": "cuisine",
+   "t": "Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
+   "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
+   "pct": 50,
+   "m": "heures supposées",
+   "remplace": ""
+  },
+  {
+   "h": "09:00",
+   "f": "12:00",
+   "lieu": "La bibliothèque",
+   "ie": "INT",
+   "qui": [
+    "Nell Rice"
+   ],
+   "fil": "bibliotheque",
+   "t": "La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
+   "src": "2017.40.172a-g ; 2017.40.184a-d",
+   "pct": 40,
+   "m": "présence de Mrs Rice ce matin-là supposée",
+   "remplace": ""
+  },
+  {
+   "h": "16:00",
+   "f": "18:00",
+   "lieu": "La bibliothèque",
+   "ie": "INT",
+   "qui": [
+    "Nell Rice"
+   ],
+   "fil": "bibliotheque",
+   "t": "Fin d'après-midi à la bibliothèque : travail personnel, lectures pour Kazin (Blake, Melville) et Zabriskie.",
+   "src": "2017.40.172a-g ; 05_cours.md (cours suivis)",
+   "pct": 55,
+   "m": "scène supposée",
+   "remplace": ""
+  },
+  {
+   "h": "09:00",
+   "f": "10:30",
+   "lieu": "Le cottage des Lowinsky",
+   "ie": "INT",
+   "qui": [
+    "Edward Lowinsky",
+    "Gretel Lowinsky"
+   ],
+   "fil": "lowinsky",
+   "t": "Edward Lowinsky, 36 ans, musicologue réfugié, écrit à George N. Redd, de l'université Fisk à Nashville (Redd répondra le 15 décembre) ; il n'enseigne qu'à 17 h ce lundi.",
+   "src": "Duberman 1972, ch. 8, p. 514 (note 5 : lettre datée du 4 décembre 1944) ; 2017.40.176a-h",
+   "pct": 30,
+   "m": "date de la lettre attestée ; heure, lieu et contenu supposés",
+   "remplace": ""
+  },
+  {
+   "h": "08:30",
+   "f": "12:00",
+   "lieu": "La ferme",
+   "ie": "EXT",
+   "qui": [
+    "Roscoe Penley"
+   ],
+   "fil": "ferme",
+   "t": "Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C.",
+   "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
+   "pct": 50,
+   "m": "tâches du jour supposées",
+   "remplace": ""
+  },
+  {
+   "h": "16:00",
+   "f": "17:00",
+   "lieu": "La ferme",
+   "ie": "EXT",
+   "qui": [
+    "Roscoe Penley",
+    "Mary Gregory"
+   ],
+   "fil": "ferme",
+   "t": "Avant la traite du soir : on rentre les bêtes, on distribue le fourrage ; la lumière baisse (coucher à 18 h 20).",
+   "src": "Silver 2024, ch. 6 ; 02_lumiere.md",
+   "pct": 50,
+   "m": "scène supposée",
+   "remplace": ""
+  },
+  {
+   "h": "09:00",
+   "f": "11:30",
+   "lieu": "Les bâtiments : chaudières, électricité",
+   "ie": "INT",
+   "qui": [
+    "Bascombe Allen"
+   ],
+   "fil": "entretien",
+   "t": "Bas Allen, l'homme d'entretien : chaudières en panne, fusibles, réparations après la vague de froid (c'est lui qu'on appelle quand une chaudière ne marche plus).",
+   "src": "2017.40.179a-d ; 2017.40.172a-g",
+   "pct": 55,
+   "m": "tâches du jour supposées",
+   "remplace": ""
+  },
+  {
+   "h": "09:00",
+   "f": "11:00",
+   "lieu": "South Lodge : la lingerie, la buanderie",
+   "ie": "INT",
+   "qui": [
+    "Annette Stone"
+   ],
+   "fil": "linge",
+   "t": "Mrs Annette Stone, chargée du linge et des chambres d'hôtes, dans son appartement du South Lodge ; draps et serviettes à la buanderie sous la véranda.",
+   "src": "2017.40.172a-g",
+   "pct": 50,
+   "m": "jour du linge non donné",
+   "remplace": ""
+  },
+  {
+   "h": "10:30",
+   "f": "12:30",
+   "lieu": "Le bureau du collège",
+   "ie": "INT",
+   "qui": [
+    "Theodore Dreier",
+    "Horace Wood"
+   ],
+   "fil": "dreier",
+   "t": "Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
+   "src": "2017.40.181.01a-c ; 2017.40.184a-d",
+   "pct": 50,
+   "m": "scène supposée à partir du retour du matin",
+   "remplace": ""
+  },
+  {
+   "h": "09:30",
+   "f": "11:30",
+   "lieu": "Mountain Stream, la chambre d'Alfred Kazin",
+   "ie": "INT",
+   "qui": [
+    "Alfred Kazin"
+   ],
+   "fil": "kazin",
+   "t": "Alfred Kazin, 29 ans, critique new-yorkais, à sa table : il prépare son départ pour l'Angleterre en janvier (étude de l'éducation des soldats pour l'Office of War Information) et ses cours sur Blake et Melville.",
+   "src": "2017.40.172a-g ; 2017.40.181.01a-c ; entretien de Harris avec Kazin",
+   "pct": 60,
+   "m": "scène supposée ; présence ce jour-là probable",
+   "remplace": ""
+  },
+  {
+   "h": "09:30",
+   "f": "12:00",
+   "lieu": "Le Studies Building, les studies",
+   "ie": "INT",
+   "qui": [
+    "Josef Albers"
+   ],
+   "fil": "albers",
+   "t": "Josef Albers passe dans les studies : chaque étudiant doit le consulter avant de repeindre ou d'aménager le sien ; il n'a pas de cours ce lundi.",
+   "src": "2017.40.172a-g ; 2017.40.176a-h",
+   "pct": 60,
+   "m": "scène supposée",
+   "remplace": ""
+  },
+  {
+   "h": "16:00",
+   "f": "18:00",
+   "lieu": "Les studies et les lodges en fin d'après-midi",
+   "ie": "INT",
+   "qui": [],
+   "fil": "lodges",
+   "t": "Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi.",
+   "src": "2017.40.172a-g ; 2017.40.182.01a-c",
+   "pct": 55,
+   "m": "scène supposée",
+   "remplace": ""
+  },
+  {
+   "h": "16:00",
+   "f": "17:00",
+   "lieu": "Le study de Bob Wunsch",
+   "ie": "INT",
+   "qui": [
+    "Robert Wunsch"
+   ],
+   "fil": "wunsch",
+   "t": "Wunsch prépare ce qu'il dira ce soir à Brevard sur les idéaux du collège.",
+   "src": "2017.40.182.01a-c",
+   "pct": 60,
+   "m": "scène supposée",
    "remplace": ""
   }
  ],

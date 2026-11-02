@@ -5,7 +5,7 @@ Entrées : journees/AAAA-MM-JJ/scenes_cles.json (scènes écrites à la main, av
 journees/AAAA-MM-JJ/journee.json (scripts/journee.py : lumière, météo, cours et inscrits) et le planning du jour
 (semainier public). Sorties : 10_sequencier.md, sequencier.csv, sequencier.json.
 
-Méthode :
+Méthode (les cours ne gardent à l'écran que 25 % de leur temps, QUOTA_COURS) :
   1. activités = scènes clés + activités du planning (documents du collège, reconstitution) qu'aucune scène clé ne
      remplace ; heure de fin manquante : 45 min pour un repas, 60 pour une causerie, 30 sinon ; salle d'un cours non
      donnée : celle du même enseignant à l'hiver 1945 (+10 %) ;
@@ -20,6 +20,8 @@ import construire as K
 
 ROOT = K.ROOT
 POIDS = {"cle": 3.0, "aam": 2.0, "cours": 1.5, "spc": 0.6}
+QUOTA_COURS = 0.25        # part du temps de cours gardée à l'écran (décision du 2/11/2026)
+COURS_FILS = {"theatre", "hansgirg", "danse"}      # scènes clés qui sont des cours
 
 
 def mn(h): return K.mn(h)
@@ -60,9 +62,22 @@ def main(jour, week):
                      "fil": "cours" if cours else "repas" if e["type"] == "social" else "vie", "poids": POIDS["cours"] if cours else POIDS["aam"] if e["couche"] == "aam" else POIDS["spc"],
                      "type": ("cours" if cours else "activité") + (" (reconstitution)" if e["couche"] == "spc" else " (document du collège)")})
 
-    # tranches
+    # tranches ; les cours ne gardent à l'écran que QUOTA_COURS de leur temps (le reste va à ce qui se passe ailleurs)
+    def cours_(x): return x["type"].startswith("cours") or x["fil"] in COURS_FILS
+    def partager(act, L):
+        if not act or L <= 0: return []
+        act = sorted(act, key=lambda x: (-x["poids"], x["pct"], x["a"]))[:max(1, L // 2)]   # deux minutes au moins par plan
+        tot = sum(x["poids"] for x in act)
+        part = [max(2 if L >= 2 else 1, int(L * x["poids"] / tot)) for x in act]
+        while sum(part) > L: part[part.index(max(part))] -= 1
+        k = 0
+        while sum(part) < L: part[k % len(part)] += 1; k += 1
+        return list(zip(act, part))
+    union = set()
+    for x in acts:
+        if cours_(x): union |= set(range(x["a"], x["b"]))
     cuts = sorted({0, 1440} | {x["a"] for x in acts} | {x["b"] for x in acts})
-    pieces = []
+    pieces = []; reste = 0.0
     for t0, t1 in zip(cuts, cuts[1:]):
         if t1 <= t0: continue
         act = [x for x in acts if x["a"] < t1 and t0 < x["b"]]
@@ -70,20 +85,17 @@ def main(jour, week):
         L = t1 - t0
         if not act:
             pieces.append((t0, t1, None)); continue
-        act.sort(key=lambda x: (-x["poids"], x["pct"], x["a"]))
-        act = act[:L]
-        tot = sum(x["poids"] for x in act)
-        act = act[:max(1, L // 2)]                     # deux minutes au moins par activité alternée
-        tot = sum(x["poids"] for x in act)
-        part = [max(2 if L >= 2 else 1, int(L * x["poids"] / tot)) for x in act]
-        while sum(part) > L: part[part.index(max(part))] -= 1
-        k = 0
-        while sum(part) < L: part[k % len(part)] += 1; k += 1
+        co = [x for x in act if cours_(x)]; au = [x for x in act if not cours_(x)]
+        if co:
+            c = max(0, min(L, round(QUOTA_COURS * L + reste))); reste += QUOTA_COURS * L - c
+            parts = partager(co, c) + (partager(au, L - c) if au else [(None, L - c)] if L - c else [])
+        else:
+            parts = partager(au, L)
         maxi = 12 if nuit else 4
-        files = [collections.deque([maxi] * (p // maxi) + ([p % maxi] if p % maxi else [])) for p in part]
+        files = [(x, collections.deque([maxi] * (p // maxi) + ([p % maxi] if p % maxi else []))) for x, p in parts if p]
         t = t0
-        while any(files):
-            for x, f in zip(act, files):
+        while any(f for _, f in files):
+            for x, f in files:
                 if f: n = f.popleft(); pieces.append((t, t + n, x)); t += n
     # liaisons et fusion des morceaux contigus d'une même activité
     scenes = []
@@ -116,6 +128,7 @@ def main(jour, week):
             ici = f" — {hm(s['a'])} : {w.get('temp_c', '')} °C, {w.get('temps', '')}, lune à {l.get('lune_hauteur', '')}°" if x["fil"] in ("nuit", "ferme", "chaudieres", "aube", "wunsch", "lodges") and w else ""
             rec = {"lieu": x["lieu"] or "lieu non donné", "ie": x["ie"], "qui": qui, "action": ("(suite) " if vus[x["id"]] > 1 else "") + x["titre"] + ici,
                    "src": x["src"], "pct": x["pct"], "m": x["m"], "fil": x["fil"], "type": x["type"]}
+        rec["cours"] = bool(x and cours_(x))
         statut = "attesté" if rec["pct"] <= 10 else "usage attesté, transposé" if rec["pct"] <= 40 else "supposé"
         out.append({"n": i, "debut": hm(s["a"]), "fin": hm(s["b"]), "pages": f"{s['a'] + 1}–{s['b']}", "duree_min": s["b"] - s["a"],
                     "entete": f"{rec['ie']}. {rec['lieu'].upper()} — {moment}", "lumiere": etat, "meteo": meteo, "statut": statut, **rec})
@@ -135,6 +148,9 @@ def main(jour, week):
          "en même temps, le montage alterne (montage parallèle) ; « (suite) » marque le retour à une scène déjà ouverte.", "",
          "| statut | scènes | pages |", "|---|---|---|"]
     L += [f"| {k} | {st[k]} | {mins[k]} |" for k in ("attesté", "usage attesté, transposé", "supposé")]
+    pc = sum(o["duree_min"] for o in out if o.get("cours"))
+    L += ["", f"**Cours** : {len(union)} minutes de cours dans la journée (au moins un cours en séance) ; {pc} pages de cours à l'écran, "
+          f"soit {round(100 * pc / max(1, len(union)))} % (quota : {round(QUOTA_COURS * 100)} %). Le reste du temps des cours passe à ce qui se fait au même moment ailleurs."]
     L += ["", "Fils (pages par fil) : " + ", ".join(f"{k} {v}" for k, v in fils.most_common()) + ".", "",
           "Statut : **attesté** = part déduite de 10 % au plus (document daté qui couvre ce jour) ; **usage attesté, transposé** = 11 à 40 % "
           "(usage de la session ou d'un autre jour, salle d'un autre trimestre, heure supposée) ; **supposé** = plus de 40 % (scène de liaison ou "

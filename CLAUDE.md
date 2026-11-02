@@ -15,3 +15,5 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
 - Séquencier : les scènes clés s'écrivent dans `journees/1944-12-04/scenes_cles.json` (fenêtre horaire, lieu, personnages,
   action, source, part déduite, motif, « remplace » = motif des activités du planning qu'elles englobent) ;
   `scripts/sequencier.py` en tire `10_sequencier.md`, `sequencier.csv`, `sequencier.json` (1 440 minutes, sans trou).
+- Décision du 2/11/2026 : 1 page = 1 minute, 1 440 pages ; les cours ne gardent à l'écran que 25 % de leur temps
+  (`QUOTA_COURS` dans `scripts/sequencier.py`) ; le reste va à ce qui se passe au même moment ailleurs.
