@@ -1,0 +1,5400 @@
+{
+ "date": "1944-12-04",
+ "jour": "lundi 4 décembre 1944",
+ "annee_scolaire": "1944-45",
+ "trimestre_fiches": "automne 1944",
+ "meteo": {
+  "noaa": {
+   "Swannanoa 2 E": {},
+   "Montreat": {
+    "1944-11-27": {
+     "date": "1944-11-27",
+     "tmin_c": "0.0",
+     "tmax_c": "7.8",
+     "tmin_f": "32",
+     "tmax_f": "46",
+     "pluie_mm": "15.0",
+     "pluie_pouces": "0.59",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-11-28": {
+     "date": "1944-11-28",
+     "tmin_c": "-2.8",
+     "tmax_c": "11.7",
+     "tmin_f": "27",
+     "tmax_f": "53",
+     "pluie_mm": "9.1",
+     "pluie_pouces": "0.36",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-11-29": {
+     "date": "1944-11-29",
+     "tmin_c": "1.7",
+     "tmax_c": "13.9",
+     "tmin_f": "35",
+     "tmax_f": "57",
+     "pluie_mm": "5.1",
+     "pluie_pouces": "0.2",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-11-30": {
+     "date": "1944-11-30",
+     "tmin_c": "-1.7",
+     "tmax_c": "4.4",
+     "tmin_f": "29",
+     "tmax_f": "40",
+     "pluie_mm": "6.6",
+     "pluie_pouces": "0.26",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-01": {
+     "date": "1944-12-01",
+     "tmin_c": "-10.0",
+     "tmax_c": "1.7",
+     "tmin_f": "14",
+     "tmax_f": "35",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-02": {
+     "date": "1944-12-02",
+     "tmin_c": "-8.3",
+     "tmax_c": "0.0",
+     "tmin_f": "17",
+     "tmax_f": "32",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-03": {
+     "date": "1944-12-03",
+     "tmin_c": "-12.2",
+     "tmax_c": "7.2",
+     "tmin_f": "10",
+     "tmax_f": "45",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-04": {
+     "date": "1944-12-04",
+     "tmin_c": "-8.3",
+     "tmax_c": "11.7",
+     "tmin_f": "17",
+     "tmax_f": "53",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-05": {
+     "date": "1944-12-05",
+     "tmin_c": "-4.4",
+     "tmax_c": "14.4",
+     "tmin_f": "24",
+     "tmax_f": "58",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-06": {
+     "date": "1944-12-06",
+     "tmin_c": "-3.9",
+     "tmax_c": "8.9",
+     "tmin_f": "25",
+     "tmax_f": "48",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-07": {
+     "date": "1944-12-07",
+     "tmin_c": "1.1",
+     "tmax_c": "7.8",
+     "tmin_f": "34",
+     "tmax_f": "46",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-08": {
+     "date": "1944-12-08",
+     "tmin_c": "0.0",
+     "tmax_c": "6.1",
+     "tmin_f": "32",
+     "tmax_f": "43",
+     "pluie_mm": "21.3",
+     "pluie_pouces": "0.84",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-09": {
+     "date": "1944-12-09",
+     "tmin_c": "-2.2",
+     "tmax_c": "9.4",
+     "tmin_f": "28",
+     "tmax_f": "49",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    },
+    "1944-12-10": {
+     "date": "1944-12-10",
+     "tmin_c": "-3.3",
+     "tmax_c": "7.8",
+     "tmin_f": "26",
+     "tmax_f": "46",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "",
+     "phenomenes": "",
+     "heure_releve": ""
+    }
+   },
+   "Asheville": {
+    "1944-11-27": {
+     "date": "1944-11-27",
+     "tmin_c": "3.9",
+     "tmax_c": "12.8",
+     "tmin_f": "39",
+     "tmax_f": "55",
+     "pluie_mm": "12.7",
+     "pluie_pouces": "0.5",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-11-28": {
+     "date": "1944-11-28",
+     "tmin_c": "2.2",
+     "tmax_c": "11.7",
+     "tmin_f": "36",
+     "tmax_f": "53",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-11-29": {
+     "date": "1944-11-29",
+     "tmin_c": "-1.1",
+     "tmax_c": "5.6",
+     "tmin_f": "30",
+     "tmax_f": "42",
+     "pluie_mm": "10.2",
+     "pluie_pouces": "0.4",
+     "neige_mm": "15",
+     "neige_au_sol_mm": "25",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-11-30": {
+     "date": "1944-11-30",
+     "tmin_c": "-5.0",
+     "tmax_c": "2.8",
+     "tmin_f": "23",
+     "tmax_f": "37",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-01": {
+     "date": "1944-12-01",
+     "tmin_c": "-7.8",
+     "tmax_c": "-0.6",
+     "tmin_f": "18",
+     "tmax_f": "31",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-02": {
+     "date": "1944-12-02",
+     "tmin_c": "-7.2",
+     "tmax_c": "-2.2",
+     "tmin_f": "19",
+     "tmax_f": "28",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-03": {
+     "date": "1944-12-03",
+     "tmin_c": "-11.1",
+     "tmax_c": "6.7",
+     "tmin_f": "12",
+     "tmax_f": "44",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-04": {
+     "date": "1944-12-04",
+     "tmin_c": "-9.4",
+     "tmax_c": "13.3",
+     "tmin_f": "15",
+     "tmax_f": "56",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-05": {
+     "date": "1944-12-05",
+     "tmin_c": "-3.9",
+     "tmax_c": "14.4",
+     "tmin_f": "25",
+     "tmax_f": "58",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-06": {
+     "date": "1944-12-06",
+     "tmin_c": "-1.7",
+     "tmax_c": "8.9",
+     "tmin_f": "29",
+     "tmax_f": "48",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-07": {
+     "date": "1944-12-07",
+     "tmin_c": "1.1",
+     "tmax_c": "6.1",
+     "tmin_f": "34",
+     "tmax_f": "43",
+     "pluie_mm": "21.1",
+     "pluie_pouces": "0.83",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-08": {
+     "date": "1944-12-08",
+     "tmin_c": "-1.1",
+     "tmax_c": "6.7",
+     "tmin_f": "30",
+     "tmax_f": "44",
+     "pluie_mm": "3.0",
+     "pluie_pouces": "0.12",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-09": {
+     "date": "1944-12-09",
+     "tmin_c": "-1.1",
+     "tmax_c": "8.3",
+     "tmin_f": "30",
+     "tmax_f": "47",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    },
+    "1944-12-10": {
+     "date": "1944-12-10",
+     "tmin_c": "-3.3",
+     "tmax_c": "8.9",
+     "tmin_f": "26",
+     "tmax_f": "48",
+     "pluie_mm": "0.0",
+     "pluie_pouces": "0.0",
+     "neige_mm": "0",
+     "neige_au_sol_mm": "0",
+     "phenomenes": "",
+     "heure_releve": "2400"
+    }
+   }
+  },
+  "era5_par_heure": [
+   {
+    "heure": "00:00",
+    "page": 1,
+    "temp_c": -3.5,
+    "ressenti_c": -7.5,
+    "humidite_pct": 69,
+    "nuages_pct": 0,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 6.2,
+    "vent_dir": "NO",
+    "rafales_kmh": 10.8,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "ciel clair",
+    "sol_0_7cm_c": -1.3,
+    "pression_hpa": 950.0
+   },
+   {
+    "heure": "01:00",
+    "page": 61,
+    "temp_c": -3.5,
+    "ressenti_c": -7.4,
+    "humidite_pct": 68,
+    "nuages_pct": 3,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 5.9,
+    "vent_dir": "NO",
+    "rafales_kmh": 9.7,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "ciel clair",
+    "sol_0_7cm_c": -1.4,
+    "pression_hpa": 949.5
+   },
+   {
+    "heure": "02:00",
+    "page": 121,
+    "temp_c": -3.8,
+    "ressenti_c": -7.6,
+    "humidite_pct": 70,
+    "nuages_pct": 1,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 4.6,
+    "vent_dir": "NO",
+    "rafales_kmh": 9.0,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "ciel clair",
+    "sol_0_7cm_c": -1.4,
+    "pression_hpa": 949.2
+   },
+   {
+    "heure": "03:00",
+    "page": 181,
+    "temp_c": -3.8,
+    "ressenti_c": -7.4,
+    "humidite_pct": 70,
+    "nuages_pct": 41,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.6,
+    "vent_dir": "NO",
+    "rafales_kmh": 9.4,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "plutôt clair",
+    "sol_0_7cm_c": -1.5,
+    "pression_hpa": 949.4
+   },
+   {
+    "heure": "04:00",
+    "page": 241,
+    "temp_c": -3.6,
+    "ressenti_c": -7.2,
+    "humidite_pct": 68,
+    "nuages_pct": 9,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.7,
+    "vent_dir": "NNO",
+    "rafales_kmh": 9.7,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "ciel clair",
+    "sol_0_7cm_c": -1.6,
+    "pression_hpa": 949.7
+   },
+   {
+    "heure": "05:00",
+    "page": 301,
+    "temp_c": -3.5,
+    "ressenti_c": -7.1,
+    "humidite_pct": 68,
+    "nuages_pct": 18,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.4,
+    "vent_dir": "NNO",
+    "rafales_kmh": 9.7,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "ciel clair",
+    "sol_0_7cm_c": -1.6,
+    "pression_hpa": 949.3
+   },
+   {
+    "heure": "06:00",
+    "page": 361,
+    "temp_c": -3.4,
+    "ressenti_c": -7.1,
+    "humidite_pct": 63,
+    "nuages_pct": 2,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.4,
+    "vent_dir": "NNO",
+    "rafales_kmh": 9.7,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "ciel clair",
+    "sol_0_7cm_c": -1.7,
+    "pression_hpa": 949.6
+   },
+   {
+    "heure": "07:00",
+    "page": 421,
+    "temp_c": -3.4,
+    "ressenti_c": -7.0,
+    "humidite_pct": 63,
+    "nuages_pct": 97,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.1,
+    "vent_dir": "NO",
+    "rafales_kmh": 9.0,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.7,
+    "pression_hpa": 949.9
+   },
+   {
+    "heure": "08:00",
+    "page": 481,
+    "temp_c": -3.4,
+    "ressenti_c": -7.0,
+    "humidite_pct": 63,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 2.5,
+    "vent_dir": "NO",
+    "rafales_kmh": 8.6,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.8,
+    "pression_hpa": 950.3
+   },
+   {
+    "heure": "09:00",
+    "page": 541,
+    "temp_c": -2.3,
+    "ressenti_c": -5.9,
+    "humidite_pct": 59,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 2.8,
+    "vent_dir": "NO",
+    "rafales_kmh": 8.3,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.8,
+    "pression_hpa": 950.1
+   },
+   {
+    "heure": "10:00",
+    "page": 601,
+    "temp_c": 0.8,
+    "ressenti_c": -2.6,
+    "humidite_pct": 57,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 2.8,
+    "vent_dir": "NO",
+    "rafales_kmh": 10.4,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.7,
+    "pression_hpa": 951.2
+   },
+   {
+    "heure": "11:00",
+    "page": 661,
+    "temp_c": 3.8,
+    "ressenti_c": 0.4,
+    "humidite_pct": 38,
+    "nuages_pct": 99,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 1.5,
+    "vent_dir": "NNO",
+    "rafales_kmh": 13.3,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.7,
+    "pression_hpa": 952.7
+   },
+   {
+    "heure": "12:00",
+    "page": 721,
+    "temp_c": 5.6,
+    "ressenti_c": 2.1,
+    "humidite_pct": 32,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 1.6,
+    "vent_dir": "ENE",
+    "rafales_kmh": 17.3,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.6,
+    "pression_hpa": 952.4
+   },
+   {
+    "heure": "13:00",
+    "page": 781,
+    "temp_c": 7.0,
+    "ressenti_c": 3.3,
+    "humidite_pct": 29,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.3,
+    "vent_dir": "E",
+    "rafales_kmh": 19.4,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.3,
+    "pression_hpa": 951.0
+   },
+   {
+    "heure": "14:00",
+    "page": 841,
+    "temp_c": 7.6,
+    "ressenti_c": 3.9,
+    "humidite_pct": 29,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.6,
+    "vent_dir": "E",
+    "rafales_kmh": 17.6,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.2,
+    "pression_hpa": 950.0
+   },
+   {
+    "heure": "15:00",
+    "page": 901,
+    "temp_c": 7.9,
+    "ressenti_c": 4.2,
+    "humidite_pct": 29,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.7,
+    "vent_dir": "E",
+    "rafales_kmh": 15.1,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -1.0,
+    "pression_hpa": 949.2
+   },
+   {
+    "heure": "16:00",
+    "page": 961,
+    "temp_c": 7.6,
+    "ressenti_c": 4.0,
+    "humidite_pct": 32,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.6,
+    "vent_dir": "SE",
+    "rafales_kmh": 10.4,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.8,
+    "pression_hpa": 949.3
+   },
+   {
+    "heure": "17:00",
+    "page": 1021,
+    "temp_c": 6.0,
+    "ressenti_c": 2.5,
+    "humidite_pct": 47,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 5.6,
+    "vent_dir": "SE",
+    "rafales_kmh": 7.9,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.6,
+    "pression_hpa": 948.8
+   },
+   {
+    "heure": "18:00",
+    "page": 1081,
+    "temp_c": 5.0,
+    "ressenti_c": 1.5,
+    "humidite_pct": 49,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 5.5,
+    "vent_dir": "ESE",
+    "rafales_kmh": 9.0,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.5,
+    "pression_hpa": 948.8
+   },
+   {
+    "heure": "19:00",
+    "page": 1141,
+    "temp_c": 4.3,
+    "ressenti_c": 1.3,
+    "humidite_pct": 50,
+    "nuages_pct": 96,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 1.6,
+    "vent_dir": "ONO",
+    "rafales_kmh": 6.5,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.6,
+    "pression_hpa": 948.8
+   },
+   {
+    "heure": "20:00",
+    "page": 1201,
+    "temp_c": 2.5,
+    "ressenti_c": -0.6,
+    "humidite_pct": 55,
+    "nuages_pct": 97,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 2.3,
+    "vent_dir": "NO",
+    "rafales_kmh": 6.5,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.6,
+    "pression_hpa": 948.5
+   },
+   {
+    "heure": "21:00",
+    "page": 1261,
+    "temp_c": 0.5,
+    "ressenti_c": -2.5,
+    "humidite_pct": 63,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 1.6,
+    "vent_dir": "NNO",
+    "rafales_kmh": 10.1,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.6,
+    "pression_hpa": 947.9
+   },
+   {
+    "heure": "22:00",
+    "page": 1321,
+    "temp_c": 1.1,
+    "ressenti_c": -2.1,
+    "humidite_pct": 60,
+    "nuages_pct": 100,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 2.6,
+    "vent_dir": "NNO",
+    "rafales_kmh": 9.4,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.7,
+    "pression_hpa": 947.9
+   },
+   {
+    "heure": "23:00",
+    "page": 1381,
+    "temp_c": 0.6,
+    "ressenti_c": -2.8,
+    "humidite_pct": 62,
+    "nuages_pct": 94,
+    "nuages_bas_pct": 0,
+    "vent_kmh": 3.4,
+    "vent_dir": "NNO",
+    "rafales_kmh": 7.9,
+    "pluie_mm": 0.0,
+    "neige_cm": 0.0,
+    "temps": "couvert",
+    "sol_0_7cm_c": -0.8,
+    "pression_hpa": 947.7
+   }
+  ],
+  "documents": [
+   {
+    "date_document": "1944-12-04",
+    "inventaire": "2017.40.182.01a-c",
+    "mot": "frozen",
+    "phrase": "Because of a frozen radiator two members of the cast arrived for make-up just five minutes before curtain time."
+   },
+   {
+    "date_document": "1944-12-04",
+    "inventaire": "2017.40.182.01a-c",
+    "mot": "storm",
+    "phrase": "… ting two cases of lymphangitis (blood poisoning); and going through a storm at sea were exciting. …"
+   },
+   {
+    "date_document": "1944-12-11",
+    "inventaire": "2017.40.184a-d",
+    "mot": "weather",
+    "phrase": "The weather has been strangely cool for Florida, and we’re shivering around electric heaters in all sorts of peculiar cold weather outfits…."
+   }
+  ]
+ },
+ "lumiere": {
+  "heure_legale": "heure de guerre (EWT, UTC−4)",
+  "aube_astronomique": "06:52",
+  "crepuscule_astronomique": "19:46",
+  "aube_nautique": "07:23",
+  "crepuscule_nautique": "19:15",
+  "aube_civile": "07:54",
+  "crepuscule_civile": "18:45",
+  "lever_soleil": "08:19",
+  "coucher_soleil": "18:20",
+  "midi_solaire": "13:19",
+  "hauteur_max_soleil": 32.1,
+  "lever_lune": "22:52",
+  "coucher_lune": "12:25",
+  "lune_eclairee_pct": 77,
+  "lune_phase": "gibbeuse décroissante",
+  "par_heure": [
+   {
+    "heure": "00:00",
+    "page": 1,
+    "soleil_hauteur": -68.1,
+    "soleil_azimut": 302,
+    "lune_hauteur": 22.6,
+    "etat": "nuit"
+   },
+   {
+    "heure": "01:00",
+    "page": 61,
+    "soleil_hauteur": -76.0,
+    "soleil_azimut": 341,
+    "lune_hauteur": 34.4,
+    "etat": "nuit"
+   },
+   {
+    "heure": "02:00",
+    "page": 121,
+    "soleil_hauteur": -74.0,
+    "soleil_azimut": 36,
+    "lune_hauteur": 46.2,
+    "etat": "nuit"
+   },
+   {
+    "heure": "03:00",
+    "page": 181,
+    "soleil_hauteur": -64.4,
+    "soleil_azimut": 65,
+    "lune_hauteur": 57.7,
+    "etat": "nuit"
+   },
+   {
+    "heure": "04:00",
+    "page": 241,
+    "soleil_hauteur": -52.8,
+    "soleil_azimut": 80,
+    "lune_hauteur": 68.1,
+    "etat": "nuit"
+   },
+   {
+    "heure": "05:00",
+    "page": 301,
+    "soleil_hauteur": -40.6,
+    "soleil_azimut": 90,
+    "lune_hauteur": 74.2,
+    "etat": "nuit"
+   },
+   {
+    "heure": "06:00",
+    "page": 361,
+    "soleil_hauteur": -28.5,
+    "soleil_azimut": 98,
+    "lune_hauteur": 71.3,
+    "etat": "nuit"
+   },
+   {
+    "heure": "07:00",
+    "page": 421,
+    "soleil_hauteur": -16.6,
+    "soleil_azimut": 106,
+    "lune_hauteur": 62.0,
+    "etat": "nuit astronomique claire"
+   },
+   {
+    "heure": "08:00",
+    "page": 481,
+    "soleil_hauteur": -4.6,
+    "soleil_azimut": 114,
+    "lune_hauteur": 50.7,
+    "etat": "aube ou crépuscule civil"
+   },
+   {
+    "heure": "09:00",
+    "page": 541,
+    "soleil_hauteur": 5.8,
+    "soleil_azimut": 123,
+    "lune_hauteur": 38.9,
+    "etat": "jour"
+   },
+   {
+    "heure": "10:00",
+    "page": 601,
+    "soleil_hauteur": 15.3,
+    "soleil_azimut": 133,
+    "lune_hauteur": 26.9,
+    "etat": "jour"
+   },
+   {
+    "heure": "11:00",
+    "page": 661,
+    "soleil_hauteur": 23.4,
+    "soleil_azimut": 145,
+    "lune_hauteur": 15.2,
+    "etat": "jour"
+   },
+   {
+    "heure": "12:00",
+    "page": 721,
+    "soleil_hauteur": 29.1,
+    "soleil_azimut": 159,
+    "lune_hauteur": 4.0,
+    "etat": "jour"
+   },
+   {
+    "heure": "13:00",
+    "page": 781,
+    "soleil_hauteur": 31.9,
+    "soleil_azimut": 175,
+    "lune_hauteur": -6.8,
+    "etat": "jour"
+   },
+   {
+    "heure": "14:00",
+    "page": 841,
+    "soleil_hauteur": 31.3,
+    "soleil_azimut": 191,
+    "lune_hauteur": -16.7,
+    "etat": "jour"
+   },
+   {
+    "heure": "15:00",
+    "page": 901,
+    "soleil_hauteur": 27.5,
+    "soleil_azimut": 206,
+    "lune_hauteur": -25.1,
+    "etat": "jour"
+   },
+   {
+    "heure": "16:00",
+    "page": 961,
+    "soleil_hauteur": 20.8,
+    "soleil_azimut": 220,
+    "lune_hauteur": -31.6,
+    "etat": "jour"
+   },
+   {
+    "heure": "17:00",
+    "page": 1021,
+    "soleil_hauteur": 12.2,
+    "soleil_azimut": 231,
+    "lune_hauteur": -35.3,
+    "etat": "jour"
+   },
+   {
+    "heure": "18:00",
+    "page": 1081,
+    "soleil_hauteur": 2.3,
+    "soleil_azimut": 240,
+    "lune_hauteur": -35.9,
+    "etat": "jour"
+   },
+   {
+    "heure": "19:00",
+    "page": 1141,
+    "soleil_hauteur": -9.0,
+    "soleil_azimut": 249,
+    "lune_hauteur": -33.0,
+    "etat": "aube ou crépuscule nautique"
+   },
+   {
+    "heure": "20:00",
+    "page": 1201,
+    "soleil_hauteur": -20.6,
+    "soleil_azimut": 257,
+    "lune_hauteur": -27.3,
+    "etat": "nuit"
+   },
+   {
+    "heure": "21:00",
+    "page": 1261,
+    "soleil_hauteur": -32.6,
+    "soleil_azimut": 264,
+    "lune_hauteur": -19.4,
+    "etat": "nuit"
+   },
+   {
+    "heure": "22:00",
+    "page": 1321,
+    "soleil_hauteur": -44.8,
+    "soleil_azimut": 273,
+    "lune_hauteur": -10.0,
+    "etat": "nuit"
+   },
+   {
+    "heure": "23:00",
+    "page": 1381,
+    "soleil_hauteur": -56.9,
+    "soleil_azimut": 284,
+    "lune_hauteur": 0.9,
+    "etat": "nuit"
+   }
+  ]
+ },
+ "cites_ailleurs": {
+  "George Redd": 1
+ },
+ "personnes": [
+  {
+   "nom": "William Cole",
+   "noms_dans_les_sources": [
+    "William Morse Cole"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)"
+   ],
+   "pct_presence": 0,
+   "role": "Administrator",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/william-cole",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Annelise \"Anni\" Albers",
+   "noms_dans_les_sources": [
+    "Anni Albers",
+    "Annelise \"Anni\" Albers"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "intervalle de présence de la fiche : 1933-09-25 → 1949-06-15"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1899-06-12",
+   "origine": "Berlin, Germany → Orange, CT",
+   "age": 45,
+   "fiche": "https://bmcyearbook.org/bio/annelise-albers",
+   "relations": "",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "11:30 Textile Design"
+   ]
+  },
+  {
+   "nom": "Josephine \"Maria\" Hansgirg",
+   "noms_dans_les_sources": [
+    "Maria Hansgirg",
+    "Josephine \"Maria\" Hansgirg"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (2 fois)",
+    "intervalle de présence de la fiche : 1942-09-28 → 1947-08-23"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty",
+   "domaine": "Languages/ Linguistics",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/josephine-hansgirg",
+   "relations": "Husband: Fellow BMC faculty, Fritz Hansgirg",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "10:30 French for beginners (new class)",
+    "11:30 French I"
+   ]
+  },
+  {
+   "nom": "Fritz Hansgirg",
+   "noms_dans_les_sources": [
+    "Fritz Hansgirg"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (2 fois)",
+    "intervalle de présence de la fiche : 1942-09-28 → 1947-08-23"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty",
+   "domaine": "Social Sciences",
+   "naissance": "1891-06-20",
+   "origine": "Graz, Austria → New York, NY",
+   "age": 53,
+   "fiche": "https://bmcyearbook.org/bio/fritz-hansgirg",
+   "relations": "Wife: Fellow BMC faculty, Maria Hansgirg",
+   "travail": [
+    "Pompiers du collège : chef George Zabriskie, technicien en chef Fritz Hansgirg ; exercices d'incendie avec sirène ; ne pas jeter de mégots par les fenêtres sur l'herbe sèche."
+   ],
+   "enseigne_ce_jour": [
+    "11:30 Matter and Energy",
+    "16:00 Matter and Energy laboratory"
+   ]
+  },
+  {
+   "nom": "Heinrich Jalowetz",
+   "noms_dans_les_sources": [
+    "Heinrich Jalowetz"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "intervalle de présence de la fiche : 1939-09-11 → 1946-01-13"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty",
+   "domaine": "Music",
+   "naissance": "1882-12-03",
+   "origine": "Brno, Czechia → Black Mountain, NC",
+   "age": 62,
+   "fiche": "https://bmcyearbook.org/bio/heinrich-jalowetz",
+   "relations": "Wife: Fellow BMC faculty, Johanna Jalowetz; Child: BMC student, Elizabeth Jalowetz; Child: Fellow BMC faculty, Trude Guermonprez",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "08:30 Ensemble"
+   ]
+  },
+  {
+   "nom": "Edward \"Eddy\" Lowinsky",
+   "noms_dans_les_sources": [
+    "Edward Lowinsky",
+    "Edward \"Eddy\" Lowinsky"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "intervalle de présence de la fiche : 1942-07-05 → 1947-06-14"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty",
+   "domaine": "Music",
+   "naissance": "1908-01-12",
+   "origine": "Stutgart, Germany → Chicago, IL",
+   "age": 36,
+   "fiche": "https://bmcyearbook.org/bio/edward-lowinsky",
+   "relations": "Wife: Fellow BMC faculty, Gretel Lowinsky",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "17:00 Rhythm and Melody (practice in improvisation)"
+   ]
+  },
+  {
+   "nom": "Herbert Miller",
+   "noms_dans_les_sources": [
+    "Herbert A. Miller",
+    "Herbert Miller"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "intervalle de présence de la fiche : 1943-01-04 → 1947-09-17"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty",
+   "domaine": "Social Sciences",
+   "naissance": "1875-06-05",
+   "origine": "Tuftonboro, NH → Asheville, NC",
+   "age": 69,
+   "fiche": "https://bmcyearbook.org/bio/herbert-miller",
+   "relations": "",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "11:30 Contemporary Problems"
+   ]
+  },
+  {
+   "nom": "Theodore \"Ted\" Dreier",
+   "noms_dans_les_sources": [
+    "Ted Dreier",
+    "Theodore \"Ted\" Dreier"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (2 fois)",
+    "intervalle de présence de la fiche : 1933-09-25 → 1949-06-15"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty/ Administrator",
+   "domaine": "Physical Sciences/ Math",
+   "naissance": "",
+   "origine": "Brooklyn, NY → Fairfield, IA",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/theodore-dreier",
+   "relations": "Wife: Barbara Dreier; Child: Freddie Dreier; Child: BMC student, Theodore Dreier, Jr.; Child: Edward Dreier; Child: Mark Dreier",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "08:30 Calculus"
+   ]
+  },
+  {
+   "nom": "Robert \"Bob\" Wunsch",
+   "noms_dans_les_sources": [
+    "Bob Wunsch",
+    "Robert \"Bob\" Wunsch"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "intervalle de présence de la fiche : 1933-09-25 → 1945-06-01"
+   ],
+   "pct_presence": 0,
+   "role": "Faculty/ Administrator",
+   "domaine": "Performance Art",
+   "naissance": "1896-10-19",
+   "origine": "",
+   "age": 48,
+   "fiche": "https://bmcyearbook.org/bio/robert-wunsch",
+   "relations": "",
+   "travail": [],
+   "enseigne_ce_jour": [
+    "10:30 Roman Drama and Production"
+   ]
+  },
+  {
+   "nom": "George Zabriske",
+   "noms_dans_les_sources": [
+    "George Zabriskie",
+    "George Zabriske"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 0,
+   "role": "Guest Faculty",
+   "domaine": "English/ Writing",
+   "naissance": "1918-06-27",
+   "origine": "Belleville, NJ",
+   "age": 26,
+   "fiche": "https://bmcyearbook.org/bio/george-zabriske",
+   "relations": "",
+   "travail": [
+    "Pompiers du collège : chef George Zabriskie, technicien en chef Fritz Hansgirg ; exercices d'incendie avec sirène ; ne pas jeter de mégots par les fenêtres sur l'herbe sèche."
+   ],
+   "enseigne_ce_jour": [
+    "16:30 Elements of Verse Writing"
+   ]
+  },
+  {
+   "nom": "Sue Burton",
+   "noms_dans_les_sources": [
+    "Sue Burton",
+    "Sue Kay Burton"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "logement de la rentrée (30 septembre) : North Lodge, Room 4",
+    "logement de la rentrée (30 septembre) : study n° 27",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 0,
+   "logement": "North Lodge, Room 4 ; study n° 27",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1926-04-17",
+   "origine": "New York, NY",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/sue-burton",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Joan Keiser",
+   "noms_dans_les_sources": [
+    "Joan Keiser"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 0,
+   "logement": "North Lodge, North Attic",
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1926-05-12",
+   "origine": "Danville, PA",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/joan-keiser",
+   "relations": "Advisor: Edward Lowinsky",
+   "travail": []
+  },
+  {
+   "nom": "Elizabeth \"Betty\" Kelley",
+   "noms_dans_les_sources": [
+    "Betty Kelley",
+    "Elizabeth \"Betty\" Kelley"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (1 fois)",
+    "logement de la rentrée (30 septembre) : North Lodge, Room 3",
+    "intervalle de présence de la fiche : 1940-09-09 → 1945-04-24"
+   ],
+   "pct_presence": 0,
+   "logement": "North Lodge, Room 3",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1923-07-09",
+   "origine": "Monroe, LA",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/elizabeth-kelley",
+   "relations": "Uncle: BMC faculty, Robert Wunsch; Husband: Fellow BMC student, Homer Boblin",
+   "travail": []
+  },
+  {
+   "nom": "Richard \"Dick\" Albany",
+   "noms_dans_les_sources": [
+    "Richard Albany",
+    "Richard \"Dick\" Albany"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, North Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-07-27 → 1945-12-14"
+   ],
+   "pct_presence": 5,
+   "logement": "South Lodge, North Attic",
+   "cours_suivis": [
+    "Drawing (Albers)",
+    "Painting (Albers)",
+    "German (Straus)",
+    "Contemporary Problems (Miller)"
+   ],
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1927-01-14",
+   "origine": "Cincinnati, OH → Dade, FL",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/richard-albany",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Nancy Albee",
+   "noms_dans_les_sources": [
+    "Nancy Albee"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-01-18 → 1944-12-15"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, South Attic",
+   "cours_suivis": [
+    "Culture of the Renaissance (Lowinsky)",
+    "William Blake andRomantic Period in England (Kazin)",
+    "Herman Melville: Introduction to AmericanWriting (Kazin)",
+    "Patterns of Psychology & Aesthetics (Zabriskie)",
+    "French-Beginning (Hansgirg)",
+    "Elements of Form and Structure of Music (Jalowetz)"
+   ],
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1923-01-21",
+   "origine": "Ossinning, NY",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/nancy-albee",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Marilyn \"Widget\" Bauer",
+   "noms_dans_les_sources": [
+    "Marilyn Bauer",
+    "Marilyn \"Widget\" Bauer"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 7",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1941-09-22 → 1945-06-18"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, Room 7",
+   "cours_suivis": [
+    "Advanced Weaving-Tutorial (Albers)",
+    "Painting (Albers)",
+    "Chorus (Jalowetz)"
+   ],
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1924-02-26",
+   "origine": "Cleveland, OH → Cleveland, OH",
+   "age": 20,
+   "fiche": "https://bmcyearbook.org/bio/marilyn-bauer",
+   "relations": "Examiner: Marli Ehrman, Head of Textile Department at the Chicago School of Design; Examiner: Vaclav Vytacil, Head of the Art Department at Queens College; Dated fellow student, Roman Maciejczyk while at college",
+   "travail": []
+  },
+  {
+   "nom": "Peggy Bennett",
+   "noms_dans_les_sources": [
+    "Peggy Bennett"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 8",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, Room 8",
+   "cours_suivis": [
+    "Matter and Energy (Hansgirg)",
+    "William Blake & Romantic Period of England (Kazin)",
+    "Herman Melville: Introduction to American Writing (Kazin)",
+    "Introductory Drama (Wunsch)"
+   ],
+   "role": "Student",
+   "domaine": "English/ Writing",
+   "naissance": "1925-03-02",
+   "origine": "Hendersonville, NC",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/peggy-bennett",
+   "relations": "",
+   "travail": [
+    "Corvées de Peggy Bennett en 1944-45 : salle à manger et ferme."
+   ]
+  },
+  {
+   "nom": "Jagna Braunthal",
+   "noms_dans_les_sources": [
+    "Jagna Braunthal"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-25 → 1945-06-18"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, North Attic",
+   "cours_suivis": [
+    "Matter and Energy (F Hansgirg)",
+    "Violin Lessons (T Straus)",
+    "Calculus (T Dreier)",
+    "Herman Melville: Introduction to American Writing (A Kazin)"
+   ],
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1927-06-21",
+   "origine": "Cera, Germany → Mansfield, CT",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/jagna-braunthal",
+   "relations": "",
+   "travail": [
+    "Traite du matin : Jagna Braunthal, cheffe de la traite, marche dix minutes jusqu'à la ferme pour traire les vaches (à cinq heures du matin et à cinq heures du soir).",
+    "Traite du soir (Jagna Braunthal)."
+   ]
+  },
+  {
+   "nom": "Dorothy Carr",
+   "noms_dans_les_sources": [
+    "Dorothy Carr"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1946-03-29"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, South Attic",
+   "cours_suivis": [
+    "Ensemble (Jalowetz)",
+    "Piano Lessons (Lowinsky)",
+    "Elements of Form and Structure in Music (Jalowetz)",
+    "Rhythm and Melody (Lowinsky)",
+    "Chorus (Jalowetz)",
+    "Weaving-introductory (A Albers, M Bauer)",
+    "Herman Melville: Introduction to American Writing (Kazin)"
+   ],
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1926-07-27",
+   "origine": "Boston, MA",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/dorothy-carr",
+   "relations": "Advisor: Heinrich Jalowetz; Sister: Fellow BMC student, Cynthia Carr; Sister: Fellow BMC student, Sheila Carr",
+   "travail": []
+  },
+  {
+   "nom": "Norma Cormany",
+   "noms_dans_les_sources": [
+    "Jeane Cormany",
+    "Norma Cormany"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 5",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, Room 5",
+   "cours_suivis": [
+    "Herman Melville: Introduction to American Writing (AKazin)",
+    "Elements of Verse Writing (G Zabriskie)",
+    "Introductory French (MHansgirg)",
+    "Culture of the Renaissance (E Lowinsky)",
+    "Chorus (H Jalowetz)"
+   ],
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/norma-cormany",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Joan Couch",
+   "noms_dans_les_sources": [
+    "Joan Couch"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 7",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1948-06-16"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, Room 7",
+   "cours_suivis": [
+    "Drawing (Albers)",
+    "Chorus (Jalowetz)",
+    "Melville (Introduction to American Writing) (Kazin)",
+    "Contemporary Problems (Miller)",
+    "Culture of the Renaissance (Lowinsky)"
+   ],
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1928-07-08",
+   "origine": "Henrico, VA → Taos, NM",
+   "age": 16,
+   "fiche": "https://bmcyearbook.org/bio/joan-couch-loveless",
+   "relations": "Husband: Fellow BMC student, Oli Sihvonen",
+   "travail": []
+  },
+  {
+   "nom": "Curtiss Cowan",
+   "noms_dans_les_sources": [
+    "Curtiss Cowan"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, North Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 5,
+   "logement": "South Lodge, North Attic",
+   "cours_suivis": [
+    "Dramatic Production (Wunsch)",
+    "Small House Design (Wood)",
+    "Painting (Albers)",
+    "Introductory Weaving (Mauer)",
+    "Elements of VerseWriting (Zabriskie)",
+    "Contemporary Problems (Miller)"
+   ],
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1924-05-05",
+   "origine": "Portersville, CA",
+   "age": 20,
+   "fiche": "https://bmcyearbook.org/bio/curtis-cowan",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Marvin Daniels",
+   "noms_dans_les_sources": [
+    "Marvin Daniels"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, South Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-01 → 1945-05-31"
+   ],
+   "pct_presence": 5,
+   "logement": "South Lodge, South Attic",
+   "cours_suivis": [
+    "William Blake and the Romantic Period in England (Kazin)",
+    "Herman Melville: Introduction to American Writing (Kazin)",
+    "Contemporary Problems (H A Miller)",
+    "Introductory Drama (Wunsch)"
+   ],
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1927-07-11",
+   "origine": "New York City, NY → Fort Lauderdale, FL",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/marvin-daniels",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Roxane \"Roxie\" Dinkowitz",
+   "noms_dans_les_sources": [
+    "Roxane Dinkowitz",
+    "Roxane \"Roxie\" Dinkowitz"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1943-07-05 → 1946-03-29"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, North Attic",
+   "cours_suivis": [
+    "Matter and Energy (Hansgirg)",
+    "Form and Structure in Music (Jalowetz)",
+    "Roman Drama and Production (Wunsch)",
+    "Piano Lessons (Jalowetz)"
+   ],
+   "role": "Student",
+   "domaine": "Physical Sciences/ Math",
+   "naissance": "1925-07-19",
+   "origine": "New York, NY → Atlanta, GA",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/roxane-dinkowitz",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Charles \"Chuck\" Forberg",
+   "noms_dans_les_sources": [
+    "Charles Forberg",
+    "Charles \"Chuck\" Forberg"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, South Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1940-09-09 → 1945-02-02"
+   ],
+   "pct_presence": 5,
+   "logement": "South Lodge, South Attic",
+   "cours_suivis": [
+    "Matter and Energy (F Hansgirg)",
+    "Patterns of Psychology and Aesthetics (Zabriskie)"
+   ],
+   "role": "Student",
+   "domaine": "Architecture",
+   "naissance": "1919-08-23",
+   "origine": "Minneapolis, MN → New York, NY",
+   "age": 25,
+   "fiche": "https://bmcyearbook.org/bio/charles-forberg",
+   "relations": "Wife: Fellow BMC student, Ati Gropius",
+   "travail": []
+  },
+  {
+   "nom": "Janet Goldsmith",
+   "noms_dans_les_sources": [
+    "Janet Goldsmith"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 5",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1946-06-19"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, Room 5",
+   "cours_suivis": [
+    "Drawing (Albers)",
+    "Small House Design (Wood)",
+    "Culture of the Renaissance (Lowinsky)",
+    "Contemporary Problems (Miller)"
+   ],
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1926-03-26",
+   "origine": "Duval, FL",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/janet-goldsmith",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Beate \"Ati\" Gropius",
+   "noms_dans_les_sources": [
+    "Ati Gropius",
+    "Beate \"Ati\" Gropius"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 2",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1943-07-05 → 1946-08-29"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, Room 2",
+   "cours_suivis": [
+    "Painting (Albers)",
+    "Introductory Weaving (Bauer)",
+    "Drama Production (Wunsch)",
+    "Chorus (Jalowetz)",
+    "Melville (Kazin)"
+   ],
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1925-12-19",
+   "origine": "Wiesbaden, Germany → Wellfleet, MA",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/beate-gropius",
+   "relations": "Father: Walter Gropius",
+   "travail": [
+    "Ati Gropius recueille les bidons de lait frais (cinq gallons), les reverse dans de petits bidons : office pour le petit-déjeuner, cuisine, réfrigérateur pour les familles.",
+    "Ati Gropius répète l'opération du lait et écrème pour la crème et le beurre (environ 15 livres de beurre par semaine depuis la décision de l'assemblée)."
+   ]
+  },
+  {
+   "nom": "Janet \"Jan\" Heling",
+   "noms_dans_les_sources": [
+    "Janet Heling",
+    "Janet \"Jan\" Heling"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1943-09-27 → 1947-06-14"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, North Attic",
+   "cours_suivis": [
+    "Introductory Drama (Wunsch)",
+    "Herman Melville: Introduction to American Writing (Kazin)",
+    "Contemporary Problems (Miller)",
+    "Voice (J Jalowetz)",
+    "Chorus (H Jalowetz)",
+    "Woodworking (Gregory)"
+   ],
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1925-05-20",
+   "origine": "Lindenhurst, NY → Missoula, MT",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/janet-heling",
+   "relations": "Husband: Fellow BMC Student Richard Roberts, October 3, 1947",
+   "travail": [
+    "Chef d'équipe de la ferme : Janet Heling (sous-coordinatrice) ; maintenance : Chuck Forberg."
+   ]
+  },
+  {
+   "nom": "Samuel \"Sam\" Brown, Jr.",
+   "noms_dans_les_sources": [
+    "Samuel \"Sam\" Brown, Jr."
+   ],
+   "presence": [
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1941-09-22 → 1945-09-11"
+   ],
+   "pct_presence": 5,
+   "cours_suivis": [
+    "Vocal Music (Song and Opera) from Shubert to Wagnerwith Jalowetz ()",
+    "Counterpoint (tutorial) (Jalowetz)",
+    "Chorus (Jalowetz)"
+   ],
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1918-01-11",
+   "origine": "Boston, MA",
+   "age": 26,
+   "fiche": "https://bmcyearbook.org/bio/samuel-brown-jr",
+   "relations": "Wife: Fellow BMC student, Dorothy Breeskin",
+   "travail": []
+  },
+  {
+   "nom": "Anna Lockwood",
+   "noms_dans_les_sources": [
+    "Anna Lockwood"
+   ],
+   "presence": [
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-01 → 1946-04-30"
+   ],
+   "pct_presence": 5,
+   "cours_suivis": [
+    "Introductory Weaving (Bauer)",
+    "Ensemble (Jalowetz)",
+    "Elements of Form and Structure in Music (Jalowetz)",
+    "Herman Melville: An Introduction to American Writing (Kazin)"
+   ],
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1923-05-19",
+   "origine": "Chicago, IL → New York City, NY",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/anna-lockwood",
+   "relations": "Husband: Fellow BMC student, Richard Lockwood; Sister: Fellow BMC student, Sue Schauffler; Brother: Fellow BMC student, David Craig Schauffler",
+   "travail": []
+  },
+  {
+   "nom": "Janet \"Aley\" Ramsey",
+   "noms_dans_les_sources": [
+    "Janet Ramsey",
+    "Janet \"Aley\" Ramsey"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1946-12-15"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, South Attic",
+   "cours_suivis": [
+    "Introductory drama (Wunsch)",
+    "Drawing (J Albers)",
+    "Chorus (Jalowetz)",
+    "Elements of verse writing (G Zabriskie)",
+    "Herman Melville: Introduction to American writing (A Kazin)",
+    "Contemporary problems (H AMiller)"
+   ],
+   "role": "Student",
+   "domaine": "English/ Writing",
+   "naissance": "1926-05-19",
+   "origine": "Bridgeport, CT",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/janet-ramsey",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Eleanore \"Elly\" Smith",
+   "noms_dans_les_sources": [
+    "Eleanor Smith",
+    "Eleanore \"Elly\" Smith"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "cours suivis à l'automne 1944 (BMC Yearbook)",
+    "intervalle de présence de la fiche : 1944-09-30 → 1946-06-19"
+   ],
+   "pct_presence": 5,
+   "logement": "North Lodge, South Attic",
+   "cours_suivis": [
+    "Chorus ()",
+    "Contemporary Problems ()",
+    "Elements of Form and Structure in Music ()",
+    "Herman Melville: Intro to American Writing ()",
+    "Introductory Drama ()",
+    "William Blake and the Romantic Period in England ()"
+   ],
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1925-01-17",
+   "origine": "Bay City, MI",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/eleanore-smith",
+   "relations": "Husband: Fellow BMC student, Fernando Leon",
+   "travail": []
+  },
+  {
+   "nom": "Anna Schauffler",
+   "noms_dans_les_sources": [
+    "Anna Schauffler"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 7"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 7",
+   "role": "",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "William McLaughlin",
+   "noms_dans_les_sources": [
+    "William McLaughlin",
+    "Bill McLaughlin"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, South Attic",
+    "logement de la rentrée (30 septembre) : study n° 107"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, South Attic ; study n° 107",
+   "role": "Faculty",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/william-mclaughlin",
+   "relations": "",
+   "travail": [
+    "Programme de travail organisé en équipes avec un coordinateur : cuisine (Jane Stone), transport et charbon (Egbert Swackhamer), ménage (Ann MacKinnon), chaudières (Chuck Forberg), bureau (Betty Osbourne) ; coordinateur étudiant : Bill McLaughlin ; coordinatrice de la faculté : Molly Gregory."
+   ]
+  },
+  {
+   "nom": "Elizabeth \"Betty\" Schmitt",
+   "noms_dans_les_sources": [
+    "Elizabeth Schmitt",
+    "Elizabeth \"Betty\" Schmitt"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 6",
+    "intervalle de présence de la fiche : 1944-07-17 → 1951-08-24"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 6",
+   "role": "Faculty/ Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1923-06-11",
+   "origine": "Milwaukee, WI → Oak Creek, AZ",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/elizabeth-schmitt-jennerjahn",
+   "relations": "Husband: Fellow BMC student, Warren Jennerjahn; Sister: Elaine Schmitt; Brother: Victor Schmitt; Brother: Rupert Schmitt",
+   "travail": []
+  },
+  {
+   "nom": "Elizabeth \"Slats\" Slater",
+   "noms_dans_les_sources": [
+    "Jane Slater",
+    "Elizabeth \"Slats\" Slater"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 8",
+    "intervalle de présence de la fiche : 1940-09-09 → 1951-08-24"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 8",
+   "role": "Faculty/ Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1922-11-23",
+   "origine": "Ogden, UT → Claremont, CA",
+   "age": 22,
+   "fiche": "https://bmcyearbook.org/bio/elizabeth-slater-marquis",
+   "relations": "Husband: Fellow BMC student, Lucian Charles Marquis; A full list of semester involvement are as follows,; 1944 Summer Art Institute, 1944-45 winter and spring quarters, 1948 summer session, 1948-1949, 1949 Summer Institute. She was a student teacher in dance 1948-49 and a tutor in dance for the summer of 1949. She was faculty in dance 1949-1950, resident faculty (not teaching) summer 1950, faculty 1950-51, and resident faculty 1951 summer.",
+   "travail": []
+  },
+  {
+   "nom": "Richard \"Dick\" Bush-Brown",
+   "noms_dans_les_sources": [
+    "Richard Bush-Brown",
+    "Dick Bush-Brown",
+    "Richard \"Dick\" Bush-Brown"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, North Attic",
+    "logement de la rentrée (30 septembre) : study n° 22",
+    "intervalle de présence de la fiche : 1943-01-18 → 1945-06-18"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, North Attic ; study n° 22",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1925-08-14",
+   "origine": "Boston, MA",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/richard-bush-brown",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Judith \"Judy\" Chernoff",
+   "noms_dans_les_sources": [
+    "Judith Chernoff",
+    "Judith \"Judy\" Chernoff"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "intervalle de présence de la fiche : 1944-09-29 → 1946-06-19"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, North Attic",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1927-01-14",
+   "origine": "Boston, MA → Durham, NC",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/judith-chernoff",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Layton Noel, Jr.",
+   "noms_dans_les_sources": [
+    "Layton Noel",
+    "Layton Noel, Jr."
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, North Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, North Attic",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/layton-noel-jr",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Ann MacKinnon",
+   "noms_dans_les_sources": [
+    "Ann MacKinnon",
+    "Ann McKinnon"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 2",
+    "logement de la rentrée (30 septembre) : study n° 110",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 2 ; study n° 110",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1925-12-18",
+   "origine": "Toronto, Canada → Maine",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/ann-mackinnon",
+   "relations": "",
+   "travail": [
+    "Programme de travail organisé en équipes avec un coordinateur : cuisine (Jane Stone), transport et charbon (Egbert Swackhamer), ménage (Ann MacKinnon), chaudières (Chuck Forberg), bureau (Betty Osbourne) ; coordinateur étudiant : Bill McLaughlin ; coordinatrice de la faculté : Molly Gregory.",
+    "Après-midi du programme de travail (lundi) : ferme (équipe du lundi : Betty Schmitt et Eddy Woldin), charbon et bois (Egbert Swackhamer), chaudières (Chuck Forberg), ménage (Ann MacKinnon), cuisine et plonge."
+   ]
+  },
+  {
+   "nom": "Alice  McCanna",
+   "noms_dans_les_sources": [
+    "Alice McCanna",
+    "Alice  McCanna"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : study n° 124",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 10,
+   "logement": "study n° 124",
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1927-11-05",
+   "origine": "Oak Park, IL → Mexico",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/alice-mccanna",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Elizabeth \"Betty\" Osbourne",
+   "noms_dans_les_sources": [
+    "Elizabeth Osbourne",
+    "Elizabeth \"Betty\" Osbourne"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 8",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 8",
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1923-02-26",
+   "origine": "New York City, NY → Dade, FL",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/elizabeth-osbourne",
+   "relations": "Sister: Fellow BMC student, Ginger Osbourne",
+   "travail": []
+  },
+  {
+   "nom": "Max Paul",
+   "noms_dans_les_sources": [
+    "Max Paul"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, South Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, South Attic",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/max-paul",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Lorna Pearson",
+   "noms_dans_les_sources": [
+    "Lorna Pearson"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 6",
+    "intervalle de présence de la fiche : 1944-09-30 → 1946-06-19"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 6",
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/lorna-pearson",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Janet Rees",
+   "noms_dans_les_sources": [
+    "Janet Rees"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 1",
+    "intervalle de présence de la fiche : 1943-11-10 → 1946-06-19"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 1",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/janet-rees",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Katharine Schauffler",
+   "noms_dans_les_sources": [
+    "Katharine Schauffler"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 2",
+    "intervalle de présence de la fiche : 1944-09-30 → 1948-06-16"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 2",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/katharine-schauffler",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Harold Schuyler",
+   "noms_dans_les_sources": [
+    "Harold Schuyler"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, South Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, South Attic",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1923-02-14",
+   "origine": "Charlottesville, VA → New York, NY",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/harold-schuyler",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Nancy Smith",
+   "noms_dans_les_sources": [
+    "Nancy Smith"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "intervalle de présence de la fiche : 1944-07-17 → 1945-09-11"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, South Attic",
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1923-02-18",
+   "origine": "",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/nancy-smith",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Harriett Sones",
+   "noms_dans_les_sources": [
+    "Harriett Sones"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, North Attic",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/harriett-sones",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Egbert \"E.W.\" Swackhamer",
+   "noms_dans_les_sources": [
+    "Egbert Swackhamer",
+    "Egbert \"E.W.\" Swackhamer"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, North Attic",
+    "intervalle de présence de la fiche : 1943-09-27 → 1948-08-25"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, North Attic",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1927-01-17",
+   "origine": "Middletown Township, NJ → Berlin, Germany",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/egbert-swackhamer",
+   "relations": "Brother: Fellow BMC student, John Meredith Swackhamer",
+   "travail": [
+    "Programme de travail organisé en équipes avec un coordinateur : cuisine (Jane Stone), transport et charbon (Egbert Swackhamer), ménage (Ann MacKinnon), chaudières (Chuck Forberg), bureau (Betty Osbourne) ; coordinateur étudiant : Bill McLaughlin ; coordinatrice de la faculté : Molly Gregory.",
+    "Chaudières : trop chaud ou trop froid → Chuck Forberg ; bois ou charbon bas → Egbert Swackhamer, trois jours à l'avance ; chaudière en panne → Bas Allen ; ampoules et fusibles chez Annette Stone, Bas Allen ou Mac Wood ; travaux non courants planifiés par Molly Gregory.",
+    "Après-midi du programme de travail (lundi) : ferme (équipe du lundi : Betty Schmitt et Eddy Woldin), charbon et bois (Egbert Swackhamer), chaudières (Chuck Forberg), ménage (Ann MacKinnon), cuisine et plonge."
+   ]
+  },
+  {
+   "nom": "Lucy Swift",
+   "noms_dans_les_sources": [
+    "Lucy Swift"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1948-08-28"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, South Attic",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1926-08-24",
+   "origine": "New York, NY → Cornwall, NY",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/lucy-swift",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Suzanne \"Susie\" Teasdale",
+   "noms_dans_les_sources": [
+    "Suzanne Teasdale",
+    "Suzanne \"Susie\" Teasdale"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 4",
+    "intervalle de présence de la fiche : 1944-07-17 → 1946-06-19"
+   ],
+   "pct_presence": 10,
+   "logement": "North Lodge, Room 4",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/suzanne-teasdale",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Edwin \"Eddie\" Woldin",
+   "noms_dans_les_sources": [
+    "Edwin Woldin",
+    "Edwin \"Eddie\" Woldin"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : South Lodge, North Attic",
+    "intervalle de présence de la fiche : 1944-09-30 → 1946-08-29"
+   ],
+   "pct_presence": 10,
+   "logement": "South Lodge, North Attic",
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1935-05-30",
+   "origine": "Somerville, NJ → Manhattan, NY",
+   "age": "9 (date de naissance douteuse : 1935-05-30)",
+   "fiche": "https://bmcyearbook.org/bio/edwin-woldin",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Arthur Adams",
+   "noms_dans_les_sources": [
+    "Arthur Adams"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1934-09-06 → 1947-08-23"
+   ],
+   "pct_presence": 30,
+   "role": "Administrator",
+   "domaine": "Physical Sciences/ Math",
+   "naissance": "1896-07-01",
+   "origine": "Winchester, MA → Concord, NH",
+   "age": 48,
+   "fiche": "https://bmcyearbook.org/bio/arthur-adams",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Mary Gregory",
+   "noms_dans_les_sources": [
+    "Mary Gregory"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1941-09-22 → 1947-08-23"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "",
+   "origine": "Woodmere, NY",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/mary-gregory",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Tasker Howard, Jr.",
+   "noms_dans_les_sources": [
+    "Tasker Howard, Jr."
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1936-09-07 → 1948-06-16"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty",
+   "domaine": "Social Sciences",
+   "naissance": "1913-01-15",
+   "origine": "Brooklyn, NY",
+   "age": 31,
+   "fiche": "https://bmcyearbook.org/bio/tasker-howard-jr",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Gretel Lowinsky",
+   "noms_dans_les_sources": [
+    "Gretel Lowinsky"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1942-07-05 → 1947-06-14"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty",
+   "domaine": "Music",
+   "naissance": "1920-08-15",
+   "origine": "Kassel, Germany → Indianapolis, IN",
+   "age": 24,
+   "fiche": "https://bmcyearbook.org/bio/gretel-lowinsky",
+   "relations": "Husband: Fellow BMC faculty, Edward Lowinsky",
+   "travail": []
+  },
+  {
+   "nom": "Nathan Rosen",
+   "noms_dans_les_sources": [
+    "Nathan Rosen"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1940-09-09 → 1950-06-14"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty",
+   "domaine": "Physical Sciences/ Math",
+   "naissance": "1909-03-22",
+   "origine": "New York, NY → Haifa, Israel",
+   "age": 35,
+   "fiche": "https://bmcyearbook.org/bio/nathan-rosen",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Josef Albers",
+   "noms_dans_les_sources": [
+    "Josef Albers"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1933-09-25 → 1949-06-15"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty/ Administrator",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1888-03-19",
+   "origine": "Bottrop, Germany → New Haven, CT",
+   "age": 56,
+   "fiche": "https://bmcyearbook.org/bio/josef-albers",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Walter Gropius",
+   "noms_dans_les_sources": [
+    "Walter Gropius"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1940-09-09 → 1949-06-15"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty/ Administrator",
+   "domaine": "Architecture",
+   "naissance": "1883-05-18",
+   "origine": "Berlin, Germany → Boston, MA",
+   "age": 61,
+   "fiche": "https://bmcyearbook.org/bio/walter-gropius",
+   "relations": "Daughter: BMC student, Ati Gropius",
+   "travail": []
+  },
+  {
+   "nom": "Gertrude \"Trudi\" Straus",
+   "noms_dans_les_sources": [
+    "Gertrude \"Trudi\" Straus"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1938-09-12 → 1946-08-29"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty/ Family",
+   "domaine": "Music",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/gertrude-straus",
+   "relations": "Husband: Fellow BMC Faculty, Erwin Straus",
+   "travail": []
+  },
+  {
+   "nom": "William \"Bill\" Reed",
+   "noms_dans_les_sources": [
+    "William \"Bill\" Reed"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1936-09-07 → 1946-08-29"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty/ Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1917-02-05",
+   "origine": "New York, NY",
+   "age": 27,
+   "fiche": "https://bmcyearbook.org/bio/alexander-reed",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Frank Rice",
+   "noms_dans_les_sources": [
+    "Frank Rice"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1933-09-25 → 1949-06-15"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty/ Student/ Family",
+   "domaine": "Languages/ Linguistics",
+   "naissance": "1917-04-01",
+   "origine": "Chicago, IL → Princeton, NJ",
+   "age": 27,
+   "fiche": "https://bmcyearbook.org/bio/frank-rice",
+   "relations": "Parent: Nell Rice; Parent: John Andrew Rice; Sister: Mary Aydelotte Rice",
+   "travail": []
+  },
+  {
+   "nom": "Hazel Larsen",
+   "noms_dans_les_sources": [
+    "Hazel Larsen"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1953-06-06"
+   ],
+   "pct_presence": 30,
+   "role": "Faculty/ Student/ Staff",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1921-04-23",
+   "origine": "Milwaukee, WI → Tucson, AZ",
+   "age": 23,
+   "fiche": "https://bmcyearbook.org/bio/hazel-larsen-archer",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Barbara \"Bobbie\" Dreier",
+   "noms_dans_les_sources": [
+    "Barbara \"Bobbie\" Dreier"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1933-09-25 → 1949-06-14"
+   ],
+   "pct_presence": 30,
+   "role": "Family/ Administrator",
+   "domaine": "",
+   "naissance": "1907-02-18",
+   "origine": "New York, NY → Fairfield, IA",
+   "age": 37,
+   "fiche": "https://bmcyearbook.org/bio/barbara-dreier",
+   "relations": "Husband: BMC faculty, Theodore Dreier; Child: BMC student, Theodore Dreier, Jr.; Child: Edward Dreier; Child: Mark Dreier; Child: Freddie Dreier",
+   "travail": []
+  },
+  {
+   "nom": "Berta Rudofsky",
+   "noms_dans_les_sources": [
+    "Berta Rudofsky"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1945-09-11"
+   ],
+   "pct_presence": 30,
+   "role": "Guest Faculty",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/berta-rudofsky",
+   "relations": "Husband: Fellow BMC faculty, Bernard Rudofsky",
+   "travail": []
+  },
+  {
+   "nom": "Bernard Rudofsky",
+   "noms_dans_les_sources": [
+    "Bernard Rudofsky"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1945-09-11"
+   ],
+   "pct_presence": 30,
+   "role": "Guest Faculty",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1905-04-19",
+   "origine": "Suchdol nad Odrou, Czechia → New York, NY",
+   "age": 39,
+   "fiche": "https://bmcyearbook.org/bio/bernard-rudofsky",
+   "relations": "Wife: Fellow BMC guest faculty, Berta Rudofsky",
+   "travail": []
+  },
+  {
+   "nom": "Bascombe \"Bas\" Allen",
+   "noms_dans_les_sources": [
+    "Bascombe \"Bas\" Allen"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1933-09-25 → 1946-08-24"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "1887-10-05",
+   "origine": "Yancey, NC → Asheville, NC",
+   "age": 57,
+   "fiche": "https://bmcyearbook.org/bio/bascombe-allen",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Malrey Few",
+   "noms_dans_les_sources": [
+    "Malrey Few"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1954-08-09"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/malrey-few",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Kathleen Gardner",
+   "noms_dans_les_sources": [
+    "Kathleen Gardner"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/kathleen-gardner",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Willie Gardner",
+   "noms_dans_les_sources": [
+    "Willie Gardner"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/willie-gardner",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Nathaniel \"Nat\" Lytle",
+   "noms_dans_les_sources": [
+    "Nathaniel \"Nat\" Lytle"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1933-09-25 → 1946-06-19"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/nathaniel-lytle",
+   "relations": "Fellow BMC staff, Gertrude Lytle and Jessie Lytle",
+   "travail": []
+  },
+  {
+   "nom": "Roscoe \"Ross\" Penley",
+   "noms_dans_les_sources": [
+    "Roscoe \"Ross\" Penley"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1940-09-09 → 1946-12-13"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "1903-08-11",
+   "origine": "Asheville, NC → Asheville, NC",
+   "age": 41,
+   "fiche": "https://bmcyearbook.org/bio/roscoe-penley",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Maude Roundtree",
+   "noms_dans_les_sources": [
+    "Maude Roundtree"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-03 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/maude-roundtree",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Will Smith",
+   "noms_dans_les_sources": [
+    "Will Smith"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/will-smith",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Annette \"A.D.\" Dabney Stone",
+   "noms_dans_les_sources": [
+    "Annette \"A.D.\" Dabney Stone"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1946-06-19"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/annette-dabney-stone",
+   "relations": "",
+   "travail": [
+    "Chaudières : trop chaud ou trop froid → Chuck Forberg ; bois ou charbon bas → Egbert Swackhamer, trois jours à l'avance ; chaudière en panne → Bas Allen ; ampoules et fusibles chez Annette Stone, Bas Allen ou Mac Wood ; travaux non courants planifiés par Molly Gregory.",
+    "Linge : une fois par semaine, un drap, une taie, une serviette par étudiant lavés aux frais du collège ; draps et serviettes à déposer à la buanderie sous la véranda de South Lodge, selon l'horaire affiché par Mrs Annette Stone."
+   ]
+  },
+  {
+   "nom": "George Williams",
+   "noms_dans_les_sources": [
+    "George Williams"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1951-06-13"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/george-williams",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Horace \"Mac\" Wood",
+   "noms_dans_les_sources": [
+    "Horace \"Mac\" Wood"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1942-09-28 → 1945-12-11"
+   ],
+   "pct_presence": 30,
+   "role": "Staff",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "",
+   "origine": "Rochester, NY → Fort Myers, FL",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/horace-wood",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Nell Rice",
+   "noms_dans_les_sources": [
+    "Nell Rice"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1933-09-25 → 1954-08-09"
+   ],
+   "pct_presence": 30,
+   "role": "Staff/ Family",
+   "domaine": "",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/nell-rice",
+   "relations": "Husband: John Andrews Rice; Child: Frank Rice; Child: Mary Rice",
+   "travail": [
+    "Bibliothèque (Mrs Nell Rice) : ouverte en permanence ; Mrs Rice reçoit le matin, de 9 h à 12 h (semaine de rentrée)."
+   ]
+  },
+  {
+   "nom": "Stuart \"Squeaky\" Atkinson",
+   "noms_dans_les_sources": [
+    "Stuart \"Squeaky\" Atkinson"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1935-11-10 → 1947-06-14"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1925-11-25",
+   "origine": "Crewe, VA",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/stuart-atkinson",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Vera Baker",
+   "noms_dans_les_sources": [
+    "Vera Baker"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-11-05 → 1949-08-31"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1927-01-28",
+   "origine": "Hollywood, CA → Narrowsburg, NY",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/vera-baker-williams",
+   "relations": "Advisor: Molly Gregory; Husband: Paul Francis Williams, Jr.; Examiner: Richard Lippold",
+   "travail": []
+  },
+  {
+   "nom": "Lili Balint",
+   "noms_dans_les_sources": [
+    "Lili Balint"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "",
+   "origine": "Budapest",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/lili-balint",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Thomas Brame",
+   "noms_dans_les_sources": [
+    "Thomas Brame"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1942-09-18 → 1947-01-08"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1928-03-12",
+   "origine": "Durham, NC",
+   "age": 16,
+   "fiche": "https://bmcyearbook.org/bio/thomas-brame",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Margaret Chandler",
+   "noms_dans_les_sources": [
+    "Margaret Chandler"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-09-11"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1905-11-12",
+   "origine": "Coffeyville, KS → Oklahoma City, OK",
+   "age": 39,
+   "fiche": "https://bmcyearbook.org/bio/margaret-chandler",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Margaret Cole",
+   "noms_dans_les_sources": [
+    "Margaret Cole"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1947-08-23"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1913-08-13",
+   "origine": "Chester, PA",
+   "age": 31,
+   "fiche": "https://bmcyearbook.org/bio/margaret-cole",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Mary Cullis",
+   "noms_dans_les_sources": [
+    "Mary Cullis"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1907-03-23",
+   "origine": "Pittsburgh, PA",
+   "age": 37,
+   "fiche": "https://bmcyearbook.org/bio/mary-cullis",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Hampton Duxbury",
+   "noms_dans_les_sources": [
+    "Hampton Duxbury"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1924-03-25",
+   "origine": "New Bedford, MA → Warwick, RI",
+   "age": 20,
+   "fiche": "https://bmcyearbook.org/bio/hampton-duxbury",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Irma Ehrman",
+   "noms_dans_les_sources": [
+    "Irma Ehrman"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-12-14"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "English/ Writing",
+   "naissance": "1922-09-03",
+   "origine": "Los Angeles, CA → Lavernia, TX",
+   "age": 22,
+   "fiche": "https://bmcyearbook.org/bio/irma-ehrman",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Jerome \"Jerry\" Flax",
+   "noms_dans_les_sources": [
+    "Jerome \"Jerry\" Flax"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1922-02-23",
+   "origine": "Bayonne, NJ → Carefree, AZ",
+   "age": 22,
+   "fiche": "https://bmcyearbook.org/bio/jerome-flax",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Francis \"Faf\" Foster",
+   "noms_dans_les_sources": [
+    "Francis \"Faf\" Foster"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1941-11-03 → 1948-06-16"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1920-06-16",
+   "origine": "Detroit Lakes, MN → Bozeman, MO",
+   "age": 24,
+   "fiche": "https://bmcyearbook.org/bio/francis-foster",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Lawrence \"Larry\" Fox",
+   "noms_dans_les_sources": [
+    "Lawrence \"Larry\" Fox"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-01-18 → 1947-02-08"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "1925-06-30",
+   "origine": "Bayonne, NJ → Dennis, MA",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/lawrence-fox",
+   "relations": "Dated fellow BMC student, Mirande Geissbuhler; Asheville Art Museum; Writings about Larry can be seen in digitized college bulletins on Asheville Art Museum's collection website: collection.ashevilleart.org. They can be found by searching these accession numbers:; 2017.40.133 November 15, 1943 bulletin,; \"Larry Fox writes from the United States Naval Construction Training Center at Camp Peary near Williamsburg, Virginia: “For the most part, my boot training is complete….. My training was indeed simple. I proved to be in good condition due to Eukinetics and the Work Program. My only sore spot was my right arm….. the arm they filled with typhoid, tetanus, and yellow fever….. Practically all the men in my barracks are older, married men of some special skill in construction work. My closest friends are an Indian from California and a witty Irishman from Boston; our threesome manages to keep laughing most of the time….. My acquaintance with those men greatly helped me in my adjustment to the place. I do feel completely adapted to the men and Seabee system….. I haven’t the least idea of what sort of advanced training I will receive. I am, however, pretty certain that I will not make V-12 because of my bad eyesight…If I am stationed anywhere near school, I will visit on my ten-day leave. This leave should be given me around the 16th. In spite of what they tell you, nothing is definite so I can’t be sure about this leave….My regards to the community…”\"; 2017.40.141 January 24, 1944 bulletin,; \"Larry Fox writes form Camp Endicott in Rhode Island: “At present I am in the replacement center awaiting battalion. I have no idea as to how long I shall be here. The length of a replacement stay varies from one week to one year. The Navy keeps me busy doing menial jobs but I have much more free time then when I was in a battalion….The Seabees do a regular weekly broadcast over a Providence hookup. Today I saw the man in charge and read script for him. He liked my work and seemed to think I might be able to be assigned to that department. It all depends on my being able to convince the Lieutenant at the head of the Welfare and Recreation Department that I deserve a transfer….The man just popped in here and informed me that I have a part in Tuesdays broadcast. The part is small, but at least I’m doing radio work and it will bring me to the attention of the Lieutenant.”\"; 2017.40.203 May 22, 1945 bulletin,; \"Larry Fox writes from the Mariannas on May 5: “Our outfit has been going like mad ever since we arrived here. We still work ten hours a day and put in six and a half days per week. I recently was removed from the cement gang of which I was a charter member. We did everything that can be done with bags of cement; unloaded trucks full of them, stacked them, then, after mixing the stuff, poured the cement. I haven’t been out here long enough to qualify as an old-timer, but I can imagine that there is nothing harder than handling cement the Navy way....Almost all of our factory is complete. This means that, as soon as we receive the necessary steel, we will begin to turn our pontoons. That may place me at the end of a welding torch; and, then again, it may not. There are still lots of jobs besides welding around here....This climate makes you kind of dopey after a while, especially when you have to spend all day in the sun, as most of us must. The nights are cool, however, and sleep comes easily....All things considered, our standard of living is high, what with hot showers, running water toilets, Quonset huts to live in, and a better-than-average commissary department....The Bulletins are still the best reading material in the Pacific....”\"",
+   "travail": []
+  },
+  {
+   "nom": "Miriam \"Mimi\" French",
+   "noms_dans_les_sources": [
+    "Miriam \"Mimi\" French"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1939-09-11 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1922-03-09",
+   "origine": "Nashua, NH → Melbourne, FL",
+   "age": 22,
+   "fiche": "https://bmcyearbook.org/bio/miriam-french",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Frances Goldman",
+   "noms_dans_les_sources": [
+    "Frances Goldman"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1939-09-11 → 1947-06-14"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1920-11-29",
+   "origine": "Brooklyn, NY",
+   "age": 24,
+   "fiche": "https://bmcyearbook.org/bio/frances-goldman",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Gerda Hagendorn",
+   "noms_dans_les_sources": [
+    "Gerda Hagendorn"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-03 → 1946-06-19"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Physical Sciences/ Math",
+   "naissance": "1919-10-10",
+   "origine": "Boston, MA",
+   "age": 25,
+   "fiche": "https://bmcyearbook.org/bio/gerda-hagendorn",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Anthony \"Tony\" Harrigan",
+   "noms_dans_les_sources": [
+    "Anthony \"Tony\" Harrigan"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-11-05 → 1945-06-18"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1925-10-27",
+   "origine": "New York, NY → Charlottesville, VA",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/anthony-harrigan",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "William \"Willie\" Joseph",
+   "noms_dans_les_sources": [
+    "William \"Willie\" Joseph"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1941-09-01 → 1951-05-31"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1919-02-02",
+   "origine": "Cincinnati, OH → Annville, PA",
+   "age": 25,
+   "fiche": "https://bmcyearbook.org/bio/william-joseph",
+   "relations": "Wife: Fellow BMC Student, Wilma Fuerstenberg",
+   "travail": []
+  },
+  {
+   "nom": "Henry \"Hal\" Adams, Jr.",
+   "noms_dans_les_sources": [
+    "Henry \"Hal\" Adams, Jr."
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1942-09-28 → 1947-06-14"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Social Sciences",
+   "naissance": "1925-08-26",
+   "origine": "Charlotte, NC → Washington, DC",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/henry-adams-jr",
+   "relations": "Cousin: John J Gifford.; Mother and father, \"HB\" were regular visitors",
+   "travail": []
+  },
+  {
+   "nom": "Florence Kawa",
+   "noms_dans_les_sources": [
+    "Florence Kawa"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1912-02-24",
+   "origine": "Weyerhauser, WS",
+   "age": 32,
+   "fiche": "https://bmcyearbook.org/bio/florence-kawa",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Ada Kopetz",
+   "noms_dans_les_sources": [
+    "Ada Kopetz"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1919-04-27",
+   "origine": "New York, NY",
+   "age": 25,
+   "fiche": "https://bmcyearbook.org/bio/ada-kopetz",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Mary Kriger",
+   "noms_dans_les_sources": [
+    "Mary Kriger"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1943-09-27 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1926-11-05",
+   "origine": "Los Angeles, CA",
+   "age": 18,
+   "fiche": "https://bmcyearbook.org/bio/mary-kriger",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Paula Lenchner",
+   "noms_dans_les_sources": [
+    "Paula Lenchner"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1925-03-30",
+   "origine": "Vienna, Austria → Saarbrücken, Germany",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/paula-lenchner",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Patricia \"Patsy\" Lynch",
+   "noms_dans_les_sources": [
+    "Patricia \"Patsy\" Lynch"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1941-06-22 → 1948-08-28"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "1923-06-13",
+   "origine": "Chicago, IL → Brighton, CO",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/patricia-lynch",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Monika Lányi-Mann",
+   "noms_dans_les_sources": [
+    "Monika Lányi-Mann"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1910-06-07",
+   "origine": "Munich, Germany → Leverkusen, Germany",
+   "age": 34,
+   "fiche": "https://bmcyearbook.org/bio/monika-lanyi-mann",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Ursula Mamlok",
+   "noms_dans_les_sources": [
+    "Ursula Mamlok"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1923-02-01",
+   "origine": "Berlin, Germany",
+   "age": 21,
+   "fiche": "https://bmcyearbook.org/bio/ursula-mamlok",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Jene Markoff",
+   "noms_dans_les_sources": [
+    "Jene Markoff"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1939-09-11 → 1947-01-21"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1925-11-06",
+   "origine": "Norwalk, CT → Newport Beach, CA",
+   "age": 19,
+   "fiche": "https://bmcyearbook.org/bio/jene-markoff",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Joan Martinson",
+   "noms_dans_les_sources": [
+    "Joan Martinson"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/joan-martinson",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Marie McCall",
+   "noms_dans_les_sources": [
+    "Marie McCall"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/marie-mccall",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Louise Minster",
+   "noms_dans_les_sources": [
+    "Louise Minster"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1943-07-01 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/louise-minster",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Isaac \"Ike\" Nakata",
+   "noms_dans_les_sources": [
+    "Isaac \"Ike\" Nakata"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1940-09-09 → 1948-06-12"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Social Sciences",
+   "naissance": "1919-05-14",
+   "origine": "Waialua, Oahu",
+   "age": 25,
+   "fiche": "https://bmcyearbook.org/bio/isaac-nakata",
+   "relations": "Wife: Fellow BMC student, Virginia McLane; Examiner: Dr. Louis M. Hacker, Professor of Economics, Columbia University",
+   "travail": []
+  },
+  {
+   "nom": "Josephine Pater",
+   "noms_dans_les_sources": [
+    "Josephine Pater"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/josephine-pater",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "John Reiss",
+   "noms_dans_les_sources": [
+    "John Reiss"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1946-12-10"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1922-11-04",
+   "origine": "Milwaukee, WI",
+   "age": 22,
+   "fiche": "https://bmcyearbook.org/bio/john-reiss",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Vita Rudikoff",
+   "noms_dans_les_sources": [
+    "Vita Rudikoff"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1943-09-27 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/vita-rudikoff",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Sue \"Susie\" Schauffler",
+   "noms_dans_les_sources": [
+    "Sue \"Susie\" Schauffler"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-06-18"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/sue-schauffler",
+   "relations": "Sister: Fellow BMC student, Anna Lockwood; Brother: David Craig Schauffler, who was often a guest at the college to visit his sisters and friend, Ray Johnson",
+   "travail": []
+  },
+  {
+   "nom": "Victor Schmitt",
+   "noms_dans_les_sources": [
+    "Victor Schmitt"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1949-06-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1927-04-11",
+   "origine": "Milwaukee, WI",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/victor-schmitt",
+   "relations": "Sister: Elizabeth Schmitt Jennerjahn; Sister: Elaine Schmitt; Brother: Rupert Schmitt",
+   "travail": []
+  },
+  {
+   "nom": "Jeannette Siegel",
+   "noms_dans_les_sources": [
+    "Jeannette Siegel"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/jeannette-siegel",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Clara Silvers",
+   "noms_dans_les_sources": [
+    "Clara Silvers"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Music",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/clara-silvers",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Junelaine \"June\" Smith",
+   "noms_dans_les_sources": [
+    "Junelaine \"June\" Smith"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1942-09-28 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/junelaine-smith",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Joan Stack",
+   "noms_dans_les_sources": [
+    "Joan Stack"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1951-06-13"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1922-03-16",
+   "origine": "Minneapolis, MN",
+   "age": 22,
+   "fiche": "https://bmcyearbook.org/bio/joan-stack",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Jean Hoffman Stewart",
+   "noms_dans_les_sources": [
+    "Jean Hoffman Stewart"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1946-08-24"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Farm/ Kitchen/ Work Program",
+   "naissance": "1921-06-12",
+   "origine": "",
+   "age": 23,
+   "fiche": "https://bmcyearbook.org/bio/jean-hoffman-stewart",
+   "relations": "Her father was Edwin M. Hoffman of Camp Sequoyah.; She married Stanley Wexler",
+   "travail": []
+  },
+  {
+   "nom": "Wilma Stokely",
+   "noms_dans_les_sources": [
+    "Wilma Stokely"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-01-14"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "1920-05-20",
+   "origine": "Asheville, NC → Asheville, NC",
+   "age": 24,
+   "fiche": "https://bmcyearbook.org/bio/wilma-stokely",
+   "relations": "Husband: Fellow BMC student, James Stokely",
+   "travail": []
+  },
+  {
+   "nom": "James Stokely",
+   "noms_dans_les_sources": [
+    "James Stokely"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1945-01-10"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "Newport, TN",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/james-stokely",
+   "relations": "Wife: Fellow BMC student, Wilma Stokely",
+   "travail": []
+  },
+  {
+   "nom": "James \"Jim/ Jimmy\" Stranch",
+   "noms_dans_les_sources": [
+    "James \"Jim/ Jimmy\" Stranch"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1943-09-27 → 1945-06-18"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/james-stranch",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Jean Swanson",
+   "noms_dans_les_sources": [
+    "Jean Swanson"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/jean-swanson",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Hilda Terry",
+   "noms_dans_les_sources": [
+    "Hilda Terry"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-07-17 → 1945-09-11"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1910-12-22",
+   "origine": "",
+   "age": 33,
+   "fiche": "https://bmcyearbook.org/bio/hilda-terry",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Muffie Vaughan",
+   "noms_dans_les_sources": [
+    "Muffie Vaughan"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/muffie-vaughan",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Vera Baker Williams",
+   "noms_dans_les_sources": [
+    "Vera Baker Williams"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-11-05 → 1949-08-31"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1927-01-28",
+   "origine": "Hollywood, CA → Narrowsburg, NY",
+   "age": 17,
+   "fiche": "https://bmcyearbook.org/bio/vera-baker-williams",
+   "relations": "Advisor: Molly Gregory; Husband: Paul Francis Williams, Jr.; Examiner: Richard Lippold",
+   "travail": []
+  },
+  {
+   "nom": "Jane Woodruff",
+   "noms_dans_les_sources": [
+    "Jane Woodruff"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1944-09-30 → 1944-12-15"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/jane-woodruff",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Helen \"Helsie\" Wright",
+   "noms_dans_les_sources": [
+    "Helen \"Helsie\" Wright"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1941-09-22 → 1945-06-18"
+   ],
+   "pct_presence": 30,
+   "role": "Student",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "1919-10-29",
+   "origine": "Bronxville, NY → Concord, MA",
+   "age": 25,
+   "fiche": "https://bmcyearbook.org/bio/helen-wright",
+   "relations": "Married BMC student, Robert H. Marden, 1944 (Buncombe County, Asheville, NC marriage license); Obituary; Helen W. Marden died on January 27, 2017, in Concord, MA, following a lengthy illness. She was born Helen Grace Wright, October 29, 1919, in Watertown, MA, to parents Warren Mead Wright and Helen Robinson Wright. She attended The Cambridge School of Weston and Black Mountain College, in North Carolina. As a young child, Helen contracted tuberculosis, and was not expected to fully recover. Apparently, the doctors underestimated her stubborn determination. In 1944, Helen married Robert H. Marden, a fellow-student at Black Mountain College. The couple later divorced. After Robert finished military service in World War ll, the couple lived in Cambridge, MA. In 1950-51, they built a home at 30 Kendall Common Rd, in Weston, MA. They had two children. The family spent many summers at the Wright family summer home, at Fairhaven Bay, Concord. In 2004, Helen moved to West Concord. Later, she relocated to Newbury Court, a life-care facility adjacent to Emerson Hospital, in Concord. She remained independent and drove her own car until she reached her nineties. Helen leaves a son, Christopher Marden, of Colorado Springs, CO; a granddaughter, Jessica Marden, of Sunderland, MA; two step-grandchildren: John Aziz, of Groton, MA, and Heather Katie Goddard, of Groton; two sisters: Julianne Wright Neaverson, of Bloomfield, CT, and Emmalie Wright Millard, of Dallas, TX; and lifelong friends from Weston. She was predeceased in 2012 by a son, Nathaniel Marden; and in 2005 by her eldest sister, Mary Wright Cherington.",
+   "travail": []
+  },
+  {
+   "nom": "Leonard \"Lenny\" Billing",
+   "noms_dans_les_sources": [
+    "Leonard \"Lenny\" Billing"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1938-09-12 → 1952-12-16"
+   ],
+   "pct_presence": 30,
+   "role": "Student/ Guest Faculty",
+   "domaine": "Architecture",
+   "naissance": "1920-09-21",
+   "origine": "Foochow, Fukien, China",
+   "age": 24,
+   "fiche": "https://bmcyearbook.org/bio/leonard-billing",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Vera Pevsner",
+   "noms_dans_les_sources": [
+    "Vera Pevsner"
+   ],
+   "presence": [
+    "intervalle de présence de la fiche : 1943-09-27 → 1945-06-18"
+   ],
+   "pct_presence": 30,
+   "role": "Student/ Staff",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/vera-pevsner",
+   "relations": "Sibling: Fellow BMC student, Marita Pevsner",
+   "travail": []
+  },
+  {
+   "nom": "Alfred Kazin",
+   "noms_dans_les_sources": [
+    "Alfred Kazin"
+   ],
+   "presence": [
+    "nommé(e) dans les sources du jour (2 fois)",
+    "attention : la fiche dit départ le 1944-06-17"
+   ],
+   "pct_presence": 40,
+   "role": "Guest Faculty",
+   "domaine": "English/ Writing",
+   "naissance": "1915-06-05",
+   "origine": "Brownsville, NY → New York, NY",
+   "age": 29,
+   "fiche": "https://bmcyearbook.org/bio/alfred-kazin",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Robert \"Bob\" Marden",
+   "noms_dans_les_sources": [
+    "Helen Marden",
+    "Helen Wright Marden"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "logement de la rentrée (30 septembre) : study n° 125",
+    "attention : la fiche dit départ le 1943-06-12"
+   ],
+   "pct_presence": 40,
+   "logement": "North Lodge, North Attic ; study n° 125",
+   "role": "Student",
+   "domaine": "Social Sciences",
+   "naissance": "1921-08-19",
+   "origine": "Washington DC",
+   "age": 23,
+   "fiche": "https://bmcyearbook.org/bio/robert-marden",
+   "relations": "Wife: Fellow BMC student, Helen Grace Wright",
+   "travail": []
+  },
+  {
+   "nom": "Carol Ostrow",
+   "noms_dans_les_sources": [
+    "Carol Ostrow"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "attention : la fiche dit départ le 1944-06-17"
+   ],
+   "pct_presence": 40,
+   "logement": "North Lodge, South Attic",
+   "role": "Student",
+   "domaine": "Performance Art",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/carol-ostrow",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Jane Robinson Stone",
+   "noms_dans_les_sources": [
+    "Jane Stone"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, South Attic",
+    "attention : la fiche dit départ le 1944-06-17"
+   ],
+   "pct_presence": 40,
+   "logement": "North Lodge, South Attic",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/jane-stone",
+   "relations": "Husband: Fellow BMC student, Frederick Mason Stone",
+   "travail": [
+    "Programme de travail organisé en équipes avec un coordinateur : cuisine (Jane Stone), transport et charbon (Egbert Swackhamer), ménage (Ann MacKinnon), chaudières (Chuck Forberg), bureau (Betty Osbourne) ; coordinateur étudiant : Bill McLaughlin ; coordinatrice de la faculté : Molly Gregory."
+   ]
+  },
+  {
+   "nom": "Lana Yarash",
+   "noms_dans_les_sources": [
+    "Lana Yarash"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, North Attic",
+    "attention : la fiche dit départ le 1944-06-17"
+   ],
+   "pct_presence": 40,
+   "logement": "North Lodge, North Attic",
+   "role": "Student",
+   "domaine": "General Studies",
+   "naissance": "",
+   "origine": "",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/lana-yarash",
+   "relations": "",
+   "travail": []
+  },
+  {
+   "nom": "Henrietta Barth",
+   "noms_dans_les_sources": [
+    "Henrietta Barth"
+   ],
+   "presence": [
+    "logement de la rentrée (30 septembre) : North Lodge, Room 1",
+    "attention : la fiche dit départ le 1944-09-16"
+   ],
+   "pct_presence": 40,
+   "logement": "North Lodge, Room 1",
+   "role": "Student/ Staff",
+   "domaine": "Art/ Design/ Craft",
+   "naissance": "",
+   "origine": "Plymouth, PA",
+   "age": null,
+   "fiche": "https://bmcyearbook.org/bio/henrietta-barth",
+   "relations": "",
+   "travail": []
+  }
+ ],
+ "cours": [
+  {
+   "heure": "08:30",
+   "fin": "11:00",
+   "pages": "511–660",
+   "titre": "Ensemble",
+   "enseignant": "Heinrich Jalowetz",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Anna Lockwood",
+    "Dorothy Carr"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "08:30",
+   "fin": "10:00",
+   "pages": "511–600",
+   "titre": "Calculus",
+   "enseignant": "Ted Dreier",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Jagna Braunthal"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "10:30",
+   "fin": "11:30",
+   "pages": "631–690",
+   "titre": "French for beginners (new class)",
+   "enseignant": "Mrs Fritz Hansgirg (Maria Hansgirg)",
+   "lieu": "Language Room",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Nancy Albee",
+    "Norma Cormany"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "10:30",
+   "fin": "12:00",
+   "pages": "631–720",
+   "titre": "Roman Drama and Production",
+   "enseignant": "Bob Wunsch",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Beate \"Ati\" Gropius",
+    "Curtiss Cowan",
+    "Eleanore \"Elly\" Smith",
+    "Janet \"Aley\" Ramsey",
+    "Janet \"Jan\" Heling",
+    "Marvin Daniels",
+    "Peggy Bennett",
+    "Roxane \"Roxie\" Dinkowitz"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "11:30",
+   "fin": "13:00",
+   "pages": "691–780",
+   "titre": "Matter and Energy",
+   "enseignant": "Fritz Hansgirg",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Charles \"Chuck\" Forberg",
+    "Jagna Braunthal",
+    "Peggy Bennett",
+    "Roxane \"Roxie\" Dinkowitz"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "11:30",
+   "fin": "13:00",
+   "pages": "691–780",
+   "titre": "Textile Design",
+   "enseignant": "Anni Albers",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [],
+   "progression": null
+  },
+  {
+   "heure": "11:30",
+   "fin": "13:00",
+   "pages": "691–780",
+   "titre": "Contemporary Problems",
+   "enseignant": "Herbert A. Miller",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Curtiss Cowan",
+    "Eleanore \"Elly\" Smith",
+    "Janet \"Aley\" Ramsey",
+    "Janet \"Jan\" Heling",
+    "Janet Goldsmith",
+    "Joan Couch",
+    "Marvin Daniels",
+    "Richard \"Dick\" Albany"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "11:30",
+   "fin": "12:00",
+   "pages": "691–720",
+   "titre": "French I",
+   "enseignant": "Mrs Fritz Hansgirg",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Nancy Albee",
+    "Norma Cormany"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "16:00",
+   "fin": "18:30",
+   "pages": "961–1110",
+   "titre": "Matter and Energy laboratory",
+   "enseignant": "Fritz Hansgirg",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Charles \"Chuck\" Forberg",
+    "Jagna Braunthal",
+    "Peggy Bennett",
+    "Roxane \"Roxie\" Dinkowitz"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "16:30",
+   "fin": "18:30",
+   "pages": "991–1110",
+   "titre": "Elements of Verse Writing",
+   "enseignant": "George Zabriskie",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Curtiss Cowan",
+    "Eleanore \"Elly\" Smith",
+    "Janet \"Aley\" Ramsey",
+    "Norma Cormany"
+   ],
+   "progression": null
+  },
+  {
+   "heure": "17:00",
+   "fin": "18:30",
+   "pages": "1021–1110",
+   "titre": "Rhythm and Melody (practice in improvisation)",
+   "enseignant": "Edward Lowinsky",
+   "lieu": "",
+   "pct": 25,
+   "source": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "inscrits_bmc_yearbook": [
+    "Dorothy Carr"
+   ],
+   "progression": null
+  }
+ ],
+ "cours_offerts": [
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Small House Design (B)",
+   "enseignant": "McGuire Wood",
+   "horaire": "2 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Drawing (B + A)",
+   "enseignant": "Josef Albers",
+   "horaire": "2 × 2 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W)",
+   "cours": "Painting (B + A)",
+   "enseignant": "Josef Albers",
+   "horaire": "2 × 2 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Woodworking (B + A)",
+   "enseignant": "Molly Gregory",
+   "horaire": "sur rendez-vous",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Introductory Drama (B)",
+   "enseignant": "Bob Wunsch",
+   "horaire": "3 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Roman Drama and Production (A) — Plautus, The Braggart Warrior",
+   "enseignant": "Bob Wunsch",
+   "horaire": "6 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Chorus (B)",
+   "enseignant": "Heinrich Jalowetz",
+   "horaire": "1-2 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Elements of Form and Structure in Music (for players and listeners) (B)",
+   "enseignant": "Heinrich Jalowetz",
+   "horaire": "2 × 1 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Ensemble (B + A)",
+   "enseignant": "Heinrich Jalowetz",
+   "horaire": "½ h",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Rhythm and Melody (practice in improvisation) (B)",
+   "enseignant": "Edward Lowinsky",
+   "horaire": "2 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45",
+   "cours": "Textile Design, theory and practice (B and A)",
+   "enseignant": "Anni Albers",
+   "horaire": "1 h + 6 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Contemporary Poetry (B + A)",
+   "enseignant": "George Zabriskie",
+   "horaire": "2 × 1½ h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Elements of Verse Writing (B + A)",
+   "enseignant": "George Zabriskie",
+   "horaire": "1½ h",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "William Blake and the Romantic Period in England (B + A)",
+   "enseignant": "Alfred Kazin",
+   "horaire": "2 × 1½ h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Herman Melville: An Introduction to American Writing (B + A)",
+   "enseignant": "Alfred Kazin",
+   "horaire": "2 × 1½ h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Patterns in Psychology and Aesthetics (B + A)",
+   "enseignant": "George Zabriskie",
+   "horaire": "1½ h",
+   "note": ""
+  },
+  {
+   "periode": "1944-45",
+   "cours": "French (B – A)",
+   "enseignant": "—",
+   "horaire": "",
+   "note": "enseignant non indiqué"
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Introductory German (B)",
+   "enseignant": "Trudi Straus",
+   "horaire": "3 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Advanced German (A)",
+   "enseignant": "Trudi Straus",
+   "horaire": "2 × 1½ h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 fall quarter",
+   "cours": "Culture of the Renaissance (B)",
+   "enseignant": "Edward Lowinsky",
+   "horaire": "1-2 h",
+   "note": ""
+  },
+  {
+   "periode": "1944-45",
+   "cours": "European History (B)",
+   "enseignant": "—",
+   "horaire": "",
+   "note": "enseignant non indiqué"
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Contemporary Problems — social, political, economic (B)",
+   "enseignant": "Herbert A. Miller",
+   "horaire": "3 h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W)",
+   "cours": "World Minorities (A)",
+   "enseignant": "Herbert A. Miller",
+   "horaire": "2 × 1½ h par semaine",
+   "note": ""
+  },
+  {
+   "periode": "1944-45",
+   "cours": "Algebra and Geometry (B)",
+   "enseignant": "—",
+   "horaire": "",
+   "note": "enseignant non indiqué"
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Calculus (B)",
+   "enseignant": "Ted Dreier",
+   "horaire": "4 h (3 h de crédit)",
+   "note": ""
+  },
+  {
+   "periode": "1944-45 (F, W, S)",
+   "cours": "Matter and Energy (B)",
+   "enseignant": "Fritz Hansgirg",
+   "horaire": "5 h + 4 h",
+   "note": ""
+  },
+  {
+   "periode": "1944-45",
+   "cours": "Advanced Chemistry and Physics (A)",
+   "enseignant": "Fritz Hansgirg",
+   "horaire": "sur rendez-vous",
+   "note": ""
+  }
+ ],
+ "cours_suivis": {
+  "Janet \"Jan\" Heling": [
+   {
+    "cours": "Introductory Drama",
+    "enseignant": "Wunsch"
+   },
+   {
+    "cours": "Herman Melville: Introduction to American Writing",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": "Miller"
+   },
+   {
+    "cours": "Voice",
+    "enseignant": "J Jalowetz"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "H Jalowetz"
+   },
+   {
+    "cours": "Woodworking",
+    "enseignant": "Gregory"
+   }
+  ],
+  "Anna Lockwood": [
+   {
+    "cours": "Introductory Weaving",
+    "enseignant": "Bauer"
+   },
+   {
+    "cours": "Ensemble",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Elements of Form and Structure in Music",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Herman Melville: An Introduction to American Writing",
+    "enseignant": "Kazin"
+   }
+  ],
+  "Samuel \"Sam\" Brown, Jr.": [
+   {
+    "cours": "Vocal Music (Song and Opera) from Shubert to Wagnerwith Jalowetz",
+    "enseignant": ""
+   },
+   {
+    "cours": "Counterpoint (tutorial)",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "Jalowetz"
+   }
+  ],
+  "Beate \"Ati\" Gropius": [
+   {
+    "cours": "Painting",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Introductory Weaving",
+    "enseignant": "Bauer"
+   },
+   {
+    "cours": "Drama Production",
+    "enseignant": "Wunsch"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Melville",
+    "enseignant": "Kazin"
+   }
+  ],
+  "Jagna Braunthal": [
+   {
+    "cours": "Matter and Energy",
+    "enseignant": "F Hansgirg"
+   },
+   {
+    "cours": "Violin Lessons",
+    "enseignant": "T Straus"
+   },
+   {
+    "cours": "Calculus",
+    "enseignant": "T Dreier"
+   },
+   {
+    "cours": "Herman Melville: Introduction to American Writing",
+    "enseignant": "A Kazin"
+   }
+  ],
+  "Curtiss Cowan": [
+   {
+    "cours": "Dramatic Production",
+    "enseignant": "Wunsch"
+   },
+   {
+    "cours": "Small House Design",
+    "enseignant": "Wood"
+   },
+   {
+    "cours": "Painting",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Introductory Weaving",
+    "enseignant": "Mauer"
+   },
+   {
+    "cours": "Elements of VerseWriting",
+    "enseignant": "Zabriskie"
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": "Miller"
+   }
+  ],
+  "Roxane \"Roxie\" Dinkowitz": [
+   {
+    "cours": "Matter and Energy",
+    "enseignant": "Hansgirg"
+   },
+   {
+    "cours": "Form and Structure in Music",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Roman Drama and Production",
+    "enseignant": "Wunsch"
+   },
+   {
+    "cours": "Piano Lessons",
+    "enseignant": "Jalowetz"
+   }
+  ],
+  "Dorothy Carr": [
+   {
+    "cours": "Ensemble",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Piano Lessons",
+    "enseignant": "Lowinsky"
+   },
+   {
+    "cours": "Elements of Form and Structure in Music",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Rhythm and Melody",
+    "enseignant": "Lowinsky"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Weaving-introductory",
+    "enseignant": "A Albers, M Bauer"
+   },
+   {
+    "cours": "Herman Melville: Introduction to American Writing",
+    "enseignant": "Kazin"
+   }
+  ],
+  "Norma Cormany": [
+   {
+    "cours": "Herman Melville: Introduction to American Writing",
+    "enseignant": "AKazin"
+   },
+   {
+    "cours": "Elements of Verse Writing",
+    "enseignant": "G Zabriskie"
+   },
+   {
+    "cours": "Introductory French",
+    "enseignant": "MHansgirg"
+   },
+   {
+    "cours": "Culture of the Renaissance",
+    "enseignant": "E Lowinsky"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "H Jalowetz"
+   }
+  ],
+  "Peggy Bennett": [
+   {
+    "cours": "Matter and Energy",
+    "enseignant": "Hansgirg"
+   },
+   {
+    "cours": "William Blake & Romantic Period of England",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Herman Melville: Introduction to American Writing",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Introductory Drama",
+    "enseignant": "Wunsch"
+   }
+  ],
+  "Marvin Daniels": [
+   {
+    "cours": "William Blake and the Romantic Period in England",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Herman Melville: Introduction to American Writing",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": "H A Miller"
+   },
+   {
+    "cours": "Introductory Drama",
+    "enseignant": "Wunsch"
+   }
+  ],
+  "Janet Goldsmith": [
+   {
+    "cours": "Drawing",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Small House Design",
+    "enseignant": "Wood"
+   },
+   {
+    "cours": "Culture of the Renaissance",
+    "enseignant": "Lowinsky"
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": "Miller"
+   }
+  ],
+  "Richard \"Dick\" Albany": [
+   {
+    "cours": "Drawing",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Painting",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "German",
+    "enseignant": "Straus"
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": "Miller"
+   }
+  ],
+  "Joan Couch": [
+   {
+    "cours": "Drawing",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Melville (Introduction to American Writing)",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": "Miller"
+   },
+   {
+    "cours": "Culture of the Renaissance",
+    "enseignant": "Lowinsky"
+   }
+  ],
+  "Janet \"Aley\" Ramsey": [
+   {
+    "cours": "Introductory drama",
+    "enseignant": "Wunsch"
+   },
+   {
+    "cours": "Drawing",
+    "enseignant": "J Albers"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "Jalowetz"
+   },
+   {
+    "cours": "Elements of verse writing",
+    "enseignant": "G Zabriskie"
+   },
+   {
+    "cours": "Herman Melville: Introduction to American writing",
+    "enseignant": "A Kazin"
+   },
+   {
+    "cours": "Contemporary problems",
+    "enseignant": "H AMiller"
+   }
+  ],
+  "Eleanore \"Elly\" Smith": [
+   {
+    "cours": "Chorus",
+    "enseignant": ""
+   },
+   {
+    "cours": "Contemporary Problems",
+    "enseignant": ""
+   },
+   {
+    "cours": "Elements of Form and Structure in Music",
+    "enseignant": ""
+   },
+   {
+    "cours": "Herman Melville: Intro to American Writing",
+    "enseignant": ""
+   },
+   {
+    "cours": "Introductory Drama",
+    "enseignant": ""
+   },
+   {
+    "cours": "William Blake and the Romantic Period in England",
+    "enseignant": ""
+   }
+  ],
+  "Charles \"Chuck\" Forberg": [
+   {
+    "cours": "Matter and Energy",
+    "enseignant": "F Hansgirg"
+   },
+   {
+    "cours": "Patterns of Psychology and Aesthetics",
+    "enseignant": "Zabriskie"
+   }
+  ],
+  "Nancy Albee": [
+   {
+    "cours": "Culture of the Renaissance",
+    "enseignant": "Lowinsky"
+   },
+   {
+    "cours": "William Blake andRomantic Period in England",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Herman Melville: Introduction to AmericanWriting",
+    "enseignant": "Kazin"
+   },
+   {
+    "cours": "Patterns of Psychology & Aesthetics",
+    "enseignant": "Zabriskie"
+   },
+   {
+    "cours": "French-Beginning",
+    "enseignant": "Hansgirg"
+   },
+   {
+    "cours": "Elements of Form and Structure of Music",
+    "enseignant": "Jalowetz"
+   }
+  ],
+  "Marilyn \"Widget\" Bauer": [
+   {
+    "cours": "Advanced Weaving-Tutorial",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Painting",
+    "enseignant": "Albers"
+   },
+   {
+    "cours": "Chorus",
+    "enseignant": "Jalowetz"
+   }
+  ]
+ },
+ "routine": [
+  {
+   "h": "05:00",
+   "f": "06:00",
+   "t": "Traite du matin : Jagna Braunthal, cheffe de la traite, marche dix minutes jusqu'à la ferme pour traire les vaches (à cinq heures du matin et à cinq heures du soir).",
+   "qui": "",
+   "lieu": "",
+   "pct": 20,
+   "src": "Silver 2024, ch. 6, p. 93-94 (usage de 1944 ; heure de fin supposée)",
+   "couche": "relevé"
+  },
+  {
+   "h": "07:30",
+   "f": "08:00",
+   "t": "Breakfast",
+   "qui": "",
+   "lieu": "Dining hall",
+   "pct": 10,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "07:30",
+   "f": "07:50",
+   "t": "Ati Gropius recueille les bidons de lait frais (cinq gallons), les reverse dans de petits bidons : office pour le petit-déjeuner, cuisine, réfrigérateur pour les familles.",
+   "qui": "",
+   "lieu": "",
+   "pct": 20,
+   "src": "Silver 2024, ch. 6, p. 95-97 (usage de 1943-44, supposé en décembre 1944)",
+   "couche": "relevé"
+  },
+  {
+   "h": "08:00",
+   "f": "08:30",
+   "t": "Ménage des chambres et lits faits",
+   "qui": "Communauté",
+   "lieu": "",
+   "pct": 40,
+   "src": "reconstitution 1944-45 — 2017.40.113a-d",
+   "couche": "spc"
+  },
+  {
+   "h": "09:00",
+   "f": "12:00",
+   "t": "Ted Dreier rentre en train après deux semaines de voyage d'affaires à New York et en Nouvelle-Angleterre",
+   "qui": "Ted Dreier",
+   "lieu": "",
+   "pct": 0,
+   "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 11 Monday, Dec 4, 1944 [1944] (inv. 2017.40.182.01a-c)",
+   "couche": "aam"
+  },
+  {
+   "h": "09:00",
+   "f": "12:00",
+   "t": "Bibliothèque (Mrs Nell Rice) : ouverte en permanence ; Mrs Rice reçoit le matin, de 9 h à 12 h (semaine de rentrée).",
+   "qui": "",
+   "lieu": "",
+   "pct": 30,
+   "src": "[2017.40.172a-g](https://collection.ashevilleart.org/objects-1/info/6765) (horaire de la semaine de rentrée)",
+   "couche": "relevé"
+  },
+  {
+   "h": "10:30",
+   "f": "11:30",
+   "t": "Outgoing mail collected (mail box on the Dining Hall front porch or in the Studies Building front hall)",
+   "qui": "",
+   "lieu": "Dining Hall front porch",
+   "pct": 10,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "11:00",
+   "f": "11:30",
+   "t": "Incoming mail distributed in the mail boxes",
+   "qui": "",
+   "lieu": "Dining Hall front porch",
+   "pct": 10,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "12:30",
+   "f": "13:30",
+   "t": "Lunch",
+   "qui": "",
+   "lieu": "Dining hall",
+   "pct": 10,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "13:15",
+   "f": "13:35",
+   "t": "College Cooperative Store open (twenty minutes after lunch)",
+   "qui": "",
+   "lieu": "College store",
+   "pct": 25,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "13:30",
+   "f": "14:00",
+   "t": "Office hours for paying bills and conducting other business",
+   "qui": "",
+   "lieu": "College office",
+   "pct": 10,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "13:30",
+   "f": "17:30",
+   "t": "Après-midi du programme de travail (lundi) : ferme (équipe du lundi : Betty Schmitt et Eddy Woldin), charbon et bois (Egbert Swackhamer), chaudières (Chuck Forberg), ménage (Ann MacKinnon), cuisine et plonge.",
+   "qui": "",
+   "lieu": "",
+   "pct": 40,
+   "src": "reconstitution du semainier 1944-45 (2017.40.176a-h ; 2017.40.186a-e) ; Silver 2024, ch. 6, p. 95-96 ; 2017.40.177a-g (jours et heures du programme de travail déduits ; équipes d'octobre 1944)",
+   "couche": "relevé"
+  },
+  {
+   "h": "17:00",
+   "f": "18:00",
+   "t": "Traite du soir (Jagna Braunthal).",
+   "qui": "",
+   "lieu": "",
+   "pct": 20,
+   "src": "Silver 2024, ch. 6, p. 93-94 (même usage)",
+   "couche": "relevé"
+  },
+  {
+   "h": "18:15",
+   "f": "19:15",
+   "t": "Dinner",
+   "qui": "",
+   "lieu": "Dining hall",
+   "pct": 10,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "18:15",
+   "f": "18:35",
+   "t": "Ati Gropius répète l'opération du lait et écrème pour la crème et le beurre (environ 15 livres de beurre par semaine depuis la décision de l'assemblée).",
+   "qui": "",
+   "lieu": "",
+   "pct": 25,
+   "src": "Silver 2024, ch. 6, p. 95-97 (même usage ; date de la décision sur le beurre non précisée)",
+   "couche": "relevé"
+  },
+  {
+   "h": "19:00",
+   "f": "20:00",
+   "t": "Record playing (supervised by Alfred Kazin, Sue Burton, Joan Keiser)",
+   "qui": "Alfred Kazin; Sue Burton; Joan Keiser",
+   "lieu": "",
+   "pct": 20,
+   "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+   "couche": "aam"
+  },
+  {
+   "h": "19:00",
+   "f": "19:20",
+   "t": "College Cooperative Store open (twenty minutes after dinner)",
+   "qui": "",
+   "lieu": "College store",
+   "pct": 25,
+   "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
+   "couche": "aam"
+  },
+  {
+   "h": "",
+   "f": "",
+   "t": "Linge : une fois par semaine, un drap, une taie, une serviette par étudiant lavés aux frais du collège ; draps et serviettes à déposer à la buanderie sous la véranda de South Lodge, selon l'horaire affiché par Mrs Annette Stone.",
+   "qui": "",
+   "lieu": "",
+   "pct": 10,
+   "src": "[2017.40.172a-g](https://collection.ashevilleart.org/objects-1/info/6765) (jour de la semaine non donné)",
+   "couche": "relevé"
+  },
+  {
+   "h": "",
+   "f": "",
+   "t": "Tabac rationné : un paquet de cigarettes par personne et par semaine ; on roule ses cigarettes, avec des « blonds » maison : « Rhododendron Leaf-Virginia », « Maple Sugar-New England ».",
+   "qui": "",
+   "lieu": "",
+   "pct": 10,
+   "src": "[2017.40.178a-d](https://collection.ashevilleart.org/objects-1/info/6774) (rationnement de l'automne 1944)",
+   "couche": "relevé"
+  },
+  {
+   "h": "",
+   "f": "",
+   "t": "Pompiers du collège : chef George Zabriskie, technicien en chef Fritz Hansgirg ; exercices d'incendie avec sirène ; ne pas jeter de mégots par les fenêtres sur l'herbe sèche.",
+   "qui": "",
+   "lieu": "",
+   "pct": 10,
+   "src": "[2017.40.172a-g](https://collection.ashevilleart.org/objects-1/info/6765) ; [2017.40.177a-g](https://collection.ashevilleart.org/objects-1/info/6773) ; [2017.40.178a-d](https://collection.ashevilleart.org/objects-1/info/6774) (Max Paul se souvient avoir été chef des pompiers (Harris) : à concilier)",
+   "couche": "relevé"
+  }
+ ],
+ "lieux": {
+  "campus": "Lake Eden",
+  "faits": [
+   {
+    "id": "dining_hall",
+    "nom": "Dining Hall (salle à manger, cuisine, véranda)",
+    "faits": [
+     {
+      "t": "Repas de toute la communauté ; panneaux d'affichage à consulter chaque jour ; annonces orales dix minutes après le début du repas, seulement si elles concernent toute la communauté.",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": "règle de la session 1944-45, publiée le 30 septembre"
+     },
+     {
+      "t": "Véranda de devant : boîte aux lettres de départ, casiers du courrier, téléphone (extension du standard du bureau ; on note chaque appel sur une fiche ronéotypée).",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": "règle de la session"
+     },
+     {
+      "t": "Scène de la salle à manger : répétitions du spectacle pour enfants chaque soir de la semaine précédente ; The Braggart Warrior (Plaute) y sera joué le samedi 9 décembre à 20 h 30 ; la chorale y répète le mardi à 20 h.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0,
+      "m": ""
+     },
+     {
+      "t": "Véranda de la salle à manger : atelier de Curtiss Cowan, qui y a peint les décors de la pièce pour enfants (mercredi et jeudi précédents).",
+      "inv": "2017.40.182.01a-c",
+      "pct": 10,
+      "m": "les décors sont peut-être encore là le 4"
+     },
+     {
+      "t": "Décor de Thanksgiving (23 novembre) : arbres d'hiver blanchis à rayures roses et études de feuilles des étudiants d'Albers ; mi-novembre, dix lithographies en couleur « Carnival in Mexico » de Carlos Mérida exposées sur les panneaux.",
+      "inv": "2017.40.181.01a-c",
+      "pct": 30,
+      "m": "rien ne dit si le décor est encore en place le 4 décembre"
+     },
+     {
+      "t": "Salle balayée chaque jour ; on agite les pichets d'eau pour faire silence avant une annonce ; verre brisé aux repas.",
+      "src": "Lane 1990, p. 130-132, 135-136",
+      "pct": 25,
+      "m": "souvenir des années 1940, pas daté"
+     },
+     {
+      "t": "Grande salle avec véranda grillagée dominant le lac ; chaises de bois faites à la main, qu'on range contre les murs pour les spectacles.",
+      "src": "Horowitz & Danilowitz 2009, p. 122 ; Molesworth 2015, p. 298",
+      "pct": 15,
+      "m": "description générale"
+     }
+    ]
+   },
+   {
+    "id": "studies_building",
+    "nom": "Studies Building",
+    "faits": [
+     {
+      "t": "Bâtiment d'études au bord du lac : un « study » par étudiant (chaise et plan de travail fournis par le collège) ; salles : Language Room (n° 29), Faculty Room (103), Journalism (136), reliure (2) ; studies d'enseignants : Erwin et Trudi Straus (135), Mac Wood (6), Mrs Elizabeth Boyden (33).",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": "attribution du 30 septembre"
+     },
+     {
+      "t": "Appartement de l'étage transformé en atelier de couture pour les costumes de la pièce pour enfants (Betty Osbourne, Janet Rees, Alice McCanna), la semaine précédente.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 10,
+      "m": "semaine du 27 novembre ; peut-être déjà rendu à son usage"
+     },
+     {
+      "t": "Depuis octobre, le nettoyage du Studies Building, des bureaux et de la bibliothèque est fait par le programme de travail des étudiants (économie : plus de personnel de ménage).",
+      "inv": "2017.40.180a-d",
+      "pct": 10,
+      "m": "mesure annoncée en novembre"
+     },
+     {
+      "t": "Repeindre ou aménager son study : demander d'abord à Josef Albers.",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": ""
+     }
+    ]
+   },
+   {
+    "id": "north_lodge",
+    "nom": "North Lodge (dortoir des femmes)",
+    "faits": [
+     {
+      "t": "Chambres et combles : dortoir des étudiantes ; le lobby sert de salon et de lieu de réunion (conférence du vendredi 8 décembre à 19 h 30).",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": ""
+     },
+     {
+      "t": "North Lodge sera fermé pendant les vacances de Noël (à partir du 14 décembre).",
+      "inv": "2017.40.184a-d",
+      "pct": 0,
+      "m": ""
+     }
+    ]
+   },
+   {
+    "id": "south_lodge",
+    "nom": "South Lodge",
+    "faits": [
+     {
+      "t": "Combles nord et sud : dortoir des étudiants ; lobby : salle de lecture et de divertissement (Reading Hour de Kazin le lundi soir, réunions du mardi soir) ; chambres 1 et 3 : infirmerie ; 2 et 4 : chambres d'hôtes ; 5 : repassage ; 7 : salle de lecture et d'écriture, attente des invités ; salle de bains entre 5 et 7 : « Tea Kitchen » ; 6 et 8 : appartement de Mrs A. D. Stone ; buanderie et machine à laver sous la véranda.",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": ""
+     }
+    ]
+   },
+   {
+    "id": "cottages",
+    "nom": "Cottages et logements des enseignants",
+    "faits": [
+     {
+      "t": "Stone Cottage : Fritz et Maria Hansgirg (emménagés en octobre ; un trio de Beethoven leur a été joué le premier soir).",
+      "inv": "2017.40.172a-g ; 2017.40.177a-g",
+      "pct": 5,
+      "m": ""
+     },
+     {
+      "t": "Mountain Stream : Alfred Kazin à l'étage ; les autres chambres pour les hommes invités.",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": ""
+     },
+     {
+      "t": "Black Dwarf Cottage : les George Zabriskie dans l'ancien appartement Bentley ; l'appartement Charlot pour les femmes invitées.",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": ""
+     },
+     {
+      "t": "Petit cottage autrefois occupé par les Fred Cohen : les Mac Wood.",
+      "inv": "2017.40.172a-g",
+      "pct": 5,
+      "m": ""
+     },
+     {
+      "t": "Meadows Inn : fermée depuis le 1er novembre ; William Morse Cole loge dans son petit appartement pendant son séjour.",
+      "inv": "2017.40.172a-g",
+      "pct": 10,
+      "m": "Cole est là fin novembre-début décembre (conférences du 29 novembre et des 4-6 décembre)"
+     },
+     {
+      "t": "Cottage des Jalowetz dessiné par Kocher.",
+      "src": "Duberman 1972, p. 481-483",
+      "pct": 10,
+      "m": ""
+     }
+    ]
+   },
+   {
+    "id": "ferme",
+    "nom": "La ferme (grange, laiterie, silos, enclos)",
+    "faits": [
+     {
+      "t": "À dix minutes à pied du campus ; grange, laiterie (milking house, été 1942), deux silos à maïs en tuiles, enclos du taureau (1943), porcherie neuve (août 1943), poulailler (1943), abri des bovins de boucherie accolé à la grange (chantier arrêté en février 1944 puis repris), hangar à machines en bois du campus (20 × 60 pieds, jusqu'à 1 200 boisseaux de maïs).",
+      "src": "Silver 2024, ch. 6 (p. 89-100 env.)",
+      "pct": 15,
+      "m": "bâtiments attestés pour 1942-1944 ; état au 4 décembre supposé"
+     },
+     {
+      "t": "Pâturage supérieur avec vue sur les montagnes ; angus noirs.",
+      "src": "Lane 1990, p. 160-163",
+      "pct": 20,
+      "m": "souvenir de 1944-45"
+     }
+    ]
+   },
+   {
+    "id": "lac",
+    "nom": "Lake Eden, le barrage, les chemins",
+    "faits": [
+     {
+      "t": "Petit lac artificiel (ancienne station d'été) ; ponton près de la salle à manger ; rhododendrons sur la berge sous le lac ; barrage.",
+      "src": "Duberman 1972, p. 153-155 ; Lane 1990, p. 132, 153-154",
+      "pct": 15,
+      "m": ""
+     },
+     {
+      "t": "Matins de gel : brume qui monte du lac, mince glace ; « son du verre brisé » sur le lac.",
+      "src": "Lane 1990, p. 132, 136-137",
+      "pct": 30,
+      "m": "souvenir des années 1940, transposé à un matin de gel de décembre"
+     },
+     {
+      "t": "Allées gravillonnées bordées de galax et de laurier ; talus nivelés (1943).",
+      "src": "Duberman 1972, p. 169",
+      "pct": 15,
+      "m": ""
+     }
+    ]
+   },
+   {
+    "id": "village_asheville",
+    "nom": "Hors du campus",
+    "faits": [
+     {
+      "t": "Black Mountain (village, à 5 km) : bureau du télégraphe ouvert de 9 h à 17 h 20 en semaine ; blanchisserie ; express et gare routière ; école primaire (la pièce pour enfants y sera jouée le 13 décembre).",
+      "inv": "2017.40.172a-g ; 2017.40.184a-d",
+      "pct": 5,
+      "m": ""
+     },
+     {
+      "t": "Asheville : le Plaza Theatre (pièce pour enfants du samedi 2 décembre) ; Brevard College, où Bob Wunsch dîne et parle le soir du 4.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0,
+      "m": ""
+     },
+     {
+      "t": "Peu de voitures (essence rationnée) : on va au cinéma d'Asheville ou de Black Mountain en voitures et camions du collège.",
+      "inv": "2017.40.180a-d",
+      "pct": 15,
+      "m": "fait d'un samedi de novembre"
+     }
+    ]
+   }
+  ],
+  "lieux_du_jour": {
+   "Dining hall": 3,
+   "Dining Hall front porch": 2,
+   "Language Room": 1,
+   "College store": 2,
+   "College office": 1,
+   "Brevard College": 1,
+   "Lobby of South Lodge": 1
+  },
+  "logements": {
+   "_source": "2017.40.172a-g (30 septembre 1944) : « Lodge Bedrooms » et « Studies » ; pct 10 : attribution de la rentrée, changements possibles en cours de trimestre.",
+   "North Lodge": {
+    "Room 1": [
+     "Henrietta Barth",
+     "Janet Rees"
+    ],
+    "Room 2": [
+     "Ati Gropius",
+     "Ann MacKinnon",
+     "Katharine Schauffler"
+    ],
+    "Room 3": [
+     "Betty Kelley",
+     "Alice McCanna"
+    ],
+    "Room 4": [
+     "Sue Burton",
+     "Suzanne Teasdale"
+    ],
+    "Room 5": [
+     "Jeane Cormany",
+     "Janet Goldsmith"
+    ],
+    "Room 6": [
+     "Lorna Pearson",
+     "Elizabeth Schmitt"
+    ],
+    "Room 7": [
+     "Marilyn Bauer",
+     "Joan Couch",
+     "Anna Schauffler"
+    ],
+    "Room 8": [
+     "Peggy Bennett",
+     "Elizabeth Osbourne",
+     "Jane Slater"
+    ],
+    "North Attic": [
+     "Jagna Braunthal",
+     "Judith Chernoff",
+     "Roxane Dinkowitz",
+     "Janet Heling",
+     "Joan Keiser",
+     "Helen Marden",
+     "Harriett Sones",
+     "Lana Yarash"
+    ],
+    "South Attic": [
+     "Nancy Albee",
+     "Dorothy Carr",
+     "Carol Ostrow",
+     "Janet Ramsey",
+     "Eleanor Smith",
+     "Nancy Smith",
+     "Jane Stone",
+     "Lucy Swift"
+    ]
+   },
+   "South Lodge": {
+    "North Attic": [
+     "Richard Albany",
+     "Richard Bush-Brown",
+     "Curtiss Cowan",
+     "Layton Noel",
+     "Egbert Swackhamer",
+     "Edwin Woldin"
+    ],
+    "South Attic": [
+     "Marvin Daniels",
+     "Charles Forberg",
+     "William McLaughlin",
+     "Max Paul",
+     "Harold Schuyler"
+    ]
+   },
+   "Studies (n°)": {
+    "Sue Kay Burton": "27",
+    "Dick Bush-Brown": "22",
+    "Helen Wright Marden": "125",
+    "Alice McCanna": "124",
+    "Ann McKinnon": "110",
+    "Bill McLaughlin": "107"
+   }
+  }
+ },
+ "faune_flore": {
+  "elevage": [
+   {
+    "t": "Fin de l'été 1943 : 35 bovins (huit vaches laitières, 25 bovins de boucherie et veaux, deux taureaux), 33 porcs, plus de 100 poules, trois chevaux (Lady et Pearl, mère et fille, et Derek, un poulain), neuf canards et une chèvre (celle de Ted Dreier Jr.).",
+    "src": "Silver 2024, ch. 6, p. 92-93 (pages approchées)",
+    "pct": 25,
+    "m": "effectifs de 1943 ; ceux de décembre 1944 ne sont pas connus"
+   },
+   {
+    "t": "Taureaux : King's Regent of Dellwood (Guernesey, don de Marshall Field III, automne 1941) et Black Burgess (Angus enregistré) ; enclos séparés depuis leur bagarre de l'été 1943.",
+    "src": "Silver 2024, ch. 6, p. 91-93",
+    "pct": 20,
+    "m": "présence en 1944 supposée"
+   },
+   {
+    "t": "Le lait et le beurre de la communauté viennent tous de la ferme, ainsi que l'essentiel de la viande et de la volaille ; on vend veaux, vaches, porcelets et porcs aux voisins.",
+    "src": "Silver 2024, ch. 6, p. 93",
+    "pct": 15,
+    "m": "« throughout the war »"
+   },
+   {
+    "t": "Le fermier : Ross Penley, devenu irrégulier en 1944 (départ pour la Morgan Manufacturing Company, retour) ; Zabriskie se souvient de lui ivre de moonshine, labourant la nuit et gaspillant l'essence.",
+    "src": "Silver 2024, ch. 6, p. 101-102",
+    "pct": 25,
+    "m": "1944-45, sans date"
+   },
+   {
+    "t": "Molly Gregory et sa chienne Grisselda.",
+    "src": "Silver 2024, ch. 6",
+    "pct": 40,
+    "m": "la chienne est citée après le collège ; présence en 1944 supposée"
+   },
+   {
+    "t": "Récolte du maïs pour l'ensilage (fin de l'été 1944) avec l'ensileuse prêtée par l'orphelinat ; ensilage rentré, fourrages (maïs, soja, vesce, orge, seigle) en réserve pour l'hiver.",
+    "src": "Silver 2024, ch. 6, p. 91-92 ; 2017.40.177a-g",
+    "pct": 15,
+    "m": "réserves supposées en décembre"
+   },
+   {
+    "t": "Conserves de l'été 1943 : 100 gallons de betteraves, 85 de haricots, 50 de choucroute ; vers 1944 la ferme produit haricots, betteraves, chou, carottes, blettes, chou cavalier, concombres…",
+    "src": "Silver 2024, ch. 6, p. 89-91",
+    "pct": 30,
+    "m": "réserves d'hiver de 1944 non chiffrées"
+   },
+   {
+    "t": "Huit vaches échappées du pâturage supérieur, cherchées dans la montagne de 6 h au milieu de l'après-midi avec Dreier (automne 1943).",
+    "src": "Lane 1990, p. 124",
+    "pct": 60,
+    "m": "autre année : épisode possible, non daté de 1944"
+   }
+  ],
+  "vegetal_et_sauvage": [
+   {
+    "t": "Forêt de feuillus dénudée en décembre ; restent verts le rhododendron (berges, ruisseau du bureau), le laurier des montagnes, le galax des allées, la pruche (hemlock) et le pin blanc.",
+    "src": "Lane 1990, p. 138-139, 153-154 ; Duberman 1972, p. 169 ; pour la pruche et le pin : connaissance générale de la vallée de la Swannanoa",
+    "pct": 35,
+    "m": "rhododendron, laurier et galax attestés à Lake Eden ; arbres à feuilles persistantes supposés"
+   },
+   {
+    "t": "Châtaigniers américains morts du chancre vers la fin de la Première Guerre mondiale : troncs morts, bois de « wormy chestnut ».",
+    "src": "Lane 1990, p. 194-196",
+    "pct": 20,
+    "m": "noté en 1946 ; vrai aussi en 1944"
+   },
+   {
+    "t": "Hêtres en haie le long d'un sentier ; champignons nombreux autour du lac (été et automne).",
+    "src": "Lane 1990, p. 160-166",
+    "pct": 40,
+    "m": "souvenirs de 1944-45, saison différente"
+   },
+   {
+    "t": "Canards (ceux du collège et sauvages) et fleurs sauvages ; traces d'ours ; brume sur le lac.",
+    "src": "Lane 1990, p. 150",
+    "pct": 40,
+    "m": "non daté"
+   },
+   {
+    "t": "Un hiver où Lake Eden gèle assez pour patiner.",
+    "src": "Lane 1990, p. 154",
+    "pct": 60,
+    "m": "année non donnée ; le 4 décembre 1944 vient après la nuit la plus froide d'un mois de décembre depuis des années, mais une prise en glace épaisse n'est pas attestée"
+   },
+   {
+    "t": "Oiseaux d'hiver de la région (corneilles, cardinaux, mésanges, juncos, troglodytes de Caroline) ; écureuils gris, opossums, ratons laveurs, renards ; serpents en sommeil.",
+    "src": "connaissance générale du milieu, hors sources du collège",
+    "pct": 60,
+    "m": "à vérifier dans une source naturaliste ; le cerf de Virginie était rare dans l'ouest de la Caroline du Nord à cette époque"
+   },
+   {
+    "t": "Arbres d'hiver blanchis et études de feuilles des étudiants d'Albers pour le décor de Thanksgiving.",
+    "inv": "2017.40.181.01a-c",
+    "pct": 10,
+    "m": "23 novembre"
+   }
+  ]
+ },
+ "evenements": {
+  "semaine": [
+   {
+    "d": "1944-11-22",
+    "t": "Heinrich et Johanna Jalowetz naturalisés américains au tribunal fédéral d'Asheville ; le soir, les étudiants et enseignants chantent « The Star-Spangled Banner » et « America, the Beautiful » au dîner en leur honneur.",
+    "inv": "2017.40.181.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-11-22",
+    "t": "Herbert Miller parle de la Chine (rupture Stilwell-Tchang) dans le lobby de South Lodge.",
+    "inv": "2017.40.181.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-11-23",
+    "t": "Thanksgiving : congé, dîner dinde et sauce aux airelles, soirée de numéros (Sam Brown maître de cérémonie ; chansons, « Three White Russians » dansé par Dick Albany, Curtis Cowan et Egbert Swackhamer, numéro de corde raide de Max Paul…). Alfred Kazin part le même jour pour Washington (préparatifs de son voyage en Angleterre en janvier).",
+    "inv": "2017.40.181.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-11-20",
+    "t": "« Christmas came by mail » : Nell Goldsmith en Père Noël, paquets de cigarettes noués d'un ruban bleu pour de vieux amis ; visite du père Michael Carey (église catholique de Swannanoa) au cours de Miller.",
+    "inv": "2017.40.181.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-11-21",
+    "t": "Rapports des délégués à la conférence interraciale « Design for Living Today » (Greensboro, Bennett College) dans le lobby de South Lodge (Henrietta Barth, Eleanor Smith, Jagna Braunthal, Janet Rees), conclus le mardi 28 ; la chorale commence les chœurs de Judas Maccabée (Haendel).",
+    "inv": "2017.40.181.01a-c ; 2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-11-29",
+    "t": "Conférence de William Morse Cole : « Are We Irreligious? If So, Why? » (lobby de South Lodge).",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-11-30",
+    "t": "Répétition générale de « An Almost Lonely Christmas » dans la salle à manger, devant presque toute la communauté ; retouches de costumes et de décors jusqu'à minuit le vendredi.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-02",
+    "t": "Voyage en voitures et camions jusqu'au Plaza Theatre d'Asheville, par « the coldest December morning Western North Carolina has had in many years » ; radiateurs en ébullition, un radiateur gelé ; salle comble d'enfants et de mères.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-04",
+    "t": "Ted Dreier rentre en train le matin après deux semaines en Nouvelle-Angleterre et à New York (collecte de fonds ; Thanksgiving à la Putney School avec Ted Jr.).",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-04",
+    "t": "19 h 15, Faculty Room : première des trois causeries d'économie de William Morse Cole, « Money ».",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-04",
+    "t": "Soir : Bob Wunsch au dîner mensuel des enseignants de Brevard College, où il parle des idéaux de Black Mountain.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-05",
+    "t": "Board of Fellows à 15 h dans le study de Bob Wunsch ; causerie de Cole « Wages » à 19 h ; chorale à 20 h dans la salle à manger.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-06",
+    "t": "Causerie de Cole « Corporations » à 16 h 45 ; Wunsch préside la Western Carolina Dramatic Association (Asheville) l'après-midi ; Lowinsky : Culture of the Renaissance à 19 h 30, Language Room.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-07",
+    "t": "Faculté et officiers étudiants à 13 h 30, Faculty Room.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-08",
+    "t": "Edward J. Stainbrook (Duke) : « Art, Psychopathology, and Culture », 19 h 30, lobby de North Lodge ; Trudi Straus part pour Chapel Hill (concert du North Carolina Symphony).",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-09",
+    "t": "The Braggart Warrior de Plaute par les étudiants en théâtre, 20 h 30, scène de la salle à manger.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-10",
+    "t": "Dimanche travaillé : cours du vendredi le matin, du jeudi l'après-midi et le soir.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-11",
+    "t": "Kazin : « The Crisis in American Education », lobby de South Lodge ; réunions de la faculté du lundi au mercredi, 16 h 30-18 h.",
+    "inv": "2017.40.184a-d",
+    "pct": 0
+   },
+   {
+    "d": "1944-12-14",
+    "t": "Fin du trimestre d'automne à 12 h 30 ; consignes de départ (rendre les livres, nettoyer son study, laisser les radiateurs allumés, la nourriture en boîtes fermées) ; camion des bagages vers l'express de Black Mountain après le déjeuner.",
+    "inv": "2017.40.184a-d",
+    "pct": 0
+   }
+  ],
+  "courrier": [
+   {
+    "t": "Pfc. Duncan Dwight annonce la naissance de son fils Anthony Walcott (samedi 25 novembre, 8 livres 13 onces), pendant sa permission de quinze jours ; il repart le 6 décembre.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "t": "Le lieutenant Bela Martin, instructeur de vol à St. Augustine (Floride), parle de ses élèves et d'un atterrissage forcé (carburateur).",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "t": "Bernard Malek, infirmier militaire sur un transport vers l'Alaska : tempête en mer, cabine de 4 pieds sur 4, cours par correspondance sur Shakespeare.",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "t": "Mary Rose Riegger (Akes), à New York : un mari dans l'aviation en Inde, un emploi dans la défense ; annonce la mort de Frances Goldman (tuberculose, 10 novembre).",
+    "inv": "2017.40.182.01a-c",
+    "pct": 0
+   },
+   {
+    "t": "Tirage du bulletin : 200 exemplaires ronéotypés chaque semaine, 30 distribués aux enseignants et aux officiers étudiants, le reste envoyé aux amis du collège ; coût : 15 dollars par semaine.",
+    "inv": "2017.40.181.01a-c ; 2017.40.182.01a-c",
+    "pct": 0
+   }
+  ],
+  "monde": [
+   {
+    "t": "Guerre : beaucoup d'anciens étudiants sous les drapeaux (lettres du bulletin : France, Belgique, Inde, Alaska, Floride) ; les nouvelles de la semaine sont commentées le mardi soir par Bill McLaughlin et Herbert Miller dans le lobby de South Lodge.",
+    "inv": "2017.40.181.01a-c ; 2017.40.182.01a-c",
+    "pct": 10,
+    "m": ""
+   },
+   {
+    "t": "Rationnement : carnets de rationnement déposés au bureau ; cigarettes, essence et charbon rares.",
+    "inv": "2017.40.172a-g ; 2017.40.178a-d",
+    "pct": 10,
+    "m": ""
+   },
+   {
+    "t": "Contexte de début décembre 1944 : Roosevelt réélu le 7 novembre pour un quatrième mandat ; combats de Leyte aux Philippines ; les armées alliées à la frontière allemande ; à Athènes, affrontements de décembre (depuis le 3) ; la contre-offensive allemande des Ardennes ne commence que le 16 décembre.",
+    "src": "connaissance historique générale, hors corpus du collège",
+    "pct": 30,
+    "m": "à vérifier dans un journal du 4 décembre 1944 (Asheville Citizen)"
+   }
+  ],
+  "situation": [
+   {
+    "t": "Douzième année ; environ 80 étudiants au plus (« the 80-odd that we can now take in »), surtout des femmes ; seize États représentés à la rentrée.",
+    "inv": "2017.40.184a-d ; 2017.40.174a-e",
+    "pct": 10,
+    "m": ""
+   },
+   {
+    "t": "Après la scission du printemps 1944 et les départs de l'été (la question de l'admission d'étudiants noirs, Alma Stone Williams à l'été 1944), la faculté restante : Albers, Dreier, Wunsch, Jalowetz, Lowinsky, Miller, les Hansgirg, Zabriskie, Kazin, Mary Gregory, Trudi Straus.",
+    "src": "Duberman 1972, ch. 7-8 ; entretiens de Mary Emma Harris ; 2017.40.172a-g",
+    "pct": 20,
+    "m": "liste reconstituée"
+   },
+   {
+    "t": "Anni Albers a pris quatre semaines de repos complet sur ordre de son médecin avant de reprendre ses cours d'automne.",
+    "inv": "2017.40.174a-e",
+    "pct": 10,
+    "m": "début octobre ; elle enseigne de nouveau en novembre-décembre"
+   },
+   {
+    "t": "Collecte de fonds : Dreier dans l'Est ; étudiants et enseignants préparent la campagne des vacances de Noël.",
+    "inv": "2017.40.181.01a-c",
+    "pct": 0,
+    "m": ""
+   }
+  ],
+  "autour": [
+   {
+    "debut": "1944-11-01",
+    "fin": "1944-11-30",
+    "titre": "Publication of 'Concerning Art Instruction' by Josef Albers",
+    "pct": 35,
+    "source": "\"Concerning Art Instruction\" in Black Mountain College Bulletin 2 (inv. 2017.40.240), d'après Chronos asheville_events.json"
+   },
+   {
+    "debut": "1944-11-01",
+    "fin": "1944-12-31",
+    "titre": "Sélection de Sidney Janis",
+    "pct": 35,
+    "source": "W. de Kooning dessins, p. 63"
+   }
+  ]
+ }
+}

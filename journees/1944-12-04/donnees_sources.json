@@ -1,0 +1,714 @@
+{
+  "_lisezmoi": "Faits relevés à la main pour le lundi 4 décembre 1944 (entrée de scripts/journee.py). Chaque fait : texte (résumé en français, citations courtes en anglais entre « »), source (inventaire AAM ou livre et page), part déduite (pct) et motif. 0 % = écrit tel quel dans un document daté qui couvre ce jour ; on ajoute ce que l'on transpose (autre date, autre année, connaissance générale).",
+  "date": "1944-12-04",
+  "lieux": [
+    {
+      "id": "dining_hall",
+      "nom": "Dining Hall (salle à manger, cuisine, véranda)",
+      "faits": [
+        {
+          "t": "Repas de toute la communauté ; panneaux d'affichage à consulter chaque jour ; annonces orales dix minutes après le début du repas, seulement si elles concernent toute la communauté.",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": "règle de la session 1944-45, publiée le 30 septembre"
+        },
+        {
+          "t": "Véranda de devant : boîte aux lettres de départ, casiers du courrier, téléphone (extension du standard du bureau ; on note chaque appel sur une fiche ronéotypée).",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": "règle de la session"
+        },
+        {
+          "t": "Scène de la salle à manger : répétitions du spectacle pour enfants chaque soir de la semaine précédente ; The Braggart Warrior (Plaute) y sera joué le samedi 9 décembre à 20 h 30 ; la chorale y répète le mardi à 20 h.",
+          "inv": "2017.40.182.01a-c",
+          "pct": 0,
+          "m": ""
+        },
+        {
+          "t": "Véranda de la salle à manger : atelier de Curtiss Cowan, qui y a peint les décors de la pièce pour enfants (mercredi et jeudi précédents).",
+          "inv": "2017.40.182.01a-c",
+          "pct": 10,
+          "m": "les décors sont peut-être encore là le 4"
+        },
+        {
+          "t": "Décor de Thanksgiving (23 novembre) : arbres d'hiver blanchis à rayures roses et études de feuilles des étudiants d'Albers ; mi-novembre, dix lithographies en couleur « Carnival in Mexico » de Carlos Mérida exposées sur les panneaux.",
+          "inv": "2017.40.181.01a-c",
+          "pct": 30,
+          "m": "rien ne dit si le décor est encore en place le 4 décembre"
+        },
+        {
+          "t": "Salle balayée chaque jour ; on agite les pichets d'eau pour faire silence avant une annonce ; verre brisé aux repas.",
+          "src": "Lane 1990, p. 130-132, 135-136",
+          "pct": 25,
+          "m": "souvenir des années 1940, pas daté"
+        },
+        {
+          "t": "Grande salle avec véranda grillagée dominant le lac ; chaises de bois faites à la main, qu'on range contre les murs pour les spectacles.",
+          "src": "Horowitz & Danilowitz 2009, p. 122 ; Molesworth 2015, p. 298",
+          "pct": 15,
+          "m": "description générale"
+        }
+      ]
+    },
+    {
+      "id": "studies_building",
+      "nom": "Studies Building",
+      "faits": [
+        {
+          "t": "Bâtiment d'études au bord du lac : un « study » par étudiant (chaise et plan de travail fournis par le collège) ; salles : Language Room (n° 29), Faculty Room (103), Journalism (136), reliure (2) ; studies d'enseignants : Erwin et Trudi Straus (135), Mac Wood (6), Mrs Elizabeth Boyden (33).",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": "attribution du 30 septembre"
+        },
+        {
+          "t": "Appartement de l'étage transformé en atelier de couture pour les costumes de la pièce pour enfants (Betty Osbourne, Janet Rees, Alice McCanna), la semaine précédente.",
+          "inv": "2017.40.182.01a-c",
+          "pct": 10,
+          "m": "semaine du 27 novembre ; peut-être déjà rendu à son usage"
+        },
+        {
+          "t": "Depuis octobre, le nettoyage du Studies Building, des bureaux et de la bibliothèque est fait par le programme de travail des étudiants (économie : plus de personnel de ménage).",
+          "inv": "2017.40.180a-d",
+          "pct": 10,
+          "m": "mesure annoncée en novembre"
+        },
+        {
+          "t": "Repeindre ou aménager son study : demander d'abord à Josef Albers.",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": ""
+        }
+      ]
+    },
+    {
+      "id": "north_lodge",
+      "nom": "North Lodge (dortoir des femmes)",
+      "faits": [
+        {
+          "t": "Chambres et combles : dortoir des étudiantes ; le lobby sert de salon et de lieu de réunion (conférence du vendredi 8 décembre à 19 h 30).",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": ""
+        },
+        {
+          "t": "North Lodge sera fermé pendant les vacances de Noël (à partir du 14 décembre).",
+          "inv": "2017.40.184a-d",
+          "pct": 0,
+          "m": ""
+        }
+      ]
+    },
+    {
+      "id": "south_lodge",
+      "nom": "South Lodge",
+      "faits": [
+        {
+          "t": "Combles nord et sud : dortoir des étudiants ; lobby : salle de lecture et de divertissement (Reading Hour de Kazin le lundi soir, réunions du mardi soir) ; chambres 1 et 3 : infirmerie ; 2 et 4 : chambres d'hôtes ; 5 : repassage ; 7 : salle de lecture et d'écriture, attente des invités ; salle de bains entre 5 et 7 : « Tea Kitchen » ; 6 et 8 : appartement de Mrs A. D. Stone ; buanderie et machine à laver sous la véranda.",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": ""
+        }
+      ]
+    },
+    {
+      "id": "cottages",
+      "nom": "Cottages et logements des enseignants",
+      "faits": [
+        {
+          "t": "Stone Cottage : Fritz et Maria Hansgirg (emménagés en octobre ; un trio de Beethoven leur a été joué le premier soir).",
+          "inv": "2017.40.172a-g ; 2017.40.177a-g",
+          "pct": 5,
+          "m": ""
+        },
+        {
+          "t": "Mountain Stream : Alfred Kazin à l'étage ; les autres chambres pour les hommes invités.",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": ""
+        },
+        {
+          "t": "Black Dwarf Cottage : les George Zabriskie dans l'ancien appartement Bentley ; l'appartement Charlot pour les femmes invitées.",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": ""
+        },
+        {
+          "t": "Petit cottage autrefois occupé par les Fred Cohen : les Mac Wood.",
+          "inv": "2017.40.172a-g",
+          "pct": 5,
+          "m": ""
+        },
+        {
+          "t": "Meadows Inn : fermée depuis le 1er novembre ; William Morse Cole loge dans son petit appartement pendant son séjour.",
+          "inv": "2017.40.172a-g",
+          "pct": 10,
+          "m": "Cole est là fin novembre-début décembre (conférences du 29 novembre et des 4-6 décembre)"
+        },
+        {
+          "t": "Cottage des Jalowetz dessiné par Kocher.",
+          "src": "Duberman 1972, p. 481-483",
+          "pct": 10,
+          "m": ""
+        }
+      ]
+    },
+    {
+      "id": "ferme",
+      "nom": "La ferme (grange, laiterie, silos, enclos)",
+      "faits": [
+        {
+          "t": "À dix minutes à pied du campus ; grange, laiterie (milking house, été 1942), deux silos à maïs en tuiles, enclos du taureau (1943), porcherie neuve (août 1943), poulailler (1943), abri des bovins de boucherie accolé à la grange (chantier arrêté en février 1944 puis repris), hangar à machines en bois du campus (20 × 60 pieds, jusqu'à 1 200 boisseaux de maïs).",
+          "src": "Silver 2024, ch. 6 (p. 89-100 env.)",
+          "pct": 15,
+          "m": "bâtiments attestés pour 1942-1944 ; état au 4 décembre supposé"
+        },
+        {
+          "t": "Pâturage supérieur avec vue sur les montagnes ; angus noirs.",
+          "src": "Lane 1990, p. 160-163",
+          "pct": 20,
+          "m": "souvenir de 1944-45"
+        }
+      ]
+    },
+    {
+      "id": "lac",
+      "nom": "Lake Eden, le barrage, les chemins",
+      "faits": [
+        {
+          "t": "Petit lac artificiel (ancienne station d'été) ; ponton près de la salle à manger ; rhododendrons sur la berge sous le lac ; barrage.",
+          "src": "Duberman 1972, p. 153-155 ; Lane 1990, p. 132, 153-154",
+          "pct": 15,
+          "m": ""
+        },
+        {
+          "t": "Matins de gel : brume qui monte du lac, mince glace ; « son du verre brisé » sur le lac.",
+          "src": "Lane 1990, p. 132, 136-137",
+          "pct": 30,
+          "m": "souvenir des années 1940, transposé à un matin de gel de décembre"
+        },
+        {
+          "t": "Allées gravillonnées bordées de galax et de laurier ; talus nivelés (1943).",
+          "src": "Duberman 1972, p. 169",
+          "pct": 15,
+          "m": ""
+        }
+      ]
+    },
+    {
+      "id": "village_asheville",
+      "nom": "Hors du campus",
+      "faits": [
+        {
+          "t": "Black Mountain (village, à 5 km) : bureau du télégraphe ouvert de 9 h à 17 h 20 en semaine ; blanchisserie ; express et gare routière ; école primaire (la pièce pour enfants y sera jouée le 13 décembre).",
+          "inv": "2017.40.172a-g ; 2017.40.184a-d",
+          "pct": 5,
+          "m": ""
+        },
+        {
+          "t": "Asheville : le Plaza Theatre (pièce pour enfants du samedi 2 décembre) ; Brevard College, où Bob Wunsch dîne et parle le soir du 4.",
+          "inv": "2017.40.182.01a-c",
+          "pct": 0,
+          "m": ""
+        },
+        {
+          "t": "Peu de voitures (essence rationnée) : on va au cinéma d'Asheville ou de Black Mountain en voitures et camions du collège.",
+          "inv": "2017.40.180a-d",
+          "pct": 15,
+          "m": "fait d'un samedi de novembre"
+        }
+      ]
+    }
+  ],
+  "logements_etudiants": {
+    "_source": "2017.40.172a-g (30 septembre 1944) : « Lodge Bedrooms » et « Studies » ; pct 10 : attribution de la rentrée, changements possibles en cours de trimestre.",
+    "North Lodge": {
+      "Room 1": [
+        "Henrietta Barth",
+        "Janet Rees"
+      ],
+      "Room 2": [
+        "Ati Gropius",
+        "Ann MacKinnon",
+        "Katharine Schauffler"
+      ],
+      "Room 3": [
+        "Betty Kelley",
+        "Alice McCanna"
+      ],
+      "Room 4": [
+        "Sue Burton",
+        "Suzanne Teasdale"
+      ],
+      "Room 5": [
+        "Jeane Cormany",
+        "Janet Goldsmith"
+      ],
+      "Room 6": [
+        "Lorna Pearson",
+        "Elizabeth Schmitt"
+      ],
+      "Room 7": [
+        "Marilyn Bauer",
+        "Joan Couch",
+        "Anna Schauffler"
+      ],
+      "Room 8": [
+        "Peggy Bennett",
+        "Elizabeth Osbourne",
+        "Jane Slater"
+      ],
+      "North Attic": [
+        "Jagna Braunthal",
+        "Judith Chernoff",
+        "Roxane Dinkowitz",
+        "Janet Heling",
+        "Joan Keiser",
+        "Helen Marden",
+        "Harriett Sones",
+        "Lana Yarash"
+      ],
+      "South Attic": [
+        "Nancy Albee",
+        "Dorothy Carr",
+        "Carol Ostrow",
+        "Janet Ramsey",
+        "Eleanor Smith",
+        "Nancy Smith",
+        "Jane Stone",
+        "Lucy Swift"
+      ]
+    },
+    "South Lodge": {
+      "North Attic": [
+        "Richard Albany",
+        "Richard Bush-Brown",
+        "Curtiss Cowan",
+        "Layton Noel",
+        "Egbert Swackhamer",
+        "Edwin Woldin"
+      ],
+      "South Attic": [
+        "Marvin Daniels",
+        "Charles Forberg",
+        "William McLaughlin",
+        "Max Paul",
+        "Harold Schuyler"
+      ]
+    },
+    "Studies (n°)": {
+      "Sue Kay Burton": "27",
+      "Dick Bush-Brown": "22",
+      "Helen Wright Marden": "125",
+      "Alice McCanna": "124",
+      "Ann McKinnon": "110",
+      "Bill McLaughlin": "107"
+    }
+  },
+  "travail": [
+    {
+      "t": "Programme de travail organisé en équipes avec un coordinateur : cuisine (Jane Stone), transport et charbon (Egbert Swackhamer), ménage (Ann MacKinnon), chaudières (Chuck Forberg), bureau (Betty Osbourne) ; coordinateur étudiant : Bill McLaughlin ; coordinatrice de la faculté : Molly Gregory.",
+      "inv": "2017.40.177a-g",
+      "pct": 10,
+      "m": "organisation d'octobre 1944, supposée inchangée"
+    },
+    {
+      "t": "Chef d'équipe de la ferme : Janet Heling (sous-coordinatrice) ; maintenance : Chuck Forberg.",
+      "inv": "2017.40.174a-e",
+      "pct": 10,
+      "m": ""
+    },
+    {
+      "t": "Les étudiants assurent désormais la plonge, les chaudières, le service de la salle à manger et tout le ménage du collège.",
+      "inv": "2017.40.180a-d",
+      "pct": 10,
+      "m": "mesure d'économie de novembre"
+    },
+    {
+      "t": "Chaudières : trop chaud ou trop froid → Chuck Forberg ; bois ou charbon bas → Egbert Swackhamer, trois jours à l'avance ; chaudière en panne → Bas Allen ; ampoules et fusibles chez Annette Stone, Bas Allen ou Mac Wood ; travaux non courants planifiés par Molly Gregory.",
+      "inv": "2017.40.179a-d",
+      "pct": 5,
+      "m": ""
+    },
+    {
+      "t": "Premier wagon de charbon de l'hiver déchargé en moins de trois jours (fin octobre) par la « Fraternity of Coal Haulers », presque toute féminine.",
+      "inv": "2017.40.178a-d",
+      "pct": 15,
+      "m": "fin octobre ; d'autres wagons suivent sans doute"
+    },
+    {
+      "t": "Équipe de ferme du lundi : Betty Schmitt et Eddy Woldin.",
+      "src": "Silver 2024, ch. 6, p. 95-96 (tableau de service dactylographié de Janet Heling, 1944)",
+      "pct": 20,
+      "m": "tableau daté « 1944 » sans trimestre ; les deux sont étudiants à l'automne 1944"
+    },
+    {
+      "t": "Après-midi de travail (lundi, mercredi, vendredi, 13 h 30-17 h 30) : reconstitution d'après les bulletins 1943-45.",
+      "src": "reconstitution du semainier 1944-45 (2017.40.176a-h ; 2017.40.186a-e)",
+      "pct": 40,
+      "m": "jours et heures déduits"
+    },
+    {
+      "t": "Corvées de Peggy Bennett en 1944-45 : salle à manger et ferme.",
+      "src": "entretien de Mary Emma Harris avec Margaret « Peggy » Bennett Cole",
+      "pct": 15,
+      "m": "souvenir, sans date précise dans l'année"
+    }
+  ],
+  "routine_complements": [
+    {
+      "h": "05:00",
+      "f": "06:00",
+      "t": "Traite du matin : Jagna Braunthal, cheffe de la traite, marche dix minutes jusqu'à la ferme pour traire les vaches (à cinq heures du matin et à cinq heures du soir).",
+      "src": "Silver 2024, ch. 6, p. 93-94",
+      "pct": 20,
+      "m": "usage de 1944 ; heure de fin supposée"
+    },
+    {
+      "h": "07:30",
+      "f": "07:50",
+      "t": "Ati Gropius recueille les bidons de lait frais (cinq gallons), les reverse dans de petits bidons : office pour le petit-déjeuner, cuisine, réfrigérateur pour les familles.",
+      "src": "Silver 2024, ch. 6, p. 95-97",
+      "pct": 20,
+      "m": "usage de 1943-44, supposé en décembre 1944"
+    },
+    {
+      "h": "17:00",
+      "f": "18:00",
+      "t": "Traite du soir (Jagna Braunthal).",
+      "src": "Silver 2024, ch. 6, p. 93-94",
+      "pct": 20,
+      "m": "même usage"
+    },
+    {
+      "h": "18:15",
+      "f": "18:35",
+      "t": "Ati Gropius répète l'opération du lait et écrème pour la crème et le beurre (environ 15 livres de beurre par semaine depuis la décision de l'assemblée).",
+      "src": "Silver 2024, ch. 6, p. 95-97",
+      "pct": 25,
+      "m": "même usage ; date de la décision sur le beurre non précisée"
+    },
+    {
+      "h": "13:30",
+      "f": "17:30",
+      "t": "Après-midi du programme de travail (lundi) : ferme (équipe du lundi : Betty Schmitt et Eddy Woldin), charbon et bois (Egbert Swackhamer), chaudières (Chuck Forberg), ménage (Ann MacKinnon), cuisine et plonge.",
+      "src": "reconstitution du semainier 1944-45 (2017.40.176a-h ; 2017.40.186a-e) ; Silver 2024, ch. 6, p. 95-96 ; 2017.40.177a-g",
+      "pct": 40,
+      "m": "jours et heures du programme de travail déduits ; équipes d'octobre 1944"
+    },
+    {
+      "h": "",
+      "f": "",
+      "t": "Linge : une fois par semaine, un drap, une taie, une serviette par étudiant lavés aux frais du collège ; draps et serviettes à déposer à la buanderie sous la véranda de South Lodge, selon l'horaire affiché par Mrs Annette Stone.",
+      "inv": "2017.40.172a-g",
+      "pct": 10,
+      "m": "jour de la semaine non donné"
+    },
+    {
+      "h": "09:00",
+      "f": "12:00",
+      "t": "Bibliothèque (Mrs Nell Rice) : ouverte en permanence ; Mrs Rice reçoit le matin, de 9 h à 12 h (semaine de rentrée).",
+      "inv": "2017.40.172a-g",
+      "pct": 30,
+      "m": "horaire de la semaine de rentrée"
+    },
+    {
+      "h": "",
+      "f": "",
+      "t": "Tabac rationné : un paquet de cigarettes par personne et par semaine ; on roule ses cigarettes, avec des « blonds » maison : « Rhododendron Leaf-Virginia », « Maple Sugar-New England ».",
+      "inv": "2017.40.178a-d",
+      "pct": 10,
+      "m": "rationnement de l'automne 1944"
+    },
+    {
+      "h": "",
+      "f": "",
+      "t": "Pompiers du collège : chef George Zabriskie, technicien en chef Fritz Hansgirg ; exercices d'incendie avec sirène ; ne pas jeter de mégots par les fenêtres sur l'herbe sèche.",
+      "inv": "2017.40.172a-g ; 2017.40.177a-g ; 2017.40.178a-d",
+      "pct": 10,
+      "m": "Max Paul se souvient avoir été chef des pompiers (Harris) : à concilier"
+    }
+  ],
+  "elevage": [
+    {
+      "t": "Fin de l'été 1943 : 35 bovins (huit vaches laitières, 25 bovins de boucherie et veaux, deux taureaux), 33 porcs, plus de 100 poules, trois chevaux (Lady et Pearl, mère et fille, et Derek, un poulain), neuf canards et une chèvre (celle de Ted Dreier Jr.).",
+      "src": "Silver 2024, ch. 6, p. 92-93 (pages approchées)",
+      "pct": 25,
+      "m": "effectifs de 1943 ; ceux de décembre 1944 ne sont pas connus"
+    },
+    {
+      "t": "Taureaux : King's Regent of Dellwood (Guernesey, don de Marshall Field III, automne 1941) et Black Burgess (Angus enregistré) ; enclos séparés depuis leur bagarre de l'été 1943.",
+      "src": "Silver 2024, ch. 6, p. 91-93",
+      "pct": 20,
+      "m": "présence en 1944 supposée"
+    },
+    {
+      "t": "Le lait et le beurre de la communauté viennent tous de la ferme, ainsi que l'essentiel de la viande et de la volaille ; on vend veaux, vaches, porcelets et porcs aux voisins.",
+      "src": "Silver 2024, ch. 6, p. 93",
+      "pct": 15,
+      "m": "« throughout the war »"
+    },
+    {
+      "t": "Le fermier : Ross Penley, devenu irrégulier en 1944 (départ pour la Morgan Manufacturing Company, retour) ; Zabriskie se souvient de lui ivre de moonshine, labourant la nuit et gaspillant l'essence.",
+      "src": "Silver 2024, ch. 6, p. 101-102",
+      "pct": 25,
+      "m": "1944-45, sans date"
+    },
+    {
+      "t": "Molly Gregory et sa chienne Grisselda.",
+      "src": "Silver 2024, ch. 6",
+      "pct": 40,
+      "m": "la chienne est citée après le collège ; présence en 1944 supposée"
+    },
+    {
+      "t": "Récolte du maïs pour l'ensilage (fin de l'été 1944) avec l'ensileuse prêtée par l'orphelinat ; ensilage rentré, fourrages (maïs, soja, vesce, orge, seigle) en réserve pour l'hiver.",
+      "src": "Silver 2024, ch. 6, p. 91-92 ; 2017.40.177a-g",
+      "pct": 15,
+      "m": "réserves supposées en décembre"
+    },
+    {
+      "t": "Conserves de l'été 1943 : 100 gallons de betteraves, 85 de haricots, 50 de choucroute ; vers 1944 la ferme produit haricots, betteraves, chou, carottes, blettes, chou cavalier, concombres…",
+      "src": "Silver 2024, ch. 6, p. 89-91",
+      "pct": 30,
+      "m": "réserves d'hiver de 1944 non chiffrées"
+    },
+    {
+      "t": "Huit vaches échappées du pâturage supérieur, cherchées dans la montagne de 6 h au milieu de l'après-midi avec Dreier (automne 1943).",
+      "src": "Lane 1990, p. 124",
+      "pct": 60,
+      "m": "autre année : épisode possible, non daté de 1944"
+    }
+  ],
+  "vegetal_et_sauvage": [
+    {
+      "t": "Forêt de feuillus dénudée en décembre ; restent verts le rhododendron (berges, ruisseau du bureau), le laurier des montagnes, le galax des allées, la pruche (hemlock) et le pin blanc.",
+      "src": "Lane 1990, p. 138-139, 153-154 ; Duberman 1972, p. 169 ; pour la pruche et le pin : connaissance générale de la vallée de la Swannanoa",
+      "pct": 35,
+      "m": "rhododendron, laurier et galax attestés à Lake Eden ; arbres à feuilles persistantes supposés"
+    },
+    {
+      "t": "Châtaigniers américains morts du chancre vers la fin de la Première Guerre mondiale : troncs morts, bois de « wormy chestnut ».",
+      "src": "Lane 1990, p. 194-196",
+      "pct": 20,
+      "m": "noté en 1946 ; vrai aussi en 1944"
+    },
+    {
+      "t": "Hêtres en haie le long d'un sentier ; champignons nombreux autour du lac (été et automne).",
+      "src": "Lane 1990, p. 160-166",
+      "pct": 40,
+      "m": "souvenirs de 1944-45, saison différente"
+    },
+    {
+      "t": "Canards (ceux du collège et sauvages) et fleurs sauvages ; traces d'ours ; brume sur le lac.",
+      "src": "Lane 1990, p. 150",
+      "pct": 40,
+      "m": "non daté"
+    },
+    {
+      "t": "Un hiver où Lake Eden gèle assez pour patiner.",
+      "src": "Lane 1990, p. 154",
+      "pct": 60,
+      "m": "année non donnée ; le 4 décembre 1944 vient après la nuit la plus froide d'un mois de décembre depuis des années, mais une prise en glace épaisse n'est pas attestée"
+    },
+    {
+      "t": "Oiseaux d'hiver de la région (corneilles, cardinaux, mésanges, juncos, troglodytes de Caroline) ; écureuils gris, opossums, ratons laveurs, renards ; serpents en sommeil.",
+      "src": "connaissance générale du milieu, hors sources du collège",
+      "pct": 60,
+      "m": "à vérifier dans une source naturaliste ; le cerf de Virginie était rare dans l'ouest de la Caroline du Nord à cette époque"
+    },
+    {
+      "t": "Arbres d'hiver blanchis et études de feuilles des étudiants d'Albers pour le décor de Thanksgiving.",
+      "inv": "2017.40.181.01a-c",
+      "pct": 10,
+      "m": "23 novembre"
+    }
+  ],
+  "evenements_semaine": [
+    {
+      "d": "1944-11-22",
+      "t": "Heinrich et Johanna Jalowetz naturalisés américains au tribunal fédéral d'Asheville ; le soir, les étudiants et enseignants chantent « The Star-Spangled Banner » et « America, the Beautiful » au dîner en leur honneur.",
+      "inv": "2017.40.181.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-11-22",
+      "t": "Herbert Miller parle de la Chine (rupture Stilwell-Tchang) dans le lobby de South Lodge.",
+      "inv": "2017.40.181.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-11-23",
+      "t": "Thanksgiving : congé, dîner dinde et sauce aux airelles, soirée de numéros (Sam Brown maître de cérémonie ; chansons, « Three White Russians » dansé par Dick Albany, Curtis Cowan et Egbert Swackhamer, numéro de corde raide de Max Paul…). Alfred Kazin part le même jour pour Washington (préparatifs de son voyage en Angleterre en janvier).",
+      "inv": "2017.40.181.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-11-20",
+      "t": "« Christmas came by mail » : Nell Goldsmith en Père Noël, paquets de cigarettes noués d'un ruban bleu pour de vieux amis ; visite du père Michael Carey (église catholique de Swannanoa) au cours de Miller.",
+      "inv": "2017.40.181.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-11-21",
+      "t": "Rapports des délégués à la conférence interraciale « Design for Living Today » (Greensboro, Bennett College) dans le lobby de South Lodge (Henrietta Barth, Eleanor Smith, Jagna Braunthal, Janet Rees), conclus le mardi 28 ; la chorale commence les chœurs de Judas Maccabée (Haendel).",
+      "inv": "2017.40.181.01a-c ; 2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-11-29",
+      "t": "Conférence de William Morse Cole : « Are We Irreligious? If So, Why? » (lobby de South Lodge).",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-11-30",
+      "t": "Répétition générale de « An Almost Lonely Christmas » dans la salle à manger, devant presque toute la communauté ; retouches de costumes et de décors jusqu'à minuit le vendredi.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-02",
+      "t": "Voyage en voitures et camions jusqu'au Plaza Theatre d'Asheville, par « the coldest December morning Western North Carolina has had in many years » ; radiateurs en ébullition, un radiateur gelé ; salle comble d'enfants et de mères.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-04",
+      "t": "Ted Dreier rentre en train le matin après deux semaines en Nouvelle-Angleterre et à New York (collecte de fonds ; Thanksgiving à la Putney School avec Ted Jr.).",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-04",
+      "t": "19 h 15, Faculty Room : première des trois causeries d'économie de William Morse Cole, « Money ».",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-04",
+      "t": "Soir : Bob Wunsch au dîner mensuel des enseignants de Brevard College, où il parle des idéaux de Black Mountain.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-05",
+      "t": "Board of Fellows à 15 h dans le study de Bob Wunsch ; causerie de Cole « Wages » à 19 h ; chorale à 20 h dans la salle à manger.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-06",
+      "t": "Causerie de Cole « Corporations » à 16 h 45 ; Wunsch préside la Western Carolina Dramatic Association (Asheville) l'après-midi ; Lowinsky : Culture of the Renaissance à 19 h 30, Language Room.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-07",
+      "t": "Faculté et officiers étudiants à 13 h 30, Faculty Room.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-08",
+      "t": "Edward J. Stainbrook (Duke) : « Art, Psychopathology, and Culture », 19 h 30, lobby de North Lodge ; Trudi Straus part pour Chapel Hill (concert du North Carolina Symphony).",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-09",
+      "t": "The Braggart Warrior de Plaute par les étudiants en théâtre, 20 h 30, scène de la salle à manger.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-10",
+      "t": "Dimanche travaillé : cours du vendredi le matin, du jeudi l'après-midi et le soir.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-11",
+      "t": "Kazin : « The Crisis in American Education », lobby de South Lodge ; réunions de la faculté du lundi au mercredi, 16 h 30-18 h.",
+      "inv": "2017.40.184a-d",
+      "pct": 0
+    },
+    {
+      "d": "1944-12-14",
+      "t": "Fin du trimestre d'automne à 12 h 30 ; consignes de départ (rendre les livres, nettoyer son study, laisser les radiateurs allumés, la nourriture en boîtes fermées) ; camion des bagages vers l'express de Black Mountain après le déjeuner.",
+      "inv": "2017.40.184a-d",
+      "pct": 0
+    }
+  ],
+  "courrier_du_jour": [
+    {
+      "t": "Pfc. Duncan Dwight annonce la naissance de son fils Anthony Walcott (samedi 25 novembre, 8 livres 13 onces), pendant sa permission de quinze jours ; il repart le 6 décembre.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "t": "Le lieutenant Bela Martin, instructeur de vol à St. Augustine (Floride), parle de ses élèves et d'un atterrissage forcé (carburateur).",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "t": "Bernard Malek, infirmier militaire sur un transport vers l'Alaska : tempête en mer, cabine de 4 pieds sur 4, cours par correspondance sur Shakespeare.",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "t": "Mary Rose Riegger (Akes), à New York : un mari dans l'aviation en Inde, un emploi dans la défense ; annonce la mort de Frances Goldman (tuberculose, 10 novembre).",
+      "inv": "2017.40.182.01a-c",
+      "pct": 0
+    },
+    {
+      "t": "Tirage du bulletin : 200 exemplaires ronéotypés chaque semaine, 30 distribués aux enseignants et aux officiers étudiants, le reste envoyé aux amis du collège ; coût : 15 dollars par semaine.",
+      "inv": "2017.40.181.01a-c ; 2017.40.182.01a-c",
+      "pct": 0
+    }
+  ],
+  "monde": [
+    {
+      "t": "Guerre : beaucoup d'anciens étudiants sous les drapeaux (lettres du bulletin : France, Belgique, Inde, Alaska, Floride) ; les nouvelles de la semaine sont commentées le mardi soir par Bill McLaughlin et Herbert Miller dans le lobby de South Lodge.",
+      "inv": "2017.40.181.01a-c ; 2017.40.182.01a-c",
+      "pct": 10,
+      "m": ""
+    },
+    {
+      "t": "Rationnement : carnets de rationnement déposés au bureau ; cigarettes, essence et charbon rares.",
+      "inv": "2017.40.172a-g ; 2017.40.178a-d",
+      "pct": 10,
+      "m": ""
+    },
+    {
+      "t": "Contexte de début décembre 1944 : Roosevelt réélu le 7 novembre pour un quatrième mandat ; combats de Leyte aux Philippines ; les armées alliées à la frontière allemande ; à Athènes, affrontements de décembre (depuis le 3) ; la contre-offensive allemande des Ardennes ne commence que le 16 décembre.",
+      "src": "connaissance historique générale, hors corpus du collège",
+      "pct": 30,
+      "m": "à vérifier dans un journal du 4 décembre 1944 (Asheville Citizen)"
+    }
+  ],
+  "situation": [
+    {
+      "t": "Douzième année ; environ 80 étudiants au plus (« the 80-odd that we can now take in »), surtout des femmes ; seize États représentés à la rentrée.",
+      "inv": "2017.40.184a-d ; 2017.40.174a-e",
+      "pct": 10,
+      "m": ""
+    },
+    {
+      "t": "Après la scission du printemps 1944 et les départs de l'été (la question de l'admission d'étudiants noirs, Alma Stone Williams à l'été 1944), la faculté restante : Albers, Dreier, Wunsch, Jalowetz, Lowinsky, Miller, les Hansgirg, Zabriskie, Kazin, Mary Gregory, Trudi Straus.",
+      "src": "Duberman 1972, ch. 7-8 ; entretiens de Mary Emma Harris ; 2017.40.172a-g",
+      "pct": 20,
+      "m": "liste reconstituée"
+    },
+    {
+      "t": "Anni Albers a pris quatre semaines de repos complet sur ordre de son médecin avant de reprendre ses cours d'automne.",
+      "inv": "2017.40.174a-e",
+      "pct": 10,
+      "m": "début octobre ; elle enseigne de nouveau en novembre-décembre"
+    },
+    {
+      "t": "Collecte de fonds : Dreier dans l'Est ; étudiants et enseignants préparent la campagne des vacances de Noël.",
+      "inv": "2017.40.181.01a-c",
+      "pct": 0,
+      "m": ""
+    }
+  ]
+}

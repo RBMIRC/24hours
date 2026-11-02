@@ -9,3 +9,6 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
 - Les fichiers de `jours/`, `lieux/`, `personnes/`, `ambiance/`, `meteo/` et `candidats.md` sont produits par
   `scripts/` : corriger la source (RBMIRC/bmc-chronology) ou le script, puis régénérer, plutôt que de les modifier à la main.
 - `cours/` est réservé à la progression des cours (travail séparé, écrit à la main).
+- Journée retenue : lundi 4 décembre 1944 (`journees/1944-12-04/`). Les faits relevés à la main vont dans
+  `donnees_sources.json` (chacun avec source, part déduite et motif) ; les fichiers 01-09, `README.md` et `journee.json`
+  sont produits par `scripts/journee.py`. Les scènes s'écriront ensuite à partir de ces éléments.
