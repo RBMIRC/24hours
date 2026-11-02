@@ -13,7 +13,8 @@ Structure des éléments dont le scénario a besoin (1 minute = 1 page : 00:00 =
 | Espace animal et végétal | [07_faune_flore.md](07_faune_flore.md) | bêtes de la ferme, plantes, arbres, animaux sauvages | rempli, en partie supposé |
 | Événements | [08_evenements.md](08_evenements.md) | la quinzaine, le courrier du jour, la situation du collège, le monde | rempli |
 | Progression des cours | [09_progression_des_cours.md](09_progression_des_cours.md) | place réservée | à faire |
-| Scènes | — | à écrire ensuite | à faire |
+| Séquencier | [10_sequencier.md](10_sequencier.md) | les scènes de 00:00 à 23:59 en temps réel (1 440 pages), avec lieu, lumière, personnages, action, source et part déduite ; `sequencier.csv`, `sequencier.json` (scripts/sequencier.py, à partir de `scenes_cles.json`) | liste faite |
+| Scènes écrites | — | dialogues et didascalies, scène par scène | à faire |
 
 ## Règles
 

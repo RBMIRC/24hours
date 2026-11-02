@@ -11,7 +11,7 @@ daté ; davantage pour ce qui est tiré d'un livre, d'une lecture automatique ou
 
 | dossier | contenu |
 |---|---|
-| [`journees/1944-12-04/`](journees/1944-12-04/README.md) | **la journée retenue, lundi 4 décembre 1944** : un fichier par élément (météo, lumière, lieux, personnes, cours, routine, espace animal et végétal, événements, progression des cours) et `journee.json` |
+| [`journees/1944-12-04/`](journees/1944-12-04/README.md) | **la journée retenue, lundi 4 décembre 1944** : un fichier par élément (météo, lumière, lieux, personnes, cours, routine, espace animal et végétal, événements, progression des cours), `journee.json` et le **séquencier** (`10_sequencier.md` : 295 scènes en temps réel) |
 | [`candidats.md`](candidats.md) | les journées les mieux documentées (pour choisir la journée type) et la meilleure de chaque année |
 | [`jours/`](jours/) | un dossier par jour, du 1er septembre 1933 au 31 août 1957 (8 766 jours) ; `jours/AAAA/README.md` : tableau de l'année |
 | [`meteo/`](meteo/README.md) | relevés quotidiens (Swannanoa 2 E à 3 km de Lake Eden, Montreat, Asheville) ; mentions du temps dans les bulletins |
@@ -44,6 +44,7 @@ python3 scripts/meteo.py <dossier des .csv.gz de la NOAA>
 python3 scripts/mentions_meteo.py <bmc-chronology>/bmc-programmes-aam
 python3 scripts/construire.py <clone de RBMIRC/week>
 python3 scripts/journee.py 1944-12-04 <clone de RBMIRC/week> <clone de RBMIRC/bmc-chronology>
+python3 scripts/sequencier.py 1944-12-04 <clone de RBMIRC/week>
 ```
 
 `journee.py` lit `journees/AAAA-MM-JJ/donnees_sources.json` (faits relevés à la main, avec source et part déduite) et

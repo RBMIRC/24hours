@@ -12,3 +12,6 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
 - Journée retenue : lundi 4 décembre 1944 (`journees/1944-12-04/`). Les faits relevés à la main vont dans
   `donnees_sources.json` (chacun avec source, part déduite et motif) ; les fichiers 01-09, `README.md` et `journee.json`
   sont produits par `scripts/journee.py`. Les scènes s'écriront ensuite à partir de ces éléments.
+- Séquencier : les scènes clés s'écrivent dans `journees/1944-12-04/scenes_cles.json` (fenêtre horaire, lieu, personnages,
+  action, source, part déduite, motif, « remplace » = motif des activités du planning qu'elles englobent) ;
+  `scripts/sequencier.py` en tire `10_sequencier.md`, `sequencier.csv`, `sequencier.json` (1 440 minutes, sans trou).
