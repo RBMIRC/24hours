@@ -1414,9 +1414,9 @@
  {
   "n": 60,
   "debut": "08:38",
-  "fin": "09:00",
-  "pages": "519–540",
-  "duree_min": 22,
+  "fin": "08:42",
+  "pages": "519–522",
+  "duree_min": 4,
   "entete": "EXT. LA FERME — JOUR",
   "lumiere": "aube ou crépuscule civil",
   "meteo": "couvert, -3.4 °C",
@@ -1436,6 +1436,78 @@
  },
  {
   "n": 61,
+  "debut": "08:42",
+  "fin": "08:46",
+  "pages": "523–526",
+  "duree_min": 4,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "aube ou crépuscule civil",
+  "meteo": "couvert, -3.4 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Heinrich Jalowetz",
+   "Anna Lockwood (inscrit)",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Ensemble",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 62,
+  "debut": "08:46",
+  "fin": "08:50",
+  "pages": "527–530",
+  "duree_min": 4,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "aube ou crépuscule civil",
+  "meteo": "couvert, -3.4 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "Ted Dreier",
+   "Jagna Braunthal (inscrit)"
+  ],
+  "action": "(suite) Calculus",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 63,
+  "debut": "08:50",
+  "fin": "09:00",
+  "pages": "531–540",
+  "duree_min": 10,
+  "entete": "EXT. LA FERME — JOUR",
+  "lumiere": "aube ou crépuscule civil",
+  "meteo": "couvert, -3.4 °C",
+  "statut": "supposé",
+  "lieu": "La ferme",
+  "ie": "EXT",
+  "qui": [
+   "Roscoe Penley"
+  ],
+  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 08:50 : -3.4 °C, couvert, lune à 50.7°",
+  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
+  "pct": 50,
+  "m": "tâches du jour supposées",
+  "fil": "ferme",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 64,
   "debut": "09:00",
   "fin": "09:04",
   "pages": "541–544",
@@ -1460,10 +1532,198 @@
   "cours": true
  },
  {
-  "n": 62,
+  "n": 65,
   "debut": "09:04",
-  "fin": "09:07",
-  "pages": "545–547",
+  "fin": "09:08",
+  "pages": "545–548",
+  "duree_min": 4,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "Ted Dreier",
+   "Jagna Braunthal (inscrit)"
+  ],
+  "action": "(suite) Calculus",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 66,
+  "debut": "09:08",
+  "fin": "09:11",
+  "pages": "549–551",
+  "duree_min": 3,
+  "entete": "EXT. GARE DE BLACK MOUNTAIN, PUIS LA ROUTE DE LAKE EDEN — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Gare de Black Mountain, puis la route de Lake Eden",
+  "ie": "EXT",
+  "qui": [
+   "Theodore Dreier"
+  ],
+  "action": "Ted Dreier, le trésorier, rentre par le train du matin après deux semaines de collecte de fonds à New York et en Nouvelle-Angleterre (Thanksgiving à la Putney School avec Ted Jr.). Quelqu'un vient le chercher avec une voiture ou le camion.",
+  "src": "2017.40.182.01a-c",
+  "pct": 20,
+  "m": "retour attesté « this morning » ; heure du train et transport supposés",
+  "fil": "dreier",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 67,
+  "debut": "09:11",
+  "fin": "09:14",
+  "pages": "552–554",
+  "duree_min": 3,
+  "entete": "INT. LE COTTAGE DES LOWINSKY — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Le cottage des Lowinsky",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Gretel Lowinsky"
+  ],
+  "action": "Edward Lowinsky, 36 ans, musicologue réfugié, écrit à George N. Redd, de l'université Fisk à Nashville (Redd répondra le 15 décembre) ; il n'enseigne qu'à 17 h ce lundi.",
+  "src": "Duberman 1972, ch. 8, p. 514 (note 5 : lettre datée du 4 décembre 1944) ; 2017.40.176a-h",
+  "pct": 30,
+  "m": "date de la lettre attestée ; heure, lieu et contenu supposés",
+  "fil": "lowinsky",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 68,
+  "debut": "09:14",
+  "fin": "09:17",
+  "pages": "555–557",
+  "duree_min": 3,
+  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "La bibliothèque",
+  "ie": "INT",
+  "qui": [
+   "Nell Rice"
+  ],
+  "action": "La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
+  "src": "2017.40.172a-g ; 2017.40.184a-d",
+  "pct": 40,
+  "m": "présence de Mrs Rice ce matin-là supposée",
+  "fil": "bibliotheque",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 69,
+  "debut": "09:17",
+  "fin": "09:20",
+  "pages": "558–560",
+  "duree_min": 3,
+  "entete": "EXT. LA FERME — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "supposé",
+  "lieu": "La ferme",
+  "ie": "EXT",
+  "qui": [
+   "Roscoe Penley"
+  ],
+  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 09:17 : -2.3 °C, couvert, lune à 38.9°",
+  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
+  "pct": 50,
+  "m": "tâches du jour supposées",
+  "fil": "ferme",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 70,
+  "debut": "09:20",
+  "fin": "09:22",
+  "pages": "561–562",
+  "duree_min": 2,
+  "entete": "INT. SOUTH LODGE : LA LINGERIE, LA BUANDERIE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "supposé",
+  "lieu": "South Lodge : la lingerie, la buanderie",
+  "ie": "INT",
+  "qui": [
+   "Annette Stone"
+  ],
+  "action": "Mrs Annette Stone, chargée du linge et des chambres d'hôtes, dans son appartement du South Lodge ; draps et serviettes à la buanderie sous la véranda.",
+  "src": "2017.40.172a-g",
+  "pct": 50,
+  "m": "jour du linge non donné",
+  "fil": "linge",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 71,
+  "debut": "09:22",
+  "fin": "09:24",
+  "pages": "563–564",
+  "duree_min": 2,
+  "entete": "INT. LES BÂTIMENTS : CHAUDIÈRES, ÉLECTRICITÉ — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "supposé",
+  "lieu": "Les bâtiments : chaudières, électricité",
+  "ie": "INT",
+  "qui": [
+   "Bascombe Allen"
+  ],
+  "action": "Bas Allen, l'homme d'entretien : chaudières en panne, fusibles, réparations après la vague de froid (c'est lui qu'on appelle quand une chaudière ne marche plus).",
+  "src": "2017.40.179a-d ; 2017.40.172a-g",
+  "pct": 55,
+  "m": "tâches du jour supposées",
+  "fil": "entretien",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 72,
+  "debut": "09:24",
+  "fin": "09:27",
+  "pages": "565–567",
+  "duree_min": 3,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, -2.3 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Heinrich Jalowetz",
+   "Anna Lockwood (inscrit)",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Ensemble",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 73,
+  "debut": "09:27",
+  "fin": "09:30",
+  "pages": "568–570",
   "duree_min": 3,
   "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
@@ -1484,146 +1744,7 @@
   "cours": true
  },
  {
-  "n": 63,
-  "debut": "09:07",
-  "fin": "09:11",
-  "pages": "548–551",
-  "duree_min": 4,
-  "entete": "EXT. GARE DE BLACK MOUNTAIN, PUIS LA ROUTE DE LAKE EDEN — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "Gare de Black Mountain, puis la route de Lake Eden",
-  "ie": "EXT",
-  "qui": [
-   "Theodore Dreier"
-  ],
-  "action": "Ted Dreier, le trésorier, rentre par le train du matin après deux semaines de collecte de fonds à New York et en Nouvelle-Angleterre (Thanksgiving à la Putney School avec Ted Jr.). Quelqu'un vient le chercher avec une voiture ou le camion.",
-  "src": "2017.40.182.01a-c",
-  "pct": 20,
-  "m": "retour attesté « this morning » ; heure du train et transport supposés",
-  "fil": "dreier",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 64,
-  "debut": "09:11",
-  "fin": "09:15",
-  "pages": "552–555",
-  "duree_min": 4,
-  "entete": "INT. LE COTTAGE DES LOWINSKY — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "Le cottage des Lowinsky",
-  "ie": "INT",
-  "qui": [
-   "Edward Lowinsky",
-   "Gretel Lowinsky"
-  ],
-  "action": "Edward Lowinsky, 36 ans, musicologue réfugié, écrit à George N. Redd, de l'université Fisk à Nashville (Redd répondra le 15 décembre) ; il n'enseigne qu'à 17 h ce lundi.",
-  "src": "Duberman 1972, ch. 8, p. 514 (note 5 : lettre datée du 4 décembre 1944) ; 2017.40.176a-h",
-  "pct": 30,
-  "m": "date de la lettre attestée ; heure, lieu et contenu supposés",
-  "fil": "lowinsky",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 65,
-  "debut": "09:15",
-  "fin": "09:19",
-  "pages": "556–559",
-  "duree_min": 4,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La bibliothèque",
-  "ie": "INT",
-  "qui": [
-   "Nell Rice"
-  ],
-  "action": "La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
-  "src": "2017.40.172a-g ; 2017.40.184a-d",
-  "pct": 40,
-  "m": "présence de Mrs Rice ce matin-là supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 66,
-  "debut": "09:19",
-  "fin": "09:23",
-  "pages": "560–563",
-  "duree_min": 4,
-  "entete": "EXT. LA FERME — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "supposé",
-  "lieu": "La ferme",
-  "ie": "EXT",
-  "qui": [
-   "Roscoe Penley"
-  ],
-  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 09:19 : -2.3 °C, couvert, lune à 38.9°",
-  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
-  "pct": 50,
-  "m": "tâches du jour supposées",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 67,
-  "debut": "09:23",
-  "fin": "09:27",
-  "pages": "564–567",
-  "duree_min": 4,
-  "entete": "INT. SOUTH LODGE : LA LINGERIE, LA BUANDERIE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "supposé",
-  "lieu": "South Lodge : la lingerie, la buanderie",
-  "ie": "INT",
-  "qui": [
-   "Annette Stone"
-  ],
-  "action": "Mrs Annette Stone, chargée du linge et des chambres d'hôtes, dans son appartement du South Lodge ; draps et serviettes à la buanderie sous la véranda.",
-  "src": "2017.40.172a-g",
-  "pct": 50,
-  "m": "jour du linge non donné",
-  "fil": "linge",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 68,
-  "debut": "09:27",
-  "fin": "09:30",
-  "pages": "568–570",
-  "duree_min": 3,
-  "entete": "INT. LES BÂTIMENTS : CHAUDIÈRES, ÉLECTRICITÉ — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "supposé",
-  "lieu": "Les bâtiments : chaudières, électricité",
-  "ie": "INT",
-  "qui": [
-   "Bascombe Allen"
-  ],
-  "action": "Bas Allen, l'homme d'entretien : chaudières en panne, fusibles, réparations après la vague de froid (c'est lui qu'on appelle quand une chaudière ne marche plus).",
-  "src": "2017.40.179a-d ; 2017.40.172a-g",
-  "pct": 55,
-  "m": "tâches du jour supposées",
-  "fil": "entretien",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 69,
+  "n": 74,
   "debut": "09:30",
   "fin": "09:34",
   "pages": "571–574",
@@ -1648,7 +1769,7 @@
   "cours": true
  },
  {
-  "n": 70,
+  "n": 75,
   "debut": "09:34",
   "fin": "09:38",
   "pages": "575–578",
@@ -1672,11 +1793,11 @@
   "cours": true
  },
  {
-  "n": 71,
+  "n": 76,
   "debut": "09:38",
-  "fin": "09:41",
-  "pages": "579–581",
-  "duree_min": 3,
+  "fin": "09:40",
+  "pages": "579–580",
+  "duree_min": 2,
   "entete": "EXT. GARE DE BLACK MOUNTAIN, PUIS LA ROUTE DE LAKE EDEN — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, -2.3 °C",
@@ -1695,11 +1816,11 @@
   "cours": false
  },
  {
-  "n": 72,
-  "debut": "09:41",
-  "fin": "09:44",
-  "pages": "582–584",
-  "duree_min": 3,
+  "n": 77,
+  "debut": "09:40",
+  "fin": "09:42",
+  "pages": "581–582",
+  "duree_min": 2,
   "entete": "INT. LE COTTAGE DES LOWINSKY — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, -2.3 °C",
@@ -1719,10 +1840,10 @@
   "cours": false
  },
  {
-  "n": 73,
-  "debut": "09:44",
-  "fin": "09:46",
-  "pages": "585–586",
+  "n": 78,
+  "debut": "09:42",
+  "fin": "09:44",
+  "pages": "583–584",
   "duree_min": 2,
   "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
   "lumiere": "jour",
@@ -1742,10 +1863,10 @@
   "cours": false
  },
  {
-  "n": 74,
-  "debut": "09:46",
-  "fin": "09:48",
-  "pages": "587–588",
+  "n": 79,
+  "debut": "09:44",
+  "fin": "09:46",
+  "pages": "585–586",
   "duree_min": 2,
   "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
   "lumiere": "jour",
@@ -1765,10 +1886,10 @@
   "cours": false
  },
  {
-  "n": 75,
-  "debut": "09:48",
-  "fin": "09:50",
-  "pages": "589–590",
+  "n": 80,
+  "debut": "09:46",
+  "fin": "09:48",
+  "pages": "587–588",
   "duree_min": 2,
   "entete": "EXT. LA FERME — JOUR",
   "lumiere": "jour",
@@ -1779,7 +1900,7 @@
   "qui": [
    "Roscoe Penley"
   ],
-  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 09:48 : -2.3 °C, couvert, lune à 38.9°",
+  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 09:46 : -2.3 °C, couvert, lune à 38.9°",
   "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
   "pct": 50,
   "m": "tâches du jour supposées",
@@ -1788,10 +1909,10 @@
   "cours": false
  },
  {
-  "n": 76,
-  "debut": "09:50",
-  "fin": "09:52",
-  "pages": "591–592",
+  "n": 81,
+  "debut": "09:48",
+  "fin": "09:50",
+  "pages": "589–590",
   "duree_min": 2,
   "entete": "INT. SOUTH LODGE : LA LINGERIE, LA BUANDERIE — JOUR",
   "lumiere": "jour",
@@ -1811,10 +1932,10 @@
   "cours": false
  },
  {
-  "n": 77,
-  "debut": "09:52",
-  "fin": "09:54",
-  "pages": "593–594",
+  "n": 82,
+  "debut": "09:50",
+  "fin": "09:52",
+  "pages": "591–592",
   "duree_min": 2,
   "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
   "lumiere": "jour",
@@ -1834,76 +1955,56 @@
   "cours": false
  },
  {
-  "n": 78,
-  "debut": "09:54",
+  "n": 83,
+  "debut": "09:52",
   "fin": "09:56",
-  "pages": "595–596",
-  "duree_min": 2,
-  "entete": "INT. LES BÂTIMENTS : CHAUDIÈRES, ÉLECTRICITÉ — JOUR",
+  "pages": "593–596",
+  "duree_min": 4,
+  "entete": "INT. ROUND HOUSE — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, -2.3 °C",
-  "statut": "supposé",
-  "lieu": "Les bâtiments : chaudières, électricité",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
   "ie": "INT",
   "qui": [
-   "Bascombe Allen"
+   "Heinrich Jalowetz",
+   "Anna Lockwood (inscrit)",
+   "Dorothy Carr (inscrit)"
   ],
-  "action": "(suite) Bas Allen, l'homme d'entretien : chaudières en panne, fusibles, réparations après la vague de froid (c'est lui qu'on appelle quand une chaudière ne marche plus).",
-  "src": "2017.40.179a-d ; 2017.40.172a-g",
-  "pct": 55,
-  "m": "tâches du jour supposées",
-  "fil": "entretien",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) Ensemble",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
-  "n": 79,
+  "n": 84,
   "debut": "09:56",
-  "fin": "09:58",
-  "pages": "597–598",
-  "duree_min": 2,
-  "entete": "INT. MOUNTAIN STREAM, LA CHAMBRE D'ALFRED KAZIN — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, -2.3 °C",
-  "statut": "supposé",
-  "lieu": "Mountain Stream, la chambre d'Alfred Kazin",
-  "ie": "INT",
-  "qui": [
-   "Alfred Kazin"
-  ],
-  "action": "Alfred Kazin, 29 ans, critique new-yorkais, à sa table : il prépare son départ pour l'Angleterre en janvier (étude de l'éducation des soldats pour l'Office of War Information) et ses cours sur Blake et Melville.",
-  "src": "2017.40.172a-g ; 2017.40.181.01a-c ; entretien de Harris avec Kazin",
-  "pct": 60,
-  "m": "scène supposée ; présence ce jour-là probable",
-  "fil": "kazin",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 80,
-  "debut": "09:58",
   "fin": "10:00",
-  "pages": "599–600",
-  "duree_min": 2,
-  "entete": "INT. LE STUDIES BUILDING, LES STUDIES — JOUR",
+  "pages": "597–600",
+  "duree_min": 4,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, -2.3 °C",
-  "statut": "supposé",
-  "lieu": "Le Studies Building, les studies",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
   "ie": "INT",
   "qui": [
-   "Josef Albers"
+   "Ted Dreier",
+   "Jagna Braunthal (inscrit)"
   ],
-  "action": "Josef Albers passe dans les studies : chaque étudiant doit le consulter avant de repeindre ou d'aménager le sien ; il n'a pas de cours ce lundi.",
-  "src": "2017.40.172a-g ; 2017.40.176a-h",
-  "pct": 60,
-  "m": "scène supposée",
-  "fil": "albers",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) Calculus",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
-  "n": 81,
+  "n": 85,
   "debut": "10:00",
   "fin": "10:04",
   "pages": "601–604",
@@ -1928,7 +2029,7 @@
   "cours": true
  },
  {
-  "n": 82,
+  "n": 86,
   "debut": "10:04",
   "fin": "10:07",
   "pages": "605–607",
@@ -1951,7 +2052,7 @@
   "cours": false
  },
  {
-  "n": 83,
+  "n": 87,
   "debut": "10:07",
   "fin": "10:10",
   "pages": "608–610",
@@ -1975,7 +2076,7 @@
   "cours": false
  },
  {
-  "n": 84,
+  "n": 88,
   "debut": "10:10",
   "fin": "10:13",
   "pages": "611–613",
@@ -1998,7 +2099,7 @@
   "cours": false
  },
  {
-  "n": 85,
+  "n": 89,
   "debut": "10:13",
   "fin": "10:15",
   "pages": "614–615",
@@ -2021,7 +2122,7 @@
   "cours": false
  },
  {
-  "n": 86,
+  "n": 90,
   "debut": "10:15",
   "fin": "10:17",
   "pages": "616–617",
@@ -2044,7 +2145,7 @@
   "cours": false
  },
  {
-  "n": 87,
+  "n": 91,
   "debut": "10:17",
   "fin": "10:19",
   "pages": "618–619",
@@ -2067,7 +2168,7 @@
   "cours": false
  },
  {
-  "n": 88,
+  "n": 92,
   "debut": "10:19",
   "fin": "10:21",
   "pages": "620–621",
@@ -2090,7 +2191,7 @@
   "cours": false
  },
  {
-  "n": 89,
+  "n": 93,
   "debut": "10:21",
   "fin": "10:23",
   "pages": "622–623",
@@ -2113,7 +2214,7 @@
   "cours": false
  },
  {
-  "n": 90,
+  "n": 94,
   "debut": "10:23",
   "fin": "10:25",
   "pages": "624–625",
@@ -2127,7 +2228,7 @@
   "qui": [
    "Alfred Kazin"
   ],
-  "action": "(suite) Alfred Kazin, 29 ans, critique new-yorkais, à sa table : il prépare son départ pour l'Angleterre en janvier (étude de l'éducation des soldats pour l'Office of War Information) et ses cours sur Blake et Melville.",
+  "action": "Alfred Kazin, 29 ans, critique new-yorkais, à sa table : il prépare son départ pour l'Angleterre en janvier (étude de l'éducation des soldats pour l'Office of War Information) et ses cours sur Blake et Melville.",
   "src": "2017.40.172a-g ; 2017.40.181.01a-c ; entretien de Harris avec Kazin",
   "pct": 60,
   "m": "scène supposée ; présence ce jour-là probable",
@@ -2136,7 +2237,7 @@
   "cours": false
  },
  {
-  "n": 91,
+  "n": 95,
   "debut": "10:25",
   "fin": "10:27",
   "pages": "626–627",
@@ -2150,7 +2251,7 @@
   "qui": [
    "Josef Albers"
   ],
-  "action": "(suite) Josef Albers passe dans les studies : chaque étudiant doit le consulter avant de repeindre ou d'aménager le sien ; il n'a pas de cours ce lundi.",
+  "action": "Josef Albers passe dans les studies : chaque étudiant doit le consulter avant de repeindre ou d'aménager le sien ; il n'a pas de cours ce lundi.",
   "src": "2017.40.172a-g ; 2017.40.176a-h",
   "pct": 60,
   "m": "scène supposée",
@@ -2159,7 +2260,7 @@
   "cours": false
  },
  {
-  "n": 92,
+  "n": 96,
   "debut": "10:27",
   "fin": "10:30",
   "pages": "628–630",
@@ -2184,7 +2285,7 @@
   "cours": true
  },
  {
-  "n": 93,
+  "n": 97,
   "debut": "10:30",
   "fin": "10:32",
   "pages": "631–632",
@@ -2207,123 +2308,35 @@
   "cours": true
  },
  {
-  "n": 94,
+  "n": 98,
   "debut": "10:32",
   "fin": "10:34",
   "pages": "633–634",
   "duree_min": 2,
-  "entete": "EXT. VÉRANDA DU DINING HALL — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "attesté",
-  "lieu": "Véranda du Dining Hall",
-  "ie": "EXT",
-  "qui": [],
-  "action": "Levée du courrier : la boîte de la véranda (et celle du hall du Studies Building).",
-  "src": "2017.40.172a-g",
-  "pct": 10,
-  "m": "",
-  "fil": "courrier",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 95,
-  "debut": "10:34",
-  "fin": "10:36",
-  "pages": "635–636",
-  "duree_min": 2,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
+  "entete": "INT. ROUND HOUSE — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 0.8 °C",
   "statut": "usage attesté, transposé",
-  "lieu": "La bibliothèque",
+  "lieu": "Round House",
   "ie": "INT",
   "qui": [
-   "Nell Rice"
+   "Heinrich Jalowetz",
+   "Anna Lockwood (inscrit)",
+   "Dorothy Carr (inscrit)"
   ],
-  "action": "(suite) La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
-  "src": "2017.40.172a-g ; 2017.40.184a-d",
-  "pct": 40,
-  "m": "présence de Mrs Rice ce matin-là supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 96,
-  "debut": "10:36",
-  "fin": "10:38",
-  "pages": "637–638",
-  "duree_min": 2,
-  "entete": "EXT. LA FERME — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "La ferme",
-  "ie": "EXT",
-  "qui": [
-   "Roscoe Penley"
-  ],
-  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 10:36 : 0.8 °C, couvert, lune à 26.9°",
-  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
-  "pct": 50,
-  "m": "tâches du jour supposées",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 97,
-  "debut": "10:38",
-  "fin": "10:40",
-  "pages": "639–640",
-  "duree_min": 2,
-  "entete": "INT. SOUTH LODGE : LA LINGERIE, LA BUANDERIE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "South Lodge : la lingerie, la buanderie",
-  "ie": "INT",
-  "qui": [
-   "Annette Stone"
-  ],
-  "action": "(suite) Mrs Annette Stone, chargée du linge et des chambres d'hôtes, dans son appartement du South Lodge ; draps et serviettes à la buanderie sous la véranda.",
-  "src": "2017.40.172a-g",
-  "pct": 50,
-  "m": "jour du linge non donné",
-  "fil": "linge",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 98,
-  "debut": "10:40",
-  "fin": "10:42",
-  "pages": "641–642",
-  "duree_min": 2,
-  "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "Le study de Bob Wunsch",
-  "ie": "INT",
-  "qui": [
-   "Robert Wunsch"
-  ],
-  "action": "(suite) Roman Drama and Production : le cours qui prépare The Braggart Warrior de Plaute, joué samedi 9 décembre sur la scène de la salle à manger.",
-  "src": "2017.40.176a-h ; 2017.40.182.01a-c ; 2017.40.172a-g (cours de six heures)",
-  "pct": 25,
-  "m": "lien entre le cours et la pièce déduit ; salle d'après l'hiver 1945",
-  "fil": "theatre",
-  "type": "scène clé",
+  "action": "(suite) Ensemble",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
   "cours": true
  },
  {
   "n": 99,
-  "debut": "10:42",
-  "fin": "10:44",
-  "pages": "643–644",
+  "debut": "10:34",
+  "fin": "10:36",
+  "pages": "635–636",
   "duree_min": 2,
   "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
@@ -2346,9 +2359,172 @@
  },
  {
   "n": 100,
+  "debut": "10:36",
+  "fin": "10:38",
+  "pages": "637–638",
+  "duree_min": 2,
+  "entete": "EXT. VÉRANDA DU DINING HALL — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "attesté",
+  "lieu": "Véranda du Dining Hall",
+  "ie": "EXT",
+  "qui": [],
+  "action": "Levée du courrier : la boîte de la véranda (et celle du hall du Studies Building).",
+  "src": "2017.40.172a-g",
+  "pct": 10,
+  "m": "",
+  "fil": "courrier",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 101,
+  "debut": "10:38",
+  "fin": "10:40",
+  "pages": "639–640",
+  "duree_min": 2,
+  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "La bibliothèque",
+  "ie": "INT",
+  "qui": [
+   "Nell Rice"
+  ],
+  "action": "(suite) La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
+  "src": "2017.40.172a-g ; 2017.40.184a-d",
+  "pct": 40,
+  "m": "présence de Mrs Rice ce matin-là supposée",
+  "fil": "bibliotheque",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 102,
+  "debut": "10:40",
+  "fin": "10:44",
+  "pages": "641–644",
+  "duree_min": 4,
+  "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Le study de Bob Wunsch",
+  "ie": "INT",
+  "qui": [
+   "Robert Wunsch"
+  ],
+  "action": "(suite) Roman Drama and Production : le cours qui prépare The Braggart Warrior de Plaute, joué samedi 9 décembre sur la scène de la salle à manger.",
+  "src": "2017.40.176a-h ; 2017.40.182.01a-c ; 2017.40.172a-g (cours de six heures)",
+  "pct": 25,
+  "m": "lien entre le cours et la pièce déduit ; salle d'après l'hiver 1945",
+  "fil": "theatre",
+  "type": "scène clé",
+  "cours": true
+ },
+ {
+  "n": 103,
   "debut": "10:44",
-  "fin": "10:46",
-  "pages": "645–646",
+  "fin": "10:48",
+  "pages": "645–648",
+  "duree_min": 4,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Heinrich Jalowetz",
+   "Anna Lockwood (inscrit)",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Ensemble",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 104,
+  "debut": "10:48",
+  "fin": "10:52",
+  "pages": "649–652",
+  "duree_min": 4,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "Mrs Fritz Hansgirg (Maria Hansgirg)",
+   "Nancy Albee (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) French for beginners (new class)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 25,
+  "m": "",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 105,
+  "debut": "10:52",
+  "fin": "10:54",
+  "pages": "653–654",
+  "duree_min": 2,
+  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "La bibliothèque",
+  "ie": "INT",
+  "qui": [
+   "Nell Rice"
+  ],
+  "action": "(suite) La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
+  "src": "2017.40.172a-g ; 2017.40.184a-d",
+  "pct": 40,
+  "m": "présence de Mrs Rice ce matin-là supposée",
+  "fil": "bibliotheque",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 106,
+  "debut": "10:54",
+  "fin": "10:56",
+  "pages": "655–656",
+  "duree_min": 2,
+  "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 0.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Le study de Bob Wunsch",
+  "ie": "INT",
+  "qui": [
+   "Robert Wunsch"
+  ],
+  "action": "(suite) Roman Drama and Production : le cours qui prépare The Braggart Warrior de Plaute, joué samedi 9 décembre sur la scène de la salle à manger.",
+  "src": "2017.40.176a-h ; 2017.40.182.01a-c ; 2017.40.172a-g (cours de six heures)",
+  "pct": 25,
+  "m": "lien entre le cours et la pièce déduit ; salle d'après l'hiver 1945",
+  "fil": "theatre",
+  "type": "scène clé",
+  "cours": true
+ },
+ {
+  "n": 107,
+  "debut": "10:56",
+  "fin": "10:58",
+  "pages": "657–658",
   "duree_min": 2,
   "entete": "INT. ROUND HOUSE — JOUR",
   "lumiere": "jour",
@@ -2370,169 +2546,32 @@
   "cours": true
  },
  {
-  "n": 101,
-  "debut": "10:46",
-  "fin": "10:48",
-  "pages": "647–648",
-  "duree_min": 2,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La bibliothèque",
-  "ie": "INT",
-  "qui": [
-   "Nell Rice"
-  ],
-  "action": "(suite) La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
-  "src": "2017.40.172a-g ; 2017.40.184a-d",
-  "pct": 40,
-  "m": "présence de Mrs Rice ce matin-là supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 102,
-  "debut": "10:48",
-  "fin": "10:50",
-  "pages": "649–650",
-  "duree_min": 2,
-  "entete": "EXT. LA FERME — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "La ferme",
-  "ie": "EXT",
-  "qui": [
-   "Roscoe Penley"
-  ],
-  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 10:48 : 0.8 °C, couvert, lune à 26.9°",
-  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
-  "pct": 50,
-  "m": "tâches du jour supposées",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 103,
-  "debut": "10:50",
-  "fin": "10:52",
-  "pages": "651–652",
-  "duree_min": 2,
-  "entete": "INT. SOUTH LODGE : LA LINGERIE, LA BUANDERIE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "South Lodge : la lingerie, la buanderie",
-  "ie": "INT",
-  "qui": [
-   "Annette Stone"
-  ],
-  "action": "(suite) Mrs Annette Stone, chargée du linge et des chambres d'hôtes, dans son appartement du South Lodge ; draps et serviettes à la buanderie sous la véranda.",
-  "src": "2017.40.172a-g",
-  "pct": 50,
-  "m": "jour du linge non donné",
-  "fil": "linge",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 104,
-  "debut": "10:52",
-  "fin": "10:54",
-  "pages": "653–654",
-  "duree_min": 2,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
-  "ie": "INT",
-  "qui": [
-   "Jane Stone"
-  ],
-  "action": "(suite) Préparation du déjeuner par l'équipe de cuisine des étudiants (coordinatrice Jane Stone) : légumes de la ferme et conserves de l'été, lait et beurre de la laiterie, plonge.",
-  "src": "2017.40.177a-g ; 2017.40.180a-d ; Silver 2024, ch. 6, p. 89-97",
-  "pct": 50,
-  "m": "menu et horaires de l'équipe inconnus",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 105,
-  "debut": "10:54",
-  "fin": "10:56",
-  "pages": "655–656",
-  "duree_min": 2,
-  "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "Le bureau du collège",
-  "ie": "INT",
-  "qui": [
-   "Theodore Dreier",
-   "Horace Wood"
-  ],
-  "action": "Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
-  "src": "2017.40.181.01a-c ; 2017.40.184a-d",
-  "pct": 50,
-  "m": "scène supposée à partir du retour du matin",
-  "fil": "dreier",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 106,
-  "debut": "10:56",
-  "fin": "10:58",
-  "pages": "657–658",
-  "duree_min": 2,
-  "entete": "INT. LES BÂTIMENTS : CHAUDIÈRES, ÉLECTRICITÉ — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "Les bâtiments : chaudières, électricité",
-  "ie": "INT",
-  "qui": [
-   "Bascombe Allen"
-  ],
-  "action": "(suite) Bas Allen, l'homme d'entretien : chaudières en panne, fusibles, réparations après la vague de froid (c'est lui qu'on appelle quand une chaudière ne marche plus).",
-  "src": "2017.40.179a-d ; 2017.40.172a-g",
-  "pct": 55,
-  "m": "tâches du jour supposées",
-  "fil": "entretien",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 107,
+  "n": 108,
   "debut": "10:58",
   "fin": "11:00",
   "pages": "659–660",
   "duree_min": 2,
-  "entete": "INT. MOUNTAIN STREAM, LA CHAMBRE D'ALFRED KAZIN — JOUR",
+  "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 0.8 °C",
-  "statut": "supposé",
-  "lieu": "Mountain Stream, la chambre d'Alfred Kazin",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
   "ie": "INT",
   "qui": [
-   "Alfred Kazin"
+   "Mrs Fritz Hansgirg (Maria Hansgirg)",
+   "Nancy Albee (inscrit)",
+   "Norma Cormany (inscrit)"
   ],
-  "action": "(suite) Alfred Kazin, 29 ans, critique new-yorkais, à sa table : il prépare son départ pour l'Angleterre en janvier (étude de l'éducation des soldats pour l'Office of War Information) et ses cours sur Blake et Melville.",
-  "src": "2017.40.172a-g ; 2017.40.181.01a-c ; entretien de Harris avec Kazin",
-  "pct": 60,
-  "m": "scène supposée ; présence ce jour-là probable",
-  "fil": "kazin",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) French for beginners (new class)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 25,
+  "m": "",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
-  "n": 108,
+  "n": 109,
   "debut": "11:00",
   "fin": "11:04",
   "pages": "661–664",
@@ -2555,11 +2594,11 @@
   "cours": true
  },
  {
-  "n": 109,
+  "n": 110,
   "debut": "11:04",
-  "fin": "11:06",
-  "pages": "665–666",
-  "duree_min": 2,
+  "fin": "11:08",
+  "pages": "665–668",
+  "duree_min": 4,
   "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2580,11 +2619,11 @@
   "cours": true
  },
  {
-  "n": 110,
-  "debut": "11:06",
-  "fin": "11:09",
-  "pages": "667–669",
-  "duree_min": 3,
+  "n": 111,
+  "debut": "11:08",
+  "fin": "11:10",
+  "pages": "669–670",
+  "duree_min": 2,
   "entete": "EXT. VÉRANDA DU DINING HALL, LES CASIERS — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2601,11 +2640,11 @@
   "cours": false
  },
  {
-  "n": 111,
-  "debut": "11:09",
+  "n": 112,
+  "debut": "11:10",
   "fin": "11:12",
-  "pages": "670–672",
-  "duree_min": 3,
+  "pages": "671–672",
+  "duree_min": 2,
   "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2624,11 +2663,11 @@
   "cours": false
  },
  {
-  "n": 112,
+  "n": 113,
   "debut": "11:12",
-  "fin": "11:15",
-  "pages": "673–675",
-  "duree_min": 3,
+  "fin": "11:14",
+  "pages": "673–674",
+  "duree_min": 2,
   "entete": "EXT. LA FERME — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2647,11 +2686,11 @@
   "cours": false
  },
  {
-  "n": 113,
-  "debut": "11:15",
-  "fin": "11:18",
-  "pages": "676–678",
-  "duree_min": 3,
+  "n": 114,
+  "debut": "11:14",
+  "fin": "11:16",
+  "pages": "675–676",
+  "duree_min": 2,
   "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2670,11 +2709,11 @@
   "cours": false
  },
  {
-  "n": 114,
-  "debut": "11:18",
-  "fin": "11:21",
-  "pages": "679–681",
-  "duree_min": 3,
+  "n": 115,
+  "debut": "11:16",
+  "fin": "11:18",
+  "pages": "677–678",
+  "duree_min": 2,
   "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2685,7 +2724,7 @@
    "Theodore Dreier",
    "Horace Wood"
   ],
-  "action": "(suite) Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
+  "action": "Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
   "src": "2017.40.181.01a-c ; 2017.40.184a-d",
   "pct": 50,
   "m": "scène supposée à partir du retour du matin",
@@ -2694,11 +2733,11 @@
   "cours": false
  },
  {
-  "n": 115,
-  "debut": "11:21",
-  "fin": "11:24",
-  "pages": "682–684",
-  "duree_min": 3,
+  "n": 116,
+  "debut": "11:18",
+  "fin": "11:20",
+  "pages": "679–680",
+  "duree_min": 2,
   "entete": "INT. LES BÂTIMENTS : CHAUDIÈRES, ÉLECTRICITÉ — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2717,11 +2756,11 @@
   "cours": false
  },
  {
-  "n": 116,
-  "debut": "11:24",
-  "fin": "11:27",
-  "pages": "685–687",
-  "duree_min": 3,
+  "n": 117,
+  "debut": "11:20",
+  "fin": "11:22",
+  "pages": "681–682",
+  "duree_min": 2,
   "entete": "INT. MOUNTAIN STREAM, LA CHAMBRE D'ALFRED KAZIN — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2740,10 +2779,10 @@
   "cours": false
  },
  {
-  "n": 117,
-  "debut": "11:27",
-  "fin": "11:29",
-  "pages": "688–689",
+  "n": 118,
+  "debut": "11:22",
+  "fin": "11:24",
+  "pages": "683–684",
   "duree_min": 2,
   "entete": "INT. LE STUDIES BUILDING, LES STUDIES — JOUR",
   "lumiere": "jour",
@@ -2763,10 +2802,10 @@
   "cours": false
  },
  {
-  "n": 118,
-  "debut": "11:29",
-  "fin": "11:32",
-  "pages": "690–692",
+  "n": 119,
+  "debut": "11:24",
+  "fin": "11:27",
+  "pages": "685–687",
   "duree_min": 3,
   "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
   "lumiere": "jour",
@@ -2786,11 +2825,59 @@
   "cours": true
  },
  {
-  "n": 119,
-  "debut": "11:32",
+  "n": 120,
+  "debut": "11:27",
+  "fin": "11:30",
+  "pages": "688–690",
+  "duree_min": 3,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 3.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "Mrs Fritz Hansgirg (Maria Hansgirg)",
+   "Nancy Albee (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) French for beginners (new class)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 25,
+  "m": "",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 121,
+  "debut": "11:30",
   "fin": "11:34",
-  "pages": "693–694",
-  "duree_min": 2,
+  "pages": "691–694",
+  "duree_min": 4,
+  "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 3.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Le study de Bob Wunsch",
+  "ie": "INT",
+  "qui": [
+   "Robert Wunsch"
+  ],
+  "action": "(suite) Roman Drama and Production : le cours qui prépare The Braggart Warrior de Plaute, joué samedi 9 décembre sur la scène de la salle à manger.",
+  "src": "2017.40.176a-h ; 2017.40.182.01a-c ; 2017.40.172a-g (cours de six heures)",
+  "pct": 25,
+  "m": "lien entre le cours et la pièce déduit ; salle d'après l'hiver 1945",
+  "fil": "theatre",
+  "type": "scène clé",
+  "cours": true
+ },
+ {
+  "n": 122,
+  "debut": "11:34",
+  "fin": "11:38",
+  "pages": "695–698",
+  "duree_min": 4,
   "entete": "INT. PHYSICS LAB — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2813,11 +2900,11 @@
   "cours": true
  },
  {
-  "n": 120,
-  "debut": "11:34",
-  "fin": "11:36",
-  "pages": "695–696",
-  "duree_min": 2,
+  "n": 123,
+  "debut": "11:38",
+  "fin": "11:42",
+  "pages": "699–702",
+  "duree_min": 4,
   "entete": "INT. WEAVING ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2836,11 +2923,11 @@
   "cours": true
  },
  {
-  "n": 121,
-  "debut": "11:36",
-  "fin": "11:38",
-  "pages": "697–698",
-  "duree_min": 2,
+  "n": 124,
+  "debut": "11:42",
+  "fin": "11:46",
+  "pages": "703–706",
+  "duree_min": 4,
   "entete": "INT. FACULTY ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
@@ -2865,173 +2952,163 @@
   "cours": true
  },
  {
-  "n": 122,
-  "debut": "11:38",
-  "fin": "11:42",
-  "pages": "699–702",
-  "duree_min": 4,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 3.8 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La bibliothèque",
-  "ie": "INT",
-  "qui": [
-   "Nell Rice"
-  ],
-  "action": "(suite) La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
-  "src": "2017.40.172a-g ; 2017.40.184a-d",
-  "pct": 40,
-  "m": "présence de Mrs Rice ce matin-là supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 123,
-  "debut": "11:42",
-  "fin": "11:46",
-  "pages": "703–706",
-  "duree_min": 4,
-  "entete": "EXT. LA FERME — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 3.8 °C",
-  "statut": "supposé",
-  "lieu": "La ferme",
-  "ie": "EXT",
-  "qui": [
-   "Roscoe Penley"
-  ],
-  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 11:42 : 3.8 °C, couvert, lune à 15.2°",
-  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
-  "pct": 50,
-  "m": "tâches du jour supposées",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 124,
+  "n": 125,
   "debut": "11:46",
   "fin": "11:50",
   "pages": "707–710",
   "duree_min": 4,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 3.8 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
-  "ie": "INT",
-  "qui": [
-   "Jane Stone"
-  ],
-  "action": "(suite) Préparation du déjeuner par l'équipe de cuisine des étudiants (coordinatrice Jane Stone) : légumes de la ferme et conserves de l'été, lait et beurre de la laiterie, plonge.",
-  "src": "2017.40.177a-g ; 2017.40.180a-d ; Silver 2024, ch. 6, p. 89-97",
-  "pct": 50,
-  "m": "menu et horaires de l'équipe inconnus",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 125,
-  "debut": "11:50",
-  "fin": "11:54",
-  "pages": "711–714",
-  "duree_min": 4,
-  "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 3.8 °C",
-  "statut": "supposé",
-  "lieu": "Le bureau du collège",
-  "ie": "INT",
-  "qui": [
-   "Theodore Dreier",
-   "Horace Wood"
-  ],
-  "action": "(suite) Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
-  "src": "2017.40.181.01a-c ; 2017.40.184a-d",
-  "pct": 50,
-  "m": "scène supposée à partir du retour du matin",
-  "fil": "dreier",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 126,
-  "debut": "11:54",
-  "fin": "11:58",
-  "pages": "715–718",
-  "duree_min": 4,
-  "entete": "INT. LE STUDIES BUILDING, LES STUDIES — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 3.8 °C",
-  "statut": "supposé",
-  "lieu": "Le Studies Building, les studies",
-  "ie": "INT",
-  "qui": [
-   "Josef Albers"
-  ],
-  "action": "(suite) Josef Albers passe dans les studies : chaque étudiant doit le consulter avant de repeindre ou d'aménager le sien ; il n'a pas de cours ce lundi.",
-  "src": "2017.40.172a-g ; 2017.40.176a-h",
-  "pct": 60,
-  "m": "scène supposée",
-  "fil": "albers",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 127,
-  "debut": "11:58",
-  "fin": "11:59",
-  "pages": "719–719",
-  "duree_min": 1,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
+  "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
   "statut": "usage attesté, transposé",
-  "lieu": "La bibliothèque",
+  "lieu": "Language Room",
   "ie": "INT",
   "qui": [
-   "Nell Rice"
+   "Mrs Fritz Hansgirg",
+   "Nancy Albee (inscrit)",
+   "Norma Cormany (inscrit)"
   ],
-  "action": "(suite) La bibliothèque du collège, ouverte en permanence, tenue par Mrs Nell Rice ; on y rend les livres avant les vacances du 14 (consigne du bulletin du 11).",
-  "src": "2017.40.172a-g ; 2017.40.184a-d",
-  "pct": 40,
-  "m": "présence de Mrs Rice ce matin-là supposée",
-  "fil": "bibliotheque",
+  "action": "French I",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 126,
+  "debut": "11:50",
+  "fin": "11:52",
+  "pages": "711–712",
+  "duree_min": 2,
+  "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 3.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Le study de Bob Wunsch",
+  "ie": "INT",
+  "qui": [
+   "Robert Wunsch"
+  ],
+  "action": "(suite) Roman Drama and Production : le cours qui prépare The Braggart Warrior de Plaute, joué samedi 9 décembre sur la scène de la salle à manger.",
+  "src": "2017.40.176a-h ; 2017.40.182.01a-c ; 2017.40.172a-g (cours de six heures)",
+  "pct": 25,
+  "m": "lien entre le cours et la pièce déduit ; salle d'après l'hiver 1945",
+  "fil": "theatre",
   "type": "scène clé",
-  "cours": false
+  "cours": true
+ },
+ {
+  "n": 127,
+  "debut": "11:52",
+  "fin": "11:54",
+  "pages": "713–714",
+  "duree_min": 2,
+  "entete": "INT. PHYSICS LAB — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 3.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Physics Lab",
+  "ie": "INT",
+  "qui": [
+   "Fritz Hansgirg",
+   "Charles \"Chuck\" Forberg (inscrit)",
+   "Jagna Braunthal (inscrit)",
+   "Peggy Bennett (inscrit)",
+   "Roxane \"Roxie\" Dinkowitz (inscrit)"
+  ],
+  "action": "(suite) Matter and Energy",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
   "n": 128,
-  "debut": "11:59",
-  "fin": "12:00",
-  "pages": "720–720",
-  "duree_min": 1,
-  "entete": "EXT. LA FERME — JOUR",
+  "debut": "11:54",
+  "fin": "11:56",
+  "pages": "715–716",
+  "duree_min": 2,
+  "entete": "INT. WEAVING ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 3.8 °C",
-  "statut": "supposé",
-  "lieu": "La ferme",
-  "ie": "EXT",
+  "statut": "usage attesté, transposé",
+  "lieu": "Weaving Room",
+  "ie": "INT",
   "qui": [
-   "Roscoe Penley"
+   "Anni Albers"
   ],
-  "action": "(suite) Le fermier Ross Penley et les soins du matin : foin et ensilage, fumier, eau des abreuvoirs à dégeler après la nuit à −8 °C. — 11:59 : 3.8 °C, couvert, lune à 15.2°",
-  "src": "Silver 2024, ch. 6, p. 89-102 ; 01_meteo.md",
-  "pct": 50,
-  "m": "tâches du jour supposées",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) Textile Design",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
   "n": 129,
+  "debut": "11:56",
+  "fin": "11:58",
+  "pages": "717–718",
+  "duree_min": 2,
+  "entete": "INT. FACULTY ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 3.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Faculty Room",
+  "ie": "INT",
+  "qui": [
+   "Herbert A. Miller",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Janet \"Jan\" Heling (inscrit)",
+   "Janet Goldsmith (inscrit)",
+   "Joan Couch (inscrit)"
+  ],
+  "action": "(suite) Contemporary Problems",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 130,
+  "debut": "11:58",
+  "fin": "12:00",
+  "pages": "719–720",
+  "duree_min": 2,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 3.8 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "Mrs Fritz Hansgirg",
+   "Nancy Albee (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) French I",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 131,
   "debut": "12:00",
-  "fin": "12:03",
-  "pages": "721–723",
-  "duree_min": 3,
+  "fin": "12:04",
+  "pages": "721–724",
+  "duree_min": 4,
   "entete": "INT. PHYSICS LAB — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3054,11 +3131,11 @@
   "cours": true
  },
  {
-  "n": 130,
-  "debut": "12:03",
-  "fin": "12:05",
-  "pages": "724–725",
-  "duree_min": 2,
+  "n": 132,
+  "debut": "12:04",
+  "fin": "12:08",
+  "pages": "725–728",
+  "duree_min": 4,
   "entete": "INT. WEAVING ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3077,11 +3154,11 @@
   "cours": true
  },
  {
-  "n": 131,
-  "debut": "12:05",
-  "fin": "12:07",
-  "pages": "726–727",
-  "duree_min": 2,
+  "n": 133,
+  "debut": "12:08",
+  "fin": "12:12",
+  "pages": "729–732",
+  "duree_min": 4,
   "entete": "INT. FACULTY ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3106,58 +3183,11 @@
   "cours": true
  },
  {
-  "n": 132,
-  "debut": "12:07",
-  "fin": "12:11",
-  "pages": "728–731",
-  "duree_min": 4,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 5.6 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
-  "ie": "INT",
-  "qui": [
-   "Jane Stone"
-  ],
-  "action": "(suite) Préparation du déjeuner par l'équipe de cuisine des étudiants (coordinatrice Jane Stone) : légumes de la ferme et conserves de l'été, lait et beurre de la laiterie, plonge.",
-  "src": "2017.40.177a-g ; 2017.40.180a-d ; Silver 2024, ch. 6, p. 89-97",
-  "pct": 50,
-  "m": "menu et horaires de l'équipe inconnus",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 133,
-  "debut": "12:11",
-  "fin": "12:15",
-  "pages": "732–735",
-  "duree_min": 4,
-  "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 5.6 °C",
-  "statut": "supposé",
-  "lieu": "Le bureau du collège",
-  "ie": "INT",
-  "qui": [
-   "Theodore Dreier",
-   "Horace Wood"
-  ],
-  "action": "(suite) Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
-  "src": "2017.40.181.01a-c ; 2017.40.184a-d",
-  "pct": 50,
-  "m": "scène supposée à partir du retour du matin",
-  "fil": "dreier",
-  "type": "scène clé",
-  "cours": false
- },
- {
   "n": 134,
-  "debut": "12:15",
-  "fin": "12:19",
-  "pages": "736–739",
-  "duree_min": 4,
+  "debut": "12:12",
+  "fin": "12:15",
+  "pages": "733–735",
+  "duree_min": 3,
   "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3177,77 +3207,164 @@
  },
  {
   "n": 135,
+  "debut": "12:15",
+  "fin": "12:19",
+  "pages": "736–739",
+  "duree_min": 4,
+  "entete": "INT. PHYSICS LAB — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Physics Lab",
+  "ie": "INT",
+  "qui": [
+   "Fritz Hansgirg",
+   "Charles \"Chuck\" Forberg (inscrit)",
+   "Jagna Braunthal (inscrit)",
+   "Peggy Bennett (inscrit)",
+   "Roxane \"Roxie\" Dinkowitz (inscrit)"
+  ],
+  "action": "(suite) Matter and Energy",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 136,
   "debut": "12:19",
   "fin": "12:23",
   "pages": "740–743",
   "duree_min": 4,
-  "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
+  "entete": "INT. WEAVING ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
-  "statut": "supposé",
-  "lieu": "Le bureau du collège",
+  "statut": "usage attesté, transposé",
+  "lieu": "Weaving Room",
   "ie": "INT",
   "qui": [
-   "Theodore Dreier",
-   "Horace Wood"
+   "Anni Albers"
   ],
-  "action": "(suite) Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
-  "src": "2017.40.181.01a-c ; 2017.40.184a-d",
-  "pct": 50,
-  "m": "scène supposée à partir du retour du matin",
-  "fil": "dreier",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) Textile Design",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
-  "n": 136,
+  "n": 137,
   "debut": "12:23",
   "fin": "12:27",
   "pages": "744–747",
   "duree_min": 4,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
+  "entete": "INT. FACULTY ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
+  "statut": "usage attesté, transposé",
+  "lieu": "Faculty Room",
   "ie": "INT",
   "qui": [
-   "Jane Stone"
+   "Herbert A. Miller",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Janet \"Jan\" Heling (inscrit)",
+   "Janet Goldsmith (inscrit)",
+   "Joan Couch (inscrit)"
   ],
-  "action": "(suite) Préparation du déjeuner par l'équipe de cuisine des étudiants (coordinatrice Jane Stone) : légumes de la ferme et conserves de l'été, lait et beurre de la laiterie, plonge.",
-  "src": "2017.40.177a-g ; 2017.40.180a-d ; Silver 2024, ch. 6, p. 89-97",
-  "pct": 50,
-  "m": "menu et horaires de l'équipe inconnus",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 137,
-  "debut": "12:27",
-  "fin": "12:30",
-  "pages": "748–750",
-  "duree_min": 3,
-  "entete": "INT. LE BUREAU DU COLLÈGE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 5.6 °C",
-  "statut": "supposé",
-  "lieu": "Le bureau du collège",
-  "ie": "INT",
-  "qui": [
-   "Theodore Dreier",
-   "Horace Wood"
-  ],
-  "action": "(suite) Dreier de retour au bureau avec Mac Wood : deux semaines de courrier, la collecte de fonds, la campagne des vacances, les candidats aux postes vacants (anglais, histoire, administration) attendus la semaine suivante.",
-  "src": "2017.40.181.01a-c ; 2017.40.184a-d",
-  "pct": 50,
-  "m": "scène supposée à partir du retour du matin",
-  "fil": "dreier",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) Contemporary Problems",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
   "n": 138,
+  "debut": "12:27",
+  "fin": "12:28",
+  "pages": "748–748",
+  "duree_min": 1,
+  "entete": "INT. PHYSICS LAB — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Physics Lab",
+  "ie": "INT",
+  "qui": [
+   "Fritz Hansgirg",
+   "Charles \"Chuck\" Forberg (inscrit)",
+   "Jagna Braunthal (inscrit)",
+   "Peggy Bennett (inscrit)",
+   "Roxane \"Roxie\" Dinkowitz (inscrit)"
+  ],
+  "action": "(suite) Matter and Energy",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 139,
+  "debut": "12:28",
+  "fin": "12:29",
+  "pages": "749–749",
+  "duree_min": 1,
+  "entete": "INT. WEAVING ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Weaving Room",
+  "ie": "INT",
+  "qui": [
+   "Anni Albers"
+  ],
+  "action": "(suite) Textile Design",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 140,
+  "debut": "12:29",
+  "fin": "12:30",
+  "pages": "750–750",
+  "duree_min": 1,
+  "entete": "INT. FACULTY ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Faculty Room",
+  "ie": "INT",
+  "qui": [
+   "Herbert A. Miller",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Janet \"Jan\" Heling (inscrit)",
+   "Janet Goldsmith (inscrit)",
+   "Joan Couch (inscrit)"
+  ],
+  "action": "(suite) Contemporary Problems",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 141,
   "debut": "12:30",
   "fin": "12:32",
   "pages": "751–752",
@@ -3274,11 +3391,63 @@
   "cours": true
  },
  {
-  "n": 139,
+  "n": 142,
   "debut": "12:32",
+  "fin": "12:34",
+  "pages": "753–754",
+  "duree_min": 2,
+  "entete": "INT. WEAVING ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Weaving Room",
+  "ie": "INT",
+  "qui": [
+   "Anni Albers"
+  ],
+  "action": "(suite) Textile Design",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 143,
+  "debut": "12:34",
+  "fin": "12:36",
+  "pages": "755–756",
+  "duree_min": 2,
+  "entete": "INT. FACULTY ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Faculty Room",
+  "ie": "INT",
+  "qui": [
+   "Herbert A. Miller",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Janet \"Jan\" Heling (inscrit)",
+   "Janet Goldsmith (inscrit)",
+   "Joan Couch (inscrit)"
+  ],
+  "action": "(suite) Contemporary Problems",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 144,
+  "debut": "12:36",
   "fin": "12:40",
-  "pages": "753–760",
-  "duree_min": 8,
+  "pages": "757–760",
+  "duree_min": 4,
   "entete": "INT. DINING HALL — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3295,7 +3464,7 @@
   "cours": false
  },
  {
-  "n": 140,
+  "n": 145,
   "debut": "12:40",
   "fin": "12:43",
   "pages": "761–763",
@@ -3322,11 +3491,63 @@
   "cours": true
  },
  {
-  "n": 141,
+  "n": 146,
   "debut": "12:43",
-  "fin": "12:47",
-  "pages": "764–767",
-  "duree_min": 4,
+  "fin": "12:46",
+  "pages": "764–766",
+  "duree_min": 3,
+  "entete": "INT. WEAVING ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Weaving Room",
+  "ie": "INT",
+  "qui": [
+   "Anni Albers"
+  ],
+  "action": "(suite) Textile Design",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 147,
+  "debut": "12:46",
+  "fin": "12:49",
+  "pages": "767–769",
+  "duree_min": 3,
+  "entete": "INT. FACULTY ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Faculty Room",
+  "ie": "INT",
+  "qui": [
+   "Herbert A. Miller",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Janet \"Jan\" Heling (inscrit)",
+   "Janet Goldsmith (inscrit)",
+   "Joan Couch (inscrit)"
+  ],
+  "action": "(suite) Contemporary Problems",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 148,
+  "debut": "12:49",
+  "fin": "12:50",
+  "pages": "770–770",
+  "duree_min": 1,
   "entete": "INT. LE DINING HALL, DÉJEUNER — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3345,51 +3566,7 @@
   "cours": false
  },
  {
-  "n": 142,
-  "debut": "12:47",
-  "fin": "12:49",
-  "pages": "768–769",
-  "duree_min": 2,
-  "entete": "INT. DINING HALL — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 5.6 °C",
-  "statut": "attesté",
-  "lieu": "Dining hall",
-  "ie": "INT",
-  "qui": [],
-  "action": "(suite) Lunch",
-  "src": "Black Mountain College Community Bulletin College Year 12 Fall Quarter Announcements Saturday, September 30, 1944 [1944] (inv. 2017.40.172a-g)",
-  "pct": 10,
-  "m": "",
-  "fil": "repas",
-  "type": "activité (document du collège)",
-  "cours": false
- },
- {
-  "n": 143,
-  "debut": "12:49",
-  "fin": "12:50",
-  "pages": "770–770",
-  "duree_min": 1,
-  "entete": "INT. LE DINING HALL, DÉJEUNER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 5.6 °C",
-  "statut": "supposé",
-  "lieu": "Le Dining Hall, déjeuner",
-  "ie": "INT",
-  "qui": [
-   "Theodore Dreier"
-  ],
-  "action": "(suite) Dreier de retour à table ; nouvelles de la collecte de fonds, de Putney ; la campagne des vacances de Noël.",
-  "src": "2017.40.182.01a-c ; 2017.40.181.01a-c",
-  "pct": 50,
-  "m": "scène supposée à partir de son retour du matin",
-  "fil": "repas",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 144,
+  "n": 149,
   "debut": "12:50",
   "fin": "12:52",
   "pages": "771–772",
@@ -3416,11 +3593,63 @@
   "cours": true
  },
  {
-  "n": 145,
+  "n": 150,
   "debut": "12:52",
+  "fin": "12:54",
+  "pages": "773–774",
+  "duree_min": 2,
+  "entete": "INT. WEAVING ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Weaving Room",
+  "ie": "INT",
+  "qui": [
+   "Anni Albers"
+  ],
+  "action": "(suite) Textile Design",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 151,
+  "debut": "12:54",
+  "fin": "12:56",
+  "pages": "775–776",
+  "duree_min": 2,
+  "entete": "INT. FACULTY ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.6 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Faculty Room",
+  "ie": "INT",
+  "qui": [
+   "Herbert A. Miller",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Janet \"Jan\" Heling (inscrit)",
+   "Janet Goldsmith (inscrit)",
+   "Joan Couch (inscrit)"
+  ],
+  "action": "(suite) Contemporary Problems",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 152,
+  "debut": "12:56",
   "fin": "13:15",
-  "pages": "773–795",
-  "duree_min": 23,
+  "pages": "777–795",
+  "duree_min": 19,
   "entete": "INT. DINING HALL — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.6 °C",
@@ -3437,7 +3666,7 @@
   "cours": false
  },
  {
-  "n": 146,
+  "n": 153,
   "debut": "13:15",
   "fin": "13:19",
   "pages": "796–799",
@@ -3458,7 +3687,7 @@
   "cours": false
  },
  {
-  "n": 147,
+  "n": 154,
   "debut": "13:19",
   "fin": "13:23",
   "pages": "800–803",
@@ -3479,7 +3708,7 @@
   "cours": false
  },
  {
-  "n": 148,
+  "n": 155,
   "debut": "13:23",
   "fin": "13:27",
   "pages": "804–807",
@@ -3500,7 +3729,7 @@
   "cours": false
  },
  {
-  "n": 149,
+  "n": 156,
   "debut": "13:27",
   "fin": "13:29",
   "pages": "808–809",
@@ -3521,7 +3750,7 @@
   "cours": false
  },
  {
-  "n": 150,
+  "n": 157,
   "debut": "13:29",
   "fin": "13:30",
   "pages": "810–810",
@@ -3542,7 +3771,7 @@
   "cours": false
  },
  {
-  "n": 151,
+  "n": 158,
   "debut": "13:30",
   "fin": "13:33",
   "pages": "811–813",
@@ -3563,7 +3792,7 @@
   "cours": false
  },
  {
-  "n": 152,
+  "n": 159,
   "debut": "13:33",
   "fin": "13:35",
   "pages": "814–815",
@@ -3584,7 +3813,7 @@
   "cours": false
  },
  {
-  "n": 153,
+  "n": 160,
   "debut": "13:35",
   "fin": "13:49",
   "pages": "816–829",
@@ -3605,7 +3834,7 @@
   "cours": false
  },
  {
-  "n": 154,
+  "n": 161,
   "debut": "13:49",
   "fin": "13:53",
   "pages": "830–833",
@@ -3631,7 +3860,7 @@
   "cours": false
  },
  {
-  "n": 155,
+  "n": 162,
   "debut": "13:53",
   "fin": "13:57",
   "pages": "834–837",
@@ -3655,7 +3884,7 @@
   "cours": false
  },
  {
-  "n": 156,
+  "n": 163,
   "debut": "13:57",
   "fin": "13:58",
   "pages": "838–838",
@@ -3676,7 +3905,7 @@
   "cours": false
  },
  {
-  "n": 157,
+  "n": 164,
   "debut": "13:58",
   "fin": "13:59",
   "pages": "839–839",
@@ -3702,7 +3931,7 @@
   "cours": false
  },
  {
-  "n": 158,
+  "n": 165,
   "debut": "13:59",
   "fin": "14:00",
   "pages": "840–840",
@@ -3726,7 +3955,7 @@
   "cours": false
  },
  {
-  "n": 159,
+  "n": 166,
   "debut": "14:00",
   "fin": "14:04",
   "pages": "841–844",
@@ -3752,7 +3981,7 @@
   "cours": false
  },
  {
-  "n": 160,
+  "n": 167,
   "debut": "14:04",
   "fin": "14:08",
   "pages": "845–848",
@@ -3776,7 +4005,7 @@
   "cours": false
  },
  {
-  "n": 161,
+  "n": 168,
   "debut": "14:08",
   "fin": "14:12",
   "pages": "849–852",
@@ -3799,7 +4028,7 @@
   "cours": false
  },
  {
-  "n": 162,
+  "n": 169,
   "debut": "14:12",
   "fin": "14:16",
   "pages": "853–856",
@@ -3822,7 +4051,7 @@
   "cours": false
  },
  {
-  "n": 163,
+  "n": 170,
   "debut": "14:16",
   "fin": "14:20",
   "pages": "857–860",
@@ -3848,7 +4077,7 @@
   "cours": false
  },
  {
-  "n": 164,
+  "n": 171,
   "debut": "14:20",
   "fin": "14:24",
   "pages": "861–864",
@@ -3872,7 +4101,7 @@
   "cours": false
  },
  {
-  "n": 165,
+  "n": 172,
   "debut": "14:24",
   "fin": "14:28",
   "pages": "865–868",
@@ -3895,7 +4124,7 @@
   "cours": false
  },
  {
-  "n": 166,
+  "n": 173,
   "debut": "14:28",
   "fin": "14:32",
   "pages": "869–872",
@@ -3918,7 +4147,7 @@
   "cours": false
  },
  {
-  "n": 167,
+  "n": 174,
   "debut": "14:32",
   "fin": "14:36",
   "pages": "873–876",
@@ -3944,7 +4173,7 @@
   "cours": false
  },
  {
-  "n": 168,
+  "n": 175,
   "debut": "14:36",
   "fin": "14:40",
   "pages": "877–880",
@@ -3968,7 +4197,7 @@
   "cours": false
  },
  {
-  "n": 169,
+  "n": 176,
   "debut": "14:40",
   "fin": "14:44",
   "pages": "881–884",
@@ -3991,7 +4220,7 @@
   "cours": false
  },
  {
-  "n": 170,
+  "n": 177,
   "debut": "14:44",
   "fin": "14:48",
   "pages": "885–888",
@@ -4014,7 +4243,7 @@
   "cours": false
  },
  {
-  "n": 171,
+  "n": 178,
   "debut": "14:48",
   "fin": "14:52",
   "pages": "889–892",
@@ -4040,7 +4269,7 @@
   "cours": false
  },
  {
-  "n": 172,
+  "n": 179,
   "debut": "14:52",
   "fin": "14:56",
   "pages": "893–896",
@@ -4064,7 +4293,7 @@
   "cours": false
  },
  {
-  "n": 173,
+  "n": 180,
   "debut": "14:56",
   "fin": "15:00",
   "pages": "897–900",
@@ -4087,7 +4316,7 @@
   "cours": false
  },
  {
-  "n": 174,
+  "n": 181,
   "debut": "15:00",
   "fin": "15:04",
   "pages": "901–904",
@@ -4110,7 +4339,7 @@
   "cours": false
  },
  {
-  "n": 175,
+  "n": 182,
   "debut": "15:04",
   "fin": "15:08",
   "pages": "905–908",
@@ -4136,7 +4365,7 @@
   "cours": false
  },
  {
-  "n": 176,
+  "n": 183,
   "debut": "15:08",
   "fin": "15:12",
   "pages": "909–912",
@@ -4160,7 +4389,7 @@
   "cours": false
  },
  {
-  "n": 177,
+  "n": 184,
   "debut": "15:12",
   "fin": "15:16",
   "pages": "913–916",
@@ -4183,7 +4412,7 @@
   "cours": false
  },
  {
-  "n": 178,
+  "n": 185,
   "debut": "15:16",
   "fin": "15:20",
   "pages": "917–920",
@@ -4206,7 +4435,7 @@
   "cours": false
  },
  {
-  "n": 179,
+  "n": 186,
   "debut": "15:20",
   "fin": "15:24",
   "pages": "921–924",
@@ -4232,7 +4461,7 @@
   "cours": false
  },
  {
-  "n": 180,
+  "n": 187,
   "debut": "15:24",
   "fin": "15:28",
   "pages": "925–928",
@@ -4256,7 +4485,7 @@
   "cours": false
  },
  {
-  "n": 181,
+  "n": 188,
   "debut": "15:28",
   "fin": "15:32",
   "pages": "929–932",
@@ -4279,7 +4508,7 @@
   "cours": false
  },
  {
-  "n": 182,
+  "n": 189,
   "debut": "15:32",
   "fin": "15:36",
   "pages": "933–936",
@@ -4302,7 +4531,7 @@
   "cours": false
  },
  {
-  "n": 183,
+  "n": 190,
   "debut": "15:36",
   "fin": "15:40",
   "pages": "937–940",
@@ -4328,7 +4557,7 @@
   "cours": false
  },
  {
-  "n": 184,
+  "n": 191,
   "debut": "15:40",
   "fin": "15:44",
   "pages": "941–944",
@@ -4352,7 +4581,7 @@
   "cours": false
  },
  {
-  "n": 185,
+  "n": 192,
   "debut": "15:44",
   "fin": "15:48",
   "pages": "945–948",
@@ -4375,7 +4604,7 @@
   "cours": false
  },
  {
-  "n": 186,
+  "n": 193,
   "debut": "15:48",
   "fin": "15:52",
   "pages": "949–952",
@@ -4398,7 +4627,7 @@
   "cours": false
  },
  {
-  "n": 187,
+  "n": 194,
   "debut": "15:52",
   "fin": "15:54",
   "pages": "953–954",
@@ -4424,7 +4653,7 @@
   "cours": false
  },
  {
-  "n": 188,
+  "n": 195,
   "debut": "15:54",
   "fin": "15:56",
   "pages": "955–956",
@@ -4448,7 +4677,7 @@
   "cours": false
  },
  {
-  "n": 189,
+  "n": 196,
   "debut": "15:56",
   "fin": "15:58",
   "pages": "957–958",
@@ -4471,7 +4700,7 @@
   "cours": false
  },
  {
-  "n": 190,
+  "n": 197,
   "debut": "15:58",
   "fin": "16:00",
   "pages": "959–960",
@@ -4494,7 +4723,7 @@
   "cours": false
  },
  {
-  "n": 191,
+  "n": 198,
   "debut": "16:00",
   "fin": "16:04",
   "pages": "961–964",
@@ -4517,7 +4746,7 @@
   "cours": true
  },
  {
-  "n": 192,
+  "n": 199,
   "debut": "16:04",
   "fin": "16:08",
   "pages": "965–968",
@@ -4540,7 +4769,7 @@
   "cours": false
  },
  {
-  "n": 193,
+  "n": 200,
   "debut": "16:08",
   "fin": "16:12",
   "pages": "969–972",
@@ -4564,7 +4793,7 @@
   "cours": false
  },
  {
-  "n": 194,
+  "n": 201,
   "debut": "16:12",
   "fin": "16:16",
   "pages": "973–976",
@@ -4587,7 +4816,7 @@
   "cours": false
  },
  {
-  "n": 195,
+  "n": 202,
   "debut": "16:16",
   "fin": "16:20",
   "pages": "977–980",
@@ -4608,7 +4837,7 @@
   "cours": false
  },
  {
-  "n": 196,
+  "n": 203,
   "debut": "16:20",
   "fin": "16:23",
   "pages": "981–983",
@@ -4631,7 +4860,7 @@
   "cours": false
  },
  {
-  "n": 197,
+  "n": 204,
   "debut": "16:23",
   "fin": "16:26",
   "pages": "984–986",
@@ -4654,7 +4883,7 @@
   "cours": false
  },
  {
-  "n": 198,
+  "n": 205,
   "debut": "16:26",
   "fin": "16:34",
   "pages": "987–994",
@@ -4677,11 +4906,11 @@
   "cours": true
  },
  {
-  "n": 199,
+  "n": 206,
   "debut": "16:34",
-  "fin": "16:36",
-  "pages": "995–996",
-  "duree_min": 2,
+  "fin": "16:38",
+  "pages": "995–998",
+  "duree_min": 4,
   "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4704,11 +4933,11 @@
   "cours": true
  },
  {
-  "n": 200,
-  "debut": "16:36",
-  "fin": "16:40",
-  "pages": "997–1000",
-  "duree_min": 4,
+  "n": 207,
+  "debut": "16:38",
+  "fin": "16:41",
+  "pages": "999–1001",
+  "duree_min": 3,
   "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4727,11 +4956,11 @@
   "cours": false
  },
  {
-  "n": 201,
-  "debut": "16:40",
+  "n": 208,
+  "debut": "16:41",
   "fin": "16:44",
-  "pages": "1001–1004",
-  "duree_min": 4,
+  "pages": "1002–1004",
+  "duree_min": 3,
   "entete": "EXT. LA FERME — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4742,7 +4971,7 @@
    "Roscoe Penley",
    "Mary Gregory"
   ],
-  "action": "(suite) Avant la traite du soir : on rentre les bêtes, on distribue le fourrage ; la lumière baisse (coucher à 18 h 20). — 16:40 : 7.6 °C, couvert, lune à -31.6°",
+  "action": "(suite) Avant la traite du soir : on rentre les bêtes, on distribue le fourrage ; la lumière baisse (coucher à 18 h 20). — 16:41 : 7.6 °C, couvert, lune à -31.6°",
   "src": "Silver 2024, ch. 6 ; 02_lumiere.md",
   "pct": 50,
   "m": "scène supposée",
@@ -4751,11 +4980,11 @@
   "cours": false
  },
  {
-  "n": 202,
+  "n": 209,
   "debut": "16:44",
-  "fin": "16:48",
-  "pages": "1005–1008",
-  "duree_min": 4,
+  "fin": "16:47",
+  "pages": "1005–1007",
+  "duree_min": 3,
   "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4774,11 +5003,11 @@
   "cours": false
  },
  {
-  "n": 203,
-  "debut": "16:48",
-  "fin": "16:52",
-  "pages": "1009–1012",
-  "duree_min": 4,
+  "n": 210,
+  "debut": "16:47",
+  "fin": "16:49",
+  "pages": "1008–1009",
+  "duree_min": 2,
   "entete": "INT. LES STUDIES ET LES LODGES EN FIN D'APRÈS-MIDI — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4786,7 +5015,7 @@
   "lieu": "Les studies et les lodges en fin d'après-midi",
   "ie": "INT",
   "qui": [],
-  "action": "(suite) Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi. — 16:48 : 7.6 °C, couvert, lune à -31.6°",
+  "action": "(suite) Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi. — 16:47 : 7.6 °C, couvert, lune à -31.6°",
   "src": "2017.40.172a-g ; 2017.40.182.01a-c",
   "pct": 55,
   "m": "scène supposée",
@@ -4795,11 +5024,11 @@
   "cours": false
  },
  {
-  "n": 204,
-  "debut": "16:52",
-  "fin": "16:55",
-  "pages": "1013–1015",
-  "duree_min": 3,
+  "n": 211,
+  "debut": "16:49",
+  "fin": "16:51",
+  "pages": "1010–1011",
+  "duree_min": 2,
   "entete": "INT. L'ATELIER DE BOIS (WOODSHOP) — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4818,11 +5047,11 @@
   "cours": false
  },
  {
-  "n": 205,
-  "debut": "16:55",
-  "fin": "16:58",
-  "pages": "1016–1018",
-  "duree_min": 3,
+  "n": 212,
+  "debut": "16:51",
+  "fin": "16:53",
+  "pages": "1012–1013",
+  "duree_min": 2,
   "entete": "INT. LE STUDY DE BOB WUNSCH — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4832,7 +5061,7 @@
   "qui": [
    "Robert Wunsch"
   ],
-  "action": "(suite) Wunsch prépare ce qu'il dira ce soir à Brevard sur les idéaux du collège. — 16:55 : 7.6 °C, couvert, lune à -31.6°",
+  "action": "(suite) Wunsch prépare ce qu'il dira ce soir à Brevard sur les idéaux du collège. — 16:51 : 7.6 °C, couvert, lune à -31.6°",
   "src": "2017.40.182.01a-c",
   "pct": 60,
   "m": "scène supposée",
@@ -4841,11 +5070,11 @@
   "cours": false
  },
  {
-  "n": 206,
-  "debut": "16:58",
-  "fin": "17:03",
-  "pages": "1019–1023",
-  "duree_min": 5,
+  "n": 213,
+  "debut": "16:53",
+  "fin": "16:56",
+  "pages": "1014–1016",
+  "duree_min": 3,
   "entete": "INT. PHYSICS LAB — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 7.6 °C",
@@ -4864,14 +5093,14 @@
   "cours": true
  },
  {
-  "n": 207,
-  "debut": "17:03",
-  "fin": "17:05",
-  "pages": "1024–1025",
-  "duree_min": 2,
+  "n": 214,
+  "debut": "16:56",
+  "fin": "17:00",
+  "pages": "1017–1020",
+  "duree_min": 4,
   "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
+  "meteo": "couvert, 7.6 °C",
   "statut": "usage attesté, transposé",
   "lieu": "Language Room",
   "ie": "INT",
@@ -4891,170 +5120,10 @@
   "cours": true
  },
  {
-  "n": 208,
-  "debut": "17:05",
-  "fin": "17:07",
-  "pages": "1026–1027",
-  "duree_min": 2,
-  "entete": "INT. ROUND HOUSE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "Round House",
-  "ie": "INT",
-  "qui": [
-   "Edward Lowinsky",
-   "Dorothy Carr (inscrit)"
-  ],
-  "action": "Rhythm and Melody (practice in improvisation)",
-  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
-  "pct": 35,
-  "m": "salle du même cours à l'hiver 1945 (+10)",
-  "fil": "cours",
-  "type": "cours (document du collège)",
-  "cours": true
- },
- {
-  "n": 209,
-  "debut": "17:07",
-  "fin": "17:11",
-  "pages": "1028–1031",
-  "duree_min": 4,
-  "entete": "INT. LA LAITERIE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La laiterie",
-  "ie": "INT",
-  "qui": [
-   "Jagna Braunthal"
-  ],
-  "action": "Traite du soir. — 17:07 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "Silver 2024, ch. 6, p. 93-94",
-  "pct": 20,
-  "m": "usage",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 210,
-  "debut": "17:11",
-  "fin": "17:15",
-  "pages": "1032–1035",
-  "duree_min": 4,
-  "entete": "EXT. LA ROUTE DE BREVARD — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La route de Brevard",
-  "ie": "EXT",
-  "qui": [
-   "Robert Wunsch"
-  ],
-  "action": "Bob Wunsch part pour Brevard College (une soixantaine de kilomètres), au dîner mensuel de ses enseignants ; il y parlera des idéaux éducatifs de Black Mountain. Le jour tombe. — 17:11 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "2017.40.182.01a-c ; 02_lumiere.md",
-  "pct": 40,
-  "m": "heure du départ et moyen de transport supposés",
-  "fil": "wunsch",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 211,
-  "debut": "17:15",
-  "fin": "17:19",
-  "pages": "1036–1039",
-  "duree_min": 4,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
-  "ie": "INT",
-  "qui": [
-   "Jane Stone"
-  ],
-  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
-  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
-  "pct": 50,
-  "m": "heures supposées",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 212,
-  "debut": "17:19",
-  "fin": "17:23",
-  "pages": "1040–1043",
-  "duree_min": 4,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "La bibliothèque",
-  "ie": "INT",
-  "qui": [
-   "Nell Rice"
-  ],
-  "action": "(suite) Fin d'après-midi à la bibliothèque : travail personnel, lectures pour Kazin (Blake, Melville) et Zabriskie.",
-  "src": "2017.40.172a-g ; 05_cours.md (cours suivis)",
-  "pct": 55,
-  "m": "scène supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 213,
-  "debut": "17:23",
-  "fin": "17:27",
-  "pages": "1044–1047",
-  "duree_min": 4,
-  "entete": "INT. LES STUDIES ET LES LODGES EN FIN D'APRÈS-MIDI — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "Les studies et les lodges en fin d'après-midi",
-  "ie": "INT",
-  "qui": [],
-  "action": "(suite) Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi. — 17:23 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "2017.40.172a-g ; 2017.40.182.01a-c",
-  "pct": 55,
-  "m": "scène supposée",
-  "fil": "lodges",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 214,
-  "debut": "17:27",
-  "fin": "17:30",
-  "pages": "1048–1050",
-  "duree_min": 3,
-  "entete": "INT. L'ATELIER DE BOIS (WOODSHOP) — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "L'atelier de bois (woodshop)",
-  "ie": "INT",
-  "qui": [
-   "Mary Gregory"
-  ],
-  "action": "(suite) L'atelier de Molly Gregory : tables, étagères, décors ; on y construit peut-être les accessoires de la pièce de Plaute.",
-  "src": "Silver 2024, ch. 6 ; 2017.40.182.01a-c",
-  "pct": 60,
-  "m": "lien avec la pièce supposé",
-  "fil": "atelier",
-  "type": "scène clé",
-  "cours": false
- },
- {
   "n": 215,
-  "debut": "17:30",
-  "fin": "17:34",
-  "pages": "1051–1054",
+  "debut": "17:00",
+  "fin": "17:04",
+  "pages": "1021–1024",
   "duree_min": 4,
   "entete": "INT. PHYSICS LAB — JOUR",
   "lumiere": "jour",
@@ -5075,10 +5144,10 @@
  },
  {
   "n": 216,
-  "debut": "17:34",
-  "fin": "17:36",
-  "pages": "1055–1056",
-  "duree_min": 2,
+  "debut": "17:04",
+  "fin": "17:08",
+  "pages": "1025–1028",
+  "duree_min": 4,
   "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 6.0 °C",
@@ -5102,10 +5171,153 @@
  },
  {
   "n": 217,
-  "debut": "17:36",
-  "fin": "17:38",
-  "pages": "1057–1058",
+  "debut": "17:08",
+  "fin": "17:12",
+  "pages": "1029–1032",
+  "duree_min": 4,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 218,
+  "debut": "17:12",
+  "fin": "17:15",
+  "pages": "1033–1035",
+  "duree_min": 3,
+  "entete": "INT. LA LAITERIE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "La laiterie",
+  "ie": "INT",
+  "qui": [
+   "Jagna Braunthal"
+  ],
+  "action": "Traite du soir. — 17:12 : 6.0 °C, couvert, lune à -35.3°",
+  "src": "Silver 2024, ch. 6, p. 93-94",
+  "pct": 20,
+  "m": "usage",
+  "fil": "ferme",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 219,
+  "debut": "17:15",
+  "fin": "17:17",
+  "pages": "1036–1037",
   "duree_min": 2,
+  "entete": "EXT. LA ROUTE DE BREVARD — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "La route de Brevard",
+  "ie": "EXT",
+  "qui": [
+   "Robert Wunsch"
+  ],
+  "action": "Bob Wunsch part pour Brevard College (une soixantaine de kilomètres), au dîner mensuel de ses enseignants ; il y parlera des idéaux éducatifs de Black Mountain. Le jour tombe. — 17:15 : 6.0 °C, couvert, lune à -35.3°",
+  "src": "2017.40.182.01a-c ; 02_lumiere.md",
+  "pct": 40,
+  "m": "heure du départ et moyen de transport supposés",
+  "fil": "wunsch",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 220,
+  "debut": "17:17",
+  "fin": "17:19",
+  "pages": "1038–1039",
+  "duree_min": 2,
+  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "supposé",
+  "lieu": "La cuisine de la salle à manger",
+  "ie": "INT",
+  "qui": [
+   "Jane Stone"
+  ],
+  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
+  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
+  "pct": 50,
+  "m": "heures supposées",
+  "fil": "cuisine",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 221,
+  "debut": "17:19",
+  "fin": "17:23",
+  "pages": "1040–1043",
+  "duree_min": 4,
+  "entete": "INT. PHYSICS LAB — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Physics Lab",
+  "ie": "INT",
+  "qui": [
+   "Fritz Hansgirg"
+  ],
+  "action": "(suite) Laboratoire de Matter and Energy avec Fritz Hansgirg, chimiste autrichien de 53 ans, aussi « technicien en chef » des pompiers du collège.",
+  "src": "2017.40.176a-h ; 2017.40.185.01a-g (salle) ; 2017.40.178a-d",
+  "pct": 35,
+  "m": "salle d'après l'hiver 1945",
+  "fil": "hansgirg",
+  "type": "scène clé",
+  "cours": true
+ },
+ {
+  "n": 222,
+  "debut": "17:23",
+  "fin": "17:26",
+  "pages": "1044–1046",
+  "duree_min": 3,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 223,
+  "debut": "17:26",
+  "fin": "17:30",
+  "pages": "1047–1050",
+  "duree_min": 4,
   "entete": "INT. ROUND HOUSE — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 6.0 °C",
@@ -5125,194 +5337,14 @@
   "cours": true
  },
  {
-  "n": 218,
-  "debut": "17:38",
-  "fin": "17:42",
-  "pages": "1059–1062",
-  "duree_min": 4,
-  "entete": "INT. LA LAITERIE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La laiterie",
-  "ie": "INT",
-  "qui": [
-   "Jagna Braunthal"
-  ],
-  "action": "(suite) Traite du soir. — 17:38 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "Silver 2024, ch. 6, p. 93-94",
-  "pct": 20,
-  "m": "usage",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 219,
-  "debut": "17:42",
-  "fin": "17:46",
-  "pages": "1063–1066",
-  "duree_min": 4,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
-  "ie": "INT",
-  "qui": [
-   "Jane Stone"
-  ],
-  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
-  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
-  "pct": 50,
-  "m": "heures supposées",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 220,
-  "debut": "17:46",
-  "fin": "17:50",
-  "pages": "1067–1070",
-  "duree_min": 4,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "La bibliothèque",
-  "ie": "INT",
-  "qui": [
-   "Nell Rice"
-  ],
-  "action": "(suite) Fin d'après-midi à la bibliothèque : travail personnel, lectures pour Kazin (Blake, Melville) et Zabriskie.",
-  "src": "2017.40.172a-g ; 05_cours.md (cours suivis)",
-  "pct": 55,
-  "m": "scène supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 221,
-  "debut": "17:50",
-  "fin": "17:54",
-  "pages": "1071–1074",
-  "duree_min": 4,
-  "entete": "INT. LES STUDIES ET LES LODGES EN FIN D'APRÈS-MIDI — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "Les studies et les lodges en fin d'après-midi",
-  "ie": "INT",
-  "qui": [],
-  "action": "(suite) Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi. — 17:50 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "2017.40.172a-g ; 2017.40.182.01a-c",
-  "pct": 55,
-  "m": "scène supposée",
-  "fil": "lodges",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 222,
-  "debut": "17:54",
-  "fin": "17:56",
-  "pages": "1075–1076",
-  "duree_min": 2,
-  "entete": "INT. LA LAITERIE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "La laiterie",
-  "ie": "INT",
-  "qui": [
-   "Jagna Braunthal"
-  ],
-  "action": "(suite) Traite du soir. — 17:54 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "Silver 2024, ch. 6, p. 93-94",
-  "pct": 20,
-  "m": "usage",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 223,
-  "debut": "17:56",
-  "fin": "17:58",
-  "pages": "1077–1078",
-  "duree_min": 2,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
-  "ie": "INT",
-  "qui": [
-   "Jane Stone"
-  ],
-  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
-  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
-  "pct": 50,
-  "m": "heures supposées",
-  "fil": "cuisine",
-  "type": "scène clé",
-  "cours": false
- },
- {
   "n": 224,
-  "debut": "17:58",
-  "fin": "17:59",
-  "pages": "1079–1079",
-  "duree_min": 1,
-  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "La bibliothèque",
-  "ie": "INT",
-  "qui": [
-   "Nell Rice"
-  ],
-  "action": "(suite) Fin d'après-midi à la bibliothèque : travail personnel, lectures pour Kazin (Blake, Melville) et Zabriskie.",
-  "src": "2017.40.172a-g ; 05_cours.md (cours suivis)",
-  "pct": 55,
-  "m": "scène supposée",
-  "fil": "bibliotheque",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 225,
-  "debut": "17:59",
-  "fin": "18:00",
-  "pages": "1080–1080",
-  "duree_min": 1,
-  "entete": "INT. LES STUDIES ET LES LODGES EN FIN D'APRÈS-MIDI — JOUR",
-  "lumiere": "jour",
-  "meteo": "couvert, 6.0 °C",
-  "statut": "supposé",
-  "lieu": "Les studies et les lodges en fin d'après-midi",
-  "ie": "INT",
-  "qui": [],
-  "action": "(suite) Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi. — 17:59 : 6.0 °C, couvert, lune à -35.3°",
-  "src": "2017.40.172a-g ; 2017.40.182.01a-c",
-  "pct": 55,
-  "m": "scène supposée",
-  "fil": "lodges",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 226,
-  "debut": "18:00",
-  "fin": "18:03",
-  "pages": "1081–1083",
-  "duree_min": 3,
+  "debut": "17:30",
+  "fin": "17:34",
+  "pages": "1051–1054",
+  "duree_min": 4,
   "entete": "INT. PHYSICS LAB — JOUR",
   "lumiere": "jour",
-  "meteo": "couvert, 5.0 °C",
+  "meteo": "couvert, 6.0 °C",
   "statut": "usage attesté, transposé",
   "lieu": "Physics Lab",
   "ie": "INT",
@@ -5328,34 +5360,226 @@
   "cours": true
  },
  {
-  "n": 227,
-  "debut": "18:03",
-  "fin": "18:15",
-  "pages": "1084–1095",
-  "duree_min": 12,
-  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
+  "n": 225,
+  "debut": "17:34",
+  "fin": "17:38",
+  "pages": "1055–1058",
+  "duree_min": 4,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
   "lumiere": "jour",
-  "meteo": "couvert, 5.0 °C",
-  "statut": "supposé",
-  "lieu": "La cuisine de la salle à manger",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
   "ie": "INT",
   "qui": [
-   "Jane Stone"
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
   ],
-  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
-  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
-  "pct": 50,
-  "m": "heures supposées",
-  "fil": "cuisine",
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 226,
+  "debut": "17:38",
+  "fin": "17:42",
+  "pages": "1059–1062",
+  "duree_min": 4,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 227,
+  "debut": "17:42",
+  "fin": "17:44",
+  "pages": "1063–1064",
+  "duree_min": 2,
+  "entete": "INT. LA LAITERIE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "La laiterie",
+  "ie": "INT",
+  "qui": [
+   "Jagna Braunthal"
+  ],
+  "action": "(suite) Traite du soir. — 17:42 : 6.0 °C, couvert, lune à -35.3°",
+  "src": "Silver 2024, ch. 6, p. 93-94",
+  "pct": 20,
+  "m": "usage",
+  "fil": "ferme",
   "type": "scène clé",
   "cours": false
  },
  {
   "n": 228,
-  "debut": "18:15",
-  "fin": "18:17",
-  "pages": "1096–1097",
+  "debut": "17:44",
+  "fin": "17:46",
+  "pages": "1065–1066",
   "duree_min": 2,
+  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "supposé",
+  "lieu": "La cuisine de la salle à manger",
+  "ie": "INT",
+  "qui": [
+   "Jane Stone"
+  ],
+  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
+  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
+  "pct": 50,
+  "m": "heures supposées",
+  "fil": "cuisine",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 229,
+  "debut": "17:46",
+  "fin": "17:48",
+  "pages": "1067–1068",
+  "duree_min": 2,
+  "entete": "INT. LA BIBLIOTHÈQUE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "supposé",
+  "lieu": "La bibliothèque",
+  "ie": "INT",
+  "qui": [
+   "Nell Rice"
+  ],
+  "action": "(suite) Fin d'après-midi à la bibliothèque : travail personnel, lectures pour Kazin (Blake, Melville) et Zabriskie.",
+  "src": "2017.40.172a-g ; 05_cours.md (cours suivis)",
+  "pct": 55,
+  "m": "scène supposée",
+  "fil": "bibliotheque",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 230,
+  "debut": "17:48",
+  "fin": "17:50",
+  "pages": "1069–1070",
+  "duree_min": 2,
+  "entete": "INT. LES STUDIES ET LES LODGES EN FIN D'APRÈS-MIDI — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "supposé",
+  "lieu": "Les studies et les lodges en fin d'après-midi",
+  "ie": "INT",
+  "qui": [],
+  "action": "(suite) Ceux qui n'ont pas cours : travail dans les studies, lettres, costumes et accessoires de la pièce de samedi. — 17:48 : 6.0 °C, couvert, lune à -35.3°",
+  "src": "2017.40.172a-g ; 2017.40.182.01a-c",
+  "pct": 55,
+  "m": "scène supposée",
+  "fil": "lodges",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 231,
+  "debut": "17:50",
+  "fin": "17:53",
+  "pages": "1071–1073",
+  "duree_min": 3,
+  "entete": "INT. PHYSICS LAB — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Physics Lab",
+  "ie": "INT",
+  "qui": [
+   "Fritz Hansgirg"
+  ],
+  "action": "(suite) Laboratoire de Matter and Energy avec Fritz Hansgirg, chimiste autrichien de 53 ans, aussi « technicien en chef » des pompiers du collège.",
+  "src": "2017.40.176a-h ; 2017.40.185.01a-g (salle) ; 2017.40.178a-d",
+  "pct": 35,
+  "m": "salle d'après l'hiver 1945",
+  "fil": "hansgirg",
+  "type": "scène clé",
+  "cours": true
+ },
+ {
+  "n": 232,
+  "debut": "17:53",
+  "fin": "17:57",
+  "pages": "1074–1077",
+  "duree_min": 4,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 233,
+  "debut": "17:57",
+  "fin": "18:00",
+  "pages": "1078–1080",
+  "duree_min": 3,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 6.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 234,
+  "debut": "18:00",
+  "fin": "18:04",
+  "pages": "1081–1084",
+  "duree_min": 4,
   "entete": "INT. PHYSICS LAB — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.0 °C",
@@ -5374,11 +5598,159 @@
   "cours": true
  },
  {
-  "n": 229,
-  "debut": "18:17",
-  "fin": "18:20",
-  "pages": "1098–1100",
+  "n": 235,
+  "debut": "18:04",
+  "fin": "18:07",
+  "pages": "1085–1087",
   "duree_min": 3,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 236,
+  "debut": "18:07",
+  "fin": "18:11",
+  "pages": "1088–1091",
+  "duree_min": 4,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 237,
+  "debut": "18:11",
+  "fin": "18:15",
+  "pages": "1092–1095",
+  "duree_min": 4,
+  "entete": "INT. LA CUISINE DE LA SALLE À MANGER — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "supposé",
+  "lieu": "La cuisine de la salle à manger",
+  "ie": "INT",
+  "qui": [
+   "Jane Stone"
+  ],
+  "action": "(suite) Préparation du dîner de 18 h 15 ; le personnel de cuisine professionnel est parti (frères Lipsey) : tout repose sur les étudiants.",
+  "src": "2017.40.174a-e ; 2017.40.177a-g ; 2017.40.180a-d",
+  "pct": 50,
+  "m": "heures supposées",
+  "fil": "cuisine",
+  "type": "scène clé",
+  "cours": false
+ },
+ {
+  "n": 238,
+  "debut": "18:15",
+  "fin": "18:16",
+  "pages": "1096–1096",
+  "duree_min": 1,
+  "entete": "INT. PHYSICS LAB — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Physics Lab",
+  "ie": "INT",
+  "qui": [
+   "Fritz Hansgirg"
+  ],
+  "action": "(suite) Laboratoire de Matter and Energy avec Fritz Hansgirg, chimiste autrichien de 53 ans, aussi « technicien en chef » des pompiers du collège.",
+  "src": "2017.40.176a-h ; 2017.40.185.01a-g (salle) ; 2017.40.178a-d",
+  "pct": 35,
+  "m": "salle d'après l'hiver 1945",
+  "fil": "hansgirg",
+  "type": "scène clé",
+  "cours": true
+ },
+ {
+  "n": 239,
+  "debut": "18:16",
+  "fin": "18:18",
+  "pages": "1097–1098",
+  "duree_min": 2,
+  "entete": "INT. LANGUAGE ROOM — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 240,
+  "debut": "18:18",
+  "fin": "18:19",
+  "pages": "1099–1099",
+  "duree_min": 1,
+  "entete": "INT. ROUND HOUSE — JOUR",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 241,
+  "debut": "18:19",
+  "fin": "18:20",
+  "pages": "1100–1100",
+  "duree_min": 1,
   "entete": "INT. L'OFFICE DE LA SALLE À MANGER — JOUR",
   "lumiere": "jour",
   "meteo": "couvert, 5.0 °C",
@@ -5388,7 +5760,7 @@
   "qui": [
    "Beate Gropius"
   ],
-  "action": "Ati Gropius refait l'opération du lait et écrème pour la crème et le beurre. — 18:17 : 5.0 °C, couvert, lune à -35.9°",
+  "action": "Ati Gropius refait l'opération du lait et écrème pour la crème et le beurre. — 18:19 : 5.0 °C, couvert, lune à -35.9°",
   "src": "Silver 2024, ch. 6, p. 95-97",
   "pct": 25,
   "m": "usage",
@@ -5397,7 +5769,7 @@
   "cours": false
  },
  {
-  "n": 230,
+  "n": 242,
   "debut": "18:20",
   "fin": "18:21",
   "pages": "1101–1101",
@@ -5420,10 +5792,61 @@
   "cours": true
  },
  {
-  "n": 231,
+  "n": 243,
   "debut": "18:21",
+  "fin": "18:22",
+  "pages": "1102–1102",
+  "duree_min": 1,
+  "entete": "INT. LANGUAGE ROOM — CRÉPUSCULE",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Language Room",
+  "ie": "INT",
+  "qui": [
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
+  ],
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 244,
+  "debut": "18:22",
   "fin": "18:23",
-  "pages": "1102–1103",
+  "pages": "1103–1103",
+  "duree_min": 1,
+  "entete": "INT. ROUND HOUSE — CRÉPUSCULE",
+  "lumiere": "jour",
+  "meteo": "couvert, 5.0 °C",
+  "statut": "usage attesté, transposé",
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
+ },
+ {
+  "n": 245,
+  "debut": "18:23",
+  "fin": "18:25",
+  "pages": "1104–1105",
   "duree_min": 2,
   "entete": "INT. L'OFFICE DE LA SALLE À MANGER — CRÉPUSCULE",
   "lumiere": "jour",
@@ -5434,7 +5857,7 @@
   "qui": [
    "Beate Gropius"
   ],
-  "action": "(suite) Ati Gropius refait l'opération du lait et écrème pour la crème et le beurre. — 18:21 : 5.0 °C, couvert, lune à -35.9°",
+  "action": "(suite) Ati Gropius refait l'opération du lait et écrème pour la crème et le beurre. — 18:23 : 5.0 °C, couvert, lune à -35.9°",
   "src": "Silver 2024, ch. 6, p. 95-97",
   "pct": 25,
   "m": "usage",
@@ -5443,32 +5866,11 @@
   "cours": false
  },
  {
-  "n": 232,
-  "debut": "18:23",
-  "fin": "18:25",
-  "pages": "1104–1105",
-  "duree_min": 2,
-  "entete": "EXT. LE LAC AU COUCHER DU SOLEIL — CRÉPUSCULE",
-  "lumiere": "jour",
-  "meteo": "couvert, 5.0 °C",
-  "statut": "usage attesté, transposé",
-  "lieu": "Le lac au coucher du soleil",
-  "ie": "EXT",
-  "qui": [],
-  "action": "Coucher du soleil à 18 h 20 (heure de guerre), fin du crépuscule civil à 18 h 47 ; le ciel couvert de l'après-midi ; les fenêtres de la salle à manger s'allument sur le lac. — 18:23 : 5.0 °C, couvert, lune à -35.9°",
-  "src": "02_lumiere.md ; 01_meteo.md",
-  "pct": 30,
-  "m": "ciel d'après la réanalyse (40 %)",
-  "fil": "aube",
-  "type": "scène clé",
-  "cours": false
- },
- {
-  "n": 233,
+  "n": 246,
   "debut": "18:25",
-  "fin": "18:26",
-  "pages": "1106–1106",
-  "duree_min": 1,
+  "fin": "18:27",
+  "pages": "1106–1107",
+  "duree_min": 2,
   "entete": "INT. PHYSICS LAB — CRÉPUSCULE",
   "lumiere": "jour",
   "meteo": "couvert, 5.0 °C",
@@ -5487,51 +5889,58 @@
   "cours": true
  },
  {
-  "n": 234,
-  "debut": "18:26",
+  "n": 247,
+  "debut": "18:27",
   "fin": "18:28",
-  "pages": "1107–1108",
-  "duree_min": 2,
-  "entete": "INT. L'OFFICE DE LA SALLE À MANGER — CRÉPUSCULE",
+  "pages": "1108–1108",
+  "duree_min": 1,
+  "entete": "INT. LANGUAGE ROOM — CRÉPUSCULE",
   "lumiere": "jour",
   "meteo": "couvert, 5.0 °C",
   "statut": "usage attesté, transposé",
-  "lieu": "L'office de la salle à manger",
+  "lieu": "Language Room",
   "ie": "INT",
   "qui": [
-   "Beate Gropius"
+   "George Zabriskie",
+   "Curtiss Cowan (inscrit)",
+   "Eleanore \"Elly\" Smith (inscrit)",
+   "Janet \"Aley\" Ramsey (inscrit)",
+   "Norma Cormany (inscrit)"
   ],
-  "action": "(suite) Ati Gropius refait l'opération du lait et écrème pour la crème et le beurre. — 18:26 : 5.0 °C, couvert, lune à -35.9°",
-  "src": "Silver 2024, ch. 6, p. 95-97",
-  "pct": 25,
-  "m": "usage",
-  "fil": "ferme",
-  "type": "scène clé",
-  "cours": false
+  "action": "(suite) Elements of Verse Writing",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
-  "n": 235,
+  "n": 248,
   "debut": "18:28",
   "fin": "18:30",
   "pages": "1109–1110",
   "duree_min": 2,
-  "entete": "EXT. LE LAC AU COUCHER DU SOLEIL — CRÉPUSCULE",
+  "entete": "INT. ROUND HOUSE — CRÉPUSCULE",
   "lumiere": "jour",
   "meteo": "couvert, 5.0 °C",
   "statut": "usage attesté, transposé",
-  "lieu": "Le lac au coucher du soleil",
-  "ie": "EXT",
-  "qui": [],
-  "action": "(suite) Coucher du soleil à 18 h 20 (heure de guerre), fin du crépuscule civil à 18 h 47 ; le ciel couvert de l'après-midi ; les fenêtres de la salle à manger s'allument sur le lac. — 18:28 : 5.0 °C, couvert, lune à -35.9°",
-  "src": "02_lumiere.md ; 01_meteo.md",
-  "pct": 30,
-  "m": "ciel d'après la réanalyse (40 %)",
-  "fil": "aube",
-  "type": "scène clé",
-  "cours": false
+  "lieu": "Round House",
+  "ie": "INT",
+  "qui": [
+   "Edward Lowinsky",
+   "Dorothy Carr (inscrit)"
+  ],
+  "action": "(suite) Rhythm and Melody (practice in improvisation)",
+  "src": "Black Mountain College Community Bulletin College Year 12 Bulletin 5 Monday, October 23, 1944 [1944] (inv. 2017.40.176a-h)",
+  "pct": 35,
+  "m": "salle du même cours à l'hiver 1945 (+10)",
+  "fil": "cours",
+  "type": "cours (document du collège)",
+  "cours": true
  },
  {
-  "n": 236,
+  "n": 249,
   "debut": "18:30",
   "fin": "18:33",
   "pages": "1111–1113",
@@ -5554,7 +5963,7 @@
   "cours": false
  },
  {
-  "n": 237,
+  "n": 250,
   "debut": "18:33",
   "fin": "18:39",
   "pages": "1114–1119",
@@ -5566,7 +5975,7 @@
   "lieu": "Le lac au coucher du soleil",
   "ie": "EXT",
   "qui": [],
-  "action": "(suite) Coucher du soleil à 18 h 20 (heure de guerre), fin du crépuscule civil à 18 h 47 ; le ciel couvert de l'après-midi ; les fenêtres de la salle à manger s'allument sur le lac. — 18:33 : 5.0 °C, couvert, lune à -35.9°",
+  "action": "Coucher du soleil à 18 h 20 (heure de guerre), fin du crépuscule civil à 18 h 47 ; le ciel couvert de l'après-midi ; les fenêtres de la salle à manger s'allument sur le lac. — 18:33 : 5.0 °C, couvert, lune à -35.9°",
   "src": "02_lumiere.md ; 01_meteo.md",
   "pct": 30,
   "m": "ciel d'après la réanalyse (40 %)",
@@ -5575,7 +5984,7 @@
   "cours": false
  },
  {
-  "n": 238,
+  "n": 251,
   "debut": "18:39",
   "fin": "18:43",
   "pages": "1120–1123",
@@ -5596,7 +6005,7 @@
   "cours": false
  },
  {
-  "n": 239,
+  "n": 252,
   "debut": "18:43",
   "fin": "18:45",
   "pages": "1124–1125",
@@ -5617,7 +6026,7 @@
   "cours": false
  },
  {
-  "n": 240,
+  "n": 253,
   "debut": "18:45",
   "fin": "19:00",
   "pages": "1126–1140",
@@ -5638,7 +6047,7 @@
   "cours": false
  },
  {
-  "n": 241,
+  "n": 254,
   "debut": "19:00",
   "fin": "19:04",
   "pages": "1141–1144",
@@ -5663,7 +6072,7 @@
   "cours": false
  },
  {
-  "n": 242,
+  "n": 255,
   "debut": "19:04",
   "fin": "19:08",
   "pages": "1145–1148",
@@ -5684,7 +6093,7 @@
   "cours": false
  },
  {
-  "n": 243,
+  "n": 256,
   "debut": "19:08",
   "fin": "19:12",
   "pages": "1149–1152",
@@ -5705,7 +6114,7 @@
   "cours": false
  },
  {
-  "n": 244,
+  "n": 257,
   "debut": "19:12",
   "fin": "19:15",
   "pages": "1153–1155",
@@ -5730,7 +6139,7 @@
   "cours": false
  },
  {
-  "n": 245,
+  "n": 258,
   "debut": "19:15",
   "fin": "19:18",
   "pages": "1156–1158",
@@ -5753,7 +6162,7 @@
   "cours": false
  },
  {
-  "n": 246,
+  "n": 259,
   "debut": "19:18",
   "fin": "19:20",
   "pages": "1159–1160",
@@ -5778,7 +6187,7 @@
   "cours": false
  },
  {
-  "n": 247,
+  "n": 260,
   "debut": "19:20",
   "fin": "19:24",
   "pages": "1161–1164",
@@ -5801,7 +6210,7 @@
   "cours": false
  },
  {
-  "n": 248,
+  "n": 261,
   "debut": "19:24",
   "fin": "19:28",
   "pages": "1165–1168",
@@ -5826,7 +6235,7 @@
   "cours": false
  },
  {
-  "n": 249,
+  "n": 262,
   "debut": "19:28",
   "fin": "19:29",
   "pages": "1169–1169",
@@ -5849,7 +6258,7 @@
   "cours": false
  },
  {
-  "n": 250,
+  "n": 263,
   "debut": "19:29",
   "fin": "19:30",
   "pages": "1170–1170",
@@ -5874,7 +6283,7 @@
   "cours": false
  },
  {
-  "n": 251,
+  "n": 264,
   "debut": "19:30",
   "fin": "19:34",
   "pages": "1171–1174",
@@ -5897,7 +6306,7 @@
   "cours": false
  },
  {
-  "n": 252,
+  "n": 265,
   "debut": "19:34",
   "fin": "19:38",
   "pages": "1175–1178",
@@ -5922,7 +6331,7 @@
   "cours": false
  },
  {
-  "n": 253,
+  "n": 266,
   "debut": "19:38",
   "fin": "19:42",
   "pages": "1179–1182",
@@ -5945,7 +6354,7 @@
   "cours": false
  },
  {
-  "n": 254,
+  "n": 267,
   "debut": "19:42",
   "fin": "19:46",
   "pages": "1183–1186",
@@ -5968,7 +6377,7 @@
   "cours": false
  },
  {
-  "n": 255,
+  "n": 268,
   "debut": "19:46",
   "fin": "19:50",
   "pages": "1187–1190",
@@ -5993,7 +6402,7 @@
   "cours": false
  },
  {
-  "n": 256,
+  "n": 269,
   "debut": "19:50",
   "fin": "19:54",
   "pages": "1191–1194",
@@ -6016,7 +6425,7 @@
   "cours": false
  },
  {
-  "n": 257,
+  "n": 270,
   "debut": "19:54",
   "fin": "19:56",
   "pages": "1195–1196",
@@ -6039,7 +6448,7 @@
   "cours": false
  },
  {
-  "n": 258,
+  "n": 271,
   "debut": "19:56",
   "fin": "19:58",
   "pages": "1197–1198",
@@ -6064,7 +6473,7 @@
   "cours": false
  },
  {
-  "n": 259,
+  "n": 272,
   "debut": "19:58",
   "fin": "20:00",
   "pages": "1199–1200",
@@ -6087,7 +6496,7 @@
   "cours": false
  },
  {
-  "n": 260,
+  "n": 273,
   "debut": "20:00",
   "fin": "20:04",
   "pages": "1201–1204",
@@ -6110,7 +6519,7 @@
   "cours": false
  },
  {
-  "n": 261,
+  "n": 274,
   "debut": "20:04",
   "fin": "20:08",
   "pages": "1205–1208",
@@ -6133,7 +6542,7 @@
   "cours": false
  },
  {
-  "n": 262,
+  "n": 275,
   "debut": "20:08",
   "fin": "20:12",
   "pages": "1209–1212",
@@ -6156,7 +6565,7 @@
   "cours": false
  },
  {
-  "n": 263,
+  "n": 276,
   "debut": "20:12",
   "fin": "20:13",
   "pages": "1213–1213",
@@ -6179,7 +6588,7 @@
   "cours": false
  },
  {
-  "n": 264,
+  "n": 277,
   "debut": "20:13",
   "fin": "20:14",
   "pages": "1214–1214",
@@ -6202,7 +6611,7 @@
   "cours": false
  },
  {
-  "n": 265,
+  "n": 278,
   "debut": "20:14",
   "fin": "20:15",
   "pages": "1215–1215",
@@ -6225,7 +6634,7 @@
   "cours": false
  },
  {
-  "n": 266,
+  "n": 279,
   "debut": "20:15",
   "fin": "20:19",
   "pages": "1216–1219",
@@ -6248,7 +6657,7 @@
   "cours": false
  },
  {
-  "n": 267,
+  "n": 280,
   "debut": "20:19",
   "fin": "20:23",
   "pages": "1220–1223",
@@ -6271,7 +6680,7 @@
   "cours": false
  },
  {
-  "n": 268,
+  "n": 281,
   "debut": "20:23",
   "fin": "20:27",
   "pages": "1224–1227",
@@ -6294,7 +6703,7 @@
   "cours": false
  },
  {
-  "n": 269,
+  "n": 282,
   "debut": "20:27",
   "fin": "20:31",
   "pages": "1228–1231",
@@ -6317,7 +6726,7 @@
   "cours": false
  },
  {
-  "n": 270,
+  "n": 283,
   "debut": "20:31",
   "fin": "20:35",
   "pages": "1232–1235",
@@ -6340,7 +6749,7 @@
   "cours": false
  },
  {
-  "n": 271,
+  "n": 284,
   "debut": "20:35",
   "fin": "20:39",
   "pages": "1236–1239",
@@ -6363,7 +6772,7 @@
   "cours": false
  },
  {
-  "n": 272,
+  "n": 285,
   "debut": "20:39",
   "fin": "20:43",
   "pages": "1240–1243",
@@ -6386,7 +6795,7 @@
   "cours": false
  },
  {
-  "n": 273,
+  "n": 286,
   "debut": "20:43",
   "fin": "20:47",
   "pages": "1244–1247",
@@ -6409,7 +6818,7 @@
   "cours": false
  },
  {
-  "n": 274,
+  "n": 287,
   "debut": "20:47",
   "fin": "20:51",
   "pages": "1248–1251",
@@ -6432,7 +6841,7 @@
   "cours": false
  },
  {
-  "n": 275,
+  "n": 288,
   "debut": "20:51",
   "fin": "20:55",
   "pages": "1252–1255",
@@ -6455,7 +6864,7 @@
   "cours": false
  },
  {
-  "n": 276,
+  "n": 289,
   "debut": "20:55",
   "fin": "20:58",
   "pages": "1256–1258",
@@ -6478,7 +6887,7 @@
   "cours": false
  },
  {
-  "n": 277,
+  "n": 290,
   "debut": "20:58",
   "fin": "21:00",
   "pages": "1259–1260",
@@ -6501,7 +6910,7 @@
   "cours": false
  },
  {
-  "n": 278,
+  "n": 291,
   "debut": "21:00",
   "fin": "21:30",
   "pages": "1261–1290",
@@ -6524,7 +6933,7 @@
   "cours": false
  },
  {
-  "n": 279,
+  "n": 292,
   "debut": "21:30",
   "fin": "21:34",
   "pages": "1291–1294",
@@ -6547,7 +6956,7 @@
   "cours": true
  },
  {
-  "n": 280,
+  "n": 293,
   "debut": "21:34",
   "fin": "21:38",
   "pages": "1295–1298",
@@ -6570,7 +6979,7 @@
   "cours": false
  },
  {
-  "n": 281,
+  "n": 294,
   "debut": "21:38",
   "fin": "21:42",
   "pages": "1299–1302",
@@ -6593,7 +7002,7 @@
   "cours": true
  },
  {
-  "n": 282,
+  "n": 295,
   "debut": "21:42",
   "fin": "21:46",
   "pages": "1303–1306",
@@ -6616,7 +7025,7 @@
   "cours": false
  },
  {
-  "n": 283,
+  "n": 296,
   "debut": "21:46",
   "fin": "21:50",
   "pages": "1307–1310",
@@ -6639,7 +7048,7 @@
   "cours": true
  },
  {
-  "n": 284,
+  "n": 297,
   "debut": "21:50",
   "fin": "21:54",
   "pages": "1311–1314",
@@ -6662,7 +7071,7 @@
   "cours": false
  },
  {
-  "n": 285,
+  "n": 298,
   "debut": "21:54",
   "fin": "21:57",
   "pages": "1315–1317",
@@ -6685,7 +7094,7 @@
   "cours": true
  },
  {
-  "n": 286,
+  "n": 299,
   "debut": "21:57",
   "fin": "22:30",
   "pages": "1318–1350",
@@ -6708,7 +7117,7 @@
   "cours": false
  },
  {
-  "n": 287,
+  "n": 300,
   "debut": "22:30",
   "fin": "22:34",
   "pages": "1351–1354",
@@ -6729,7 +7138,7 @@
   "cours": false
  },
  {
-  "n": 288,
+  "n": 301,
   "debut": "22:34",
   "fin": "22:38",
   "pages": "1355–1358",
@@ -6752,7 +7161,7 @@
   "cours": false
  },
  {
-  "n": 289,
+  "n": 302,
   "debut": "22:38",
   "fin": "22:42",
   "pages": "1359–1362",
@@ -6773,7 +7182,7 @@
   "cours": false
  },
  {
-  "n": 290,
+  "n": 303,
   "debut": "22:42",
   "fin": "22:46",
   "pages": "1363–1366",
@@ -6794,7 +7203,7 @@
   "cours": false
  },
  {
-  "n": 291,
+  "n": 304,
   "debut": "22:46",
   "fin": "22:49",
   "pages": "1367–1369",
@@ -6817,7 +7226,7 @@
   "cours": false
  },
  {
-  "n": 292,
+  "n": 305,
   "debut": "22:49",
   "fin": "22:52",
   "pages": "1370–1372",
@@ -6838,7 +7247,7 @@
   "cours": false
  },
  {
-  "n": 293,
+  "n": 306,
   "debut": "22:52",
   "fin": "22:54",
   "pages": "1373–1374",
@@ -6859,7 +7268,7 @@
   "cours": false
  },
  {
-  "n": 294,
+  "n": 307,
   "debut": "22:54",
   "fin": "22:56",
   "pages": "1375–1376",
@@ -6880,7 +7289,7 @@
   "cours": false
  },
  {
-  "n": 295,
+  "n": 308,
   "debut": "22:56",
   "fin": "22:58",
   "pages": "1377–1378",
@@ -6903,7 +7312,7 @@
   "cours": false
  },
  {
-  "n": 296,
+  "n": 309,
   "debut": "22:58",
   "fin": "23:00",
   "pages": "1379–1380",
@@ -6924,7 +7333,7 @@
   "cours": false
  },
  {
-  "n": 297,
+  "n": 310,
   "debut": "23:00",
   "fin": "23:12",
   "pages": "1381–1392",
@@ -6945,7 +7354,7 @@
   "cours": false
  },
  {
-  "n": 298,
+  "n": 311,
   "debut": "23:12",
   "fin": "23:24",
   "pages": "1393–1404",
@@ -6966,7 +7375,7 @@
   "cours": false
  },
  {
-  "n": 299,
+  "n": 312,
   "debut": "23:24",
   "fin": "23:36",
   "pages": "1405–1416",
@@ -6987,7 +7396,7 @@
   "cours": false
  },
  {
-  "n": 300,
+  "n": 313,
   "debut": "23:36",
   "fin": "23:44",
   "pages": "1417–1424",
@@ -7008,7 +7417,7 @@
   "cours": false
  },
  {
-  "n": 301,
+  "n": 314,
   "debut": "23:44",
   "fin": "23:52",
   "pages": "1425–1432",
@@ -7029,7 +7438,7 @@
   "cours": false
  },
  {
-  "n": 302,
+  "n": 315,
   "debut": "23:52",
   "fin": "24:00",
   "pages": "1433–1440",
