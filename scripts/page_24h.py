@@ -21,6 +21,11 @@ TYPES = [  # (id, libellé, couleur, fils du séquencier)
     ("faculty", "Faculty at work", "#9a7b2f", {"albers", "lowinsky", "bibliotheque"}),
     ("interlude", "Interlude", "#9ca3af", {"liaison", "vie"}),
 ]
+NCATS = {"montagnes": "Mountains", "ciel": "Sky & clouds", "astres": "Moon, stars & planets", "lumiere": "Light", "eau": "Lake & water",
+         "givre": "Frost, ice & ground", "arbres": "Trees, leaves & wind", "oiseaux": "Birds", "betes": "Animals", "insectes": "Insects & spiders",
+         "fumees": "Smoke", "sons": "Sounds"}
+NCOUL = {"montagnes": "#5b6b8c", "ciel": "#7f9cb8", "astres": "#2c3566", "lumiere": "#c99a2e", "eau": "#2f7f8f", "givre": "#8fb3c9",
+         "arbres": "#4f7a3a", "oiseaux": "#a0522d", "betes": "#7a5c3a", "insectes": "#6d8a2e", "fumees": "#8a8a8a", "sons": "#7b5ea7"}
 LIEUX = [  # (id, libellé, couleur, motif sur le lieu en anglais) — le premier qui convient
     ("offcampus", "Off campus", "#6b7280", r"brevard|station|road"),
     ("farm", "Farm", "#5a8f3c", r"farm|milking|barn"),
@@ -34,6 +39,14 @@ LIEUX = [  # (id, libellé, couleur, motif sur le lieu en anglais) — le premie
     ("shops", "Shops & furnaces", "#8a6a4b", r"woodshop|furnace|coal|buildings"),
     ("lake", "Lake & grounds", "#3b6f8f", r"lake|campus"),
 ]
+
+
+def src_en(s):
+    """libellés français courants des références (le reste, titres et pages, est laissé tel quel)."""
+    for a, b in (("connaissance générale du milieu", "general knowledge of the environment"), ("connaissance générale", "general knowledge"),
+                 ("calcul ephem", "ephem calculation"), ("usage supposé", "assumed custom"), ("plan de liaison", "interlude"), ("ch. ", "ch. ")):
+        s = s.replace(a, b)
+    return re.sub(r"\s*\([^)]*[àâçéèêëîïôûùüœ][^)]*\)", "", s)
 
 
 def type_de(o):
@@ -59,9 +72,13 @@ def main(jour, copie=None):
         w = era.get(x["heure"][:2], {})
         heures.append({"h": x["heure"], "sun": x["soleil_hauteur"], "moon": x["lune_hauteur"], "light": x["etat"],
                        "temp": w.get("temp_c"), "sky": w.get("temps", ""), "cloud": w.get("nuages_pct"), "wind": w.get("vent_kmh")})
+    pn = os.path.join(dos, "plans_nature_montage.json")
+    PN = json.load(open(pn, encoding="utf-8")) if os.path.exists(pn) else []
+    nature = [{"s": p["sequence"], "h": p["heure"], "pg": p["page"], "d": p["duree_s"], "c": p["cat"], "sc": p["echelle_en"], "x": p["en"],
+               "snd": p["son"].split(" / ")[-1] if p["son"] else "", "pct": p["pct"], "src": src_en(p["src"]), "why": p["raison"]} for p in PN]
     LU = J["lumiere"]
     noaa = J["meteo"]["noaa"]; mt = noaa.get("Montreat", {}).get(jour) or {}
-    data = {"seq": seq, "hours": heures, "types": [{"id": t, "label": l, "color": c} for t, l, c, _ in TYPES],
+    data = {"seq": seq, "nature": nature, "ncats": [{"id": k, "label": v, "color": NCOUL[k]} for k, v in NCATS.items()], "hours": heures, "types": [{"id": t, "label": l, "color": c} for t, l, c, _ in TYPES],
             "places": [{"id": t, "label": l, "color": c} for t, l, c, _ in LIEUX],
             "sun": {k: LU.get(k) for k in ("aube_civile", "lever_soleil", "coucher_soleil", "crepuscule_civil", "lever_lune", "coucher_lune")},
             "moon_pct": LU.get("lune_eclairee_pct"), "noaa": {"min": mt.get("tmin_c"), "max": mt.get("tmax_c"), "minf": mt.get("tmin_f"), "maxf": mt.get("tmax_f")}}
@@ -79,7 +96,7 @@ PAGE = r"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>24 Hours at Black Mountain College</title>
-<meta name="description" content="Monday, December 4, 1944, at Black Mountain College, minute by minute: __N__ sequences, 1,440 pages (one page per minute), each with its sources and its deduced share.">
+<meta name="description" content="Monday, December 4, 1944, at Black Mountain College, minute by minute: __N__ sequences and nature shots, 1,440 pages (one page per minute), each with its sources and its deduced share.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -124,12 +141,19 @@ main{max-width:980px;margin:0 auto;padding:8px 16px 80px}
 .x{margin:0 0 6px}
 .who{font:500 13px/1.4 Inter,system-ui,sans-serif;color:var(--soft);margin:0 0 6px}
 .meta{font:500 12px/1.4 Inter,system-ui,sans-serif;color:var(--soft);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
-.ded{font-weight:700;border-radius:6px;padding:1px 7px;color:#fff}
+.ded{font-weight:700;border-radius:6px;padding:1px 7px;color:#fff;white-space:nowrap}
 .ded.attested{background:var(--att)}.ded.transposed{background:var(--tra)}.ded.assumed{background:var(--ass)}
 details{margin-top:6px;font:400 12px/1.45 Inter,system-ui,sans-serif;color:var(--soft)}
 summary{cursor:pointer}
 .legend{font:500 12px/1.5 Inter,system-ui,sans-serif;color:var(--soft);max-width:760px}
 #sentinel{height:60px}
+.nat{display:grid;grid-template-columns:96px 1fr;gap:0 16px;margin:4px 0 4px 18px;padding:6px 12px;border-radius:8px;background:color-mix(in srgb,var(--nc) 12%,var(--bg));border:1px dashed color-mix(in srgb,var(--nc) 55%,transparent);font:400 13px/1.4 Inter,system-ui,sans-serif}
+.nat .nt{font:700 12px "Courier Prime",monospace;color:var(--soft)}
+.nat .nk{display:inline-block;font:700 10px/1 Inter,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:#fff;background:var(--nc);border-radius:4px;padding:3px 6px;margin-right:6px}
+.nat .ns{color:var(--soft);font-size:11px}
+.nat.hid{display:none}
+.chip.nat-c{background:var(--paper);border-style:dashed}
+@media (max-width:600px){.nat{grid-template-columns:64px 1fr;margin-left:8px}}
 footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 Inter,system-ui,sans-serif;color:var(--soft)}
 @media (max-width:600px){.seq{grid-template-columns:64px 1fr;gap:0 10px}.t{font-size:13px}.hour b{font-size:22px}}
 </style>
@@ -138,7 +162,7 @@ footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 In
 <header class="top">
   <h1>24 Hours at Black Mountain College</h1>
   <p class="sub">Monday, December 4, 1944 · Lake Eden, Black Mountain, North Carolina · a day in real time</p>
-  <p class="intro">One page per minute: 1,440 pages from midnight to midnight, cut into <b>__N__ sequences</b>. When several things happen at once, the film cuts between them; each class keeps a quarter of its own time on screen, so that four classes held at the same hour can all be seen. Every sequence keeps its sources and its <b>deduced share</b>: <span class="ded attested">≤ 10%</span> attested by a dated document, <span class="ded transposed">11–40%</span> an attested custom carried over to this day, <span class="ded assumed">&gt; 40%</span> assumed, to be confirmed.</p>
+  <p class="intro">One page per minute: 1,440 pages from midnight to midnight, cut into <b>__N__ sequences</b>. When several things happen at once, the film cuts between them; each class keeps a quarter of its own time on screen, so that four classes held at the same hour can all be seen. Between the sequences, <b>nature shots</b> (mountains, sky, stars, frost, trees and wind, birds, animals, insects, sounds of the valley) set the rhythm of the cut: each one shows nature at that very minute and borrows a few seconds from the sequence in progress, so the clock never stops. Every sequence keeps its sources and its <b>deduced share</b>: <span class="ded attested">≤ 10%</span> attested by a dated document, <span class="ded transposed">11–40%</span> an attested custom carried over to this day, <span class="ded assumed">&gt; 40%</span> assumed, to be confirmed.</p>
   <div class="facts" id="facts"></div>
 </header>
 <div class="bar"><div class="in">
@@ -147,7 +171,8 @@ footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 In
 </div></div>
 <div class="filters">
   <div class="row"><span class="lab">Sequence</span><span id="ftypes"></span></div>
-  <div class="row"><span class="lab">Place</span><span id="fplaces"></span> <button class="reset" id="reset">show all</button></div>
+  <div class="row"><span class="lab">Place</span><span id="fplaces"></span></div>
+  <div class="row"><span class="lab">Nature</span><span id="fnature"></span> <button class="reset" id="nonat">hide nature shots</button> <button class="reset" id="reset">show all</button></div>
 </div>
 <main id="list"></main>
 <div id="sentinel"></div>
@@ -170,7 +195,7 @@ const skyEn = {"ciel clair":"clear","plutôt clair":"mainly clear","partiellemen
 const f = document.getElementById("facts");
 [["Dawn", D.sun.aube_civile], ["Sunrise", D.sun.lever_soleil], ["Sunset", D.sun.coucher_soleil], ["Dark", D.sun.crepuscule_civil], ["Moonrise", D.sun.lever_lune]]
   .forEach(([k, v]) => v && f.insertAdjacentHTML("beforeend", `<span>${k} ${fmt(v)}</span>`));
-f.insertAdjacentHTML("beforeend", `<span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
+f.insertAdjacentHTML("beforeend", `<span>${D.seq.length} sequences · ${D.nature.length} nature shots</span><span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
 // rail
 const rail = document.getElementById("rail");
 D.hours.forEach(h => { const b = document.createElement("button"); b.textContent = h.h.slice(0,2); b.style.background = sky(h); b.title = `${h.h} · ${lightEn[h.light]||h.light}`;
@@ -185,11 +210,26 @@ function chips(id, list, key, cls) { const el = document.getElementById(id);
       el.querySelectorAll(".chip").forEach((e, i) => {}); refresh(); };
     c.dataset.id = x.id; el.appendChild(c); }); }
 chips("ftypes", D.types, "t", "type"); chips("fplaces", D.places, "l", "place");
-document.getElementById("reset").onclick = () => { D.types.forEach(x => on.t.add(x.id)); D.places.forEach(x => on.l.add(x.id)); refresh(); };
+const NC = Object.fromEntries(D.ncats.map(x => [x.id, x])), onN = new Set(D.ncats.map(x => x.id)); let showN = true;
+const byS = {}; D.nature.forEach(n => (byS[n.s] ||= []).push(n));
+(() => { const el = document.getElementById("fnature");
+  D.ncats.forEach(x => { const n = D.nature.filter(y => y.c === x.id).length; if (!n) return; const c = document.createElement("span"); c.className = "chip nat-c"; c.style.setProperty("--c", x.color);
+    c.innerHTML = `<i></i>${esc(x.label)} <small style="opacity:.75">${n}</small>`; c.dataset.id = x.id; c.title = `${n} shots`;
+    c.onclick = () => { if (onN.size === D.ncats.length) { onN.clear(); onN.add(x.id); } else if (onN.has(x.id)) { onN.delete(x.id); if (!onN.size) D.ncats.forEach(y => onN.add(y.id)); } else onN.add(x.id); showN = true; refresh(); };
+    el.appendChild(c); }); })();
+document.getElementById("nonat").onclick = () => { showN = !showN; refresh(); };
+document.getElementById("reset").onclick = () => { D.types.forEach(x => on.t.add(x.id)); D.places.forEach(x => on.l.add(x.id)); D.ncats.forEach(x => onN.add(x.id)); showN = true; refresh(); };
 function refresh() {
   document.querySelectorAll("#ftypes .chip").forEach(c => c.classList.toggle("off", !on.t.has(c.dataset.id)));
   document.querySelectorAll("#fplaces .chip").forEach(c => c.classList.toggle("off", !on.l.has(c.dataset.id)));
-  document.querySelectorAll(".seq").forEach(e => e.classList.toggle("dim", !(on.t.has(e.dataset.t) && on.l.has(e.dataset.l)))); }
+  document.querySelectorAll(".seq").forEach(e => e.classList.toggle("dim", !(on.t.has(e.dataset.t) && on.l.has(e.dataset.l))));
+  document.querySelectorAll("#fnature .chip").forEach(c => c.classList.toggle("off", !showN || !onN.has(c.dataset.id)));
+  document.getElementById("nonat").textContent = showN ? "hide nature shots" : "show nature shots";
+  document.querySelectorAll(".nat").forEach(e => e.classList.toggle("hid", !showN || !onN.has(e.dataset.c))); }
+function natCard(n) { const c = NC[n.c];
+  return `<div class="nat" data-c="${n.c}" style="--nc:${c.color}"><div class="nt">${n.h}<br><span class="ns">${n.d} s · p. ${n.pg}</span></div>
+    <div><span class="nk">${esc(c.label)}</span><b>${esc(n.sc)}</b> — ${esc(n.x)}${n.snd ? ` <span class="ns">♪ ${esc(n.snd)}</span>` : ""}
+    <span class="ns"> · ${n.pct}% deduced · ${esc(n.src)}</span></div></div>`; }
 // infinite list
 const list = document.getElementById("list"); let i = 0, lastHour = null; const BATCH = 25;
 function card(s) {
@@ -208,7 +248,7 @@ function hourBand(hh) { const h = D.hours[+hh];
 function more(until) {
   let n = 0; while (i < D.seq.length && (n < BATCH || (until && D.seq[i].a.slice(0,2) <= until))) { const s = D.seq[i++], hh = s.a.slice(0,2);
     if (hh !== lastHour) { for (let k = lastHour == null ? 0 : +lastHour + 1; k <= +hh; k++) list.insertAdjacentHTML("beforeend", hourBand(String(k).padStart(2,"0"))); lastHour = hh; }
-    list.insertAdjacentHTML("beforeend", card(s)); n++; }
+    list.insertAdjacentHTML("beforeend", card(s)); (byS[s.n] || []).forEach(x => list.insertAdjacentHTML("beforeend", natCard(x))); n++; }
   refresh(); }
 new IntersectionObserver(e => { if (e[0].isIntersecting) more(); }, {rootMargin: "1200px"}).observe(document.getElementById("sentinel"));
 function jump(hh) { more(hh); const el = document.getElementById("h" + hh); if (el) el.scrollIntoView({behavior: "smooth"}); }

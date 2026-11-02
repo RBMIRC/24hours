@@ -14,6 +14,7 @@ Structure des éléments dont le scénario a besoin (1 minute = 1 page : 00:00 =
 | Événements | [08_evenements.md](08_evenements.md) | la quinzaine, le courrier du jour, la situation du collège, le monde | rempli |
 | Progression des cours | [09_progression_des_cours.md](09_progression_des_cours.md) | place réservée | à faire |
 | Séquencier | [10_sequencier.md](10_sequencier.md) | les scènes de 00:00 à 23:59 en temps réel (1 440 pages), avec lieu, lumière, personnages, action, source et part déduite ; `sequencier.csv`, `sequencier.json` (scripts/sequencier.py, à partir de `scenes_cles.json`) | liste faite |
+| Plans de nature | [11_plans_nature.md](11_plans_nature.md) | plans de coupe qui rythment le montage (montagnes, ciel, astres, lumière, eau, givre, arbres et vent, oiseaux, bêtes, insectes, fumées, sons), placés minute par minute ; catalogue `plans_nature.json`, `plans_nature_montage.csv/json` (scripts/plans_nature.py) | premier découpage |
 | Scènes écrites | — | dialogues et didascalies, scène par scène | à faire |
 
 ## Règles

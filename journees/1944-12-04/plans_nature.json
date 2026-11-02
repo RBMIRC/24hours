@@ -1,0 +1,2219 @@
+{
+ "_lisezmoi": "Catalogue des plans de nature du lundi 4 décembre 1944 (plans de coupe qui rythment le montage). Chaque motif : catégorie, échelle, description (fr, en), son, durée en secondes, conditions de validité (moments NUIT/AUBE/JOUR/CRÉPUSCULE, fenêtre horaire, ciel clair ou couvert d'après ERA5, température ERA5 maximale ou minimale, vent minimal en km/h), lieux d'affinité (types de lieu de la page : lake, farm, dining, studies, northlodge, southlodge, cottages, shops, library, roundhouse, offcampus), source, part déduite et motif. scripts/plans_nature.py les place dans la journée. Les plans restent en temps réel : un plan de nature montre la nature à la minute même, pris sur la séquence en cours. Parts déduites : 10-25 = calculé ou attesté à Lake Eden ; 30-45 = attesté à Lake Eden dans les années 1940, transposé à ce jour ; 50-65 = connaissance générale du milieu (Appalaches du Sud, décembre), à confirmer.",
+ "echelles": {
+  "PE": [
+   "plan d'ensemble",
+   "extreme wide shot"
+  ],
+  "PL": [
+   "plan large",
+   "wide shot"
+  ],
+  "PM": [
+   "plan moyen",
+   "medium shot"
+  ],
+  "GP": [
+   "gros plan",
+   "close-up"
+  ],
+  "TGP": [
+   "très gros plan (macro)",
+   "macro close-up"
+  ],
+  "SON": [
+   "son seul (sur noir ou sur le plan précédent)",
+   "sound only"
+  ]
+ },
+ "categories": {
+  "montagnes": [
+   "Montagnes",
+   "Mountains"
+  ],
+  "ciel": [
+   "Ciel et nuages",
+   "Sky & clouds"
+  ],
+  "astres": [
+   "Lune, étoiles, planètes",
+   "Moon, stars & planets"
+  ],
+  "lumiere": [
+   "Lumière",
+   "Light"
+  ],
+  "eau": [
+   "Lac et eau",
+   "Lake & water"
+  ],
+  "givre": [
+   "Givre, glace, sol",
+   "Frost, ice & ground"
+  ],
+  "arbres": [
+   "Arbres, feuilles, vent",
+   "Trees, leaves & wind"
+  ],
+  "oiseaux": [
+   "Oiseaux",
+   "Birds"
+  ],
+  "betes": [
+   "Bêtes de la ferme, animaux",
+   "Farm animals & wildlife"
+  ],
+  "insectes": [
+   "Insectes et araignées",
+   "Insects & spiders"
+  ],
+  "fumees": [
+   "Fumées dans le paysage",
+   "Smoke in the landscape"
+  ],
+  "sons": [
+   "Sons de la vallée",
+   "Sounds of the valley"
+  ]
+ },
+ "motifs": [
+  {
+   "id": "M1",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "Les Seven Sisters au nord, crête noire découpée sous la lune ; la vallée blanche de givre en dessous.",
+   "en": "The Seven Sisters to the north, a black ridge cut out under the moon; the valley white with frost below.",
+   "son": "",
+   "d": 10,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "00:00",
+    "07:20"
+   ],
+   "ciel": "clair",
+   "lieux": [
+    "lake",
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "Rumaker 2003, p. 14-20 (les Seven Sisters derrière le lac) ; 02_lumiere.md",
+   "pct": 25,
+   "m": "relief attesté ; vue de nuit calculée"
+  },
+  {
+   "id": "M2",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "Les crêtes de l'est se détachent sur un ciel qui pâlit, gris rose ; Jupiter encore au-dessus.",
+   "en": "The eastern ridges stand out against a paling, rose-gray sky; Jupiter still above them.",
+   "son": "",
+   "d": 10,
+   "mo": [
+    "AUBE",
+    "NUIT"
+   ],
+   "h": [
+    "06:50",
+    "08:15"
+   ],
+   "lieux": [
+    "lake",
+    "farm"
+   ],
+   "src": "02_lumiere.md (aubes, Jupiter calculé) ; Lane 1990, p. 2, 4",
+   "pct": 30,
+   "m": "couleurs supposées"
+  },
+  {
+   "id": "M3",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "Les Craggy au nord-ouest : croupes bleues, sans détail, sous le plafond gris.",
+   "en": "The Craggies to the northwest: blue humps without detail under the gray ceiling.",
+   "son": "",
+   "d": 9,
+   "mo": [
+    "JOUR"
+   ],
+   "ciel": "couvert",
+   "lieux": [
+    "lake",
+    "farm",
+    "studies"
+   ],
+   "src": "Lane 1990, p. 2, 4 (entre les Blue Ridge et les Craggy) ; ERA5 (ciel couvert)",
+   "pct": 35,
+   "m": "ciel d'après la réanalyse (40 %)"
+  },
+  {
+   "id": "M4",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "La crête de l'est retient le soleil : lever théorique à 8 h 19, la vallée reste dans l'ombre plusieurs minutes de plus.",
+   "en": "The eastern ridge holds back the sun: sunrise is due at 8:19, but the valley stays in shadow for several minutes more.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "08:10",
+    "09:00"
+   ],
+   "lieux": [
+    "lake",
+    "northlodge",
+    "studies"
+   ],
+   "src": "02_lumiere.md",
+   "pct": 30,
+   "m": "retard du soleil derrière la crête non mesuré"
+  },
+  {
+   "id": "M5",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "Au loin, le mont Mitchell, sommet blanchi de givre ou de neige après les pluies froides de fin novembre.",
+   "en": "In the distance, Mount Mitchell, its summit whitened by rime or snow after the cold rains of late November.",
+   "son": "",
+   "d": 9,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "08:30",
+    "12:00"
+   ],
+   "lieux": [
+    "lake",
+    "farm"
+   ],
+   "src": "Rumaker 2003, p. 14-20 (le mont Mitchell enneigé à l'horizon) ; NOAA (pluie du 27 au 30 novembre, gel)",
+   "pct": 55,
+   "m": "neige au sommet ce jour-là non attestée"
+  },
+  {
+   "id": "M6",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "Les montagnes « pourpres » au crépuscule, de plus en plus sombres sous la couche.",
+   "en": "The “purple” mountains at dusk, darker and darker under the cloud deck.",
+   "son": "",
+   "d": 10,
+   "mo": [
+    "CRÉPUSCULE"
+   ],
+   "lieux": [
+    "lake",
+    "farm",
+    "dining"
+   ],
+   "src": "Lane 1990, p. 160-163 (vue sur les montagnes pourpres, 1944-45)",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "M7",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "La vallée vue du pâturage supérieur : la ferme, le lac, les deux lodges, le Studies Building blanc.",
+   "en": "The valley seen from the upper pasture: the farm, the lake, the two lodges, the white Studies Building.",
+   "son": "",
+   "d": 12,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "farm",
+    "lake"
+   ],
+   "src": "Lane 1990, p. 160-163 ; Harris 2005, p. 13-19",
+   "pct": 30,
+   "m": ""
+  },
+  {
+   "id": "M8",
+   "cat": "montagnes",
+   "e": "PE",
+   "fr": "Les sommets avalés par le plafond nuageux : la vallée fermée comme une boîte.",
+   "en": "The summits swallowed by the cloud ceiling: the valley closed like a box.",
+   "son": "",
+   "d": 9,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "11:00",
+    "17:30"
+   ],
+   "ciel": "couvert",
+   "lieux": [
+    "lake",
+    "studies",
+    "farm"
+   ],
+   "src": "ERA5 (nuages bas l'après-midi)",
+   "pct": 45,
+   "m": "hauteur des nuages non connue"
+  },
+  {
+   "id": "A1s",
+   "cat": "astres",
+   "e": "PL",
+   "fr": "Ciel d'hiver au sud : Orion haut, Bételgeuse et Rigel, Sirius plus bas, Aldébaran presque au zénith.",
+   "en": "Winter sky to the south: Orion high, Betelgeuse and Rigel, Sirius lower, Aldebaran near the zenith.",
+   "son": "",
+   "d": 10,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "00:00",
+    "04:30"
+   ],
+   "ciel": "clair",
+   "lieux": [
+    "lake",
+    "northlodge",
+    "southlodge",
+    "studies"
+   ],
+   "src": "calcul ephem (positions à l'heure) ; ERA5 (ciel clair jusque vers 7 h 30)",
+   "pct": 20,
+   "m": "visibilité d'après la réanalyse"
+  },
+  {
+   "id": "A2s",
+   "cat": "astres",
+   "e": "GP",
+   "fr": "Saturne, point jaune et fixe, très haute (jusqu'à 76° vers 3 h).",
+   "en": "Saturn, a fixed yellow point, very high (up to 76° around 3 a.m.).",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "00:00",
+    "05:30"
+   ],
+   "ciel": "clair",
+   "lieux": [],
+   "src": "calcul ephem",
+   "pct": 20,
+   "m": ""
+  },
+  {
+   "id": "A3s",
+   "cat": "astres",
+   "e": "PL",
+   "fr": "Jupiter se lève sur la crête de l'est (vers 2 h 45), la plus brillante des étoiles.",
+   "en": "Jupiter rises over the eastern ridge (around 2:45), the brightest star in the sky.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "02:45",
+    "04:00"
+   ],
+   "ciel": "clair",
+   "lieux": [
+    "lake",
+    "farm"
+   ],
+   "src": "calcul ephem",
+   "pct": 20,
+   "m": "heure apparente selon la crête"
+  },
+  {
+   "id": "A4s",
+   "cat": "astres",
+   "e": "PL",
+   "fr": "Jupiter haute au sud-est dans le ciel qui bleuit ; la lune pâle à l'ouest.",
+   "en": "Jupiter high in the southeast as the sky turns blue; the pale moon to the west.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "NUIT",
+    "AUBE"
+   ],
+   "h": [
+    "06:00",
+    "07:50"
+   ],
+   "ciel": "clair",
+   "lieux": [
+    "lake",
+    "farm",
+    "dining"
+   ],
+   "src": "calcul ephem ; 02_lumiere.md",
+   "pct": 25,
+   "m": ""
+  },
+  {
+   "id": "A5s",
+   "cat": "astres",
+   "e": "PL",
+   "fr": "La lune gibbeuse, trois quarts éclairée, haute sur la vallée : ombres nettes sur le givre.",
+   "en": "The gibbous moon, three-quarters lit, high over the valley: sharp shadows on the frost.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "00:00",
+    "07:00"
+   ],
+   "ciel": "clair",
+   "lieux": [],
+   "src": "calcul ephem ; NOAA (gel)",
+   "pct": 15,
+   "m": ""
+  },
+  {
+   "id": "A6s",
+   "cat": "astres",
+   "e": "PL",
+   "fr": "Vénus, l'étoile du soir, au sud-ouest dans une trouée des nuages (magnitude −3,9).",
+   "en": "Venus, the evening star, low in the southwest through a break in the clouds (magnitude −3.9).",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "CRÉPUSCULE",
+    "NUIT"
+   ],
+   "h": [
+    "18:10",
+    "19:40"
+   ],
+   "lieux": [
+    "lake",
+    "dining"
+   ],
+   "src": "calcul ephem",
+   "pct": 60,
+   "m": "position calculée ; la réanalyse donne un ciel couvert : visible seulement dans une trouée"
+  },
+  {
+   "id": "A7s",
+   "cat": "astres",
+   "e": "PL",
+   "fr": "Lever de la lune derrière la couche : une lueur diffuse sur la crête de l'est, pas de disque.",
+   "en": "Moonrise behind the cloud deck: a diffuse glow over the eastern ridge, no disk.",
+   "son": "",
+   "d": 9,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "22:52",
+    "23:59"
+   ],
+   "lieux": [
+    "lake",
+    "studies",
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "calcul ephem ; ERA5 (couvert jusqu'à la nuit suivante)",
+   "pct": 45,
+   "m": ""
+  },
+  {
+   "id": "C1",
+   "cat": "ciel",
+   "e": "PE",
+   "fr": "Les premières nappes de nuages accrochent les crêtes ; le bleu se ferme par l'ouest.",
+   "en": "The first sheets of cloud catch on the ridges; the blue closes in from the west.",
+   "son": "",
+   "d": 10,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "09:30"
+   ],
+   "lieux": [
+    "lake",
+    "farm"
+   ],
+   "src": "ERA5 (nébulosité de 9 % à 100 % entre 7 h et 8 h, heure légale)",
+   "pct": 45,
+   "m": "réanalyse"
+  },
+  {
+   "id": "C2",
+   "cat": "ciel",
+   "e": "PL",
+   "fr": "Ciel couvert uniforme : lumière blanche, sans ombre ; les toits gris.",
+   "en": "Uniform overcast: white, shadowless light; gray roofs.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "JOUR"
+   ],
+   "ciel": "couvert",
+   "lieux": [
+    "studies",
+    "dining",
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "ERA5",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "C3",
+   "cat": "ciel",
+   "e": "GP",
+   "fr": "Le disque blanc du soleil, à peine visible à travers la couche (au plus 32° au-dessus de l'horizon à 13 h 19).",
+   "en": "The white disk of the sun, barely visible through the deck (at most 32° above the horizon at 1:19 p.m.).",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "10:30",
+    "15:00"
+   ],
+   "lieux": [],
+   "src": "02_lumiere.md ; ERA5 ; NOAA (11,7 °C à Montreat : un peu de soleil possible)",
+   "pct": 50,
+   "m": "réanalyse et relevé ne s'accordent pas sur le soleil"
+  },
+  {
+   "id": "C4",
+   "cat": "ciel",
+   "e": "PL",
+   "fr": "Nuages bas qui glissent lentement vers le sud-est, poussés par un vent faible de nord-ouest.",
+   "en": "Low clouds sliding slowly southeast, pushed by a light northwest wind.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "JOUR",
+    "CRÉPUSCULE"
+   ],
+   "ciel": "couvert",
+   "lieux": [
+    "lake",
+    "farm"
+   ],
+   "src": "ERA5 (vent de NO, 2 à 6 km/h)",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "C5",
+   "cat": "ciel",
+   "e": "PL",
+   "fr": "Sous la couche, le gris tourne au bleu acier ; plus de relief, seulement des silhouettes.",
+   "en": "Under the deck the gray turns steel blue; no more relief, only silhouettes.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "CRÉPUSCULE"
+   ],
+   "lieux": [
+    "lake",
+    "dining",
+    "farm"
+   ],
+   "src": "02_lumiere.md ; ERA5",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "C6",
+   "cat": "ciel",
+   "e": "PL",
+   "fr": "Nuit couverte, sans étoiles : le plafond noir, la crête à peine plus noire.",
+   "en": "Overcast night, no stars: a black ceiling, the ridge barely blacker.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "19:15",
+    "22:50"
+   ],
+   "lieux": [
+    "lake",
+    "northlodge",
+    "southlodge",
+    "offcampus"
+   ],
+   "src": "ERA5",
+   "pct": 45,
+   "m": ""
+  },
+  {
+   "id": "L1",
+   "cat": "lumiere",
+   "e": "PE",
+   "fr": "Une lumière dorée touche d'abord le sommet des Seven Sisters, avant la vallée.",
+   "en": "Golden light first touches the top of the Seven Sisters, before the valley.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "08:10",
+    "08:45"
+   ],
+   "lieux": [
+    "lake",
+    "northlodge"
+   ],
+   "src": "02_lumiere.md ; Rumaker 2003, p. 14-20",
+   "pct": 45,
+   "m": "possible seulement si les nuages laissent passer le soleil"
+  },
+  {
+   "id": "L2",
+   "cat": "lumiere",
+   "e": "PM",
+   "fr": "La fenêtre éclairée de la laiterie, seul point de lumière dans la nuit de la ferme.",
+   "en": "The lit window of the milking house, the only point of light in the farm's darkness.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "05:00",
+    "06:00"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93-94 (traite à cinq heures)",
+   "pct": 30,
+   "m": "éclairage de la laiterie : câblée en 1942"
+  },
+  {
+   "id": "L3",
+   "cat": "lumiere",
+   "e": "PL",
+   "fr": "Les fenêtres de la salle à manger allumées, leur reflet tremble sur le lac.",
+   "en": "The lit dining hall windows, their reflection trembling on the lake.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "06:30",
+    "07:55"
+   ],
+   "lieux": [
+    "dining",
+    "lake"
+   ],
+   "src": "Horowitz & Danilowitz 2009, p. 122 (véranda sur le lac) ; 02_lumiere.md",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "L3b",
+   "cat": "lumiere",
+   "e": "PL",
+   "fr": "Au crépuscule, les fenêtres de la salle à manger s'allument une à une au-dessus de l'eau noire.",
+   "en": "At dusk the dining hall windows light up one by one above the black water.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "CRÉPUSCULE",
+    "NUIT"
+   ],
+   "h": [
+    "17:40",
+    "19:30"
+   ],
+   "lieux": [
+    "dining",
+    "lake"
+   ],
+   "src": "Horowitz & Danilowitz 2009, p. 122 ; 02_lumiere.md",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "L4",
+   "cat": "lumiere",
+   "e": "GP",
+   "fr": "Ombre d'une branche portée par la lune sur l'herbe givrée.",
+   "en": "The shadow of a branch cast by the moon on the frosted grass.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "00:00",
+    "07:00"
+   ],
+   "ciel": "clair",
+   "lieux": [],
+   "src": "calcul ephem ; NOAA",
+   "pct": 25,
+   "m": ""
+  },
+  {
+   "id": "L5",
+   "cat": "lumiere",
+   "e": "PM",
+   "fr": "Une lampe de poche qui danse sur le chemin entre les lodges.",
+   "en": "A flashlight bobbing along the path between the lodges.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "18:30",
+    "23:59"
+   ],
+   "lieux": [
+    "northlodge",
+    "southlodge",
+    "studies"
+   ],
+   "src": "plan de liaison (usage supposé)",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "W1",
+   "cat": "eau",
+   "e": "PL",
+   "fr": "Fumée de lac : la brume monte de l'eau plus chaude que l'air glacé, en filaments.",
+   "en": "Lake smoke: mist rising in wisps from water warmer than the freezing air.",
+   "son": "",
+   "d": 10,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "05:30",
+    "09:15"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "lake",
+    "studies",
+    "dining"
+   ],
+   "src": "Lane 1990, p. 132 (brume montant du lac au petit matin) ; Harris 2005, p. 87",
+   "pct": 40,
+   "m": "attesté dans les années 1940 ; ce matin-là supposé"
+  },
+  {
+   "id": "W2",
+   "cat": "eau",
+   "e": "GP",
+   "fr": "Une dentelle de glace fine au bord du lac, les roseaux pris dedans.",
+   "en": "A lace of thin ice along the lake edge, the reeds caught in it.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "00:00",
+    "11:30"
+   ],
+   "tmax": 1,
+   "lieux": [
+    "lake",
+    "studies",
+    "dining"
+   ],
+   "src": "Lane 1990, p. 132, 136-137 (mince glace les matins de gel)",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "W3",
+   "cat": "eau",
+   "e": "TGP",
+   "fr": "Un caillou lancé sur la glace fine : elle se brise comme du verre.",
+   "en": "A pebble thrown onto the thin ice: it breaks like glass.",
+   "son": "bruit de verre brisé sur l'eau / the sound of breaking glass on the water",
+   "d": 4,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "lake",
+    "studies"
+   ],
+   "src": "Lane 1990, p. 136-137 (« son du verre brisé » sur le lac un matin de gel)",
+   "pct": 45,
+   "m": "geste supposé"
+  },
+  {
+   "id": "W4",
+   "cat": "eau",
+   "e": "PM",
+   "fr": "Le barrage : l'eau qui déborde fume dans le froid.",
+   "en": "The dam: the overflowing water steams in the cold.",
+   "son": "chute d'eau / falling water",
+   "d": 6,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "11:00"
+   ],
+   "lieux": [
+    "lake"
+   ],
+   "src": "Duberman 1972, p. 158-162 (un barrage au-delà du lac)",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "W5",
+   "cat": "eau",
+   "e": "GP",
+   "fr": "Le ruisseau près du bureau, sous les rhododendrons : l'eau noire entre les pierres glacées.",
+   "en": "The stream by the office, under the rhododendrons: black water between iced stones.",
+   "son": "gargouillis du ruisseau / the stream gurgling",
+   "d": 6,
+   "mo": [
+    "JOUR",
+    "AUBE",
+    "CRÉPUSCULE",
+    "NUIT"
+   ],
+   "lieux": [
+    "library",
+    "dining"
+   ],
+   "src": "Lane 1990, p. 138-139 (ruisseau gargouillant près du bureau)",
+   "pct": 30,
+   "m": ""
+  },
+  {
+   "id": "W6",
+   "cat": "eau",
+   "e": "PL",
+   "fr": "Le lac gris, immobile, renvoie le ciel blanc et le Studies Building à l'envers.",
+   "en": "The gray lake, motionless, mirrors the white sky and the Studies Building upside down.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "JOUR"
+   ],
+   "ciel": "couvert",
+   "lieux": [
+    "studies",
+    "lake",
+    "dining"
+   ],
+   "src": "Díaz 2014, p. 2 (le Studies Building au bord du lac) ; ERA5",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "W7",
+   "cat": "eau",
+   "e": "GP",
+   "fr": "L'abreuvoir de la ferme pris par la glace ; un seau la casse.",
+   "en": "The farm's water trough sealed by ice; a bucket breaks it.",
+   "son": "glace qui casse / ice cracking",
+   "d": 5,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "05:00",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6 ; NOAA (−8 °C)",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "W8",
+   "cat": "eau",
+   "e": "GP",
+   "fr": "Flaque gelée dans une ornière de la route de terre, bulles d'air prises dans la glace.",
+   "en": "A frozen puddle in a rut of the dirt road, air bubbles caught in the ice.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "00:00",
+    "12:00"
+   ],
+   "tmax": 1,
+   "lieux": [
+    "offcampus",
+    "farm",
+    "lake"
+   ],
+   "src": "NOAA (gel) ; Lane 1990, p. 160-163 (route de terre)",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "G1",
+   "cat": "givre",
+   "e": "PL",
+   "fr": "Le pâturage entièrement blanc de givre.",
+   "en": "The pasture white with frost from edge to edge.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "00:00",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "farm",
+    "lake"
+   ],
+   "src": "NOAA (−8,3 °C à Montreat, −9,4 °C à Asheville)",
+   "pct": 25,
+   "m": ""
+  },
+  {
+   "id": "G2",
+   "cat": "givre",
+   "e": "TGP",
+   "fr": "Cristaux de givre en aiguilles sur le bord d'une feuille morte de chêne.",
+   "en": "Needles of hoarfrost along the edge of a dead oak leaf.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "AUBE",
+    "JOUR",
+    "NUIT"
+   ],
+   "h": [
+    "06:30",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [],
+   "src": "NOAA",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "G3",
+   "cat": "givre",
+   "e": "GP",
+   "fr": "Givre sur les piquets de la clôture du taureau (plus de 300 piquets fendus par les campeurs de 1943).",
+   "en": "Frost on the posts of the bull pen fence (over 300 stakes split by the 1943 work campers).",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93 ; NOAA",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "G4",
+   "cat": "givre",
+   "e": "GP",
+   "fr": "La terre rouge dégèle et colle aux bottes ; la boue luit.",
+   "en": "The red earth thaws and sticks to the boots; the mud shines.",
+   "son": "bruit de succion de la boue / sucking mud",
+   "d": 5,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "13:00",
+    "17:30"
+   ],
+   "tmin": 1,
+   "lieux": [
+    "farm",
+    "shops",
+    "offcampus"
+   ],
+   "src": "Lane 1990, p. 164-165 (terre rouge) ; ERA5 (dégel l'après-midi)",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "G5",
+   "cat": "givre",
+   "e": "PM",
+   "fr": "Le tas de fumier fume dans l'air froid.",
+   "en": "The manure pile steams in the cold air.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:00",
+    "12:00"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6 (fumier, bétail)",
+   "pct": 45,
+   "m": ""
+  },
+  {
+   "id": "G6",
+   "cat": "givre",
+   "e": "GP",
+   "fr": "Feuilles mortes soudées par le gel dans le fossé.",
+   "en": "Dead leaves welded together by frost in the ditch.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "00:00",
+    "11:00"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "offcampus",
+    "studies"
+   ],
+   "src": "2017.40.172a-g (herbe sèche et feuilles mortes) ; NOAA",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "T1",
+   "cat": "arbres",
+   "e": "GP",
+   "fr": "Les feuilles sèches des hêtres, restées aux branches tout l'hiver, frémissent au moindre souffle.",
+   "en": "The dry beech leaves, clinging to the branches all winter, shiver at the slightest breath.",
+   "son": "froissement de papier / rustle like paper",
+   "d": 6,
+   "mo": [
+    "JOUR",
+    "CRÉPUSCULE",
+    "AUBE"
+   ],
+   "vent": 2,
+   "lieux": [
+    "lake",
+    "farm",
+    "studies"
+   ],
+   "src": "Lane 1990, p. 160-166 (haie de hêtres le long d'un sentier) ; feuilles marcescentes du hêtre : connaissance générale",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "T2",
+   "cat": "arbres",
+   "e": "PM",
+   "fr": "Un chêne garde ses feuilles brunes ; le vent de nord-ouest les fait chuchoter.",
+   "en": "An oak keeps its brown leaves; the northwest wind sets them whispering.",
+   "son": "bruissement / rustling",
+   "d": 6,
+   "mo": [
+    "NUIT",
+    "JOUR",
+    "AUBE",
+    "CRÉPUSCULE"
+   ],
+   "vent": 3,
+   "lieux": [],
+   "src": "ERA5 (vent) ; connaissance générale",
+   "pct": 45,
+   "m": ""
+  },
+  {
+   "id": "T3",
+   "cat": "arbres",
+   "e": "GP",
+   "fr": "Rhododendrons aux feuilles roulées en cigare et pendantes : elles se ferment ainsi sous zéro.",
+   "en": "Rhododendron leaves rolled up like cigars and drooping: they close this way below freezing.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "tmax": -1,
+   "lieux": [
+    "lake",
+    "library",
+    "dining"
+   ],
+   "src": "Lane 1990, p. 138-139, 153-154 (rhododendrons de la berge et du ruisseau) ; enroulement des feuilles au froid : phénomène connu",
+   "pct": 30,
+   "m": ""
+  },
+  {
+   "id": "T4",
+   "cat": "arbres",
+   "e": "GP",
+   "fr": "Les mêmes rhododendrons, feuilles rouvertes dans la douceur relative de l'après-midi.",
+   "en": "The same rhododendrons, their leaves open again in the relative mildness of the afternoon.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "13:00",
+    "17:00"
+   ],
+   "tmin": 3,
+   "lieux": [
+    "lake",
+    "library",
+    "dining"
+   ],
+   "src": "Lane 1990, p. 138-139 ; ERA5",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "T5",
+   "cat": "arbres",
+   "e": "PM",
+   "fr": "Les pruches sombres le long du ruisseau, branches basses immobiles.",
+   "en": "Dark hemlocks along the stream, their low branches still.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "JOUR",
+    "AUBE",
+    "CRÉPUSCULE"
+   ],
+   "lieux": [
+    "library",
+    "lake"
+   ],
+   "src": "connaissance générale (pruches des vallons des Appalaches)",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "T6",
+   "cat": "arbres",
+   "e": "GP",
+   "fr": "Aiguilles de pin blanc qui chuintent dans le vent.",
+   "en": "White pine needles hissing in the wind.",
+   "son": "souffle dans les aiguilles / wind hissing through needles",
+   "d": 5,
+   "mo": [
+    "NUIT",
+    "JOUR",
+    "AUBE",
+    "CRÉPUSCULE"
+   ],
+   "vent": 4,
+   "lieux": [],
+   "src": "connaissance générale ; ERA5 (vent)",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "T7",
+   "cat": "arbres",
+   "e": "PL",
+   "fr": "Un châtaignier mort, tronc gris et nu dressé parmi les feuillus.",
+   "en": "A dead chestnut, a bare gray trunk standing among the hardwoods.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "farm",
+    "lake",
+    "shops"
+   ],
+   "src": "Lane 1990, p. 194-196 (châtaigniers tués par le chancre)",
+   "pct": 25,
+   "m": ""
+  },
+  {
+   "id": "T8",
+   "cat": "arbres",
+   "e": "GP",
+   "fr": "Au bout d'une branche nue, les capsules sèches d'un tulipier, comme de petites tulipes de bois.",
+   "en": "At the tip of a bare branch, the dry seed heads of a tulip poplar, like small wooden tulips.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "lake",
+    "studies"
+   ],
+   "src": "connaissance générale (tulipiers de la Blue Ridge Assembly cités par Lane)",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "T9",
+   "cat": "arbres",
+   "e": "PL",
+   "fr": "Branches nues des feuillus, réseau noir sur le ciel blanc.",
+   "en": "Bare hardwood branches, a black web against the white sky.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "JOUR"
+   ],
+   "ciel": "couvert",
+   "lieux": [],
+   "src": "ERA5",
+   "pct": 30,
+   "m": ""
+  },
+  {
+   "id": "T10",
+   "cat": "arbres",
+   "e": "GP",
+   "fr": "En bord d'allée, le galax devenu rouge bronze par le froid, et le laurier des montagnes toujours vert.",
+   "en": "Along the path, galax turned bronze-red by the cold, and mountain laurel still green.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "JOUR",
+    "AUBE"
+   ],
+   "lieux": [
+    "studies",
+    "dining",
+    "library"
+   ],
+   "src": "Duberman 1972, p. 169 (allées bordées de galax et de laurier) ; couleur d'hiver du galax : connaissance générale",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "T11",
+   "cat": "arbres",
+   "e": "PM",
+   "fr": "La haie de hêtres le long du sentier de la ferme, cuivrée sous le ciel gris.",
+   "en": "The beech hedge along the farm path, coppery under the gray sky.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Lane 1990, p. 160-166",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "S1",
+   "cat": "fumees",
+   "e": "PL",
+   "fr": "La fumée des chaudières à charbon monte droite dans l'air calme, puis s'étale à mi-hauteur de la vallée.",
+   "en": "Smoke from the coal furnaces rises straight in the still air, then spreads out halfway up the valley.",
+   "son": "",
+   "d": 8,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "05:00",
+    "10:00"
+   ],
+   "lieux": [
+    "shops",
+    "northlodge",
+    "southlodge",
+    "studies"
+   ],
+   "src": "2017.40.177a-g, 2017.40.179a-d (chaudières au charbon) ; ERA5 (vent faible)",
+   "pct": 40,
+   "m": "inversion de température supposée"
+  },
+  {
+   "id": "S2",
+   "cat": "fumees",
+   "e": "PM",
+   "fr": "Fumée de bois d'une cheminée de cottage, bleue dans le soir.",
+   "en": "Woodsmoke from a cottage chimney, blue in the evening.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "CRÉPUSCULE",
+    "NUIT"
+   ],
+   "h": [
+    "17:30",
+    "21:00"
+   ],
+   "lieux": [
+    "cottages"
+   ],
+   "src": "2017.40.179a-d (bois et charbon) ; usage supposé",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "S3",
+   "cat": "fumees",
+   "e": "PE",
+   "fr": "Au loin, la fumée d'une locomotive de la Southern Railway dans la vallée de la Swannanoa.",
+   "en": "Far off, the smoke of a Southern Railway locomotive in the Swannanoa valley.",
+   "son": "sifflet de train / train whistle",
+   "d": 7,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "08:30",
+    "10:30"
+   ],
+   "lieux": [
+    "offcampus",
+    "lake"
+   ],
+   "src": "2017.40.182.01a-c (Dreier rentre par le train du matin)",
+   "pct": 50,
+   "m": "ligne et horaire non vérifiés"
+  },
+  {
+   "id": "B1",
+   "cat": "oiseaux",
+   "e": "PL",
+   "fr": "Des corneilles traversent la vallée en criant.",
+   "en": "Crows cross the valley, cawing.",
+   "son": "croassements / cawing",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "16:30"
+   ],
+   "lieux": [
+    "farm",
+    "lake"
+   ],
+   "src": "connaissance générale",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "B2",
+   "cat": "oiseaux",
+   "e": "GP",
+   "fr": "Un cardinal rouge sur une branche givrée.",
+   "en": "A red cardinal on a frosted branch.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:40",
+    "11:00"
+   ],
+   "lieux": [
+    "studies",
+    "northlodge",
+    "cottages"
+   ],
+   "src": "connaissance générale",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "B3",
+   "cat": "oiseaux",
+   "e": "PM",
+   "fr": "Des juncos ardoisés picorent le grain tombé devant la grange.",
+   "en": "Slate-colored juncos pecking spilled grain in front of the barn.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "connaissance générale ; Silver 2024 (grain, fourrage)",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "B4",
+   "cat": "oiseaux",
+   "e": "SON",
+   "fr": "Le chant fort d'un troglodyte de Caroline dans les broussailles.",
+   "en": "The loud song of a Carolina wren in the brush.",
+   "son": "chant de troglodyte / wren song",
+   "d": 4,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "lieux": [
+    "cottages",
+    "library",
+    "lake"
+   ],
+   "src": "connaissance générale",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "B5",
+   "cat": "oiseaux",
+   "e": "SON",
+   "fr": "Un grand pic frappe un châtaignier mort.",
+   "en": "A pileated woodpecker drumming on a dead chestnut.",
+   "son": "martèlement / drumming",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "farm",
+    "shops",
+    "lake"
+   ],
+   "src": "connaissance générale ; Lane 1990, p. 194-196 (châtaigniers morts)",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "B6",
+   "cat": "oiseaux",
+   "e": "SON",
+   "fr": "Une chouette rayée appelle dans les bois du lac.",
+   "en": "A barred owl calls in the woods by the lake.",
+   "son": "hululement / owl call",
+   "d": 6,
+   "mo": [
+    "NUIT"
+   ],
+   "lieux": [
+    "lake",
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "connaissance générale",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "B7",
+   "cat": "oiseaux",
+   "e": "SON",
+   "fr": "Le grand-duc hulule : décembre, saison où il se fait entendre.",
+   "en": "A great horned owl hoots: December, the season when it calls.",
+   "son": "hululements graves / deep hoots",
+   "d": 6,
+   "mo": [
+    "NUIT"
+   ],
+   "lieux": [
+    "farm",
+    "cottages"
+   ],
+   "src": "connaissance générale",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "B8",
+   "cat": "oiseaux",
+   "e": "PM",
+   "fr": "Les canards du collège glissent dans un chenal d'eau libre entre deux bords gelés.",
+   "en": "The college ducks glide along a channel of open water between two frozen edges.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "lake",
+    "dining"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93 (neuf canards en 1943) ; Lane 1990, p. 150",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "B9",
+   "cat": "oiseaux",
+   "e": "PM",
+   "fr": "Les poules sortent du poulailler et se gonflent dans le froid.",
+   "en": "The hens come out of the henhouse and fluff up in the cold.",
+   "son": "caquètement / clucking",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:40",
+    "11:00"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93-96 (poulailler de 1943, plus de 100 poules)",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "F1",
+   "cat": "betes",
+   "e": "GP",
+   "fr": "Le souffle des vaches en buée sous la lampe de la laiterie.",
+   "en": "The cows' breath clouding under the milking house lamp.",
+   "son": "lait dans le seau / milk hitting the pail",
+   "d": 6,
+   "mo": [
+    "NUIT",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "05:00",
+    "06:00"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93-94",
+   "pct": 25,
+   "m": ""
+  },
+  {
+   "id": "F1b",
+   "cat": "betes",
+   "e": "GP",
+   "fr": "Traite du soir : le souffle des vaches, la vapeur du lait chaud dans le seau.",
+   "en": "Evening milking: the cows' breath, steam from the warm milk in the pail.",
+   "son": "lait dans le seau / milk hitting the pail",
+   "d": 6,
+   "mo": [
+    "JOUR",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "17:00",
+    "18:00"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93-94",
+   "pct": 25,
+   "m": ""
+  },
+  {
+   "id": "F2",
+   "cat": "betes",
+   "e": "PM",
+   "fr": "Lady et Pearl, la jument et sa fille, l'haleine fumante à la barrière.",
+   "en": "Lady and Pearl, the mare and her daughter, breath steaming at the gate.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93",
+   "pct": 35,
+   "m": "chevaux attestés en 1943"
+  },
+  {
+   "id": "F3",
+   "cat": "betes",
+   "e": "PM",
+   "fr": "Un taureau angus noir dans son enclos, le dos blanchi de givre.",
+   "en": "A black Angus bull in his pen, his back whitened by frost.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "10:30"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6, p. 91-93 (Black Burgess) ; Lane 1990, p. 160-163 (angus noirs)",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "F4",
+   "cat": "betes",
+   "e": "GP",
+   "fr": "Des porcs serrés dans la paille de la porcherie neuve.",
+   "en": "Hogs packed together in the straw of the new hogpen.",
+   "son": "grognements / grunting",
+   "d": 5,
+   "mo": [
+    "NUIT",
+    "AUBE",
+    "JOUR"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6 (porcherie d'août 1943, 33 porcs)",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "F5",
+   "cat": "betes",
+   "e": "SON",
+   "fr": "Le bêlement de la chèvre des Dreier.",
+   "en": "The bleating of the Dreiers' goat.",
+   "son": "bêlement / bleating",
+   "d": 4,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "lieux": [
+    "library",
+    "dining",
+    "cottages"
+   ],
+   "src": "Lane 1990, p. 138-139 ; Silver 2024, ch. 6, p. 93 (la chèvre de Ted Dreier Jr.)",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "F6",
+   "cat": "betes",
+   "e": "GP",
+   "fr": "Un écureuil gris file sur une branche nue et s'arrête, la queue en point d'interrogation.",
+   "en": "A gray squirrel races along a bare branch and stops, tail curled like a question mark.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "studies",
+    "lake",
+    "cottages"
+   ],
+   "src": "connaissance générale",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "F7",
+   "cat": "betes",
+   "e": "GP",
+   "fr": "Une ligne de traces de renard sur le givre au bord du pâturage.",
+   "en": "A line of fox tracks across the frost at the edge of the pasture.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "farm"
+   ],
+   "src": "connaissance générale",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "F8",
+   "cat": "betes",
+   "e": "PM",
+   "fr": "Un opossum fouille près de la décharge du collège, les yeux rouges dans la lampe.",
+   "en": "An opossum noses around the college dump, its eyes red in the flashlight.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT"
+   ],
+   "lieux": [
+    "shops",
+    "dining"
+   ],
+   "src": "2017.40.177a-g (la décharge du collège) ; connaissance générale",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "F9",
+   "cat": "betes",
+   "e": "PM",
+   "fr": "Une chienne couchée devant l'atelier de bois.",
+   "en": "A dog lying in front of the woodshop.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "13:30",
+    "17:30"
+   ],
+   "lieux": [
+    "shops"
+   ],
+   "src": "Silver 2024, ch. 6 (Grisselda, la chienne de Molly Gregory)",
+   "pct": 50,
+   "m": "la chienne est citée plus tard ; en 1944 supposée"
+  },
+  {
+   "id": "I1",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Une toile d'araignée blanchie de givre entre deux piquets, chaque fil gainé de cristaux.",
+   "en": "A spider web whitened with frost between two posts, every strand sheathed in crystals.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR"
+   ],
+   "h": [
+    "07:30",
+    "10:30"
+   ],
+   "tmax": 0,
+   "lieux": [
+    "farm",
+    "lake"
+   ],
+   "src": "NOAA (gel) ; connaissance générale",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "I2",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Une coccinelle engourdie dans l'angle d'une fenêtre chauffée du lodge.",
+   "en": "A torpid ladybug in the corner of a heated lodge window.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR",
+    "AUBE"
+   ],
+   "lieux": [
+    "northlodge",
+    "southlodge",
+    "studies"
+   ],
+   "src": "connaissance générale",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "I3",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Une guêpe en hivernage, immobile, dans une fente d'une poutre des combles.",
+   "en": "An overwintering wasp, motionless, in a crack of an attic beam.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "NUIT",
+    "AUBE"
+   ],
+   "lieux": [
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "connaissance générale",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "I4",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Une petite perle noire, insecte des ruisseaux qui éclôt en plein hiver, marche sur une pierre au bord de l'eau.",
+   "en": "A small black winter stonefly, a stream insect that hatches in midwinter, walks across a stone at the water's edge.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "11:00",
+    "15:30"
+   ],
+   "lieux": [
+    "library",
+    "lake"
+   ],
+   "src": "connaissance générale (perles d'hiver des ruisseaux des Appalaches)",
+   "pct": 65,
+   "m": ""
+  },
+  {
+   "id": "I5",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Quelques moucherons dansent dans l'air un peu plus doux près du mur de la grange.",
+   "en": "A few gnats dance in the slightly milder air by the barn wall.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "12:30",
+    "16:00"
+   ],
+   "tmin": 4,
+   "lieux": [
+    "farm"
+   ],
+   "src": "connaissance générale ; ERA5 (redoux l'après-midi)",
+   "pct": 65,
+   "m": ""
+  },
+  {
+   "id": "I6",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Une oothèque de mante religieuse sur une tige sèche de la friche.",
+   "en": "A praying mantis egg case on a dry stalk in the old field.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "farm",
+    "lake"
+   ],
+   "src": "connaissance générale",
+   "pct": 65,
+   "m": ""
+  },
+  {
+   "id": "I7",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Une mouche engourdie sur la vitre embuée de la laiterie.",
+   "en": "A sluggish fly on the fogged window of the milking house.",
+   "son": "",
+   "d": 3,
+   "mo": [
+    "NUIT",
+    "JOUR",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "05:00",
+    "06:00"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "connaissance générale",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "I8",
+   "cat": "insectes",
+   "e": "TGP",
+   "fr": "Un cocon accroché à une branche nue, gris comme l'écorce.",
+   "en": "A cocoon hanging from a bare branch, gray as the bark.",
+   "son": "",
+   "d": 4,
+   "mo": [
+    "JOUR"
+   ],
+   "lieux": [
+    "studies",
+    "cottages",
+    "lake"
+   ],
+   "src": "connaissance générale",
+   "pct": 60,
+   "m": ""
+  },
+  {
+   "id": "N1",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Le silence de la nuit glaciale : seulement le ruisseau, et parfois un craquement de bois gelé.",
+   "en": "The silence of the freezing night: only the stream, and now and then the crack of frozen wood.",
+   "son": "ruisseau, craquement / stream, a crack",
+   "d": 8,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "00:00",
+    "05:00"
+   ],
+   "lieux": [],
+   "src": "Lane 1990, p. 138-139 (ruisseau) ; NOAA",
+   "pct": 35,
+   "m": ""
+  },
+  {
+   "id": "N2",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Le gong du dîner, un bout de rail qu'on frappe, résonne dans toute la vallée.",
+   "en": "The dinner gong, a length of rail struck with iron, rings across the whole valley.",
+   "son": "gong de rail / rail gong",
+   "d": 5,
+   "mo": [
+    "AUBE",
+    "JOUR",
+    "CRÉPUSCULE",
+    "NUIT"
+   ],
+   "h": [
+    "07:25",
+    "07:30"
+   ],
+   "lieux": [
+    "dining"
+   ],
+   "src": "Lane 1990, p. 8 (gong de dîner en rail de chemin de fer)",
+   "pct": 40,
+   "m": "usage de l'appeler avant chaque repas supposé"
+  },
+  {
+   "id": "N2b",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Le gong de rail du déjeuner.",
+   "en": "The rail gong for lunch.",
+   "son": "gong de rail / rail gong",
+   "d": 5,
+   "mo": [
+    "JOUR"
+   ],
+   "h": [
+    "12:25",
+    "12:30"
+   ],
+   "lieux": [
+    "dining"
+   ],
+   "src": "Lane 1990, p. 8",
+   "pct": 40,
+   "m": "usage supposé"
+  },
+  {
+   "id": "N2c",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Le gong de rail du dîner, dans le crépuscule.",
+   "en": "The rail gong for dinner, in the dusk.",
+   "son": "gong de rail / rail gong",
+   "d": 5,
+   "mo": [
+    "CRÉPUSCULE",
+    "NUIT"
+   ],
+   "h": [
+    "18:10",
+    "18:15"
+   ],
+   "lieux": [
+    "dining"
+   ],
+   "src": "Lane 1990, p. 8",
+   "pct": 40,
+   "m": "usage supposé"
+  },
+  {
+   "id": "N3",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Un chien qui aboie au loin, du côté des fermes voisines.",
+   "en": "A dog barking far off, toward the neighboring farms.",
+   "son": "aboiement lointain / distant barking",
+   "d": 4,
+   "mo": [
+    "NUIT",
+    "CRÉPUSCULE"
+   ],
+   "lieux": [
+    "farm",
+    "offcampus"
+   ],
+   "src": "connaissance générale",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "L6",
+   "cat": "lumiere",
+   "e": "PL",
+   "fr": "Une seule fenêtre du Studies Building éclairée, et son reflet dans le lac noir.",
+   "en": "A single lit window in the Studies Building, and its reflection in the black lake.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "19:15",
+    "23:59"
+   ],
+   "lieux": [
+    "studies",
+    "lake"
+   ],
+   "src": "2017.40.172a-g (studies) ; Díaz 2014, p. 2",
+   "pct": 45,
+   "m": "fenêtre allumée supposée"
+  },
+  {
+   "id": "L7",
+   "cat": "lumiere",
+   "e": "GP",
+   "fr": "Le givre qui se reforme en fougères sur une vitre du lodge, éclairée de l'intérieur.",
+   "en": "Frost re-forming in ferns on a lodge windowpane, lit from inside.",
+   "son": "",
+   "d": 5,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "21:00",
+    "23:59"
+   ],
+   "lieux": [
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "ERA5 (le froid reprend dans la nuit) ; usage supposé",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "F10",
+   "cat": "betes",
+   "e": "PM",
+   "fr": "L'étable dans la nuit : les vaches couchées, le souffle lent, une queue qui bat.",
+   "en": "The barn at night: the cows lying down, slow breathing, a swishing tail.",
+   "son": "souffles, paille / breathing, straw",
+   "d": 7,
+   "mo": [
+    "NUIT"
+   ],
+   "lieux": [
+    "farm"
+   ],
+   "src": "Silver 2024, ch. 6",
+   "pct": 40,
+   "m": ""
+  },
+  {
+   "id": "T12",
+   "cat": "arbres",
+   "e": "PL",
+   "fr": "Les pins noirs contre le plafond à peine plus clair ; le vent tombé.",
+   "en": "Black pines against a ceiling barely lighter than they are; the wind has died.",
+   "son": "",
+   "d": 6,
+   "mo": [
+    "NUIT",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "18:30",
+    "23:59"
+   ],
+   "lieux": [
+    "lake",
+    "cottages"
+   ],
+   "src": "ERA5 (vent faible le soir)",
+   "pct": 50,
+   "m": ""
+  },
+  {
+   "id": "G7",
+   "cat": "givre",
+   "e": "GP",
+   "fr": "Le sol qui regèle : la boue de l'après-midi se raidit, une croûte blanche se forme.",
+   "en": "The ground freezing again: the afternoon mud stiffens, a white crust forms.",
+   "son": "craquement sous le pas / crunch underfoot",
+   "d": 5,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "21:30",
+    "23:59"
+   ],
+   "lieux": [
+    "farm",
+    "offcampus",
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "ERA5 (de 7,6 °C à 18 h à 1 °C vers 2 h)",
+   "pct": 45,
+   "m": ""
+  },
+  {
+   "id": "W9",
+   "cat": "eau",
+   "e": "PL",
+   "fr": "Le lac noir sous la couche, sans un reflet, sauf la salle à manger encore allumée.",
+   "en": "The black lake under the cloud deck, without a reflection except the dining hall, still lit.",
+   "son": "",
+   "d": 7,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "19:15",
+    "22:30"
+   ],
+   "lieux": [
+    "lake",
+    "dining"
+   ],
+   "src": "02_lumiere.md ; ERA5",
+   "pct": 45,
+   "m": ""
+  },
+  {
+   "id": "N4",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Une porte du lodge qui claque dans la nuit, des pas sur le chemin gelé.",
+   "en": "A lodge door banging in the night, footsteps on the frozen path.",
+   "son": "porte, pas / door, footsteps",
+   "d": 4,
+   "mo": [
+    "NUIT"
+   ],
+   "h": [
+    "19:30",
+    "23:59"
+   ],
+   "lieux": [
+    "northlodge",
+    "southlodge"
+   ],
+   "src": "usage supposé",
+   "pct": 55,
+   "m": ""
+  },
+  {
+   "id": "N5",
+   "cat": "sons",
+   "e": "SON",
+   "fr": "Un piano lointain, du côté du Round House ou d'un cottage.",
+   "en": "A distant piano, from the Round House or a cottage.",
+   "son": "piano lointain / distant piano",
+   "d": 6,
+   "mo": [
+    "NUIT",
+    "CRÉPUSCULE"
+   ],
+   "h": [
+    "17:30",
+    "22:30"
+   ],
+   "lieux": [
+    "roundhouse",
+    "cottages"
+   ],
+   "src": "2017.40.172a-g (cours de musique, leçons de piano) ; usage supposé",
+   "pct": 55,
+   "m": ""
+  }
+ ]
+}

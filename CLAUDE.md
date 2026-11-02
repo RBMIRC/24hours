@@ -21,3 +21,8 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
 - Page en ligne, en anglais : `index.html` (GitHub Pages, https://rbmirc.github.io/24hours/, copie dans RBMIRC/week/24h/),
   produite par `scripts/page_24h.py` à partir de `sequencier.json` ; les textes anglais des scènes clés sont dans
   `scenes_cles.json` (`t_en`, `lieu_en`, `m_en`) ; types de séquence et lieux : tables TYPES et LIEUX du script.
+- Plans de nature : catalogue des motifs dans `journees/1944-12-04/plans_nature.json` (catégorie, échelle, texte fr/en, son,
+  durée en secondes, conditions de validité — moment, heures, ciel, température, vent —, lieux d'affinité, source, part
+  déduite) ; `scripts/plans_nature.py` les place (coupes, respirations, ponts de lumière ; 10 emplois au plus par motif)
+  → `11_plans_nature.md`, `plans_nature_montage.csv/json` ; ils prennent quelques secondes à la séquence en cours sans
+  décaler l'horloge. Ordre de régénération : journee.py, sequencier.py, plans_nature.py, page_24h.py.
