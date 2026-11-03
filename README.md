@@ -11,6 +11,8 @@ daté ; davantage pour ce qui est tiré d'un livre, d'une lecture automatique ou
 
 ## Contenu
 
+Audit et plan de travail pour le découpage plan par plan : [`AUDIT_ET_WORKFLOW.md`](AUDIT_ET_WORKFLOW.md).
+
 | dossier | contenu |
 |---|---|
 | [`journees/1944-12-04/`](journees/1944-12-04/README.md) | **la journée retenue, lundi 4 décembre 1944** : un fichier par élément (météo, lumière, lieux, personnes, cours, routine, espace animal et végétal, événements, progression des cours), `journee.json` le **séquencier** (`10_sequencier.md` : 315 séquences en temps réel) et les **plans de nature** (`11_plans_nature.md` : 499 plans de coupe) |
