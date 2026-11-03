@@ -114,16 +114,27 @@ def main(jour, copie=None):
     PN = json.load(open(pn, encoding="utf-8")) if os.path.exists(pn) else []
     nature = [{"s": p["sequence"], "h": p["heure"], "pg": p["page"], "d": p["duree_s"], "c": p["cat"], "sc": p["echelle_en"], "x": p["en"],
                "snd": p["son"].split(" / ")[-1] if p["son"] else "", "pct": p["pct"], "src": src_en(p["src"]), "why": p["raison"], "r": registre_plan(p["cat"], p["e"], p["id"], p["en"])} for p in PN]
-    # heures découpées plan par plan à la main : elles remplacent les plans automatiques de leur fenêtre
+    # heures découpées plan par plan (à la main, ou générées pour la nuit) : elles remplacent les plans automatiques de leurs fenêtres
+    vocab_en = {}
     for fn in sorted(f for f in os.listdir(dos) if f.endswith("_plan_par_plan.json")):
         H = json.load(open(os.path.join(dos, fn), encoding="utf-8")); V = H["vocabulaire"]
         sec = lambda tc: sum(int(v) * k for v, k in zip(tc.split(":"), (3600, 60, 1)))
-        a0, a1 = sec(H["mouvements"][0]["de"]), sec(H["mouvements"][-1]["a"])
-        nature = [n for n in nature if not (a0 <= sec(n["h"]) < a1)]
+        wins = [(sec(m["de"]), sec(m["a"])) for m in H["mouvements"]]
+        nature = [n for n in nature if not any(a0 <= sec(n["h"]) < a1 for a0, a1 in wins)]
         def porteuse(t):
             m = t // 60
             return next(o["n"] for o in S if K_mn(o["debut"]) <= m < (K_mn(o["fin"]) if o["fin"] != "24:00" else 1440))
         deja = set()
+        if H.get("compact"):             # découpage généré (nuit lente) : codes, vocabulaire transmis une fois
+            for k, champ in (("e", "echelle"), ("a", "angle"), ("mv", "mouvement"), ("o", "optique"), ("p", "point"), ("r", "raccord")):
+                vocab_en.setdefault(k, {}).update({c: v[1] for c, v in V[champ].items()})
+            for x in H["plans"]:
+                t = sec(x["tc"]); mv = next(m for m in H["mouvements"] if sec(m["de"]) <= t < sec(m["a"]))
+                it = {"s": porteuse(t), "h": x["tc"], "d": x["d"], "c": x["cat"], "r": x.get("reg") or registre_plan(x["cat"], x["e"], "", x["en"]), "x": x["en"],
+                      "k": [x["e"], x["a"], x["mv"], x["o"], x["p"], x["r"]], "pct": x["pct"], "cp": 1}
+                if mv["de"] not in deja: it["mvt"] = mv["en"]; deja.add(mv["de"])
+                nature.append(it)
+            nature.sort(key=lambda n: n["h"]); continue
         for x in H["plans"]:
             t = sec(x["tc"]); mv = next(m for m in H["mouvements"] if sec(m["de"]) <= t < sec(m["a"]))
             item = {"s": porteuse(t), "h": x["tc"], "pg": t // 60 + 1, "d": x["d"], "c": x["cat"], "sc": V["echelle"][x["e"]][1], "x": x["en"],
@@ -135,7 +146,10 @@ def main(jour, copie=None):
         nature.sort(key=lambda n: n["h"])
     LU = J["lumiere"]
     noaa = J["meteo"]["noaa"]; mt = noaa.get("Montreat", {}).get(jour) or {}
-    data = {"reg": [{"id": k, "fam": f, "label": l, "color": c} for k, (f, l, c) in REGISTRES.items()], "fams": [{"id": f, "label": l} for f, l in FAMILLES],
+    pr = os.path.join(dos, "rythme.json")
+    blocs = [{"de": b["de"], "a": b["a"], "id": b["id"], "t": b["en"], "tempo": {"lent": "slow", "moyen": "medium", "vif": "brisk", "lent à moyen": "slow to medium"}.get(b["tempo"], b["tempo"]),
+              "ps": b["plans_s"], "res": [x["en"] for x in b["reserve"]], "n": b.get("notes_en", "")} for b in json.load(open(pr, encoding="utf-8"))["blocs"]] if os.path.exists(pr) else []
+    data = {"blocs": blocs, "voc": vocab_en, "reg": [{"id": k, "fam": f, "label": l, "color": c} for k, (f, l, c) in REGISTRES.items()], "fams": [{"id": f, "label": l} for f, l in FAMILLES],
             "seq": seq, "nature": nature, "ncats": [{"id": k, "label": v, "color": NCOUL[k]} for k, v in NCATS.items()], "hours": heures, "types": [{"id": t, "label": l, "color": c} for t, l, c, _ in TYPES],
             "places": [{"id": t, "label": l, "color": c} for t, l, c, _ in LIEUX],
             "sun": {k: LU.get(k) for k in ("aube_civile", "lever_soleil", "coucher_soleil", "crepuscule_civil", "lever_lune", "coucher_lune")},
@@ -221,6 +235,17 @@ summary{cursor:pointer}
 .nat .tech{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
 .nat .tech span{font:600 10px/1.2 Inter,sans-serif;border:1px solid color-mix(in srgb,var(--nc) 60%,transparent);border-radius:4px;padding:2px 5px;color:var(--ink);background:var(--paper)}
 .nat .tech span.rc{border-style:dashed;color:var(--soft)}
+.film{margin:4px 0 8px 18px;padding:8px 10px;border:1px dashed var(--line);border-radius:8px;background:var(--paper);font:500 12px/1.4 Inter,system-ui,sans-serif;color:var(--soft);cursor:pointer}
+.film .strip{display:flex;gap:1px;height:22px;margin-top:6px;border-radius:3px;overflow:hidden}
+.film .strip i{display:block;height:100%;min-width:2px}
+.film ol{margin:8px 0 0;padding-left:0;list-style:none;max-height:420px;overflow:auto;color:var(--ink)}
+.film li{display:grid;grid-template-columns:70px 40px 1fr;gap:8px;padding:3px 0;border-top:1px solid var(--line)}
+.film li b{font:700 11px "Courier Prime",monospace}
+.film li span.k{color:var(--soft);font-size:11px}
+.film li i.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.bloc{margin:26px 0 8px;padding:12px 16px;border-left:4px solid var(--ink);background:var(--paper);border-radius:6px;font:500 13px/1.5 Inter,system-ui,sans-serif}
+.bloc b{display:block;font:700 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+.bloc .bt{font:600 17px "Source Serif 4",Georgia,serif;color:var(--ink)}
 .mvt{margin:14px 0 6px 18px;padding:10px 14px;border-radius:8px;background:var(--ink);color:var(--bg);font:500 13px/1.45 Inter,system-ui,sans-serif}
 .mvt b{font:700 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:2px;opacity:.7}
 .chip.nat-c{background:var(--paper);border-style:dashed}
@@ -268,7 +293,7 @@ const skyEn = {"ciel clair":"clear","plutôt clair":"mainly clear","partiellemen
 const f = document.getElementById("facts");
 [["Dawn", D.sun.aube_civile], ["Sunrise", D.sun.lever_soleil], ["Sunset", D.sun.coucher_soleil], ["Dark", D.sun.crepuscule_civil], ["Moonrise", D.sun.lever_lune]]
   .forEach(([k, v]) => v && f.insertAdjacentHTML("beforeend", `<span>${k} ${fmt(v)}</span>`));
-f.insertAdjacentHTML("beforeend", `<span>${D.seq.length} sequences · ${D.nature.length} nature shots</span>${D.nature.some(n => n.mvt) ? `<span><a href="#h07" onclick="jump('07');return false">The dawn hour, shot by shot (7:20–8:20)</a></span>` : ""}<span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
+f.insertAdjacentHTML("beforeend", `<span>${D.seq.length} sequences · ${D.nature.length} nature shots</span>${D.nature.some(n => n.mvt) ? `<span><a href="#h07" onclick="jump('07');return false">The dawn hour, shot by shot (7:20–8:20)</a></span>` : ""}${D.nature.some(n => n.cp) ? `<span><a href="#h00" onclick="jump('00');return false">The slow night: ${D.nature.filter(n => n.cp).length} shots of 3–8 s</a></span>` : ""}<span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
 // rail
 const rail = document.getElementById("rail");
 D.hours.forEach(h => { const b = document.createElement("button"); b.textContent = h.h.slice(0,2); b.title = `${h.h} · ${lightEn[h.light]||h.light}`;
@@ -333,10 +358,27 @@ function card(s) {
 function hourBand(hh) { const h = D.hours[+hh];
   return `<div class="hour" id="h${hh}"><b>${hh}:00</b><span><i class="skyd" style="background:${sky(h)}"></i>sky</span><span>pages ${+hh*60+1}–${+hh*60+60}</span><span>${lightEn[h.light]||h.light}</span>
     <span>${skyEn[h.sky]||h.sky}, ${h.temp} °C</span><span>sun ${h.sun}°</span><span>moon ${h.moon}°</span>${h.wind!=null?`<span>wind ${h.wind} km/h</span>`:""}</div>`; }
+function filmCard(list) {
+  const tot = list.reduce((a, x) => a + x.d, 0), head = list.find(x => x.mvt);
+  const blocks = list.map(x => `<i style="flex:${x.d};background:${(R[x.r] || {}).color || "#888"}" title="${x.h} · ${esc((D.voc.e || {})[x.k[0]] || "")} · ${esc(x.x)}"></i>`).join("");
+  return (head ? `<div class="mvt"><b>The slow night, shot by shot</b>${esc(head.mvt)}</div>` : "") +
+    `<div class="film" data-n="${list.length}">${list.length} night shots · ${Math.floor(tot / 60)} min ${String(tot % 60).padStart(2, "0")} s · ${list[0].h}–${list[list.length - 1].h} — click to list them<div class="strip">${blocks}</div></div>`; }
+function filmList(el, list) {
+  if (el.querySelector("ol")) { el.querySelector("ol").remove(); return; }
+  const V = D.voc, ol = document.createElement("ol");
+  ol.innerHTML = list.map(x => `<li><b>${x.h}</b><span>${x.d} s</span><span><i class="sw" style="background:${(R[x.r] || {}).color}"></i>${esc(x.x)}<br><span class="k">${[V.e[x.k[0]], V.a[x.k[1]], V.mv[x.k[2]], V.o[x.k[3]], V.p[x.k[4]], "→ " + V.r[x.k[5]]].map(esc).join(" · ")} · ${x.pct}% deduced</span></span></li>`).join("");
+  el.appendChild(ol); }
+const filmsByS = {}; let nb = 0;
+function blocBanner(b) { return `<div class="bloc"><b>Block ${b.id} · ${b.de}–${b.a} · ${esc(b.tempo)} · shots ${b.ps[0]}–${b.ps[1]} s (avg ${b.ps[2]} s)</b><span class="bt">${esc(b.t)}</span>${b.n ? `<br>${esc(b.n)}` : ""}${b.res.length ? `<br>Reserved for later: ${b.res.map(esc).join("; ")}` : ""}</div>`; }
 function more(until) {
   let n = 0; while (i < D.seq.length && (n < BATCH || (until && D.seq[i].a.slice(0,2) <= until))) { const s = D.seq[i++], hh = s.a.slice(0,2);
     if (hh !== lastHour) { for (let k = lastHour == null ? 0 : +lastHour + 1; k <= +hh; k++) list.insertAdjacentHTML("beforeend", hourBand(String(k).padStart(2,"0"))); lastHour = hh; }
-    list.insertAdjacentHTML("beforeend", card(s)); (byS[s.n] || []).forEach(x => list.insertAdjacentHTML("beforeend", natCard(x))); n++; }
+    while (nb < D.blocs.length && D.blocs[nb].de <= s.a) list.insertAdjacentHTML("beforeend", blocBanner(D.blocs[nb++]));
+    list.insertAdjacentHTML("beforeend", card(s));
+    const nat = byS[s.n] || [], cp = nat.filter(x => x.cp), dt = nat.filter(x => !x.cp);
+    dt.forEach(x => list.insertAdjacentHTML("beforeend", natCard(x)));
+    if (cp.length) { list.insertAdjacentHTML("beforeend", filmCard(cp)); const el = list.lastElementChild; el.onclick = e => { if (e.target.closest("ol")) return; filmList(el, cp); }; }
+    n++; }
   refresh(); }
 new IntersectionObserver(e => { if (e[0].isIntersecting) more(); }, {rootMargin: "1200px"}).observe(document.getElementById("sentinel"));
 function jump(hh) { more(hh); const el = document.getElementById("h" + hh); if (el) el.scrollIntoView({behavior: "smooth"}); }

@@ -25,7 +25,7 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
   durée en secondes, conditions de validité — moment, heures, ciel, température, vent —, lieux d'affinité, source, part
   déduite) ; `scripts/plans_nature.py` les place (coupes, respirations, ponts de lumière ; 10 emplois au plus par motif)
   → `11_plans_nature.md`, `plans_nature_montage.csv/json` ; ils prennent quelques secondes à la séquence en cours sans
-  décaler l'horloge. Ordre de régénération : journee.py, sequencier.py, plans_nature.py, page_24h.py.
+  décaler l'horloge. Ordre de régénération : journee.py, sequencier.py, plans_nature.py, nuit_plans.py, heure_plan_par_plan.py (aube, nuit), rythme.py, page_24h.py.
 - Heures découpées plan par plan, à la main : `journees/1944-12-04/<nom>_plan_par_plan.json` (vocabulaire des échelles,
   angles, mouvements, optiques, mises au point, raccords ; mouvements de l'heure ; plans avec timecode, durée, codes,
   texte fr/en, son, source, part déduite) ; `scripts/heure_plan_par_plan.py` contrôle (pas de chevauchement, codes connus)
@@ -37,3 +37,13 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
   écrit, travaille. Chaque scène clé porte son `registre` dans `scenes_cles.json` ; les activités du planning et les plans
   de nature le reçoivent par règle (plan large → jaune ; fenêtres, fumées de cheminée → bleu ; sinon vert selon le sujet).
   Les couleurs des types de séquence en dérivent ; lieux, bandeaux d'heure, barre des heures et part déduite restent neutres.
+- Décisions du 3/11/2026 (réponses à l'audit) :
+  1. Nuit lente assumée, mais très découpée : plans de 3 à 8 secondes, grande variété de points de vue, de mouvements et
+     de détails ; donc beaucoup de plans (`nuit_plan_par_plan.json`, produit par `scripts/nuit_plans.py`).
+  2. Répliques, cours, dialogues : plus tard. On définit seulement les blocs temporels et leur fréquence, pour que le film
+     soit agréable à regarder (`rythme.json`, `13_rythme.md`), sans les développer.
+  3. Animaux et plantes : connaissance générale (Amérique du Nord, Caroline du Nord, Appalaches, saison, jour et nuit),
+     appuyée sur les données de Black Mountain Ecologies copiées dans `nature/`.
+  4. Les sources extérieures : l'auteur s'en charge ; on ne les cherche pas pour le moment.
+  5. Caméra d'aujourd'hui : omnisciente, virtuose (drone, steadicam, motion control, macro, grue…), mais dans les standards
+     du découpage (échelles, axes, raccords) pour garder un ancrage.

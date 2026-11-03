@@ -16,7 +16,9 @@ Structure des éléments dont le scénario a besoin (1 minute = 1 page : 00:00 =
 | Séquencier | [10_sequencier.md](10_sequencier.md) | les scènes de 00:00 à 23:59 en temps réel (1 440 pages), avec lieu, lumière, personnages, action, source et part déduite ; `sequencier.csv`, `sequencier.json` (scripts/sequencier.py, à partir de `scenes_cles.json`) | liste faite |
 | Plans de nature | [11_plans_nature.md](11_plans_nature.md) | plans de coupe qui rythment le montage (montagnes, ciel, astres, lumière, eau, givre, arbres et vent, oiseaux, bêtes, insectes, fumées, sons), placés minute par minute ; catalogue `plans_nature.json`, `plans_nature_montage.csv/json` (scripts/plans_nature.py) | premier découpage |
 | L'heure de l'aube, plan par plan | [12_aube_plan_par_plan.md](12_aube_plan_par_plan.md) | 07:20-08:20, 80 plans de nature écrits à la main en quatre mouvements : échelle, angle, mouvement, optique, mise au point, raccord, son, source et part déduite (`aube_plan_par_plan.json`, scripts/heure_plan_par_plan.py) | fait |
-| Scènes écrites | — | dialogues et didascalies, scène par scène | à faire |
+| La nuit lente, plan par plan | [12_nuit_plan_par_plan.md](12_nuit_plan_par_plan.md) | 00:00-04:45 et 23:00-24:00 : plus de 4 000 plans de 3 à 8 s générés (`nuit_plan_par_plan.json`, liste complète en CSV ; scripts/nuit_plans.py) | premier découpage |
+| Rythme du film | [13_rythme.md](13_rythme.md) | onze blocs temporels : tempo, durée des plans, parts des registres, cadence des coupes et des respirations, emplacements réservés aux dialogues et aux cours (`rythme.json`, scripts/rythme.py) | fait |
+| Scènes écrites | — | dialogues et didascalies, scène par scène | plus tard |
 
 ## Règles
 

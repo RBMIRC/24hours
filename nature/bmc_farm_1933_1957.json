@@ -1,0 +1,750 @@
+{
+  "metadata": {
+    "title": "The Farm at Black Mountain College (1933-1957)",
+    "description": "Detailed records of the BMC farm operations, livestock, crops, and key personnel",
+    "source": "David Silver, 'The Farm at Black Mountain College' (2024), published by BMCM+AC and Atelier Editions",
+    "archives_consulted": [
+      "Western Regional Archives (WRA), Asheville, NC",
+      "Black Mountain College Museum + Arts Center",
+      "Getty Research Institute",
+      "Swannanoa Valley Museum & History Center",
+      "Center for Creative Photography, University of Arizona"
+    ]
+  },
+  "farm_overview": {
+    "founding_year": 1933,
+    "collapse_year": 1955,
+    "college_closure": 1957,
+    "locations": [
+      {
+        "name": "Blue Ridge Assembly",
+        "period": "1933-1941",
+        "acres": 25,
+        "features": ["farmhouse", "small barn", "storage sheds", "orchards", "vineyards"]
+      },
+      {
+        "name": "Lake Eden",
+        "period": "1941-1957",
+        "features": ["big barn", "milking house", "corn silos", "henhouse", "beef shed", "machinery shed"]
+      }
+    ],
+    "philosophy": "Self-sufficiency, communal living, experiential learning, organic farming practices"
+  },
+  "major_events": [
+    {
+      "year": 1933,
+      "month": "October",
+      "event": "Farm idea emerges",
+      "description": "Helen Boyden receives Borsodi's 'Flight from the City', sparking farm discussions",
+      "key_people": ["Helen Boyden", "Norm Weston", "Nan Chapin"]
+    },
+    {
+      "year": 1933,
+      "month": "Late October/November",
+      "event": "First chickens purchased",
+      "description": "After Nat builds chicken coop based on Borsodi's design, Bailey and Norm drive to Swannanoa Test Farm and buy 12 Rhode Island Red chicks - 'with permission from no one'",
+      "key_people": ["Nat French", "Bailey", "Norm Weston"]
+    },
+    {
+      "year": 1934,
+      "month": "Spring",
+      "event": "Farm infrastructure improvements",
+      "description": "Nat reroofs barn and storage shed, replaces farmhouse patio and back steps",
+      "key_people": ["Nat French"]
+    },
+    {
+      "year": 1934,
+      "month": "Summer",
+      "event": "First summer farming",
+      "description": "Nan and Norm live in farmhouse and manage farm over summer",
+      "key_people": ["Nan Chapin", "Norm Weston"]
+    },
+    {
+      "year": 1935,
+      "month": "May 1",
+      "event": "Pigpen completed",
+      "description": "Nat completes pigpen for $6 using salvaged chestnut wood",
+      "key_people": ["Nat French", "Josef Albers"]
+    },
+    {
+      "year": 1935,
+      "month": "May",
+      "event": "First pigs arrive",
+      "description": "Nancie, Eurie (registered Berkshires) and Mary (unregistered) purchased from Asheville Farm School",
+      "key_people": ["Norm Weston", "Nat French"]
+    },
+    {
+      "year": 1936,
+      "month": "April",
+      "event": "Pig breeding success",
+      "description": "College has 25 pigs through breeding program with B. Brown's boars",
+      "key_people": ["B. Brown"]
+    },
+    {
+      "year": 1937,
+      "month": "May",
+      "event": "Lake Eden purchased",
+      "description": "College buys Lake Eden property for $12,500 (Stephen Forbes gift) plus $1,000 from Dreier family",
+      "key_people": ["Ted Dreier", "Stephen Forbes"]
+    },
+    {
+      "year": 1937,
+      "month": "September",
+      "event": "Black Mountain Community Fair",
+      "description": "BMC wins two second-place ribbons: Best Work Horse (Mark) and Best Stalk Corn",
+      "key_people": ["Norm Weston", "Nan Chapin"]
+    },
+    {
+      "year": 1938,
+      "month": "January",
+      "event": "Ross Penley joins",
+      "description": "Local farmer Ross Penley joins BMC, helps clear Lake Eden fields",
+      "key_people": ["Ross Penley"]
+    },
+    {
+      "year": 1941,
+      "month": "Fall",
+      "event": "Molly Gregory arrives",
+      "description": "Molly Gregory joins as woodworking instructor, becomes farm manager",
+      "key_people": ["Molly Gregory", "Ruth Asawa"]
+    },
+    {
+      "year": 1942,
+      "month": "March-April",
+      "event": "Big barn construction",
+      "description": "Professional team and students build main barn over 7 weeks",
+      "key_people": ["A. Lawrence Kocher", "Charlie Godfrey", "Molly Gregory"]
+    },
+    {
+      "year": 1942,
+      "month": "May",
+      "event": "Barn dance celebration",
+      "description": "Barn completion celebrated with community barn dance",
+      "key_people": []
+    },
+    {
+      "year": 1942,
+      "month": "Summer",
+      "event": "Milking house and corn silos built",
+      "description": "Molly designs and builds milking house; corn silos constructed with Pomona Terra Cotta tiles",
+      "key_people": ["Molly Gregory", "Charlie Godfrey", "Nancy West"]
+    },
+    {
+      "year": 1943,
+      "month": "July",
+      "event": "Major canning operation",
+      "description": "Molly and students can 100 gallons beets, 85 gallons beans, 50 gallons kraut",
+      "key_people": ["Molly Gregory"]
+    },
+    {
+      "year": 1943,
+      "month": "Summer",
+      "event": "Peak farm operations",
+      "description": "Farm reaches peak: 35 cows, 33 pigs, 100+ chickens, 3 horses, 9 ducks, 1 goat",
+      "key_people": ["Molly Gregory", "Ross Penley"]
+    },
+    {
+      "year": 1943,
+      "month": "Summer",
+      "event": "Henhouse and beef shed built",
+      "description": "Three farm structures completed during summer",
+      "key_people": ["Molly Gregory"]
+    },
+    {
+      "year": 1944,
+      "month": "Summer",
+      "event": "Braunthal leads milking",
+      "description": "Jagna Braunthal runs milking operations at 5am and 5pm daily",
+      "key_people": ["Jagna Braunthal", "Ati Gropius"]
+    },
+    {
+      "year": 1946,
+      "month": "March",
+      "event": "Penley departs",
+      "description": "Ross Penley leaves after behavioral issues",
+      "key_people": ["Ross Penley"]
+    },
+    {
+      "year": 1946,
+      "month": "Fall",
+      "event": "Quaker farmers arrive",
+      "description": "Conscientious objectors Ray Trayer and Cliff Moles take over farm",
+      "key_people": ["Ray Trayer", "Cliff Moles", "Dorothy Trayer", "Shirley Moles"]
+    },
+    {
+      "year": 1947,
+      "month": "Spring",
+      "event": "First farming course",
+      "description": "Moles and Trayer develop 'Getting Acquainted with Agriculture' course",
+      "key_people": ["Cliff Moles", "Ray Trayer"]
+    },
+    {
+      "year": 1947,
+      "month": "Summer",
+      "event": "Molly Gregory leaves",
+      "description": "After training successors and transforming farmhouse, Molly departs",
+      "key_people": ["Molly Gregory"]
+    },
+    {
+      "year": 1949,
+      "month": "Late January",
+      "event": "Dreier ousted",
+      "description": "Ted Dreier forced to resign from college after Board of Fellows decision, ending main farm advocacy",
+      "key_people": ["Ted Dreier", "Nell Rice"]
+    },
+    {
+      "year": 1950,
+      "month": "Unknown",
+      "event": "Cliff Moles departs",
+      "description": "After conflict, Moles asks wife Shirley 'How soon can you be ready to go?' - 'By tomorrow.' They return to Shenandoah, Iowa.",
+      "key_people": ["Cliff Moles", "Shirley Moles"]
+    },
+    {
+      "year": 1951,
+      "month": "June",
+      "event": "Trayers leave, Doyle Jones hired",
+      "description": "Ray and Dorothy Trayer depart. Local farmer Doyle Jones hired with wife Claire (Cherokee) and 14-year-old son Ben.",
+      "key_people": ["Ray Trayer", "Doyle Jones", "Claire Jones", "Ben Jones"]
+    },
+    {
+      "year": 1954,
+      "month": "Mid-November",
+      "event": "Doyle Jones leaves",
+      "description": "Doyle Jones, 'angry and sensing the end,' packs up family and belongings including television, leaves BMC for good.",
+      "key_people": ["Doyle Jones"]
+    },
+    {
+      "year": 1954,
+      "month": "November 25",
+      "event": "Terence Burns becomes interim manager",
+      "description": "Student Terence Burns appointed interim farm manager. Thanksgiving 1954: 'Last gathering with the old convivial, self-sustaining BMC spirit.'",
+      "key_people": ["Terence Burns"]
+    },
+    {
+      "year": 1955,
+      "month": "Late summer",
+      "event": "Farm collapses",
+      "description": "Last Black Mountain College farmer 'long gone.' Severe food crisis. Students forage for food. Entire beef herd goes missing.",
+      "key_people": ["Terence Burns"]
+    }
+  ],
+  "livestock": {
+    "pigs": {
+      "breeds": ["Berkshire"],
+      "first_pigs": {
+        "names": ["Nancie", "Eurie", "Mary"],
+        "source": "Asheville Farm School",
+        "year": 1935,
+        "notes": "Nancie and Eurie were registered thoroughbreds; Mary was unregistered"
+      },
+      "breeding_partner": {
+        "name": "B. Brown",
+        "location": "Oteen",
+        "arrangement": "Pigs transported to Brown's farm twice yearly for breeding"
+      },
+      "population_timeline": {
+        "1935": 3,
+        "1936": 25,
+        "1937": 36,
+        "1943": 33
+      },
+      "economics": {
+        "sale_price": "$50-60 per fattened hog",
+        "piglet_sales": "Sold to local farmers at profit"
+      }
+    },
+    "cattle": {
+      "dairy_cattle": {
+        "breed": "Guernsey",
+        "notable_animals": ["King's Regent of Dellwood (bull)"],
+        "source": "Dreier purchased; also bought Stella Penley's cow"
+      },
+      "beef_cattle": {
+        "breed": "Angus",
+        "notable_animals": ["Black Burgess (registered bull)"],
+        "source": "Dreier purchased 5 Angus from Phoenixville, PA for $815"
+      },
+      "population_timeline": {
+        "1943": {
+          "dairy_cows": 8,
+          "beef_cows_and_calves": 25,
+          "bulls": 2,
+          "total": 35
+        }
+      },
+      "products": ["milk", "butter", "buttermilk", "meat"]
+    },
+    "poultry": {
+      "chickens": {
+        "breed": "Rhode Island Red",
+        "characteristics": "Dual-purpose (eggs and meat)",
+        "first_flock": {
+          "year": 1933,
+          "month": "Late October/November",
+          "quantity": 12,
+          "source": "Swannanoa Test Farm (in Oteen, run by NC Dept of Agriculture)",
+          "purchasers": "Bailey and Norm Weston"
+        },
+        "population_timeline": {
+          "1943": "100+",
+          "1944": "~50 (reduced due to poor egg production)"
+        },
+        "original_flock_source": "Hanchett's flock"
+      },
+      "ducks": {
+        "population": 9,
+        "year_recorded": 1943
+      }
+    },
+    "horses": {
+      "animals": [
+        {
+          "name": "Mark",
+          "type": "work horse",
+          "notes": "First horse; won second place at 1937 Black Mountain Community Fair",
+          "used_for": "Plowing, construction work"
+        },
+        {
+          "name": "Lady",
+          "type": "mare",
+          "notes": "Mother of Pearl"
+        },
+        {
+          "name": "Pearl",
+          "type": "mare",
+          "notes": "Daughter of Lady"
+        },
+        {
+          "name": "Derek",
+          "type": "colt"
+        }
+      ],
+      "uses": ["Plowing", "Hauling logs", "Construction assistance"]
+    },
+    "other": {
+      "goat": {
+        "quantity": 1,
+        "owner": "Ted Dreier Jr",
+        "notes": "Pet goat"
+      }
+    }
+  },
+  "crops": {
+    "vegetables": [
+      {"name": "Beans", "notes": "Canned for winter storage"},
+      {"name": "Beets", "notes": "100 gallons canned in July 1943"},
+      {"name": "Cabbage", "notes": "Made into sauerkraut (50 gallons in 1943)"},
+      {"name": "Carrots"},
+      {"name": "Chard"},
+      {"name": "Collards"},
+      {"name": "Corn", "notes": "Both sweet corn and field corn"},
+      {"name": "Cucumbers"},
+      {"name": "Onions"},
+      {"name": "Peas"},
+      {"name": "Potatoes", "notes": "Bumper crop sold at Asheville Farmer's Market for $225"},
+      {"name": "Pumpkins"},
+      {"name": "Radishes"},
+      {"name": "Spinach"},
+      {"name": "Squash"},
+      {"name": "Tomatoes"}
+    ],
+    "feed_crops": [
+      {"name": "Field corn", "notes": "For silage and animal feed; 1,200 bushel storage capacity"},
+      {"name": "Oats", "notes": "Chicken and livestock feed"},
+      {"name": "Rye", "notes": "Cover crop and feed"},
+      {"name": "Barley", "notes": "Pasture and feed; increased milk production when grazed"},
+      {"name": "Soybeans", "notes": "12 acres planted; hay and soil enrichment"},
+      {"name": "Soybean hay"},
+      {"name": "Vetch hay"}
+    ],
+    "cover_crops": [
+      {"name": "Crimson clover", "notes": "Clapp's favorite for regenerative qualities; 15 acres planted"},
+      {"name": "Lespedeza"},
+      {"name": "Cow peas", "notes": "Soil-enhancing after heavy feeders like tomatoes"}
+    ],
+    "orchards": {
+      "types": ["Apple (8 orchards)", "Grapes (vineyard)"],
+      "production": "1,500 bushels marketable apples in peak years",
+      "tenant": "Bas Allen (pre-BMC farm)"
+    }
+  },
+  "buildings": {
+    "blue_ridge_period": [
+      {
+        "name": "Farmhouse",
+        "built": "Pre-existing",
+        "renovations": "Porch rebuilt 1934 by Nat French"
+      },
+      {
+        "name": "Small barn",
+        "built": "Pre-existing",
+        "renovations": "Reroofed 1934 by Nat French"
+      },
+      {
+        "name": "Storage sheds",
+        "built": "Pre-existing",
+        "renovations": "Reroofed 1934"
+      },
+      {
+        "name": "Chicken coop",
+        "built": 1933,
+        "builder": "Nat French",
+        "design": "Based on Borsodi's model"
+      },
+      {
+        "name": "Pigpen/Hoghouse",
+        "built": "May 1, 1935",
+        "builder": "Nat French",
+        "cost": "$6",
+        "materials": "Salvaged chestnut wood rails, salvaged lumber from tumbledown structures",
+        "design_consultant": "Josef Albers advised on placement"
+      }
+    ],
+    "lake_eden_period": [
+      {
+        "name": "Big barn",
+        "built": "March-May 1942",
+        "architect": "A. Lawrence Kocher",
+        "contractor": "Charlie Godfrey",
+        "construction_time": "7 weeks",
+        "celebration": "Barn dance in late May 1942"
+      },
+      {
+        "name": "Milking house",
+        "built": "Summer 1942",
+        "designer": "Molly Gregory",
+        "design_source": "Government pamphlet from Swannanoa Test Farm"
+      },
+      {
+        "name": "Corn silos",
+        "built": "1941-1942",
+        "builders": ["Charlie Godfrey", "Pearson Mundy", "Zaya Sandomirsky", "Nancy West"],
+        "materials": "Pomona Terra Cotta Company tiles"
+      },
+      {
+        "name": "Henhouse",
+        "built": "Summer 1943",
+        "designer": "Molly Gregory"
+      },
+      {
+        "name": "Beef shed",
+        "built": "1943-1944",
+        "designer": "Molly Gregory",
+        "notes": "Controversial due to budget overruns; construction halted by Board of Fellows February 1944"
+      },
+      {
+        "name": "Machinery shed",
+        "built": "Early 1940s",
+        "materials": "Campus lumber",
+        "capacity": "Equipment on one side, 1,200 bushels corn on other"
+      },
+      {
+        "name": "Bullpen",
+        "built": "1943",
+        "reason": "Built after fight between Guernsey bull King's Regent and Angus bull Black Burgess"
+      }
+    ]
+  },
+  "equipment": {
+    "tractors": [
+      {"name": "Farmall H tractor", "acquired": "By 1941"},
+      {"name": "Hough Loader tractor"}
+    ],
+    "vehicles": ["Flatbed farm truck", "College truck"],
+    "implements": [
+      "Fresno scraper",
+      "Disk plow",
+      "Wheat drill",
+      "Bush and bog harrow"
+    ]
+  },
+  "key_people": {
+    "founders_and_advocates": [
+      {
+        "name": "Theodore 'Ted' Dreier",
+        "role": "Founder, treasurer, farm advocate",
+        "period": "1933-1949",
+        "contributions": "Chief fundraiser, purchased Angus cattle with personal funds ($815), advocated for farm during wartime"
+      },
+      {
+        "name": "Norm Weston",
+        "role": "First farmer, student",
+        "period": "1933-1937",
+        "contributions": "Drove to farms for learning, established free plowing agreements, managed summer farming"
+      },
+      {
+        "name": "Anne 'Nan' Howard Chapin",
+        "role": "First student, summer farmer",
+        "period": "1933-1937",
+        "contributions": "First student, summer farmer with Norm, student recruitment leader"
+      },
+      {
+        "name": "Nathaniel 'Nat' Stowers French",
+        "role": "Builder",
+        "birth_year": 1912,
+        "period": "1933-1937",
+        "contributions": "Built chicken coop, pigpen, farm infrastructure; first student on Board of Fellows"
+      }
+    ],
+    "farm_managers": [
+      {
+        "name": "Ross Penley",
+        "role": "Farmer",
+        "period": "1938-1946",
+        "description": "Ruddy, boxy man exuding strength",
+        "contributions": "Cleared Lake Eden fields, planted cover crops, supervised dairy operations"
+      },
+      {
+        "name": "Mary 'Molly' Gregory",
+        "role": "Farm manager, woodworking instructor",
+        "period": "1941-1947",
+        "birth_year": 1914,
+        "contributions": "Transformed farm operations, built milking house/henhouse/beef shed, established canning operations, produced vegetables for most of college's needs"
+      },
+      {
+        "name": "Raymond 'Ray' Trayer",
+        "role": "Quaker farmer, conscientious objector",
+        "period": "Fall 1946 - June 1951",
+        "contributions": "Implemented organic farming practices, taught first farming course 'Getting Acquainted with Agriculture', composting operations"
+      },
+      {
+        "name": "Clifford 'Cliff' Moles",
+        "role": "Quaker farmer, conscientious objector",
+        "birth_year": 1920,
+        "birthplace": "Shenandoah, Iowa",
+        "period": "Fall 1946 - ~1950",
+        "contributions": "Farm inventory systems, organic practices, taught farming course. Left after conflict - asked wife 'How soon can you be ready?' - 'By tomorrow.'"
+      },
+      {
+        "name": "Doyle Jones",
+        "role": "Local farmer",
+        "period": "June 1951 - Mid-November 1954",
+        "family": "Wife Claire/Clara (Cherokee), son Ben (14)",
+        "contributions": "Managed dairy herd, provided milk/eggs/butter. Struggled with vegetables due to limited budget. Left 'angry and sensing the end.'"
+      },
+      {
+        "name": "Terence Burns",
+        "role": "Student, interim farm manager",
+        "period": "November 1954 - 1955",
+        "contributions": "Trained by Doyle Jones. Appointed interim manager after Doyle's departure. Last person to manage farm operations."
+      }
+    ],
+    "student_farmers": [
+      {
+        "name": "Bailey",
+        "contributions": "Proposed raising chickens, learned from 'poultry man' Jones"
+      },
+      {
+        "name": "Jagna Braunthal",
+        "role": "Milking operations leader",
+        "period": "Summer 1944",
+        "contributions": "Ran morning and evening milking at 5am/5pm"
+      },
+      {
+        "name": "Ati Gropius",
+        "role": "Milk processing",
+        "contributions": "Milk cooling, cream skimming, butter making"
+      },
+      {
+        "name": "Ruth Asawa",
+        "role": "Butter and buttermilk maker",
+        "notes": "Made buttermilk especially for Josef Albers; volunteered as college barber to fund milkhouse expansion"
+      },
+      {
+        "name": "William 'Bill' Treichler",
+        "role": "Student farmer under Moles and Trayer"
+      },
+      {
+        "name": "Janet Heling",
+        "role": "Farm sub-coordinator under Molly",
+        "contributions": "Scheduled student work crews"
+      }
+    ],
+    "community_partners": [
+      {
+        "name": "S.H. Clapp",
+        "organization": "Mountain Test Farm, Oteen",
+        "contributions": "Taught soil management, organic gardening, crop rotation, cover crops"
+      },
+      {
+        "name": "B. Brown",
+        "location": "Oteen",
+        "contributions": "Pig breeding partner"
+      },
+      {
+        "name": "Jones",
+        "organization": "Swannanoa Test Farm",
+        "role": "Poultry man",
+        "contributions": "Chicken expertise"
+      },
+      {
+        "name": "John Gary McGraw Sr",
+        "role": "Local farmer",
+        "location": "Black Mountain",
+        "contributions": "Advised on local farming customs, plowing agreements"
+      },
+      {
+        "name": "Bernhard Laursen",
+        "organization": "Asheville Farm School",
+        "role": "Farm manager, gymnastics and folk dancing teacher"
+      },
+      {
+        "name": "Bas Allen",
+        "role": "Handyman",
+        "contributions": "All-purpose college handyman, helped with farming"
+      }
+    ]
+  },
+  "programs": {
+    "work_program": {
+      "origin": "Emerged from pig project 1935",
+      "description": "Required student labor on farm and campus",
+      "activities": ["Milking", "Feeding animals", "Planting", "Harvesting", "Canning", "Building maintenance"]
+    },
+    "build_program": {
+      "origin": "Spring 1935 (Nat's pigpen)",
+      "description": "Applied architecture curriculum",
+      "components": ["Design", "Sourcing materials", "Community labor", "Practical construction", "Salvage and recycling"],
+      "projects": ["Barns", "Cottages", "Corn silos", "Music cubicles", "Studies Building"]
+    },
+    "farming_course": {
+      "name": "Getting Acquainted with Agriculture",
+      "started": "Spring 1947",
+      "instructors": ["Cliff Moles", "Ray Trayer"],
+      "format": "Hybrid seminar and practice",
+      "readings": ["Plowman's Folly by Edward Faulkner (1943)", "J.I. Rodale works"]
+    }
+  },
+  "organic_practices": {
+    "soil_management": [
+      "Crop rotation",
+      "Companion planting",
+      "Cover crops (crimson clover, lespedeza, cow peas)",
+      "Composting (food scraps + garden greens + manure)",
+      "Contouring and terracing",
+      "Minimal plowing (influenced by Plowman's Folly)"
+    ],
+    "sources_of_knowledge": [
+      "S.H. Clapp at Mountain Test Farm",
+      "Ralph Borsodi's 'Flight from the City' (1933)",
+      "Edward Faulkner's 'Plowman's Folly' (1943)",
+      "J.I. Rodale organic farming texts"
+    ]
+  },
+  "yearly_status": {
+    "1933": {
+      "livestock": {"chickens": 12},
+      "crops": ["Initial plantings"],
+      "notes": "Farm idea emerges; first chickens purchased"
+    },
+    "1934": {
+      "livestock": {"chickens": "Growing flock"},
+      "crops": ["Beans", "Corn", "Tomatoes"],
+      "infrastructure": ["Barn reroofed", "Farmhouse porch rebuilt"],
+      "notes": "First summer farming by Nan and Norm"
+    },
+    "1935": {
+      "livestock": {"chickens": "Established flock", "pigs": 3},
+      "infrastructure": ["Pigpen completed May 1"],
+      "notes": "Work Program and Build Program emerge"
+    },
+    "1936": {
+      "livestock": {"pigs": 25},
+      "notes": "Pig breeding success with B. Brown"
+    },
+    "1937": {
+      "livestock": {"pigs": 36, "horses": 1},
+      "events": ["Lake Eden purchased", "Community Fair ribbons"],
+      "notes": "Peak Blue Ridge period"
+    },
+    "1938": {
+      "personnel": ["Ross Penley joins"],
+      "notes": "Transition to Lake Eden begins"
+    },
+    "1939": {
+      "crops": ["Cover crops at Lake Eden"],
+      "notes": "Lake Eden field preparation"
+    },
+    "1940": {
+      "events": ["Campus crisis meeting"],
+      "notes": "Decision to build Lake Eden campus"
+    },
+    "1941": {
+      "personnel": ["Molly Gregory arrives"],
+      "infrastructure": ["Studies Building construction begins", "Corn silos started"],
+      "notes": "Major construction period begins"
+    },
+    "1942": {
+      "infrastructure": ["Big barn completed May", "Milking house built", "Corn silos completed"],
+      "events": ["Barn dance celebration"],
+      "notes": "Peak construction year"
+    },
+    "1943": {
+      "livestock": {
+        "cows": {"dairy": 8, "beef": 25, "bulls": 2, "total": 35},
+        "pigs": 33,
+        "chickens": "100+",
+        "horses": 3,
+        "ducks": 9,
+        "goats": 1
+      },
+      "infrastructure": ["Henhouse", "Beef shed", "Bullpen"],
+      "production": {
+        "canned_beets": "100 gallons",
+        "canned_beans": "85 gallons",
+        "sauerkraut": "50 gallons"
+      },
+      "crops": ["Beans", "Beets", "Cabbage", "Carrots", "Chard", "Collards", "Cucumbers", "Onions", "Peas", "Potatoes", "Radishes", "Squash", "Tomatoes"],
+      "feed_crops": ["Field corn", "Soybean hay", "Vetch hay", "Barley", "Rye"],
+      "notes": "Peak farm operations; most self-sufficient year"
+    },
+    "1944": {
+      "operations": ["Braunthal runs milking", "Ati manages milk processing"],
+      "production": {"butter": "15 lb/week"},
+      "notes": "Systematic dairy operations"
+    },
+    "1945": {
+      "notes": "Wartime operations continue"
+    },
+    "1946": {
+      "personnel": ["Penley leaves", "Trayer and Moles arrive"],
+      "notes": "Transition to Quaker farmers"
+    },
+    "1947": {
+      "personnel": ["Molly Gregory leaves"],
+      "education": ["First farming course offered"],
+      "notes": "Organic practices formalized"
+    },
+    "1948": {
+      "notes": "Moles and Trayer establish organic regime"
+    },
+    "1949": {
+      "personnel": ["Ted Dreier ousted"],
+      "notes": "Loss of main farm advocate"
+    },
+    "1950": {
+      "notes": "Farm operations declining"
+    },
+    "1951": {
+      "notes": "Continued decline"
+    },
+    "1952": {
+      "notes": "Reduced operations"
+    },
+    "1953": {
+      "notes": "Minimal farm activity"
+    },
+    "1954": {
+      "notes": "Farm nearly abandoned"
+    },
+    "1955": {
+      "notes": "Last farmer gone; severe food crisis; farm collapsed"
+    },
+    "1956": {
+      "notes": "College crumbling"
+    },
+    "1957": {
+      "notes": "College officially closes"
+    }
+  }
+}

@@ -9,6 +9,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import construire as K
 
 
+def fenetres(M):
+    out = []
+    for m in M:
+        if out and out[-1]["a"] == m["de"]: out[-1] = {"de": out[-1]["de"], "a": m["a"]}
+        else: out.append({"de": m["de"], "a": m["a"]})
+    return out
+
+
 def sec(tc): h, m, s = map(int, tc.split(":")); return h * 3600 + m * 60 + s
 
 
@@ -22,15 +30,27 @@ def main(p, sortie=None):
             if x[k] not in V[champ]: err.append(f"{x['tc']} : code inconnu {champ}={x[k]}")
     if err: sys.exit("\n".join(err))
     tot = sum(x["d"] for x in P)
-    L = [f"# L'heure de l'aube, plan par plan — {P[0]['tc'][:5]} à {D['mouvements'][-1]['a'][:5]}", "", "[Sommaire de la journée](README.md) · [plans de nature](11_plans_nature.md)", "",
-         D["_lisezmoi"], "", f"**{len(P)} plans**, {tot // 60} min {tot % 60:02d} s de nature dans l'heure ; plans les plus courts {min(x['d'] for x in P)} s, le plus long {max(x['d'] for x in P)} s.", ""]
+    L = [f"# {D.get('titre', "L'heure de l'aube, plan par plan")} — " + ", ".join(f"{m['de'][:5]}-{m['a'][:5]}" for m in fenetres(D["mouvements"])), "", "[Sommaire de la journée](README.md) · [plans de nature](11_plans_nature.md)", "",
+         D["_lisezmoi"], "", f"**{len(P)} plans**, {tot // 60} min {tot % 60:02d} s ; plans les plus courts {min(x['d'] for x in P)} s, le plus long {max(x['d'] for x in P)} s.", ""]
     for champ, k in (("echelle", "e"), ("angle", "a"), ("mouvement", "mv"), ("optique", "o"), ("point", "p"), ("raccord", "r")):
         c = collections.Counter(x[k] for x in P)
         L.append(f"- **{champ.capitalize()}** : " + ", ".join(f"{V[champ][code][0]} {n}" for code, n in c.most_common()))
     cat = collections.Counter(x["cat"] for x in P)
     L += ["- **Sujets** : " + ", ".join(f"{k} {v}" for k, v in cat.most_common()), ""]
+    if D.get("compact"):              # découpage généré : fiche de synthèse, liste complète en CSV
+        import csv
+        cp = os.path.splitext(p)[0] + ".csv"
+        with open(cp, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f); w.writerow(["tc", "page", "duree_s", "echelle", "angle", "mouvement", "optique", "point", "raccord", "registre", "foyer", "plan", "son", "part_deduite", "source"])
+            for x in P: w.writerow([x["tc"], sec(x["tc"]) // 60 + 1, x["d"], V["echelle"][x["e"]][0], V["angle"][x["a"]][0], V["mouvement"][x["mv"]][0], V["optique"][x["o"]][0], V["point"][x["p"]][0], V["raccord"][x["r"]][0], x.get("reg", ""), x.get("foyer", ""), x["fr"], x["son"], x["pct"], x["src"]])
+        L += [f"Liste complète, plan par plan : [`{os.path.basename(cp)}`]({os.path.basename(cp)}).", ""]
     for mvt in D["mouvements"]:
         ps = [x for x in P if sec(mvt["de"]) <= sec(x["tc"]) < sec(mvt["a"])]
+        if D.get("compact"):
+            L += ["", f"## {mvt['fr']}", "", f"{len(ps)} plans, {sum(x['d'] for x in ps)} s, durée moyenne {sum(x['d'] for x in ps) / max(1, len(ps)):.1f} s. Les vingt premiers :", "",
+                  "| tc | durée | échelle | mouvement | optique | plan | part déduite |", "|---|---|---|---|---|---|---|"]
+            L += [f"| {x['tc']} | {x['d']} s | {V['echelle'][x['e']][0]} | {V['mouvement'][x['mv']][0]} | {V['optique'][x['o']][0]} | {K.md(x['fr'])} | {x['pct']} % |" for x in ps[:20]]
+            continue
         L += ["", f"## {mvt['fr']}", "", f"{len(ps)} plans, {sum(x['d'] for x in ps)} s.", "",
               "| tc | page | durée | échelle | angle | mouvement | optique | point | plan | son | raccord | part déduite | source |", "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
         for x in ps:

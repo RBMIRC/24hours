@@ -1,10 +1,10 @@
-# L'heure de l'aube, plan par plan — 07:20 à 08:20
+# L'heure de l'aube, plan par plan — 07:20-08:20
 
 [Sommaire de la journée](README.md) · [plans de nature](11_plans_nature.md)
 
 Découpage plan par plan des plans de nature de l'heure de l'aube, lundi 4 décembre 1944, 07:20:00-08:20:00 (pages 441-500), écrit à la main. Chaque plan : timecode, durée (s), séquence porteuse (ou « aube » : la séquence du campus à l'aube, entièrement en nature), échelle, angle, mouvement, optique, mise au point, raccord vers le plan suivant (codes : voir vocabulaire), description fr/en, son fr/en, source, part déduite (pct) et motif. Remplace, pour cette heure, les plans placés automatiquement par scripts/plans_nature.py. Conditions vérifiées : ERA5 (voile de nuages hauts seulement, de 2 % à 6 h à 97 % à 7 h ; aucun nuage bas ni moyen ; −3,4 °C sur la maille, point de rosée −9,5 °C ; vent de NO 2,5 à 3 km/h, rafales 9), NOAA (−8,3 °C à Montreat), positions calculées (ephem) : soleil de −13° à 7 h 20 à −1° à 8 h 20 (aube nautique 7 h 23, civile 7 h 54, lever 8 h 19), lune 77 % à 58°-47° à l'ouest-sud-ouest, Jupiter 54°-57° au sud-sud-est, Arcturus 41°-53° à l'est. Les cirrus (vers 10 km) ne reçoivent le soleil qu'à partir de −3° environ (vers 8 h 05) ; le sommet des Seven Sisters, 600 m au-dessus de la vallée, à partir de −1,6° environ (vers 8 h 12).
 
-**80 plans**, 18 min 21 s de nature dans l'heure ; plans les plus courts 3 s, le plus long 60 s.
+**80 plans**, 18 min 21 s ; plans les plus courts 3 s, le plus long 60 s.
 
 - **Echelle** : plan large 19, très gros plan (macro) 15, gros plan 11, plan d'ensemble 10, plan moyen 10, très grand plan d'ensemble 9, plan rapproché 4, son seul, sur noir 2
 - **Angle** : à hauteur d'œil 40, au ras du sol 10, contre-plongée 10, au ras de l'eau 8, depuis la crête du pâturage 4, à travers une vitre ou des branches 4, dans un reflet 3, zénithal 1

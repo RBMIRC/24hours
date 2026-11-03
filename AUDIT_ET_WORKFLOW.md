@@ -386,7 +386,19 @@ Chaque étape donne : ce qu'on fait · les sources · le fichier produit · le c
 
 ---
 
-## 6. Décisions à prendre
+## 6. Décisions
+
+Prises le 3 novembre 2026 :
+
+1. **Nuit** : nuit lente assumée, très découpée (plans de 3 à 8 s, variété de points de vue, de mouvements, de détails).
+2. **Répliques, cours, dialogues** : plus tard ; on définit les blocs temporels et leur fréquence (rythme du film), sans les
+   développer.
+3. **Animaux et plantes** : connaissance générale (Amérique du Nord, Caroline du Nord, Appalaches, saison, jour et nuit),
+   appuyée sur Black Mountain Ecologies (`nature/`).
+4. **Sources extérieures** : l'auteur s'en charge ; elles restent en attente (§ 3.5, points 7 à 13 ; phase B6-B7).
+5. **Caméra** : d'aujourd'hui, omnisciente, virtuose, mais dans les standards du découpage.
+
+Questions telles qu'elles étaient posées :
 
 1. **La nuit** : chercher des faits de nuit, ou assumer une nuit lente de plans de nature et d'architecture ?
 2. **La parole** : jusqu'où inventer des répliques (marquées « inventée ») ? Ou se limiter aux paroles attestées et
