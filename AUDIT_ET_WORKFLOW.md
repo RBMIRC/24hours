@@ -352,7 +352,8 @@ Chaque étape donne : ce qu'on fait · les sources · le fichier produit · le c
   2. 18:00-20:30 (dîner, cloche, annonce, disques, causerie de Cole, Reading Hour) ;
   3. 10:30-11:30 (levée et arrivée du courrier, lettres, téléphone, retour de Dreier) ;
   4. 12:30-16:00 (déjeuner, magasin, bureau, après-midi de travail : ferme, charbon, chaudières, atelier) ;
-  5. 04:45-07:20 (traite, cuisine, chaudières, aube) ;
+  5. 04:45-07:20 (traite, cuisine, chaudières, aube) — **premier découpage fait le 3/11/2026** : bloc B2, cahier
+     `bloc_B2.json`, `scripts/bloc_plans.py`, `12_reveil_plan_par_plan.md` ;
   6. 16:00-18:00 (traite du soir, cuisine, bibliothèque, départ de Wunsch) ;
   7. 20:30-24:00 (eukinétique, Brevard, retour de Wunsch, lodges, lever de lune) ;
   8. 00:00-04:45 (la nuit, selon E2).
@@ -419,7 +420,7 @@ Questions telles qu'elles étaient posées :
 | Pages hors cours à plus de 40 % de part déduite | 424 (36 %) | moins de 15 % |
 | Pages hors cours attestées (≤ 10 %) | 107 (9 %) | plus de 30 % |
 | Scènes clés hors cours à 50 % ou plus | 21 sur 51 | moins de 8 |
-| Heures découpées plan par plan | 1 (nature seule) | 24 (hors contenu des cours) |
+| Heures découpées plan par plan | aube (1 h, à la main), nuit (5 h 45, générée), B2 (2 h 35, générée) | 24 (hors contenu des cours) |
 | Retours « (suite) » sans action nouvelle | tous | aucun |
 | Contrôle d'ubiquité | absent | 0 conflit |
 | Lever et coucher sur l'horizon réel | non | oui, pour six points |

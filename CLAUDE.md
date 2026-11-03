@@ -25,12 +25,18 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
   durée en secondes, conditions de validité — moment, heures, ciel, température, vent —, lieux d'affinité, source, part
   déduite) ; `scripts/plans_nature.py` les place (coupes, respirations, ponts de lumière ; 10 emplois au plus par motif)
   → `11_plans_nature.md`, `plans_nature_montage.csv/json` ; ils prennent quelques secondes à la séquence en cours sans
-  décaler l'horloge. Ordre de régénération : journee.py, sequencier.py, plans_nature.py, nuit_plans.py, heure_plan_par_plan.py (aube, nuit), rythme.py, page_24h.py.
+  décaler l'horloge. Ordre de régénération : journee.py, sequencier.py, plans_nature.py, nuit_plans.py, bloc_plans.py (B2), heure_plan_par_plan.py (aube, nuit, reveil), rythme.py, page_24h.py.
 - Heures découpées plan par plan, à la main : `journees/1944-12-04/<nom>_plan_par_plan.json` (vocabulaire des échelles,
   angles, mouvements, optiques, mises au point, raccords ; mouvements de l'heure ; plans avec timecode, durée, codes,
   texte fr/en, son, source, part déduite) ; `scripts/heure_plan_par_plan.py` contrôle (pas de chevauchement, codes connus)
   et écrit `12_<nom>_plan_par_plan.md` ; sur la page, ces plans remplacent les plans automatiques de leur fenêtre.
   Fait : l'aube, 07:20-08:20 (80 plans).
+- Blocs découpés par générateur : cahier `journees/1944-12-04/bloc_<id>.json` (mouvements avec le fil qui ouvre et celui
+  qui ferme ; fils humains et de transition avec fenêtre horaire, poids, registre de près et en large, son, source, part
+  déduite, détails fr/en avec échelles et fenêtre éventuelle ; « recit » = détails dans l'ordre ; foyers de la nuit admis en
+  respiration et détails exclus) ; `scripts/bloc_plans.py AAAA-MM-JJ <id>` applique les durées, le passage d'un fil, les
+  respirations et les parts de `rythme.json` → `<sortie>_plan_par_plan.json` (compact). Fait : B2, 04:45-07:20
+  (`reveil_plan_par_plan.json`).
 - Code couleur (décision du 3/11/2026), table REGISTRES de `scripts/page_24h.py` : bleu et ses nuances = architecture sans
   personne ; vert = nature, bêtes et végétal ; rouge = scènes collectives (enseignement, repas, soirées, travail, vie commune) ;
   jaune = vues larges (nature, bâtiments, figures dans le paysage) ; violet = dialogues ; rose = une personne seule qui lit,

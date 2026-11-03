@@ -36,7 +36,14 @@ def main(p, sortie=None):
         c = collections.Counter(x[k] for x in P)
         L.append(f"- **{champ.capitalize()}** : " + ", ".join(f"{V[champ][code][0]} {n}" for code, n in c.most_common()))
     cat = collections.Counter(x["cat"] for x in P)
-    L += ["- **Sujets** : " + ", ".join(f"{k} {v}" for k, v in cat.most_common()), ""]
+    L += ["- **Sujets** : " + ", ".join(f"{k} {v}" for k, v in cat.most_common())]
+    if all(x.get("reg") for x in P):
+        rg = collections.Counter()
+        for x in P: rg[x["reg"]] += x["d"]
+        L.append("- **Registres du code couleur (durée)** : " + ", ".join(f"{k} {100 * v / tot:.0f} %" for k, v in rg.most_common()))
+    if D.get("parts_cibles"):
+        L.append("- **Familles de couleur, obtenu / visé (rythme.json)** : " + ", ".join(f"{k} {v} % / {D['parts_cibles'].get(k, 0)} %" for k, v in D["parts_obtenues"].items()))
+    L.append("")
     if D.get("compact"):              # découpage généré : fiche de synthèse, liste complète en CSV
         import csv
         cp = os.path.splitext(p)[0] + ".csv"

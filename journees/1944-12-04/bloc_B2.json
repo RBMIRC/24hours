@@ -1,0 +1,1032 @@
+{
+ "_lisezmoi": "Cahier du bloc B2, « Le réveil de ceux qui travaillent » (04:45-07:20), pour scripts/bloc_plans.py. Fils humains et fils de transition, avec fenêtres horaires, poids, détails (fr, en, échelles possibles), registre de près et en large, son, source, part déduite. Les respirations de nature et d'architecture reprennent les foyers de la nuit (scripts/nuit_plans.py). Pas de dialogue (décision du 3/11/2026) : gestes, lieux, sons seulement.",
+ "bloc": "B2",
+ "de": "04:45:00",
+ "a": "07:20:00",
+ "titre": "Le réveil de ceux qui travaillent, plan par plan",
+ "sortie": "reveil_plan_par_plan.json",
+ "mouvements": [
+  {
+   "de": "04:45:00",
+   "a": "05:00:00",
+   "fr": "R1. Le réveil — un réveil sonne dans le North Attic ; Jagna Braunthal s'habille dans le noir et sort sous la lune.",
+   "en": "R1. The alarm — a clock rings in the North Attic; Jagna Braunthal dresses in the dark and goes out under the moon.",
+   "ouvre": "jagna",
+   "ferme": "jagna"
+  },
+  {
+   "de": "05:00:00",
+   "a": "06:00:00",
+   "fr": "R2. La traite — la lampe de la laiterie, les vaches, le lait dans les seaux ; ailleurs, les chaudières.",
+   "en": "R2. The milking — the milking-house lamp, the cows, the milk in the pails; elsewhere, the furnaces.",
+   "ouvre": "traite"
+  },
+  {
+   "de": "06:00:00",
+   "a": "06:52:00",
+   "fr": "R3. La cuisine s'allume — les premières fenêtres jaunes, les marmites, la fumée des cheminées ; le voile arrive par le nord-ouest.",
+   "en": "R3. The kitchen lights up — the first yellow windows, the pots, the chimney smoke; the veil arrives from the northwest.",
+   "ouvre": "cuisine"
+  },
+  {
+   "de": "06:52:00",
+   "a": "07:20:00",
+   "fr": "R4. Avant l'aube — aube astronomique à 6 h 52 ; les étoiles s'éteignent une à une dans le voile ; tout se prépare pour 7 h 30.",
+   "en": "R4. Before dawn — astronomical dawn at 6:52; the stars go out one by one in the veil; everything gets ready for 7:30.",
+   "ouvre": "ciel_aube"
+  }
+ ],
+ "fils": [
+  {
+   "id": "jagna",
+   "de": "04:45:00",
+   "a": "05:00:00",
+   "poids": 6,
+   "lieu": "North Lodge, le chemin de la ferme",
+   "reg": "SEUL_TRAV",
+   "reg_large": "LARGE_FIG",
+   "son": [
+    "réveil, pas, givre",
+    "alarm, steps, frost"
+   ],
+   "src": "Silver 2024, ch. 6, p. 93-94 (Jagna Braunthal, cheffe de la traite, matin et soir à cinq heures, dix minutes de marche) ; 2017.40.172a-g (North Attic)",
+   "pct": 35,
+   "details": [
+    [
+     "Le réveil sur la caisse sonne : 4 h 45. Une main l'étouffe.",
+     "The alarm clock on the crate rings: 4:45. A hand smothers it.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Le cadran phosphorescent du réveil dans le noir des combles.",
+     "The glowing dial of the alarm clock in the dark of the attic.",
+     [
+      "TGP"
+     ]
+    ],
+    [
+     "Jagna Braunthal, 17 ans, assise au bord du lit dans le noir ; les autres dorment.",
+     "Jagna Braunthal, 17, sitting on the edge of the bed in the dark; the others are asleep.",
+     [
+      "PM",
+      "PL"
+     ]
+    ],
+    [
+     "La lampe de poche qu'elle cache dans sa main pour ne pas réveiller les autres.",
+     "The flashlight she cups in her hand so as not to wake the others.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Le pantalon de travail, le pull, les chaussures à la terre rouge séchée.",
+     "Work trousers, a sweater, shoes with dried red earth.",
+     [
+      "GP"
+     ]
+    ],
+    [
+     "Les fougères de givre sur la lucarne, qu'elle frotte du doigt pour voir dehors.",
+     "The frost ferns on the skylight, which she rubs with a finger to see out.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "L'escalier des combles, une marche qui craque.",
+     "The attic stairs, a creaking step.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "Le lobby du North Lodge traversé sans lumière, la cheminée froide.",
+     "The North Lodge lobby crossed without a light, the fireplace cold.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "La porte du North Lodge qui s'ouvre sur le froid ; sa respiration fait un nuage.",
+     "The North Lodge door opening onto the cold; her breath makes a cloud.",
+     [
+      "PM",
+      "PR"
+     ]
+    ],
+    [
+     "Le thermomètre de la véranda : 26 °F.",
+     "The porch thermometer: 26 °F.",
+     [
+      "TGP"
+     ]
+    ],
+    [
+     "Elle descend vers la ferme ; derrière elle, le North Lodge tout noir.",
+     "She walks down toward the farm; behind her, the North Lodge all dark.",
+     [
+      "PE",
+      "PL"
+     ]
+    ],
+    [
+     "Une silhouette seule sur le chemin blanc, sous la lune.",
+     "A lone figure on the white path, under the moon.",
+     [
+      "PE",
+      "TPE",
+      "PL"
+     ]
+    ],
+    [
+     "Le chemin rouge durci par le gel, qui sonne sous les semelles.",
+     "The red path hardened by frost, ringing under her soles.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Ses pas dans le givre du pâturage, des traces noires derrière elle.",
+     "Her steps in the pasture frost, black tracks behind her.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Les mains dans les poches, le menton dans l'écharpe.",
+     "Hands in her pockets, chin in her scarf.",
+     [
+      "PR",
+      "GP"
+     ]
+    ],
+    [
+     "La barrière du pâturage : le loquet gelé, qu'elle force du poing.",
+     "The pasture gate: the frozen latch, which she forces with her fist.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Vue de la crête : une petite lumière de poche qui descend vers la grange.",
+     "From the ridge: a small flashlight descending toward the barn.",
+     [
+      "TPE",
+      "PE"
+     ]
+    ],
+    [
+     "Elle pousse la porte de la laiterie ; l'interrupteur ; la lampe s'allume.",
+     "She pushes the milking-house door; the switch; the lamp comes on.",
+     [
+      "PM",
+      "GP"
+     ]
+    ]
+   ],
+   "recit": true
+  },
+  {
+   "id": "traite",
+   "de": "05:00:00",
+   "a": "06:05:00",
+   "poids": 8,
+   "lieu": "la laiterie",
+   "reg": "SEUL_TRAV",
+   "reg_large": "LARGE_BAT",
+   "son": [
+    "lait dans le seau, souffles, sabots",
+    "milk in the pail, breathing, hooves"
+   ],
+   "src": "Silver 2024, ch. 6, p. 91-96 (laiterie de l'été 1942, huit vaches laitières en 1943, traite à cinq heures, seaux de cinq gallons)",
+   "pct": 35,
+   "details": [
+    [
+     "La laiterie éclairée, seule fenêtre jaune dans la ferme noire.",
+     "The lit milking house, the only yellow window in the dark farm.",
+     [
+      "PE",
+      "PL"
+     ]
+    ],
+    [
+     "Les vaches tournent la tête vers la lumière.",
+     "The cows turn their heads toward the light.",
+     [
+      "PM",
+      "PL"
+     ]
+    ],
+    [
+     "Le tabouret posé, le seau calé entre les genoux.",
+     "The stool set down, the pail wedged between her knees.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Les jets de lait qui tintent au fond du seau vide, puis s'étouffent dans la mousse.",
+     "The jets of milk ringing in the bottom of the empty pail, then muffled in the foam.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "La joue contre le flanc chaud de la vache.",
+     "Her cheek against the cow's warm flank.",
+     [
+      "GP",
+      "PR"
+     ]
+    ],
+    [
+     "La vapeur qui monte du seau plein dans l'air froid.",
+     "Steam rising from the full pail into the cold air.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "La queue de la vache qui bat ; une main l'écarte.",
+     "The cow's tail swishing; a hand pushes it aside.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Les mains rougies par le froid, puis par le travail.",
+     "Hands reddened by the cold, then by the work.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "Le lait versé dans le grand bidon de cinq gallons, à travers le filtre.",
+     "The milk poured into the big five-gallon can, through the strainer.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Les bidons alignés près de la porte, couvercles posés.",
+     "The cans lined up by the door, lids on.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "Le souffle des bêtes, la paille, la lampe qui se balance un peu.",
+     "The animals' breath, the straw, the lamp swinging a little.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "Une vache suivante, le seau de nouveau vide.",
+     "The next cow, the pail empty again.",
+     [
+      "PM"
+     ]
+    ],
+    [
+     "Les vaches qu'on fait entrer une à une dans les stalles.",
+     "The cows let into the stalls one by one.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "Le cornadis qui se referme sur le cou d'une vache.",
+     "The stanchion closing around a cow's neck.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Une poignée de grain dans la mangeoire ; le mufle humide qui y plonge.",
+     "A handful of grain in the manger; the wet muzzle diving in.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Le pis lavé à l'eau tiède d'un seau, avec un chiffon.",
+     "The udder washed with lukewarm water from a pail, with a rag.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Le rythme des deux mains, régulier, qui ne s'arrête plus.",
+     "The rhythm of both hands, steady, unbroken.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "La lampe de la laiterie vue du pâturage, petite, au milieu du noir.",
+     "The milking-house lamp seen from the pasture, small, in the middle of the dark.",
+     [
+      "PE",
+      "TPE"
+     ]
+    ],
+    [
+     "Le chat de la ferme qui attend sa part, assis près du seau.",
+     "The farm cat waiting for its share, sitting by the pail.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "Le cahier de la traite : la date, le nom de la vache, la quantité au crayon.",
+     "The milking log: the date, the cow's name, the quantity in pencil.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "Les bidons portés jusqu'au camion, puis vers la cuisine.",
+     "The cans carried to the truck, then toward the kitchen.",
+     [
+      "PM",
+      "PL"
+     ],
+     {
+      "de": "05:50:00",
+      "a": "06:10:00"
+     }
+    ],
+    [
+     "Les vaches relâchées sortent dans le pâturage blanc, la buée au mufle.",
+     "The cows let out into the white pasture, breath steaming at their muzzles.",
+     [
+      "PL",
+      "PE"
+     ],
+     {
+      "de": "05:45:00",
+      "a": "06:10:00"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "chaudieres",
+   "de": "04:45:00",
+   "a": "06:30:00",
+   "poids": 3,
+   "lieu": "les chaudières",
+   "reg": "SEUL_TRAV",
+   "reg_large": "LARGE_BAT",
+   "son": [
+    "pelle, porte de fonte, ronflement",
+    "shovel, cast-iron door, roar"
+   ],
+   "src": "2017.40.177a-g (Chuck Forberg, coordinateur des chaudières) ; 2017.40.178a-d (charbon) ; 2017.40.179a-d (consignes des chaudières)",
+   "pct": 50,
+   "details": [
+    [
+     "Chuck Forberg, 25 ans, ouvre la porte de la chaudière : la braise rouge.",
+     "Chuck Forberg, 25, opens the furnace door: the red coals.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "La pelle plonge dans le tas de charbon.",
+     "The shovel bites into the coal pile.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Le charbon jeté sur la grille ; une gerbe d'étincelles.",
+     "Coal thrown onto the grate; a shower of sparks.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Son visage éclairé par le feu, de la suie au front.",
+     "His face lit by the fire, soot on his forehead.",
+     [
+      "GP",
+      "PR"
+     ]
+    ],
+    [
+     "Le tisonnier qui remue la cendre ; elle tombe rouge sous la grille.",
+     "The poker stirring the ash; it falls red beneath the grate.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "Dans les combles, un radiateur se met à claquer.",
+     "Up in the attics, a radiator starts ticking.",
+     [
+      "GP"
+     ]
+    ],
+    [
+     "Il traverse le campus d'un bâtiment à l'autre, une lampe à la main.",
+     "He crosses the campus from one building to the next, a lamp in his hand.",
+     [
+      "PE",
+      "PL"
+     ]
+    ],
+    [
+     "La porte de fonte qui se referme ; le ronflement du tirage.",
+     "The cast-iron door closing; the roar of the draft.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "La poussière de charbon sur les mains, qu'il essuie à son pantalon.",
+     "Coal dust on his hands, wiped on his trousers.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "La lampe qui se balance dans la cave de la chaufferie.",
+     "The lamp swinging in the boiler-room cellar.",
+     [
+      "PM",
+      "PL"
+     ]
+    ],
+    [
+     "Le manomètre de la chaudière, l'aiguille qui remonte.",
+     "The boiler pressure gauge, its needle rising.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "La brouette de charbon poussée sur les planches.",
+     "The wheelbarrow of coal pushed over the planks.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "Le registre du tirage qu'il ouvre d'un cran.",
+     "The draft damper he opens a notch.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "La cheminée de la chaufferie : la fumée noire, puis plus claire.",
+     "The boiler-room chimney: black smoke, then lighter.",
+     [
+      "PL",
+      "PE"
+     ]
+    ],
+    [
+     "Les mâchefers sortis à la pelle, fumants dans le givre.",
+     "The clinkers shoveled out, smoking on the frost.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Dans un couloir du lodge, la main posée sur un radiateur qui tiédit.",
+     "In a lodge corridor, a hand on a radiator that is warming up.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cuisine",
+   "de": "06:00:00",
+   "a": "07:20:00",
+   "poids": 5,
+   "lieu": "la cuisine de la salle à manger",
+   "reg": "COL_REPAS",
+   "reg_large": "LARGE_BAT",
+   "son": [
+    "eau qui bout, couvercles, voix basses",
+    "boiling water, lids, low voices"
+   ],
+   "src": "2017.40.177a-g (Jane Stone, coordinatrice de l'équipe de cuisine) ; 2017.40.174a-e (départ des cuisiniers Lipsey) ; 2017.40.180a-d (les étudiants assurent la cuisine et la plonge) ; 2017.40.172a-g (petit-déjeuner 7 h 30-8 h)",
+   "pct": 50,
+   "details": [
+    [
+     "La lumière s'allume dans la cuisine : la première fenêtre jaune du campus, au bord du lac.",
+     "The light comes on in the kitchen: the first yellow window on the campus, by the lake.",
+     [
+      "PE",
+      "PL"
+     ]
+    ],
+    [
+     "Jane Stone et l'équipe de cuisine, manteaux encore sur le dos.",
+     "Jane Stone and the kitchen crew, still in their coats.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "Le fourneau qu'on allume ; le premier bois qui crépite.",
+     "The range being lit; the first wood crackling.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Les grandes marmites d'eau sur le feu.",
+     "The big pots of water on the fire.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "La buée qui couvre les vitres de la cuisine.",
+     "Steam fogging the kitchen windows.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Des pains coupés sur la grande table, le couteau qui va et vient.",
+     "Loaves sliced on the big table, the knife going back and forth.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Les grands plateaux qu'on sort pour le service.",
+     "The big trays brought out for serving.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "Dans la salle à manger, on remet les chaises à l'endroit.",
+     "In the dining hall, the chairs are turned right side up.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "Les tasses empilées, transportées à travers la salle.",
+     "Stacks of cups carried across the room.",
+     [
+      "PM",
+      "GP"
+     ]
+    ],
+    [
+     "Le beurre de la laiterie, en motte, sur une assiette.",
+     "Butter from the dairy, in a block, on a plate.",
+     [
+      "TGP",
+      "GP"
+     ]
+    ],
+    [
+     "Le café qui passe dans la grande cafetière émaillée.",
+     "Coffee dripping through the big enamel pot.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "La bouillie d'avoine remuée à la grande cuillère de bois.",
+     "Oatmeal stirred with the big wooden spoon.",
+     [
+      "GP",
+      "TGP"
+     ]
+    ],
+    [
+     "Les bidons de lait de la ferme posés sur le carrelage de la cuisine.",
+     "The farm's milk cans set down on the kitchen tiles.",
+     [
+      "PM",
+      "GP"
+     ],
+     {
+      "de": "06:05:00",
+      "a": "07:20:00"
+     }
+    ],
+    [
+     "Les assiettes de la vaisselle d'hier remises en piles.",
+     "Yesterday's plates stacked again.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "La porte de la cuisine qui s'ouvre : un nuage de vapeur sort dans le froid.",
+     "The kitchen door opening: a cloud of steam goes out into the cold.",
+     [
+      "PM",
+      "PL"
+     ]
+    ],
+    [
+     "Le seau des épluchures pour les porcs, posé dehors.",
+     "The bucket of peelings for the pigs, set outside.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Les tabliers noués, les manches retroussées.",
+     "Aprons tied, sleeves rolled up.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "Une main essuie la buée d'un carreau : dehors, le lac encore noir.",
+     "A hand wipes the mist off a pane: outside, the lake still dark.",
+     [
+      "GP",
+      "PR"
+     ]
+    ],
+    [
+     "Les tables mises dans la salle : couverts, pots de lait, sucriers.",
+     "The tables laid in the hall: cutlery, milk jugs, sugar bowls.",
+     [
+      "PL",
+      "PM",
+      "GP"
+     ],
+     {
+      "de": "06:40:00",
+      "a": "07:20:00"
+     }
+    ],
+    [
+     "Le chariot de l'office qui roule vers la véranda.",
+     "The pantry trolley rolling toward the porch.",
+     [
+      "PM",
+      "PL"
+     ],
+     {
+      "de": "06:40:00",
+      "a": "07:20:00"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "ciel_aube",
+   "de": "04:45:00",
+   "a": "07:20:00",
+   "poids": 3,
+   "lieu": "le ciel",
+   "reg": "NAT_EAU",
+   "reg_large": "LARGE_NAT",
+   "son": [
+    "",
+    ""
+   ],
+   "transition": true,
+   "src": "calcul ephem (lune 74° au sud vers 5 h, Jupiter au sud-est, Arcturus et Spica à l'est, aube astronomique 6 h 52) ; ERA5 (clair jusqu'à 6 h, voile de nuages hauts vers 7 h)",
+   "pct": 20,
+   "details": [
+    [
+     "La lune au plus haut, au sud : la vallée en plein clair de lune.",
+     "The moon at its highest, to the south: the valley in full moonlight.",
+     [
+      "TPE",
+      "PE"
+     ],
+     {
+      "de": "04:45:00",
+      "a": "06:15:00"
+     }
+    ],
+    [
+     "Jupiter, très brillante, haute au sud-est.",
+     "Jupiter, very bright, high in the southeast.",
+     [
+      "PL",
+      "GP"
+     ],
+     {
+      "de": "04:45:00",
+      "a": "06:25:00"
+     }
+    ],
+    [
+     "Arcturus et Spica au-dessus de la crête de l'est.",
+     "Arcturus and Spica above the eastern ridge.",
+     [
+      "PE",
+      "PL"
+     ],
+     {
+      "de": "04:45:00",
+      "a": "06:25:00"
+     }
+    ],
+    [
+     "Les premiers cirrus, fins comme des cheveux, passent devant les étoiles.",
+     "The first cirrus, fine as hair, pass in front of the stars.",
+     [
+      "PE",
+      "PL"
+     ],
+     {
+      "de": "05:50:00",
+      "a": "06:40:00"
+     }
+    ],
+    [
+     "Les étoiles faibles s'effacent une à une dans le voile.",
+     "The faint stars fade out one by one in the veil.",
+     [
+      "TPE",
+      "PE"
+     ],
+     {
+      "de": "06:15:00",
+      "a": "07:00:00"
+     }
+    ],
+    [
+     "À l'est, au ras de la crête, le ciel devient moins noir.",
+     "To the east, just above the ridge, the sky becomes less black.",
+     [
+      "PE",
+      "TPE"
+     ],
+     {
+      "de": "06:52:00",
+      "a": "07:20:00"
+     }
+    ],
+    [
+     "La Grande Ourse haute au nord, la queue dressée.",
+     "The Big Dipper high in the north, its handle raised.",
+     [
+      "PE",
+      "PL"
+     ],
+     {
+      "de": "04:45:00",
+      "a": "06:25:00"
+     }
+    ],
+    [
+     "Le voile qui gagne : la lune derrière une gaze, entourée d'un halo.",
+     "The veil spreading: the moon behind gauze, ringed by a halo.",
+     [
+      "PE",
+      "PL",
+      "GP"
+     ],
+     {
+      "de": "06:20:00",
+      "a": "07:20:00"
+     }
+    ],
+    [
+     "Time-lapse du ciel de 5 heures à 7 heures, la lune qui glisse vers l'ouest.",
+     "Time-lapse of the sky from 5 to 7, the moon sliding westward.",
+     [
+      "TPE"
+     ],
+     {
+      "de": "06:40:00",
+      "a": "07:20:00"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "campus",
+   "de": "04:45:00",
+   "a": "07:20:00",
+   "poids": 3,
+   "lieu": "le campus",
+   "reg": "ARCH_NUIT",
+   "reg_large": "LARGE_BAT",
+   "son": [
+    "",
+    ""
+   ],
+   "transition": true,
+   "src": "2017.40.172a-g ; Horowitz & Danilowitz 2009, p. 122 ; Lane 1990, p. 132",
+   "pct": 40,
+   "details": [
+    [
+     "Une fenêtre s'allume au North Lodge, puis une autre.",
+     "A window lights up in North Lodge, then another.",
+     [
+      "PE",
+      "PL"
+     ]
+    ],
+    [
+     "La fumée des chaudières monte droite au-dessus des lodges.",
+     "Furnace smoke rises straight above the lodges.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "La véranda de la salle à manger, encore éteinte, au-dessus du lac.",
+     "The dining hall porch, still dark, above the lake.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "La brume qui commence à monter du lac, sous la lune.",
+     "Mist beginning to rise from the lake, under the moon.",
+     [
+      "PL",
+      "PE"
+     ]
+    ],
+    [
+     "Le chemin entre la ferme et les lodges, une seule trace de pas.",
+     "The path between the farm and the lodges, a single line of footprints.",
+     [
+      "PL",
+      "GP"
+     ]
+    ],
+    [
+     "La cloche du dîner sur son poteau, givrée, qui sonnera à 7 h 25.",
+     "The dinner bell on its post, frosted, which will ring at 7:25.",
+     [
+      "GP",
+      "PM"
+     ]
+    ],
+    [
+     "La fenêtre de la chaufferie, rouge, au ras du sol.",
+     "The boiler-room window, red, at ground level.",
+     [
+      "PM",
+      "PL"
+     ]
+    ],
+    [
+     "Les lodges, toutes fenêtres noires, sauf une.",
+     "The lodges, every window dark but one.",
+     [
+      "PE",
+      "PL"
+     ]
+    ],
+    [
+     "Le toit de la salle à manger : la fumée de la cuisine se mêle à celle des chaudières.",
+     "The dining hall roof: the kitchen smoke mingles with the furnace smoke.",
+     [
+      "PL",
+      "PE"
+     ],
+     {
+      "de": "06:05:00",
+      "a": "07:20:00"
+     }
+    ],
+    [
+     "Drone au-dessus du lac Eden : trois lumières seulement dans toute la vallée.",
+     "Drone over Lake Eden: only three lights in the whole valley.",
+     [
+      "TPE",
+      "PE"
+     ]
+    ],
+    [
+     "La route du collège, vide, les ornières gelées.",
+     "The college road, empty, the ruts frozen.",
+     [
+      "PL",
+      "PM"
+     ]
+    ],
+    [
+     "Le Studies Building, long et bas sur ses pilotis au bord du lac, aucune lumière.",
+     "The Studies Building, long and low on its piers by the lake, no light.",
+     [
+      "PE",
+      "PL"
+     ]
+    ]
+   ]
+  }
+ ],
+ "respirations": {
+  "_lisezmoi": "Foyers de la nuit (scripts/nuit_plans.py) admis en respiration dans ce bloc, avec leur fenêtre horaire éventuelle ; les conditions de ciel et d'astres des foyers restent vérifiées (ERA5 interpolé, ephem). Exclus : orion (couché à l'ouest), météore, chaudière et dortoir des filles (repris par les fils), et la ferme après 5 h (les vaches sont à la traite).",
+  "foyers": {
+   "lune": null,
+   "jupiter": null,
+   "arcturus": null,
+   "voile": null,
+   "lac": null,
+   "ruisseau": null,
+   "givre": null,
+   "arbres": null,
+   "sousbois": null,
+   "chouettes": null,
+   "mammiferes": null,
+   "sons": null,
+   "ferme": [
+    "04:45:00",
+    "05:00:00"
+   ],
+   "salle": [
+    "04:45:00",
+    "06:00:00"
+   ],
+   "lodges": [
+    "04:45:00",
+    "06:30:00"
+   ],
+   "studies": null,
+   "cottages": [
+    "04:45:00",
+    "06:40:00"
+   ],
+   "dortoir_h": [
+    "04:45:00",
+    "06:45:00"
+   ]
+  },
+  "exclure": {
+   "_lisezmoi": "détails des foyers de la nuit faux à cette heure (début du texte)",
+   "textes": [
+    "Pas une étoile : le voile de nuages hauts, à peine éclairé par la lune qui monte",
+    "Une lueur pâle à l'est, derrière la crête : la lune",
+    "Les chaises de bois retournées",
+    "La cloche du dîner, immobile",
+    "La cuisine : les fourneaux qui refroidissent",
+    "Un réveil sur une caisse",
+    "Jupiter monte au-dessus de la crête",
+    "Arcturus, orangée, se lève"
+   ]
+  }
+ },
+ "titre_en": "Those who work wake first, shot by shot",
+ "unite_en": "waking shots"
+}

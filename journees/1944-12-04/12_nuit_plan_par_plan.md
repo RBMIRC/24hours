@@ -14,6 +14,7 @@ de mouvements et de détails. Généré par scripts/nuit_plans.py (graine fixe :
 - **Point** : faible profondeur de champ 1313, bascule de point 942, grande profondeur de champ 671, du flou au net 665, dioptre fractionné (deux plans nets) 465, point à l'infini 193
 - **Raccord** : cut 3582, raccord de forme 112, raccord de lumière 110, le son se prolonge sur le plan suivant 106, raccord mouvement 98, coupe franche, rupture d'échelle 73, fondu enchaîné 58, le son du plan suivant arrive en avance 55, rime visuelle avec un plan antérieur 55
 - **Sujets** : lumiere 1097, betes 498, eau 473, astres 455, arbres 411, lodges 377, givre 290, fumees 216, sons 167, oiseaux 164, ciel 101
+- **Registres du code couleur (durée)** : ARCH_NUIT 23 %, LARGE_NAT 20 %, NAT_EAU 16 %, NAT_ANI 12 %, LARGE_BAT 10 %, COL_VIE 8 %, NAT_VEG 8 %, NAT_SON 3 %
 
 Liste complète, plan par plan : [`nuit_plan_par_plan.csv`](nuit_plan_par_plan.csv).
 
