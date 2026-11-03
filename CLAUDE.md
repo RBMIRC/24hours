@@ -31,3 +31,9 @@ Matériaux pour écrire une journée du Black Mountain College en scénario (1 m
   texte fr/en, son, source, part déduite) ; `scripts/heure_plan_par_plan.py` contrôle (pas de chevauchement, codes connus)
   et écrit `12_<nom>_plan_par_plan.md` ; sur la page, ces plans remplacent les plans automatiques de leur fenêtre.
   Fait : l'aube, 07:20-08:20 (80 plans).
+- Code couleur (décision du 3/11/2026), table REGISTRES de `scripts/page_24h.py` : bleu et ses nuances = architecture sans
+  personne ; vert = nature, bêtes et végétal ; rouge = scènes collectives (enseignement, repas, soirées, travail, vie commune) ;
+  jaune = vues larges (nature, bâtiments, figures dans le paysage) ; violet = dialogues ; rose = une personne seule qui lit,
+  écrit, travaille. Chaque scène clé porte son `registre` dans `scenes_cles.json` ; les activités du planning et les plans
+  de nature le reçoivent par règle (plan large → jaune ; fenêtres, fumées de cheminée → bleu ; sinon vert selon le sujet).
+  Les couleurs des types de séquence en dérivent ; lieux, bandeaux d'heure, barre des heures et part déduite restent neutres.

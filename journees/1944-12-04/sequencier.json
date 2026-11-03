@@ -22,6 +22,7 @@
   "m_en": "light calculated, temperatures recorded; the dark windows are assumed",
   "action_en": "A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
   "qui_en": [],
+  "registre": "LARGE_BAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, THE SLEEPING CAMPUS — NIGHT",
   "moment": "NUIT",
@@ -72,6 +73,7 @@
    "Helen Marden",
    "Lana Yarash"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE ATTIC DORMITORY (NORTH ATTIC) — NIGHT",
   "moment": "NUIT",
@@ -128,6 +130,7 @@
    "Max Paul",
    "Harold Schuyler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE, THE MEN'S ATTICS — NIGHT",
   "moment": "NUIT",
@@ -160,6 +163,7 @@
   "m_en": "ice: memory of frosty mornings in the 1940s",
   "action_en": "The white building on its piles at the edge of the lake, under the moon; the thin ice of frosty mornings along the shore.",
   "qui_en": [],
+  "registre": "ARCH_NUIT",
   "cours": false,
   "entete_en": "EXT. THE STUDIES BUILDING BY THE LAKE — NIGHT",
   "moment": "NUIT",
@@ -192,6 +196,7 @@
   "m_en": "herd figures of 1943; the night is assumed",
   "action_en": "The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
   "qui_en": [],
+  "registre": "NAT_ANI",
   "cours": false,
   "entete_en": "EXT. THE FARM: THE BARN, THE PENS — NIGHT",
   "moment": "NUIT",
@@ -224,6 +229,7 @@
   "m_en": "light calculated, temperatures recorded; the dark windows are assumed",
   "action_en": "(cont.) A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
   "qui_en": [],
+  "registre": "LARGE_BAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, THE SLEEPING CAMPUS — NIGHT",
   "moment": "NUIT",
@@ -274,6 +280,7 @@
    "Helen Marden",
    "Lana Yarash"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE ATTIC DORMITORY (NORTH ATTIC) — NIGHT",
   "moment": "NUIT",
@@ -330,6 +337,7 @@
    "Max Paul",
    "Harold Schuyler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE, THE MEN'S ATTICS — NIGHT",
   "moment": "NUIT",
@@ -362,6 +370,7 @@
   "m_en": "ice: memory of frosty mornings in the 1940s",
   "action_en": "(cont.) The white building on its piles at the edge of the lake, under the moon; the thin ice of frosty mornings along the shore.",
   "qui_en": [],
+  "registre": "ARCH_NUIT",
   "cours": false,
   "entete_en": "EXT. THE STUDIES BUILDING BY THE LAKE — NIGHT",
   "moment": "NUIT",
@@ -394,6 +403,7 @@
   "m_en": "herd figures of 1943; the night is assumed",
   "action_en": "(cont.) The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
   "qui_en": [],
+  "registre": "NAT_ANI",
   "cours": false,
   "entete_en": "EXT. THE FARM: THE BARN, THE PENS — NIGHT",
   "moment": "NUIT",
@@ -426,6 +436,7 @@
   "m_en": "light calculated, temperatures recorded; the dark windows are assumed",
   "action_en": "(cont.) A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
   "qui_en": [],
+  "registre": "LARGE_BAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, THE SLEEPING CAMPUS — NIGHT",
   "moment": "NUIT",
@@ -476,6 +487,7 @@
    "Helen Marden",
    "Lana Yarash"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE ATTIC DORMITORY (NORTH ATTIC) — NIGHT",
   "moment": "NUIT",
@@ -532,6 +544,7 @@
    "Max Paul",
    "Harold Schuyler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE, THE MEN'S ATTICS — NIGHT",
   "moment": "NUIT",
@@ -564,6 +577,7 @@
   "m_en": "ice: memory of frosty mornings in the 1940s",
   "action_en": "(cont.) The white building on its piles at the edge of the lake, under the moon; the thin ice of frosty mornings along the shore.",
   "qui_en": [],
+  "registre": "ARCH_NUIT",
   "cours": false,
   "entete_en": "EXT. THE STUDIES BUILDING BY THE LAKE — NIGHT",
   "moment": "NUIT",
@@ -596,6 +610,7 @@
   "m_en": "herd figures of 1943; the night is assumed",
   "action_en": "(cont.) The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
   "qui_en": [],
+  "registre": "NAT_ANI",
   "cours": false,
   "entete_en": "EXT. THE FARM: THE BARN, THE PENS — NIGHT",
   "moment": "NUIT",
@@ -628,6 +643,7 @@
   "m_en": "light calculated, temperatures recorded; the dark windows are assumed",
   "action_en": "(cont.) A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
   "qui_en": [],
+  "registre": "LARGE_BAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, THE SLEEPING CAMPUS — NIGHT",
   "moment": "NUIT",
@@ -678,6 +694,7 @@
    "Helen Marden",
    "Lana Yarash"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE ATTIC DORMITORY (NORTH ATTIC) — NIGHT",
   "moment": "NUIT",
@@ -734,6 +751,7 @@
    "Max Paul",
    "Harold Schuyler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE, THE MEN'S ATTICS — NIGHT",
   "moment": "NUIT",
@@ -766,6 +784,7 @@
   "m_en": "ice: memory of frosty mornings in the 1940s",
   "action_en": "(cont.) The white building on its piles at the edge of the lake, under the moon; the thin ice of frosty mornings along the shore.",
   "qui_en": [],
+  "registre": "ARCH_NUIT",
   "cours": false,
   "entete_en": "EXT. THE STUDIES BUILDING BY THE LAKE — NIGHT",
   "moment": "NUIT",
@@ -798,6 +817,7 @@
   "m_en": "herd figures of 1943; the night is assumed",
   "action_en": "(cont.) The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
   "qui_en": [],
+  "registre": "NAT_ANI",
   "cours": false,
   "entete_en": "EXT. THE FARM: THE BARN, THE PENS — NIGHT",
   "moment": "NUIT",
@@ -830,6 +850,7 @@
   "m_en": "light calculated, temperatures recorded; the dark windows are assumed",
   "action_en": "(cont.) A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
   "qui_en": [],
+  "registre": "LARGE_BAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, THE SLEEPING CAMPUS — NIGHT",
   "moment": "NUIT",
@@ -880,6 +901,7 @@
    "Helen Marden",
    "Lana Yarash"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE ATTIC DORMITORY (NORTH ATTIC) — NIGHT",
   "moment": "NUIT",
@@ -936,6 +958,7 @@
    "Max Paul",
    "Harold Schuyler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE, THE MEN'S ATTICS — NIGHT",
   "moment": "NUIT",
@@ -968,6 +991,7 @@
   "m_en": "ice: memory of frosty mornings in the 1940s",
   "action_en": "(cont.) The white building on its piles at the edge of the lake, under the moon; the thin ice of frosty mornings along the shore.",
   "qui_en": [],
+  "registre": "ARCH_NUIT",
   "cours": false,
   "entete_en": "EXT. THE STUDIES BUILDING BY THE LAKE — NIGHT",
   "moment": "NUIT",
@@ -1000,6 +1024,7 @@
   "m_en": "herd figures of 1943; the night is assumed",
   "action_en": "(cont.) The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
   "qui_en": [],
+  "registre": "NAT_ANI",
   "cours": false,
   "entete_en": "EXT. THE FARM: THE BARN, THE PENS — NIGHT",
   "moment": "NUIT",
@@ -1036,6 +1061,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1068,6 +1094,7 @@
   "m_en": "light calculated, temperatures recorded; the dark windows are assumed",
   "action_en": "(cont.) A clear, freezing night (−4 °C/25 °F on the model grid, much colder at the bottom of the valley: −8 °C/17 °F at Montreat by morning). The waning moon, three-quarters lit, is already high over the valley and lights the lake, the two lodges, the dining hall, and the Studies Building. Hardly a window lit.",
   "qui_en": [],
+  "registre": "LARGE_BAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, THE SLEEPING CAMPUS — NIGHT",
   "moment": "NUIT",
@@ -1118,6 +1145,7 @@
    "Helen Marden",
    "Lana Yarash"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE ATTIC DORMITORY (NORTH ATTIC) — NIGHT",
   "moment": "NUIT",
@@ -1174,6 +1202,7 @@
    "Max Paul",
    "Harold Schuyler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE, THE MEN'S ATTICS — NIGHT",
   "moment": "NUIT",
@@ -1210,6 +1239,7 @@
   "qui_en": [
    "Jagna Braunthal"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. NORTH LODGE, THEN THE PATH TO THE FARM — NIGHT",
   "moment": "NUIT",
@@ -1242,6 +1272,7 @@
   "m_en": "herd figures of 1943; the night is assumed",
   "action_en": "(cont.) The barn and the milking house, ten minutes from campus; in this cold the animals are inside: dairy cows, beef cattle, the two bulls in their separate pens, the horses Lady and Pearl, the hogs in the new hogpen, the hens.",
   "qui_en": [],
+  "registre": "NAT_ANI",
   "cours": false,
   "entete_en": "EXT. THE FARM: THE BARN, THE PENS — NIGHT",
   "moment": "NUIT",
@@ -1278,6 +1309,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1314,6 +1346,7 @@
   "qui_en": [
    "Jagna Braunthal"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE MILKING HOUSE — NIGHT",
   "moment": "NUIT",
@@ -1350,6 +1383,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1386,6 +1420,7 @@
   "qui_en": [
    "Jagna Braunthal"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE MILKING HOUSE — NIGHT",
   "moment": "NUIT",
@@ -1422,6 +1457,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1458,6 +1494,7 @@
   "qui_en": [
    "Jagna Braunthal"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE MILKING HOUSE — NIGHT",
   "moment": "NUIT",
@@ -1494,6 +1531,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1530,6 +1568,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — NIGHT",
   "moment": "NUIT",
@@ -1566,6 +1605,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1602,6 +1642,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — NIGHT",
   "moment": "NUIT",
@@ -1638,6 +1679,7 @@
   "qui_en": [
    "Charles Forberg"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. A FURNACE ROOM (LODGES, STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -1674,6 +1716,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — NIGHT",
   "moment": "NUIT",
@@ -1706,6 +1749,7 @@
   "m_en": "mist not attested that day",
   "action_en": "Astronomical dawn at 6:52, nautical dawn at 7:23: the sky pales behind the ridges, the moon still high in the west; perhaps mist over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE CAMPUS AT DAWN — NIGHT",
   "moment": "NUIT",
@@ -1742,6 +1786,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — NIGHT",
   "moment": "NUIT",
@@ -1774,6 +1819,7 @@
   "m_en": "mist not attested that day",
   "action_en": "(cont.) Astronomical dawn at 6:52, nautical dawn at 7:23: the sky pales behind the ridges, the moon still high in the west; perhaps mist over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE CAMPUS AT DAWN — NIGHT",
   "moment": "NUIT",
@@ -1810,6 +1856,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — NIGHT",
   "moment": "NUIT",
@@ -1846,6 +1893,7 @@
   "qui_en": [
    "Beate Gropius"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE DINING HALL PANTRY — DAWN",
   "moment": "AUBE",
@@ -1878,6 +1926,7 @@
   "m_en": "mist not attested that day",
   "action_en": "(cont.) Astronomical dawn at 6:52, nautical dawn at 7:23: the sky pales behind the ridges, the moon still high in the west; perhaps mist over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE CAMPUS AT DAWN — DAWN",
   "moment": "AUBE",
@@ -1910,6 +1959,7 @@
   "m_en": "",
   "action_en": "Breakfast",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAWN",
   "moment": "AUBE",
@@ -1946,6 +1996,7 @@
   "qui_en": [
    "Beate Gropius"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE DINING HALL PANTRY — DAWN",
   "moment": "AUBE",
@@ -1978,6 +2029,7 @@
   "m_en": "mist not attested that day",
   "action_en": "(cont.) Astronomical dawn at 6:52, nautical dawn at 7:23: the sky pales behind the ridges, the moon still high in the west; perhaps mist over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE CAMPUS AT DAWN — DAWN",
   "moment": "AUBE",
@@ -2010,6 +2062,7 @@
   "m_en": "the rule for announcements is attested; that morning's content is assumed",
   "action_en": "Ten minutes into the meal: spoken announcements (only what concerns the whole community); water pitchers are rattled for silence. That day: Cole's talks (tonight “Money”), tomorrow's Board, Saturday's play, the vacation starting on the 14th.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE DINING HALL, BREAKFAST — DAWN",
   "moment": "AUBE",
@@ -2042,6 +2095,7 @@
   "m_en": "",
   "action_en": "(cont.) Breakfast",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAWN",
   "moment": "AUBE",
@@ -2074,6 +2128,7 @@
   "m_en": "mist not attested that day",
   "action_en": "(cont.) Astronomical dawn at 6:52, nautical dawn at 7:23: the sky pales behind the ridges, the moon still high in the west; perhaps mist over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE CAMPUS AT DAWN — DAWN",
   "moment": "AUBE",
@@ -2106,6 +2161,7 @@
   "m_en": "",
   "action_en": "(cont.) Breakfast",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAWN",
   "moment": "AUBE",
@@ -2146,6 +2202,7 @@
    "Joan Couch",
    "Anna Schauffler"
   ],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE, THE BEDROOMS — DAWN",
   "moment": "AUBE",
@@ -2186,6 +2243,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -2224,6 +2282,7 @@
    "Ted Dreier",
    "Jagna Braunthal (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -2260,6 +2319,7 @@
   "qui_en": [
    "Roscoe Penley"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -2300,6 +2360,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -2338,6 +2399,7 @@
    "Ted Dreier",
    "Jagna Braunthal (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -2374,6 +2436,7 @@
   "qui_en": [
    "Roscoe Penley"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -2414,6 +2477,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -2452,6 +2516,7 @@
    "Ted Dreier",
    "Jagna Braunthal (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -2488,6 +2553,7 @@
   "qui_en": [
    "Theodore Dreier"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. BLACK MOUNTAIN STATION, THEN THE ROAD TO LAKE EDEN — DAY",
   "moment": "JOUR",
@@ -2526,6 +2592,7 @@
    "Edward Lowinsky",
    "Gretel Lowinsky"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. THE LOWINSKYS' COTTAGE — DAY",
   "moment": "JOUR",
@@ -2562,6 +2629,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -2598,6 +2666,7 @@
   "qui_en": [
    "Roscoe Penley"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -2634,6 +2703,7 @@
   "qui_en": [
    "Annette Stone"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE: THE LINEN ROOM, THE LAUNDRY — DAY",
   "moment": "JOUR",
@@ -2670,6 +2740,7 @@
   "qui_en": [
    "Bascombe Allen"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE BUILDINGS: FURNACES, ELECTRICITY — DAY",
   "moment": "JOUR",
@@ -2710,6 +2781,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -2748,6 +2820,7 @@
    "Ted Dreier",
    "Jagna Braunthal (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -2788,6 +2861,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -2826,6 +2900,7 @@
    "Ted Dreier",
    "Jagna Braunthal (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -2862,6 +2937,7 @@
   "qui_en": [
    "Theodore Dreier"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. BLACK MOUNTAIN STATION, THEN THE ROAD TO LAKE EDEN — DAY",
   "moment": "JOUR",
@@ -2900,6 +2976,7 @@
    "Edward Lowinsky",
    "Gretel Lowinsky"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. THE LOWINSKYS' COTTAGE — DAY",
   "moment": "JOUR",
@@ -2936,6 +3013,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -2972,6 +3050,7 @@
   "qui_en": [
    "Elizabeth Osbourne"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE COLLEGE OFFICE — DAY",
   "moment": "JOUR",
@@ -3008,6 +3087,7 @@
   "qui_en": [
    "Roscoe Penley"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -3044,6 +3124,7 @@
   "qui_en": [
    "Annette Stone"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE: THE LINEN ROOM, THE LAUNDRY — DAY",
   "moment": "JOUR",
@@ -3080,6 +3161,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -3120,6 +3202,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -3158,6 +3241,7 @@
    "Ted Dreier",
    "Jagna Braunthal (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -3198,6 +3282,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -3234,6 +3319,7 @@
   "qui_en": [
    "Theodore Dreier"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. BLACK MOUNTAIN STATION, THEN THE ROAD TO LAKE EDEN — DAY",
   "moment": "JOUR",
@@ -3272,6 +3358,7 @@
    "Edward Lowinsky",
    "Gretel Lowinsky"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. THE LOWINSKYS' COTTAGE — DAY",
   "moment": "JOUR",
@@ -3308,6 +3395,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -3344,6 +3432,7 @@
   "qui_en": [
    "Elizabeth Osbourne"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE COLLEGE OFFICE — DAY",
   "moment": "JOUR",
@@ -3380,6 +3469,7 @@
   "qui_en": [
    "Roscoe Penley"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -3416,6 +3506,7 @@
   "qui_en": [
    "Annette Stone"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE: THE LINEN ROOM, THE LAUNDRY — DAY",
   "moment": "JOUR",
@@ -3452,6 +3543,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -3488,6 +3580,7 @@
   "qui_en": [
    "Bascombe Allen"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE BUILDINGS: FURNACES, ELECTRICITY — DAY",
   "moment": "JOUR",
@@ -3524,6 +3617,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. MOUNTAIN STREAM, ALFRED KAZIN'S ROOM — DAY",
   "moment": "JOUR",
@@ -3560,6 +3654,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. THE STUDIES BUILDING, THE STUDIES — DAY",
   "moment": "JOUR",
@@ -3600,6 +3695,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -3636,6 +3732,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -3676,6 +3773,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -3716,6 +3814,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -3748,6 +3847,7 @@
   "m_en": "",
   "action_en": "Outgoing mail collected: the box on the porch (and the one in the Studies Building front hall).",
   "qui_en": [],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE DINING HALL PORCH — DAY",
   "moment": "JOUR",
@@ -3784,6 +3884,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -3820,6 +3921,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -3860,6 +3962,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -3900,6 +4003,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -3936,6 +4040,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -3972,6 +4077,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -4012,6 +4118,7 @@
    "Anna Lockwood (enrolled)",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -4052,6 +4159,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -4088,6 +4196,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -4128,6 +4237,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -4160,6 +4270,7 @@
   "m_en": "letters in the bulletin were received the week before; that day's mail is unknown",
   "action_en": "The mail arrives and is sorted into the boxes; letters from former students in the services (today's bulletin quotes Duncan Dwight and his son born on November 25, Bela Martin in Florida, Bernard Malek in Alaska); the porch telephone rings.",
   "qui_en": [],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "EXT. THE DINING HALL PORCH, THE MAIL BOXES — DAY",
   "moment": "JOUR",
@@ -4196,6 +4307,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -4232,6 +4344,7 @@
   "qui_en": [
    "Roscoe Penley"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -4268,6 +4381,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -4306,6 +4420,7 @@
    "Theodore Dreier",
    "Horace Wood"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. THE COLLEGE OFFICE — DAY",
   "moment": "JOUR",
@@ -4342,6 +4457,7 @@
   "qui_en": [
    "Bascombe Allen"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE BUILDINGS: FURNACES, ELECTRICITY — DAY",
   "moment": "JOUR",
@@ -4378,6 +4494,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. MOUNTAIN STREAM, ALFRED KAZIN'S ROOM — DAY",
   "moment": "JOUR",
@@ -4414,6 +4531,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. THE STUDIES BUILDING, THE STUDIES — DAY",
   "moment": "JOUR",
@@ -4450,6 +4568,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -4490,6 +4609,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -4526,6 +4646,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -4570,6 +4691,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -4606,6 +4728,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -4654,6 +4777,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -4694,6 +4818,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -4730,6 +4855,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -4774,6 +4900,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -4810,6 +4937,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -4858,6 +4986,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -4898,6 +5027,7 @@
    "Nancy Albee (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -4942,6 +5072,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -4978,6 +5109,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -5026,6 +5158,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -5062,6 +5195,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -5106,6 +5240,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -5142,6 +5277,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -5190,6 +5326,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -5234,6 +5371,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -5270,6 +5408,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -5318,6 +5457,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -5362,6 +5502,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -5398,6 +5539,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -5446,6 +5588,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -5478,6 +5621,7 @@
   "m_en": "",
   "action_en": "Lunch",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAY",
   "moment": "JOUR",
@@ -5522,6 +5666,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -5558,6 +5703,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -5606,6 +5752,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -5642,6 +5789,7 @@
   "qui_en": [
    "Theodore Dreier"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. THE DINING HALL, LUNCH — DAY",
   "moment": "JOUR",
@@ -5686,6 +5834,7 @@
    "Peggy Bennett (enrolled)",
    "Roxane \"Roxie\" Dinkowitz (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -5722,6 +5871,7 @@
   "qui_en": [
    "Anni Albers"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. WEAVING ROOM — DAY",
   "moment": "JOUR",
@@ -5770,6 +5920,7 @@
    "Janet Goldsmith (enrolled)",
    "Joan Couch (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. FACULTY ROOM — DAY",
   "moment": "JOUR",
@@ -5802,6 +5953,7 @@
   "m_en": "",
   "action_en": "(cont.) Lunch",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAY",
   "moment": "JOUR",
@@ -5834,6 +5986,7 @@
   "m_en": "time assumed",
   "action_en": "The store opens for twenty minutes after lunch; tobacco is rationed (one pack per person per week): people roll their own, with house blends like “Rhododendron Leaf-Virginia”.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COOPERATIVE STORE — DAY",
   "moment": "JOUR",
@@ -5866,6 +6019,7 @@
   "m_en": "",
   "action_en": "(cont.) Lunch",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAY",
   "moment": "JOUR",
@@ -5898,6 +6052,7 @@
   "m_en": "time assumed",
   "action_en": "(cont.) The store opens for twenty minutes after lunch; tobacco is rationed (one pack per person per week): people roll their own, with house blends like “Rhododendron Leaf-Virginia”.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COOPERATIVE STORE — DAY",
   "moment": "JOUR",
@@ -5930,6 +6085,7 @@
   "m_en": "",
   "action_en": "(cont.) Lunch",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DAY",
   "moment": "JOUR",
@@ -5962,6 +6118,7 @@
   "m_en": "time assumed",
   "action_en": "(cont.) The store opens for twenty minutes after lunch; tobacco is rationed (one pack per person per week): people roll their own, with house blends like “Rhododendron Leaf-Virginia”.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COOPERATIVE STORE — DAY",
   "moment": "JOUR",
@@ -5994,6 +6151,7 @@
   "m_en": "",
   "action_en": "Office hours: paying bills, ration books, telephone slips.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COLLEGE OFFICE — DAY",
   "moment": "JOUR",
@@ -6026,6 +6184,7 @@
   "m_en": "time assumed",
   "action_en": "(cont.) The store opens for twenty minutes after lunch; tobacco is rationed (one pack per person per week): people roll their own, with house blends like “Rhododendron Leaf-Virginia”.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COOPERATIVE STORE — DAY",
   "moment": "JOUR",
@@ -6058,6 +6217,7 @@
   "m_en": "",
   "action_en": "(cont.) Office hours: paying bills, ration books, telephone slips.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COLLEGE OFFICE — DAY",
   "moment": "JOUR",
@@ -6100,6 +6260,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6138,6 +6299,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6170,6 +6332,7 @@
   "m_en": "",
   "action_en": "(cont.) Office hours: paying bills, ration books, telephone slips.",
   "qui_en": [],
+  "registre": "DIAL_ECH",
   "cours": false,
   "entete_en": "INT. THE COLLEGE OFFICE — DAY",
   "moment": "JOUR",
@@ -6212,6 +6375,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6250,6 +6414,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6292,6 +6457,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6330,6 +6496,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6366,6 +6533,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -6402,6 +6570,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -6444,6 +6613,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6482,6 +6652,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6518,6 +6689,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -6554,6 +6726,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -6596,6 +6769,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6634,6 +6808,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6670,6 +6845,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -6706,6 +6882,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -6748,6 +6925,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6786,6 +6964,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6822,6 +7001,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -6858,6 +7038,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -6900,6 +7081,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -6938,6 +7120,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -6974,6 +7157,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -7010,6 +7194,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -7052,6 +7237,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -7090,6 +7276,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -7126,6 +7313,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -7162,6 +7350,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -7204,6 +7393,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -7242,6 +7432,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -7278,6 +7469,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -7314,6 +7506,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -7356,6 +7549,7 @@
    "Mary Gregory",
    "Roscoe Penley"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -7394,6 +7588,7 @@
    "Egbert Swackhamer",
    "Charles Forberg"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE COAL PILE, THE FURNACES — DAY",
   "moment": "JOUR",
@@ -7430,6 +7625,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -7466,6 +7662,7 @@
   "qui_en": [
    "Josef Albers"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. JOSEF ALBERS'S STUDIO — DAY",
   "moment": "JOUR",
@@ -7502,6 +7699,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -7538,6 +7736,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -7576,6 +7775,7 @@
    "Roscoe Penley",
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -7612,6 +7812,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -7644,6 +7845,7 @@
   "m_en": "scene assumed",
   "action_en": "Those without a class: work in the studies, letters, costumes and props for Saturday's play.",
   "qui_en": [],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. THE STUDIES AND LODGES, LATE AFTERNOON — DAY",
   "moment": "JOUR",
@@ -7680,6 +7882,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -7716,6 +7919,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -7752,6 +7956,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -7796,6 +8001,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -7832,6 +8038,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -7870,6 +8077,7 @@
    "Roscoe Penley",
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "EXT. THE FARM — DAY",
   "moment": "JOUR",
@@ -7906,6 +8114,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -7938,6 +8147,7 @@
   "m_en": "scene assumed",
   "action_en": "(cont.) Those without a class: work in the studies, letters, costumes and props for Saturday's play.",
   "qui_en": [],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. THE STUDIES AND LODGES, LATE AFTERNOON — DAY",
   "moment": "JOUR",
@@ -7974,6 +8184,7 @@
   "qui_en": [
    "Mary Gregory"
   ],
+  "registre": "COL_TRAVAIL",
   "cours": false,
   "entete_en": "INT. THE WOODSHOP — DAY",
   "moment": "JOUR",
@@ -8010,6 +8221,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. BOB WUNSCH'S STUDY — DAY",
   "moment": "JOUR",
@@ -8046,6 +8258,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -8090,6 +8303,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -8126,6 +8340,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -8170,6 +8385,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -8208,6 +8424,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -8244,6 +8461,7 @@
   "qui_en": [
    "Jagna Braunthal"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE MILKING HOUSE — DAY",
   "moment": "JOUR",
@@ -8280,6 +8498,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD TO BREVARD — DAY",
   "moment": "JOUR",
@@ -8316,6 +8535,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -8352,6 +8572,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -8396,6 +8617,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -8434,6 +8656,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -8470,6 +8693,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -8514,6 +8738,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -8552,6 +8777,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -8588,6 +8814,7 @@
   "qui_en": [
    "Jagna Braunthal"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE MILKING HOUSE — DAY",
   "moment": "JOUR",
@@ -8624,6 +8851,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -8660,6 +8888,7 @@
   "qui_en": [
    "Nell Rice"
   ],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. THE LIBRARY — DAY",
   "moment": "JOUR",
@@ -8692,6 +8921,7 @@
   "m_en": "scene assumed",
   "action_en": "(cont.) Those without a class: work in the studies, letters, costumes and props for Saturday's play.",
   "qui_en": [],
+  "registre": "SEUL_ECRIRE",
   "cours": false,
   "entete_en": "INT. THE STUDIES AND LODGES, LATE AFTERNOON — DAY",
   "moment": "JOUR",
@@ -8728,6 +8958,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -8772,6 +9003,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -8810,6 +9042,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -8846,6 +9079,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -8890,6 +9124,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -8928,6 +9163,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -8964,6 +9200,7 @@
   "qui_en": [
    "Jane Stone"
   ],
+  "registre": "COL_REPAS",
   "cours": false,
   "entete_en": "INT. THE DINING HALL KITCHEN — DAY",
   "moment": "JOUR",
@@ -9000,6 +9237,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DAY",
   "moment": "JOUR",
@@ -9044,6 +9282,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DAY",
   "moment": "JOUR",
@@ -9082,6 +9321,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DAY",
   "moment": "JOUR",
@@ -9118,6 +9358,7 @@
   "qui_en": [
    "Beate Gropius"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE DINING HALL PANTRY — DAY",
   "moment": "JOUR",
@@ -9154,6 +9395,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9198,6 +9440,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9236,6 +9479,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9272,6 +9516,7 @@
   "qui_en": [
    "Beate Gropius"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE DINING HALL PANTRY — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9308,6 +9553,7 @@
   "qui_en": [
    "Fritz Hansgirg"
   ],
+  "registre": "COL_ENS",
   "cours": true,
   "entete_en": "INT. PHYSICS LAB — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9352,6 +9598,7 @@
    "Janet \"Aley\" Ramsey (enrolled)",
    "Norma Cormany (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. LANGUAGE ROOM — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9390,6 +9637,7 @@
    "Edward Lowinsky",
    "Dorothy Carr (enrolled)"
   ],
+  "registre": "",
   "cours": true,
   "entete_en": "INT. ROUND HOUSE — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9426,6 +9674,7 @@
   "qui_en": [
    "Beate Gropius"
   ],
+  "registre": "SEUL_TRAV",
   "cours": false,
   "entete_en": "INT. THE DINING HALL PANTRY — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9458,6 +9707,7 @@
   "m_en": "sky from the reanalysis (40%)",
   "action_en": "Sunset at 6:20 p.m. (war time), end of civil twilight at 6:47; the overcast afternoon sky; the dining hall windows light up over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE LAKE AT SUNSET — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9490,6 +9740,7 @@
   "m_en": "",
   "action_en": "Dinner",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9522,6 +9773,7 @@
   "m_en": "sky from the reanalysis (40%)",
   "action_en": "(cont.) Sunset at 6:20 p.m. (war time), end of civil twilight at 6:47; the overcast afternoon sky; the dining hall windows light up over the lake.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. THE LAKE AT SUNSET — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9554,6 +9806,7 @@
   "m_en": "",
   "action_en": "(cont.) Dinner",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9594,6 +9847,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9626,6 +9880,7 @@
   "m_en": "",
   "action_en": "(cont.) Dinner",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. DINING HALL — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9658,6 +9913,7 @@
   "m_en": "",
   "action_en": "College Cooperative Store open (twenty minutes after dinner)",
   "qui_en": [],
+  "registre": "",
   "cours": false,
   "entete_en": "INT. COLLEGE STORE — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9698,6 +9954,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — DUSK",
   "moment": "CRÉPUSCULE",
@@ -9734,6 +9991,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -9774,6 +10032,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -9810,6 +10069,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -9850,6 +10110,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -9886,6 +10147,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -9926,6 +10188,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -9962,6 +10225,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -10002,6 +10266,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10038,6 +10303,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10074,6 +10340,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -10114,6 +10381,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10150,6 +10418,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10186,6 +10455,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -10226,6 +10496,7 @@
    "Sue Burton",
    "Joan Keiser"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10262,6 +10533,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10298,6 +10570,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -10334,6 +10607,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10370,6 +10644,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10406,6 +10681,7 @@
   "qui_en": [
    "William Morse Cole"
   ],
+  "registre": "COL_ENS",
   "cours": false,
   "entete_en": "INT. FACULTY ROOM (STUDIES BUILDING) — NIGHT",
   "moment": "NUIT",
@@ -10442,6 +10718,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10478,6 +10755,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10514,6 +10792,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10550,6 +10829,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10586,6 +10866,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10622,6 +10903,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10658,6 +10940,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10694,6 +10977,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10730,6 +11014,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10766,6 +11051,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10802,6 +11088,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10838,6 +11125,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10874,6 +11162,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10910,6 +11199,7 @@
   "qui_en": [
    "Alfred Kazin"
   ],
+  "registre": "COL_SOIREE",
   "cours": false,
   "entete_en": "INT. SOUTH LODGE LOBBY — NIGHT",
   "moment": "NUIT",
@@ -10946,6 +11236,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "DIAL",
   "cours": false,
   "entete_en": "INT. BREVARD COLLEGE, THE FACULTY DINING ROOM — NIGHT",
   "moment": "NUIT",
@@ -10982,6 +11273,7 @@
   "qui_en": [
    "Elizabeth Kelley"
   ],
+  "registre": "COL_SOIREE",
   "cours": true,
   "entete_en": "INT. THE DINING HALL, TABLES PUSHED BACK — NIGHT",
   "moment": "NUIT",
@@ -11018,6 +11310,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11054,6 +11347,7 @@
   "qui_en": [
    "Elizabeth Kelley"
   ],
+  "registre": "COL_SOIREE",
   "cours": true,
   "entete_en": "INT. THE DINING HALL, TABLES PUSHED BACK — NIGHT",
   "moment": "NUIT",
@@ -11090,6 +11384,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11126,6 +11421,7 @@
   "qui_en": [
    "Elizabeth Kelley"
   ],
+  "registre": "COL_SOIREE",
   "cours": true,
   "entete_en": "INT. THE DINING HALL, TABLES PUSHED BACK — NIGHT",
   "moment": "NUIT",
@@ -11162,6 +11458,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11198,6 +11495,7 @@
   "qui_en": [
    "Elizabeth Kelley"
   ],
+  "registre": "COL_SOIREE",
   "cours": true,
   "entete_en": "INT. THE DINING HALL, TABLES PUSHED BACK — NIGHT",
   "moment": "NUIT",
@@ -11234,6 +11532,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11266,6 +11565,7 @@
   "m_en": "scene assumed from the uses of the lodges",
   "action_en": "Back in the lodges: the North Lodge lobby (the women's sitting room), the attics; letters written, cigarettes rolled, talk of Saturday's play and of the vacation on the 14th; lights going out.",
   "qui_en": [],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE AND SOUTH LODGE, EVENING — NIGHT",
   "moment": "NUIT",
@@ -11302,6 +11602,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11334,6 +11635,7 @@
   "m_en": "scene assumed",
   "action_en": "A student works late in a study (each has one, with a chair and a writing surface): the quarter ends in ten days, winter registration is next Wednesday.",
   "qui_en": [],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. STUDIES BUILDING, A LIGHTED STUDY — NIGHT",
   "moment": "NUIT",
@@ -11366,6 +11668,7 @@
   "m_en": "scene assumed from the uses of the lodges",
   "action_en": "(cont.) Back in the lodges: the North Lodge lobby (the women's sitting room), the attics; letters written, cigarettes rolled, talk of Saturday's play and of the vacation on the 14th; lights going out.",
   "qui_en": [],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE AND SOUTH LODGE, EVENING — NIGHT",
   "moment": "NUIT",
@@ -11402,6 +11705,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11434,6 +11738,7 @@
   "m_en": "scene assumed",
   "action_en": "(cont.) A student works late in a study (each has one, with a chair and a writing surface): the quarter ends in ten days, winter registration is next Wednesday.",
   "qui_en": [],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. STUDIES BUILDING, A LIGHTED STUDY — NIGHT",
   "moment": "NUIT",
@@ -11466,6 +11771,7 @@
   "m_en": "lights assumed",
   "action_en": "The moon rises at 10:52 p.m. over the eastern ridges (77% lit); the frost returns; the last lights in the studies.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, MOONRISE — NIGHT",
   "moment": "NUIT",
@@ -11498,6 +11804,7 @@
   "m_en": "scene assumed from the uses of the lodges",
   "action_en": "(cont.) Back in the lodges: the North Lodge lobby (the women's sitting room), the attics; letters written, cigarettes rolled, talk of Saturday's play and of the vacation on the 14th; lights going out.",
   "qui_en": [],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE AND SOUTH LODGE, EVENING — NIGHT",
   "moment": "NUIT",
@@ -11534,6 +11841,7 @@
   "qui_en": [
    "Robert Wunsch"
   ],
+  "registre": "LARGE_FIG",
   "cours": false,
   "entete_en": "EXT. THE ROAD FROM BREVARD TO LAKE EDEN — NIGHT",
   "moment": "NUIT",
@@ -11566,6 +11874,7 @@
   "m_en": "scene assumed",
   "action_en": "(cont.) A student works late in a study (each has one, with a chair and a writing surface): the quarter ends in ten days, winter registration is next Wednesday.",
   "qui_en": [],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. STUDIES BUILDING, A LIGHTED STUDY — NIGHT",
   "moment": "NUIT",
@@ -11598,6 +11907,7 @@
   "m_en": "lights assumed",
   "action_en": "(cont.) The moon rises at 10:52 p.m. over the eastern ridges (77% lit); the frost returns; the last lights in the studies.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, MOONRISE — NIGHT",
   "moment": "NUIT",
@@ -11630,6 +11940,7 @@
   "m_en": "scene assumed from the uses of the lodges",
   "action_en": "(cont.) Back in the lodges: the North Lodge lobby (the women's sitting room), the attics; letters written, cigarettes rolled, talk of Saturday's play and of the vacation on the 14th; lights going out.",
   "qui_en": [],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE AND SOUTH LODGE, EVENING — NIGHT",
   "moment": "NUIT",
@@ -11662,6 +11973,7 @@
   "m_en": "scene assumed",
   "action_en": "(cont.) A student works late in a study (each has one, with a chair and a writing surface): the quarter ends in ten days, winter registration is next Wednesday.",
   "qui_en": [],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. STUDIES BUILDING, A LIGHTED STUDY — NIGHT",
   "moment": "NUIT",
@@ -11694,6 +12006,7 @@
   "m_en": "lights assumed",
   "action_en": "(cont.) The moon rises at 10:52 p.m. over the eastern ridges (77% lit); the frost returns; the last lights in the studies.",
   "qui_en": [],
+  "registre": "LARGE_NAT",
   "cours": false,
   "entete_en": "EXT. LAKE EDEN, MOONRISE — NIGHT",
   "moment": "NUIT",
@@ -11726,6 +12039,7 @@
   "m_en": "scene assumed from the uses of the lodges",
   "action_en": "(cont.) Back in the lodges: the North Lodge lobby (the women's sitting room), the attics; letters written, cigarettes rolled, talk of Saturday's play and of the vacation on the 14th; lights going out.",
   "qui_en": [],
+  "registre": "COL_VIE",
   "cours": false,
   "entete_en": "INT. NORTH LODGE AND SOUTH LODGE, EVENING — NIGHT",
   "moment": "NUIT",
@@ -11758,6 +12072,7 @@
   "m_en": "scene assumed",
   "action_en": "(cont.) A student works late in a study (each has one, with a chair and a writing surface): the quarter ends in ten days, winter registration is next Wednesday.",
   "qui_en": [],
+  "registre": "SEUL_LIRE",
   "cours": false,
   "entete_en": "INT. STUDIES BUILDING, A LIGHTED STUDY — NIGHT",
   "moment": "NUIT",

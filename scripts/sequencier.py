@@ -45,7 +45,7 @@ def main(jour, week):
     for k, s in enumerate(SC["scenes"]):
         acts.append({"id": f"K{k + 1}", "a": mn(s["h"]), "b": mn(s["f"]) + (1 if s["f"] == "23:59" else 0), "titre": s["t"], "lieu": s["lieu"], "ie": s["ie"],
                      "qui": s["qui"], "src": s["src"], "pct": s["pct"], "m": s.get("m", ""), "fil": s["fil"], "poids": POIDS["cle"], "type": "scène clé",
-                     "titre_en": s.get("t_en", s["t"]), "lieu_en": s.get("lieu_en", s["lieu"]), "m_en": s.get("m_en", "")})
+                     "titre_en": s.get("t_en", s["t"]), "lieu_en": s.get("lieu_en", s["lieu"]), "m_en": s.get("m_en", ""), "registre": s.get("registre", "")})
     cles = [(a, s) for a, s in zip(acts, SC["scenes"]) if s.get("remplace")]
     for e in E:
         if not e["h"] or e.get("semaine") or e["couche"] not in ("aam", "spc") or e["hors"]: continue
@@ -144,7 +144,8 @@ def main(jour, week):
             rec = {"lieu": x["lieu"] or "lieu non donné", "ie": x["ie"], "qui": qui, "action": ("(suite) " if vus[x["id"]] > 1 else "") + x["titre"] + ici,
                    "src": x["src"], "pct": x["pct"], "m": x["m"], "fil": x["fil"], "type": x["type"],
                    "lieu_en": x.get("lieu_en") or x["lieu"] or "place not given", "m_en": x.get("m_en", ""),
-                   "action_en": ("(cont.) " if vus[x["id"]] > 1 else "") + x.get("titre_en", x["titre"]), "qui_en": [q.replace(" (inscrit)", " (enrolled)") for q in qui]}
+                   "action_en": ("(cont.) " if vus[x["id"]] > 1 else "") + x.get("titre_en", x["titre"]), "qui_en": [q.replace(" (inscrit)", " (enrolled)") for q in qui],
+                   "registre": x.get("registre", "")}
         rec["cours"] = bool(x and cours_(x))
         statut = "attesté" if rec["pct"] <= 10 else "usage attesté, transposé" if rec["pct"] <= 40 else "supposé"
         out.append({"n": i, "debut": hm(s["a"]), "fin": hm(s["b"]), "pages": f"{s['a'] + 1}–{s['b']}", "duree_min": s["b"] - s["a"],

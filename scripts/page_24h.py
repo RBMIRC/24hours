@@ -7,37 +7,49 @@ Types de séquence et lieux : tables TYPES et LIEUX ci-dessous (couleurs, règle
 import datetime as dt, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TYPES = [  # (id, libellé, couleur, fils du séquencier)
-    ("night", "Night", "#3b4a7a", {"nuit"}),
-    ("light", "Dawn & dusk", "#c06c84", {"aube"}),
-    ("waking", "Waking & lodges", "#8e6fb3", {"lodges"}),
-    ("meal", "Meals & kitchen", "#d08a2e", {"repas", "cuisine", "magasin"}),
-    ("farm", "Farm", "#5a8f3c", {"ferme"}),
-    ("class", "Class", "#2f7fb8", {"cours", "theatre", "hansgirg", "danse"}),
-    ("work", "Work program", "#8a6a4b", {"chaudieres", "entretien", "atelier", "linge"}),
-    ("office", "Mail & office", "#4f8a8b", {"courrier", "bureau", "bulletin"}),
-    ("evening", "Evening program", "#b5476b", {"cole", "kazin", "disques"}),
-    ("journey", "Journeys", "#6b7280", {"wunsch", "dreier"}),
-    ("faculty", "Faculty at work", "#9a7b2f", {"albers", "lowinsky", "bibliotheque"}),
-    ("interlude", "Interlude", "#9ca3af", {"liaison", "vie"}),
+REGISTRES = {  # code : (famille, libellé, couleur) — code couleur décidé le 3/11/2026
+    "ARCH_NUIT": ("blue", "Buildings at night", "#1d3557"), "ARCH_JOUR": ("blue", "Buildings by day", "#457b9d"), "ARCH_INT": ("blue", "Empty interiors", "#8ab6d6"),
+    "NAT_VEG": ("green", "Plants & trees", "#2d6a4f"), "NAT_ANI": ("green", "Animals", "#6a994e"), "NAT_EAU": ("green", "Water, ice & sky up close", "#52b788"), "NAT_SON": ("green", "Sounds of nature", "#95d5b2"),
+    "COL_ENS": ("red", "Teaching", "#9d0208"), "COL_REPAS": ("red", "Meals & kitchen", "#e63946"), "COL_SOIREE": ("red", "Evenings, music & dance", "#ef6351"),
+    "COL_TRAVAIL": ("red", "Working together", "#6a040f"), "COL_VIE": ("red", "Shared life", "#c1121f"),
+    "LARGE_NAT": ("yellow", "Wide view: nature", "#e9c46a"), "LARGE_BAT": ("yellow", "Wide view: buildings", "#d4a017"), "LARGE_FIG": ("yellow", "Figures in the landscape", "#f6e27f"),
+    "DIAL": ("violet", "Dialogue", "#5a189a"), "DIAL_ECH": ("violet", "Brief exchanges & announcements", "#9d4edd"),
+    "SEUL_LIRE": ("pink", "Alone, reading", "#ffc2d1"), "SEUL_ECRIRE": ("pink", "Alone, writing", "#ff8fab"), "SEUL_TRAV": ("pink", "Alone, working", "#fb6f92"),
+}
+FAMILLES = [("blue", "Architecture, no one in frame"), ("green", "Nature: animals & plants"), ("red", "Collective scenes: teaching, meals, games…"),
+            ("yellow", "Wide views: nature, buildings, figures"), ("violet", "Dialogues"), ("pink", "One person reading, writing, working alone")]
+TYPES = [  # (id, libellé, couleur dérivée du code couleur, fils du séquencier)
+    ("night", "Night", "#1d3557", {"nuit"}),
+    ("light", "Dawn & dusk", "#e9c46a", {"aube"}),
+    ("waking", "Waking & lodges", "#c1121f", {"lodges"}),
+    ("meal", "Meals & kitchen", "#e63946", {"repas", "cuisine", "magasin"}),
+    ("farm", "Farm", "#6a994e", {"ferme"}),
+    ("class", "Class", "#9d0208", {"cours", "theatre", "hansgirg", "danse"}),
+    ("work", "Work program", "#6a040f", {"chaudieres", "entretien", "atelier", "linge"}),
+    ("office", "Mail & office", "#9d4edd", {"courrier", "bureau", "bulletin"}),
+    ("evening", "Evening program", "#ef6351", {"cole", "kazin", "disques"}),
+    ("journey", "Journeys", "#d4a017", {"wunsch", "dreier"}),
+    ("faculty", "Faculty at work", "#fb6f92", {"albers", "lowinsky", "bibliotheque"}),
+    ("interlude", "Interlude", "#8ab6d6", {"liaison", "vie"}),
 ]
 NCATS = {"montagnes": "Mountains", "ciel": "Sky & clouds", "astres": "Moon, stars & planets", "lumiere": "Light", "eau": "Lake & water",
          "givre": "Frost, ice & ground", "arbres": "Trees, leaves & wind", "oiseaux": "Birds", "betes": "Animals", "insectes": "Insects & spiders",
          "fumees": "Smoke", "sons": "Sounds"}
-NCOUL = {"montagnes": "#5b6b8c", "ciel": "#7f9cb8", "astres": "#2c3566", "lumiere": "#c99a2e", "eau": "#2f7f8f", "givre": "#8fb3c9",
-         "arbres": "#4f7a3a", "oiseaux": "#a0522d", "betes": "#7a5c3a", "insectes": "#6d8a2e", "fumees": "#8a8a8a", "sons": "#7b5ea7"}
+NCOUL = {"montagnes": "#d4a017", "ciel": "#52b788", "astres": "#2d6a4f", "lumiere": "#e9c46a", "eau": "#52b788", "givre": "#74c69d",
+         "arbres": "#2d6a4f", "oiseaux": "#6a994e", "betes": "#6a994e", "insectes": "#90a955",
+         "fumees": "#457b9d", "sons": "#95d5b2"}
 LIEUX = [  # (id, libellé, couleur, motif sur le lieu en anglais) — le premier qui convient
-    ("offcampus", "Off campus", "#6b7280", r"brevard|station|road"),
-    ("farm", "Farm", "#5a8f3c", r"farm|milking|barn"),
-    ("dining", "Dining Hall", "#d08a2e", r"dining|kitchen|pantry|porch|mail box"),
-    ("roundhouse", "Round House", "#b5476b", r"round house"),
-    ("library", "Library, office & store", "#4f8a8b", r"library|office|store"),
-    ("studies", "Studies Building", "#2f7fb8", r"studies|study|language room|faculty room|physics lab|weaving room"),
-    ("northlodge", "North Lodge", "#8e6fb3", r"north lodge"),
-    ("southlodge", "South Lodge", "#7a5aa6", r"south lodge"),
-    ("cottages", "Cottages & studios", "#9a7b2f", r"cottage|mountain stream|studio"),
-    ("shops", "Shops & furnaces", "#8a6a4b", r"woodshop|furnace|coal|buildings"),
-    ("lake", "Lake & grounds", "#3b6f8f", r"lake|campus"),
+    ("offcampus", "Off campus", "#8a8f98", r"brevard|station|road"),
+    ("farm", "Farm", "#8a8f98", r"farm|milking|barn"),
+    ("dining", "Dining Hall", "#8a8f98", r"dining|kitchen|pantry|porch|mail box"),
+    ("roundhouse", "Round House", "#8a8f98", r"round house"),
+    ("library", "Library, office & store", "#8a8f98", r"library|office|store"),
+    ("studies", "Studies Building", "#8a8f98", r"studies|study|language room|faculty room|physics lab|weaving room"),
+    ("northlodge", "North Lodge", "#8a8f98", r"north lodge"),
+    ("southlodge", "South Lodge", "#8a8f98", r"south lodge"),
+    ("cottages", "Cottages & studios", "#8a8f98", r"cottage|mountain stream|studio"),
+    ("shops", "Shops & furnaces", "#8a8f98", r"woodshop|furnace|coal|buildings"),
+    ("lake", "Lake & grounds", "#8a8f98", r"lake|campus"),
 ]
 
 
@@ -53,6 +65,26 @@ def src_en(s):
                  ("éclairage des cirrus", "lighting of the cirrus"), ("id.", "same sources")):
         s = s.replace(a, b)
     return re.sub(r"\s*\([^)]*[àâçéèêëîïôûùüœ][^)]*\)", "", s)
+
+
+DEF_REG = {"class": "COL_ENS", "meal": "COL_REPAS", "office": "DIAL_ECH", "waking": "COL_VIE", "night": "ARCH_NUIT", "light": "LARGE_NAT",
+           "farm": "NAT_ANI", "work": "COL_TRAVAIL", "evening": "COL_SOIREE", "journey": "LARGE_FIG", "faculty": "SEUL_TRAV", "interlude": "ARCH_JOUR"}
+BATI = {"L2", "L3", "L3b", "L6", "L7", "S1", "S2"}
+
+
+def registre_seq(o):
+    return o.get("registre") or DEF_REG.get(type_de(o), "COL_VIE")
+
+
+def registre_plan(cat, e, mid="", texte=""):
+    """plan de nature : vue large → jaune ; bâtiment (fenêtres, fumées de cheminée) → bleu ; sinon vert selon le sujet."""
+    large = e in ("TPE", "PE", "PL")
+    if mid.startswith("N2"): return "COL_REPAS"                       # gong des repas : appel collectif
+    if mid == "L5": return "LARGE_FIG"
+    bati = mid in BATI or cat == "fumees" or (not mid and re.search(r"window|chimney|furnace", texte, re.I))
+    if large: return "LARGE_BAT" if bati else "LARGE_NAT"
+    if bati: return "ARCH_NUIT" if re.search(r"night|dark|lamp|lit ", texte, re.I) else "ARCH_JOUR"
+    return {"arbres": "NAT_VEG", "betes": "NAT_ANI", "oiseaux": "NAT_ANI", "insectes": "NAT_ANI", "sons": "NAT_SON"}.get(cat, "NAT_EAU")
 
 
 def type_de(o):
@@ -71,7 +103,7 @@ def main(jour, copie=None):
     d = dt.date.fromisoformat(jour)
     seq = [{"n": o["n"], "a": o["debut"], "b": o["fin"], "p": o["pages"], "m": o["duree_min"], "h": o["entete_en"], "t": type_de(o),
             "l": lieu_de(o), "pl": o["lieu_en"], "x": o["action_en"], "q": o.get("qui_en", o["qui"]), "pct": o["pct"], "st": o["statut_en"],
-            "why": o.get("m_en", ""), "src": o["src"], "mo": o["moment"]} for o in S]
+            "why": o.get("m_en", ""), "src": o["src"], "mo": o["moment"], "r": registre_seq(o)} for o in S]
     heures = []
     era = {x["heure"][:2]: x for x in J["meteo"]["era5_par_heure"]}
     for x in J["lumiere"]["par_heure"]:
@@ -81,7 +113,7 @@ def main(jour, copie=None):
     pn = os.path.join(dos, "plans_nature_montage.json")
     PN = json.load(open(pn, encoding="utf-8")) if os.path.exists(pn) else []
     nature = [{"s": p["sequence"], "h": p["heure"], "pg": p["page"], "d": p["duree_s"], "c": p["cat"], "sc": p["echelle_en"], "x": p["en"],
-               "snd": p["son"].split(" / ")[-1] if p["son"] else "", "pct": p["pct"], "src": src_en(p["src"]), "why": p["raison"]} for p in PN]
+               "snd": p["son"].split(" / ")[-1] if p["son"] else "", "pct": p["pct"], "src": src_en(p["src"]), "why": p["raison"], "r": registre_plan(p["cat"], p["e"], p["id"], p["en"])} for p in PN]
     # heures découpées plan par plan à la main : elles remplacent les plans automatiques de leur fenêtre
     for fn in sorted(f for f in os.listdir(dos) if f.endswith("_plan_par_plan.json")):
         H = json.load(open(os.path.join(dos, fn), encoding="utf-8")); V = H["vocabulaire"]
@@ -96,13 +128,15 @@ def main(jour, copie=None):
             t = sec(x["tc"]); mv = next(m for m in H["mouvements"] if sec(m["de"]) <= t < sec(m["a"]))
             item = {"s": porteuse(t), "h": x["tc"], "pg": t // 60 + 1, "d": x["d"], "c": x["cat"], "sc": V["echelle"][x["e"]][1], "x": x["en"],
                     "snd": x.get("son_en", ""), "pct": x["pct"], "src": src_en(x["src"]), "why": "",
-                    "tech": [V["angle"][x["a"]][1], V["mouvement"][x["mv"]][1], V["optique"][x["o"]][1], V["point"][x["p"]][1]], "rc": V["raccord"][x["r"]][1]}
+                    "tech": [V["angle"][x["a"]][1], V["mouvement"][x["mv"]][1], V["optique"][x["o"]][1], V["point"][x["p"]][1]], "rc": V["raccord"][x["r"]][1],
+                    "r": registre_plan(x["cat"], x["e"], "", x["en"])}
             if mv["de"] not in deja: item["mvt"] = mv["en"]; deja.add(mv["de"])
             nature.append(item)
         nature.sort(key=lambda n: n["h"])
     LU = J["lumiere"]
     noaa = J["meteo"]["noaa"]; mt = noaa.get("Montreat", {}).get(jour) or {}
-    data = {"seq": seq, "nature": nature, "ncats": [{"id": k, "label": v, "color": NCOUL[k]} for k, v in NCATS.items()], "hours": heures, "types": [{"id": t, "label": l, "color": c} for t, l, c, _ in TYPES],
+    data = {"reg": [{"id": k, "fam": f, "label": l, "color": c} for k, (f, l, c) in REGISTRES.items()], "fams": [{"id": f, "label": l} for f, l in FAMILLES],
+            "seq": seq, "nature": nature, "ncats": [{"id": k, "label": v, "color": NCOUL[k]} for k, v in NCATS.items()], "hours": heures, "types": [{"id": t, "label": l, "color": c} for t, l, c, _ in TYPES],
             "places": [{"id": t, "label": l, "color": c} for t, l, c, _ in LIEUX],
             "sun": {k: LU.get(k) for k in ("aube_civile", "lever_soleil", "coucher_soleil", "crepuscule_civil", "lever_lune", "coucher_lune")},
             "moon_pct": LU.get("lune_eclairee_pct"), "noaa": {"min": mt.get("tmin_c"), "max": mt.get("tmax_c"), "minf": mt.get("tmin_f"), "maxf": mt.get("tmax_f")}}
@@ -141,18 +175,26 @@ h1{font:600 clamp(28px,5vw,44px)/1.1 "Source Serif 4",Georgia,serif;margin:0 0 6
 .clock{font:700 22px "Courier Prime",monospace;min-width:76px}
 .now{color:var(--soft)}
 .rail{display:flex;gap:2px;flex:1 1 320px;min-width:240px}
-.rail button{flex:1;height:22px;border:0;border-radius:3px;cursor:pointer;font:500 9px Inter,sans-serif;color:#fff;padding:0;opacity:.9}
+.rail button{flex:1;height:22px;border:1px solid var(--line);border-radius:3px;cursor:pointer;font:500 9px Inter,sans-serif;color:var(--ink);background:var(--paper);padding:0}
+.hour .skyd{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:-1px;margin-right:4px;border:1px solid rgba(255,255,255,.5)}
 .rail button:hover{opacity:1;outline:2px solid var(--ink)}
 .filters{max-width:980px;margin:0 auto;padding:10px 16px 0;font:500 12px Inter,system-ui,sans-serif}
 .filters .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
 .filters .lab{color:var(--soft);min-width:70px;text-transform:uppercase;letter-spacing:.06em;font-size:11px}
 .chip{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font:600 12px Inter,system-ui,sans-serif;border:1.5px solid var(--c);color:var(--ink);background:var(--paper);cursor:pointer;white-space:nowrap}
 .chip i{width:9px;height:9px;border-radius:50%;background:var(--c);display:inline-block}
-.chip.type{background:var(--c);color:#fff;border-color:var(--c)}
+.chip.type{background:var(--paper);border-color:var(--c);color:var(--ink)}
+.chip.type i{border-radius:2px}
+.chip.reg{background:var(--c);color:var(--fg,#fff);border-color:var(--c)}
+.legend-fam{display:grid;grid-template-columns:290px 1fr;gap:6px 10px;align-items:center;margin:5px 0}
+.legend-fam .sh{display:flex;flex-wrap:wrap;gap:6px}
+@media (max-width:700px){.legend-fam{grid-template-columns:1fr}}
+.legend-fam .fl{font:700 11px Inter,sans-serif;cursor:pointer;color:var(--ink)}
+.legend-fam .fl i{display:inline-block;width:24px;height:10px;border-radius:3px;margin-right:6px;vertical-align:0;background:var(--c)}
 .chip.off{opacity:.35}
 .reset{border:0;background:none;color:var(--soft);text-decoration:underline;cursor:pointer;font:inherit}
 main{max-width:980px;margin:0 auto;padding:8px 16px 80px}
-.hour{position:relative;margin:28px 0 10px;border-radius:12px;padding:14px 16px;color:#fff;font:500 13px/1.4 Inter,system-ui,sans-serif;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline}
+.hour{position:relative;margin:28px 0 10px;border-radius:12px;padding:14px 16px;color:var(--bg);background:var(--ink);font:500 13px/1.4 Inter,system-ui,sans-serif;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline}
 .hour b{font:700 26px "Courier Prime",monospace;margin-right:6px}
 .seq{position:relative;display:grid;grid-template-columns:96px 1fr;gap:0 16px;background:var(--paper);border:1px solid var(--line);border-left:6px solid var(--tc);border-radius:10px;margin:8px 0;padding:12px 14px;min-height:calc(var(--m) * 7px)}
 .seq.dim{opacity:.18}
@@ -165,8 +207,8 @@ main{max-width:980px;margin:0 auto;padding:8px 16px 80px}
 .x{margin:0 0 6px}
 .who{font:500 13px/1.4 Inter,system-ui,sans-serif;color:var(--soft);margin:0 0 6px}
 .meta{font:500 12px/1.4 Inter,system-ui,sans-serif;color:var(--soft);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
-.ded{font-weight:700;border-radius:6px;padding:1px 7px;color:#fff;white-space:nowrap}
-.ded.attested{background:var(--att)}.ded.transposed{background:var(--tra)}.ded.assumed{background:var(--ass)}
+.ded{font-weight:700;border-radius:6px;padding:1px 7px;white-space:nowrap;border:1.5px solid var(--ink)}
+.ded.attested{background:var(--ink);color:var(--bg)}.ded.transposed{background:var(--paper);color:var(--ink)}.ded.assumed{background:var(--paper);color:var(--soft);border-style:dashed;border-color:var(--soft)}
 details{margin-top:6px;font:400 12px/1.45 Inter,system-ui,sans-serif;color:var(--soft)}
 summary{cursor:pointer}
 .legend{font:500 12px/1.5 Inter,system-ui,sans-serif;color:var(--soft);max-width:760px}
@@ -191,7 +233,7 @@ footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 In
 <header class="top">
   <h1>24 Hours at Black Mountain College</h1>
   <p class="sub">Monday, December 4, 1944 · Lake Eden, Black Mountain, North Carolina · a day in real time</p>
-  <p class="intro">One page per minute: 1,440 pages from midnight to midnight, cut into <b>__N__ sequences</b>. When several things happen at once, the film cuts between them; each class keeps a quarter of its own time on screen, so that four classes held at the same hour can all be seen. Between the sequences, <b>nature shots</b> (mountains, sky, stars, frost, trees and wind, birds, animals, insects, sounds of the valley) set the rhythm of the cut: each one shows nature at that very minute and borrows a few seconds from the sequence in progress, so the clock never stops. Every sequence keeps its sources and its <b>deduced share</b>: <span class="ded attested">≤ 10%</span> attested by a dated document, <span class="ded transposed">11–40%</span> an attested custom carried over to this day, <span class="ded assumed">&gt; 40%</span> assumed, to be confirmed.</p>
+  <p class="intro">One page per minute: 1,440 pages from midnight to midnight, cut into <b>__N__ sequences</b>. When several things happen at once, the film cuts between them; each class keeps a quarter of its own time on screen, so that four classes held at the same hour can all be seen. Between the sequences, <b>nature shots</b> (mountains, sky, stars, frost, trees and wind, birds, animals, insects, sounds of the valley) set the rhythm of the cut: each one shows nature at that very minute and borrows a few seconds from the sequence in progress, so the clock never stops. <b>Colors say what the shot shows</b>: blue, architecture with no one in frame; green, nature (animals and plants); red, collective scenes (teaching, meals, evenings, work); yellow, wide views of nature, buildings, and figures; violet, dialogues; pink, one person reading, writing, or working alone; sequence types take their color from the same palette. Every sequence keeps its sources and its <b>deduced share</b>: <span class="ded attested">≤ 10%</span> attested by a dated document, <span class="ded transposed">11–40%</span> an attested custom carried over to this day, <span class="ded assumed">&gt; 40%</span> assumed, to be confirmed.</p>
   <div class="facts" id="facts"></div>
 </header>
 <div class="bar"><div class="in">
@@ -199,6 +241,7 @@ footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 In
   <div class="rail" id="rail" aria-label="Jump to an hour"></div>
 </div></div>
 <div class="filters">
+  <div class="row" style="display:block"><span class="lab">Color code</span><div id="fregs"></div></div>
   <div class="row"><span class="lab">Sequence</span><span id="ftypes"></span></div>
   <div class="row"><span class="lab">Place</span><span id="fplaces"></span></div>
   <div class="row"><span class="lab">Nature</span><span id="fnature"></span> <button class="reset" id="nonat">hide nature shots</button> <button class="reset" id="reset">show all</button></div>
@@ -212,7 +255,8 @@ footer{max-width:980px;margin:0 auto;padding:30px 16px 60px;font:400 13px/1.6 In
 </footer>
 <script>
 const D = __DATA__;
-const T = Object.fromEntries(D.types.map(x => [x.id, x])), P = Object.fromEntries(D.places.map(x => [x.id, x]));
+const T = Object.fromEntries(D.types.map(x => [x.id, x])), P = Object.fromEntries(D.places.map(x => [x.id, x])), R = Object.fromEntries(D.reg.map(x => [x.id, x]));
+const fg = c => { const n = parseInt(c.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255; return (0.299*r + 0.587*g + 0.114*b) > 150 ? "#1f1d1a" : "#ffffff"; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
 const fmt = h => { if (!h) return ""; let [H, M] = h.split(":").map(Number); const ap = H >= 12 ? "p.m." : "a.m."; H = H % 12 || 12; return `${H}:${String(M).padStart(2,"0")} ${ap}`; };
 const sky = h => { const s = h.sun, c = h.cloud ?? 0;
@@ -227,18 +271,30 @@ const f = document.getElementById("facts");
 f.insertAdjacentHTML("beforeend", `<span>${D.seq.length} sequences · ${D.nature.length} nature shots</span>${D.nature.some(n => n.mvt) ? `<span><a href="#h07" onclick="jump('07');return false">The dawn hour, shot by shot (7:20–8:20)</a></span>` : ""}<span>Waning moon, ${D.moon_pct}% lit</span><span>Montreat: ${D.noaa.min} °C to ${D.noaa.max} °C (${D.noaa.minf}–${D.noaa.maxf} °F), dry</span><span>Eastern War Time (UTC−4)</span>`);
 // rail
 const rail = document.getElementById("rail");
-D.hours.forEach(h => { const b = document.createElement("button"); b.textContent = h.h.slice(0,2); b.style.background = sky(h); b.title = `${h.h} · ${lightEn[h.light]||h.light}`;
+D.hours.forEach(h => { const b = document.createElement("button"); b.textContent = h.h.slice(0,2); b.title = `${h.h} · ${lightEn[h.light]||h.light}`;
   b.onclick = () => jump(h.h.slice(0,2)); rail.appendChild(b); });
 // filters
 const on = {t: new Set(D.types.map(x => x.id)), l: new Set(D.places.map(x => x.id))};
 const count = (k, id) => D.seq.filter(s => s[k] === id).reduce((a, s) => a + s.m, 0);
 function chips(id, list, key, cls) { const el = document.getElementById(id);
   list.forEach(x => { const n = count(key, x.id); if (!n) return; const c = document.createElement("span"); c.className = `chip ${cls}`; c.style.setProperty("--c", x.color);
-    c.innerHTML = (cls === "type" ? "" : "<i></i>") + `${esc(x.label)} <small style="opacity:.75">${n}</small>`; c.title = `${n} pages`;
+    c.innerHTML = "<i></i>" + `${esc(x.label)} <small style="opacity:.75">${n}</small>`; c.title = `${n} pages`;
     c.onclick = () => { const s = on[key]; if (s.size === list.length) { s.clear(); s.add(x.id); } else if (s.has(x.id)) { s.delete(x.id); if (!s.size) list.forEach(y => s.add(y.id)); } else s.add(x.id);
       el.querySelectorAll(".chip").forEach((e, i) => {}); refresh(); };
     c.dataset.id = x.id; el.appendChild(c); }); }
 chips("ftypes", D.types, "t", "type"); chips("fplaces", D.places, "l", "place");
+const onR = new Set(D.reg.map(x => x.id));
+(() => { const el = document.getElementById("fregs");
+  D.fams.forEach(f => { const regs = D.reg.filter(r => r.fam === f.id), row = document.createElement("div"); row.className = "legend-fam";
+    const fl = document.createElement("span"); fl.className = "fl"; fl.style.setProperty("--c", regs[Math.floor(regs.length / 2)].color); fl.innerHTML = `<i></i>${esc(f.label)}`;
+    fl.onclick = () => { const all = regs.every(r => onR.has(r.id)) && onR.size === regs.length; onR.clear(); (all ? D.reg : regs).forEach(r => onR.add(r.id)); refresh(); };
+    row.appendChild(fl); const sh = document.createElement("span"); sh.className = "sh"; row.appendChild(sh);
+    regs.forEach(r => { const n = D.seq.filter(x => x.r === r.id).reduce((a, x) => a + x.m, 0), k = D.nature.filter(x => x.r === r.id).length;
+      const c = document.createElement("span"); c.className = "chip reg"; c.style.setProperty("--c", r.color); c.style.setProperty("--fg", fg(r.color)); c.dataset.id = r.id;
+      c.innerHTML = `${esc(r.label)} <small style="opacity:.8">${n ? n + " p." : ""}${n && k ? " · " : ""}${k ? k + " shots" : ""}</small>`;
+      c.onclick = () => { if (onR.size === D.reg.length) { onR.clear(); onR.add(r.id); } else if (onR.has(r.id)) { onR.delete(r.id); if (!onR.size) D.reg.forEach(y => onR.add(y.id)); } else onR.add(r.id); refresh(); };
+      sh.appendChild(c); });
+    el.appendChild(row); }); })();
 const NC = Object.fromEntries(D.ncats.map(x => [x.id, x])), onN = new Set(D.ncats.map(x => x.id)); let showN = true;
 const byS = {}; D.nature.forEach(n => (byS[n.s] ||= []).push(n));
 (() => { const el = document.getElementById("fnature");
@@ -247,34 +303,35 @@ const byS = {}; D.nature.forEach(n => (byS[n.s] ||= []).push(n));
     c.onclick = () => { if (onN.size === D.ncats.length) { onN.clear(); onN.add(x.id); } else if (onN.has(x.id)) { onN.delete(x.id); if (!onN.size) D.ncats.forEach(y => onN.add(y.id)); } else onN.add(x.id); showN = true; refresh(); };
     el.appendChild(c); }); })();
 document.getElementById("nonat").onclick = () => { showN = !showN; refresh(); };
-document.getElementById("reset").onclick = () => { D.types.forEach(x => on.t.add(x.id)); D.places.forEach(x => on.l.add(x.id)); D.ncats.forEach(x => onN.add(x.id)); showN = true; refresh(); };
+document.getElementById("reset").onclick = () => { D.types.forEach(x => on.t.add(x.id)); D.places.forEach(x => on.l.add(x.id)); D.ncats.forEach(x => onN.add(x.id)); D.reg.forEach(x => onR.add(x.id)); showN = true; refresh(); };
 function refresh() {
   document.querySelectorAll("#ftypes .chip").forEach(c => c.classList.toggle("off", !on.t.has(c.dataset.id)));
   document.querySelectorAll("#fplaces .chip").forEach(c => c.classList.toggle("off", !on.l.has(c.dataset.id)));
-  document.querySelectorAll(".seq").forEach(e => e.classList.toggle("dim", !(on.t.has(e.dataset.t) && on.l.has(e.dataset.l))));
+  document.querySelectorAll("#fregs .chip").forEach(c => c.classList.toggle("off", !onR.has(c.dataset.id)));
+  document.querySelectorAll(".seq").forEach(e => e.classList.toggle("dim", !(on.t.has(e.dataset.t) && on.l.has(e.dataset.l) && onR.has(e.dataset.r))));
   document.querySelectorAll("#fnature .chip").forEach(c => c.classList.toggle("off", !showN || !onN.has(c.dataset.id)));
   document.getElementById("nonat").textContent = showN ? "hide nature shots" : "show nature shots";
-  document.querySelectorAll(".nat").forEach(e => e.classList.toggle("hid", !showN || !onN.has(e.dataset.c))); }
-function natCard(n) { const c = NC[n.c];
+  document.querySelectorAll(".nat").forEach(e => e.classList.toggle("hid", !showN || !onN.has(e.dataset.c) || !onR.has(e.dataset.r))); }
+function natCard(n) { const c = NC[n.c], rg = R[n.r] || {color: c.color, label: ""};
   const head = n.mvt ? `<div class="mvt nat-m"><b>The dawn hour, shot by shot</b>${esc(n.mvt)}</div>` : "";
   const tech = n.tech ? `<div class="tech">${n.tech.map(t => `<span>${esc(t)}</span>`).join("")}<span class="rc">→ ${esc(n.rc)}</span></div>` : "";
-  return head + `<div class="nat" data-c="${n.c}" style="--nc:${c.color}"><div class="nt">${n.h}<br><span class="ns">${n.d} s · p. ${n.pg}</span></div>
-    <div><span class="nk">${esc(c.label)}</span><b>${esc(n.sc)}</b> — ${esc(n.x)}${n.snd ? ` <span class="ns">♪ ${esc(n.snd)}</span>` : ""}
+  return head + `<div class="nat" data-c="${n.c}" data-r="${n.r}" style="--nc:${rg.color}" title="${esc(rg.label)}"><div class="nt">${n.h}<br><span class="ns">${n.d} s · p. ${n.pg}</span></div>
+    <div><span class="nk" style="color:${fg(rg.color)}">${esc(c.label)}</span><b>${esc(n.sc)}</b> — ${esc(n.x)}${n.snd ? ` <span class="ns">♪ ${esc(n.snd)}</span>` : ""}
     <span class="ns"> · ${n.pct}% deduced · ${esc(n.src)}</span>${tech}</div></div>`; }
 // infinite list
 const list = document.getElementById("list"); let i = 0, lastHour = null; const BATCH = 25;
 function card(s) {
-  const t = T[s.t], p = P[s.l], cls = s.st === "attested" ? "attested" : s.st === "assumed" ? "assumed" : "transposed";
-  return `<article class="seq" id="s${s.n}" data-t="${s.t}" data-l="${s.l}" data-a="${s.a}" style="--tc:${t.color};--m:${s.m}">
+  const t = T[s.t], p = P[s.l], r = R[s.r], cls = s.st === "attested" ? "attested" : s.st === "assumed" ? "assumed" : "transposed";
+  return `<article class="seq" id="s${s.n}" data-t="${s.t}" data-l="${s.l}" data-r="${s.r}" data-a="${s.a}" style="--tc:${r.color};--m:${s.m}">
     <div><div class="t">${s.a}<small>${s.m} min · p. ${s.p}</small><small>#${s.n}</small></div><div class="dur"></div></div>
     <div><p class="head">${esc(s.h)}</p>
-      <div class="tags"><span class="chip type" style="--c:${t.color}">${esc(t.label)}</span><span class="chip" style="--c:${p.color}"><i></i>${esc(p.label)}</span></div>
+      <div class="tags"><span class="chip reg" style="--c:${r.color};--fg:${fg(r.color)}">${esc(r.label)}</span>${t.label !== r.label ? `<span class="chip type" style="--c:${t.color}"><i></i>${esc(t.label)}</span>` : ""}<span class="chip" style="--c:#8a8f98">${esc(p.label)}</span></div>
       <p class="x">${esc(s.x)}</p>
       ${s.q && s.q.length ? `<p class="who">${esc(s.q.join(", "))}</p>` : ""}
       <div class="meta"><span class="ded ${cls}">${s.pct}% deduced</span><span>${esc(s.st)}</span><span>${s.a}–${s.b}</span></div>
       <details><summary>Sources</summary>${esc(s.src)}${s.why ? `<br><i>Why this share:</i> ${esc(s.why)}` : ""}</details></div></article>`; }
 function hourBand(hh) { const h = D.hours[+hh];
-  return `<div class="hour" id="h${hh}" style="background:${sky(h)}"><b>${hh}:00</b><span>pages ${+hh*60+1}–${+hh*60+60}</span><span>${lightEn[h.light]||h.light}</span>
+  return `<div class="hour" id="h${hh}"><b>${hh}:00</b><span><i class="skyd" style="background:${sky(h)}"></i>sky</span><span>pages ${+hh*60+1}–${+hh*60+60}</span><span>${lightEn[h.light]||h.light}</span>
     <span>${skyEn[h.sky]||h.sky}, ${h.temp} °C</span><span>sun ${h.sun}°</span><span>moon ${h.moon}°</span>${h.wind!=null?`<span>wind ${h.wind} km/h</span>`:""}</div>`; }
 function more(until) {
   let n = 0; while (i < D.seq.length && (n < BATCH || (until && D.seq[i].a.slice(0,2) <= until))) { const s = D.seq[i++], hh = s.a.slice(0,2);
